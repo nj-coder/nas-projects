@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Price Sniper Watchlist</title>
+    
+    <!-- Tailwind CSS for Top-Notch UI -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Chart.js for Graphs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- React & ReactDOM -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    
+    <!-- Babel for compiling JSX in the browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <style>
+        /* Smooth transitions for expandable rows */
+        .expandable-row { transition: all 0.3s ease-in-out; }
+        body { background-color: #f8fafc; } /* Tailwind slate-50 */
+    </style>
+</head>
+<body class="text-slate-800 font-sans antialiased p-6">
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect, useRef } = React;
+
+        // --- Chart Component ---
+        const PriceChart = ({ history, sources }) => {
+            const chartRef = useRef(null);
+            const chartInstance = useRef(null);
+
+            useEffect(() => {
+                if (chartInstance.current) {
+                    chartInstance.current.destroy();
+                }
+                const ctx = chartRef.current.getContext('2d');
+                
+                // Fancy color palette
+                const colors = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6'];
+
+                chartInstance.current = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: history.map(h => h.date),
+                        datasets: sources.map((s, i) => ({
+                            label: s.source_name,
+                            data: history.map(h => h[s.source_id]),
+                            borderColor: colors[i % colors.length],
+                            backgroundColor: colors[i % colors.length] + '1A', // 10% opacity
+                            borderWidth: 2,
+                            pointBackgroundColor: colors[i % colors.length],
+                            pointRadius: 4,
+                            pointHoverRadius: 6,
+                            tension: 0.4, // Smooth curves
+                            fill: true
+                        }))
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: { position: 'bottom', labels: { usePointStyle: true, boxWidth: 8 } },
+                            tooltip: {
+                                mode: 'index',
+                                intersect: false,
+                                callbacks: {
+                                    label: function(context) {
+                                        let label = context.dataset.label || '';
+                                        if (label) { label += ': '; }
+                                        if (context.parsed.y !== null) {
+                                            label += new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(context.parsed.y);
+                                        }
+                                        return label;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: { grid: { display: false } },
+                            y: { 
+                                ticks: {
+                                    callback: function(value) { return 'A$' + value; }
+                                }
+                            }
+                        },
+                        interaction: { mode: 'nearest', axis: 'x', intersect: false }
+                    }
+                });
+
+                return () => { if (chartInstance.current) chartInstance.current.destroy(); }
+            }, [history, sources]);
+
+            return <div className="h-64 w-full"><canvas ref={chartRef}></canvas></div>;
+        };
+
+        // --- Individual Row Component ---
+        const WatchlistRow = ({ item }) => {
+            const [expanded, setExpanded] = useState(false);
+            
+            // Find lowest current price for a quick summary badge
+            const lowestPrice = Math.min(...item.sources.map(s => s.current_total_price));
+
+            return (
+                <React.Fragment>
+                    {/* Main Row */}
+                    <tr 
+                        className={`cursor-pointer hover:bg-slate-50 transition-colors border-b border-slate-200 ${expanded ? 'bg-slate-50' : 'bg-white'}`}
+                        onClick={() => setExpanded(!expanded)}
+                    >
+                        <td className="px-6 py-4">
+                            <div className="flex items-center">
+                                <div className={`w-8 h-8 rounded-full flex items-center justify-center mr-3 ${expanded ? 'bg-indigo-100 text-indigo-600' : 'bg-slate-100 text-slate-500'}`}>
+                                    <svg className={`w-4 h-4 transform transition-transform ${expanded ? 'rotate-90' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
+                                </div>
+                                <div>
+                                    <p className="font-semibold text-slate-900">{item.product_name}</p>
+                                    <p className="text-xs text-slate-500">ID: {item.id}</p>
+                                </div>
+                            </div>
+                        </td>
+                        <td className="px-6 py-4 text-sm text-slate-600">{item.date_added}</td>
+                        <td className="px-6 py-4">
+                            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-100 text-emerald-800">
+                                Best: A${lowestPrice.toFixed(2)}
+                            </span>
+                        </td>
+                    </tr>
+
+                    {/* Expanded Content */}
+                    {expanded && (
+                        <tr className="bg-slate-50 border-b border-slate-200">
+                            <td colSpan="3" className="px-6 py-6">
+                                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                                    
+                                    {/* Left Side: Sources List */}
+                                    <div className="lg:col-span-1 space-y-4">
+                                        <h4 className="text-sm font-bold text-slate-800 uppercase tracking-wider">Active Trackers</h4>
+                                        {item.sources.map((source, idx) => (
+                                            <div key={idx} className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+                                                <div className="flex justify-between items-start mb-2">
+                                                    <h5 className="font-semibold text-slate-900">{source.source_name}</h5>
+                                                    <span className="text-xs font-semibold px-2 py-1 bg-slate-100 text-slate-600 rounded">
+                                                        {source.fulfillment_type === 'delivery' ? ' Delivery' : source.fulfillment_type === 'free_delivery' ? '✨ Free Delivery' : ' Pickup'}
+                                                    </span>
+                                                </div>
+                                                <div className="text-sm text-slate-600 mb-3">
+                                                    <p>Base: A${source.current_base_price.toFixed(2)}</p>
+                                                    <p>Fulfillment: A${source.fulfillment_cost.toFixed(2)}</p>
+                                                    <p className="font-bold text-indigo-600 mt-1">Total: A${source.current_total_price.toFixed(2)}</p>
+                                                </div>
+                                                <a href={source.product_url} target="_blank" className="inline-flex items-center text-xs font-medium text-indigo-600 hover:text-indigo-800">
+                                                    Visit Store <svg className="w-3 h-3 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                                                </a>
+                                            </div>
+                                        ))}
+                                    </div>
+
+                                    {/* Right Side: Chart */}
+                                    <div className="lg:col-span-2 bg-white p-4 rounded-xl border border-slate-200 shadow-sm flex flex-col">
+                                        <h4 className="text-sm font-bold text-slate-800 uppercase tracking-wider mb-4">Price History</h4>
+                                        <div className="flex-grow">
+                                            {item.price_history && item.price_history.length > 0 ? (
+                                                <PriceChart history={item.price_history} sources={item.sources} />
+                                            ) : (
+                                                <div className="h-full flex items-center justify-center text-slate-400 text-sm">
+                                                    Not enough history to generate graph yet.
+                                                </div>
+                                            )}
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </td>
+                        </tr>
+                    )}
+                </React.Fragment>
+            );
+        };
+
+        // --- Main App Component ---
+        const App = () => {
+            const [data, setData] = useState(null);
+            const [loading, setLoading] = useState(true);
+            const [error, setError] = useState(null);
+
+            useEffect(() => {
+                // Must use the RAW url from github, not the blob/master url
+                const RAW_JSON_URL = 'https://raw.githubusercontent.com/nj-coder/nas-projects/master/shopping-watchlist/watchlist.json';
+                
+                fetch(RAW_JSON_URL)
+                    .then(res => {
+                        if (!res.ok) throw new Error('Network response was not ok');
+                        return res.json();
+                    })
+                    .then(jsonData => {
+                        setData(jsonData);
+                        setLoading(false);
+                    })
+                    .catch(err => {
+                        setError(err.message);
+                        setLoading(false);
+                    });
+            }, []);
+
+            return (
+                <div className="max-w-6xl mx-auto py-8">
+                    {/* Header section */}
+                    <div className="mb-8 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl p-8 text-white shadow-lg flex flex-col md:flex-row justify-between items-center">
+                        <div>
+                            <h1 className="text-3xl font-extrabold tracking-tight mb-2">Price Sniper Dashboard</h1>
+                            <p className="text-indigo-100">Live Pakenham pricing intelligence via OpenClaw.</p>
+                        </div>
+                        {data && data.last_updated && (
+                            <div className="mt-4 md:mt-0 bg-white/20 backdrop-blur-md px-4 py-2 rounded-lg border border-white/30 text-sm font-medium">
+                                Last Synced: {new Date(data.last_updated).toLocaleString()}
+                            </div>
+                        )}
+                    </div>
+
+                    {/* Main Content Area */}
+                    {loading && (
+                        <div className="flex justify-center py-20">
+                            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
+                        </div>
+                    )}
+
+                    {error && (
+                        <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded-md shadow-sm">
+                            <div className="flex">
+                                <div className="ml-3">
+                                    <p className="text-sm text-red-700">Failed to load watchlist data. Is the JSON file populated and public? ({error})</p>
+                                </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {data && data.wishlist && data.wishlist.length === 0 && (
+                        <div className="text-center py-20 bg-white rounded-2xl border border-slate-200 shadow-sm">
+                            <h3 className="text-lg font-medium text-slate-900">Your watchlist is empty</h3>
+                            <p className="mt-1 text-sm text-slate-500">Ask your OpenClaw agent to snipe and track some products!</p>
+                        </div>
+                    )}
+
+                    {data && data.wishlist && data.wishlist.length > 0 && (
+                        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+                            <table className="min-w-full divide-y divide-slate-200">
+                                <thead className="bg-slate-50">
+                                    <tr>
+                                        <th scope="col" className="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider">Product Name</th>
+                                        <th scope="col" className="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider">Date Tracked</th>
+                                        <th scope="col" className="px-6 py-4 text-left text-xs font-bold text-slate-500 uppercase tracking-wider">Current Best Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody className="divide-y divide-slate-200 bg-white">
+                                    {data.wishlist.map(item => (
+                                        <WatchlistRow key={item.id} item={item} />
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    )}
+                </div>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
