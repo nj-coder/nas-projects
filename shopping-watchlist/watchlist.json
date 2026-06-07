@@ -1,0 +1,49 @@
+{
+  "last_updated": "2026-06-07T02:49:00Z",
+  "wishlist": [
+    {
+      "id": "chiq-142l-freezer",
+      "product_name": "CHiQ 142L Hybrid Chest Freezer CCF141BE",
+      "date_added": "2026-06-07",
+      "sources": [
+        {
+          "source_id": "thegoodguys",
+          "source_name": "The Good Guys",
+          "product_url": "https://www.thegoodguys.com.au/chiq-142l-hybrid-chest-freezer-ccf141be",
+          "fulfillment_type": "pickup",
+          "current_base_price": 349.0,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 349.0
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-06-07",
+          "thegoodguys": 349.0
+        }
+      ]
+    },
+    {
+      "id": "joybos-medicine-box",
+      "product_name": "JOYBOS 4-Tier Medicine Storage Box Cabinet",
+      "date_added": "2026-06-07",
+      "sources": [
+        {
+          "source_id": "amazon",
+          "source_name": "Amazon AU",
+          "product_url": "https://www.amazon.com.au/JOYBOS-Medicine-Storage-Portable-Organizer/dp/B0FVX8PJ4H",
+          "fulfillment_type": "delivery",
+          "current_base_price": 52.99,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 52.99
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-06-07",
+          "amazon": 52.99
+        }
+      ]
+    }
+  ]
+}
