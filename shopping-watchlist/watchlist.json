@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T02:49:00Z",
+  "last_updated": "2026-06-07T03:06:00Z",
   "wishlist": [
     {
       "id": "chiq-142l-freezer",
@@ -42,6 +42,28 @@
         {
           "date": "2026-06-07",
           "amazon": 52.99
+        }
+      ]
+    },
+    {
+      "id": "airmed-jogger-pants",
+      "product_name": "Essential Jogger Scrub Pants - Ceil Blue",
+      "date_added": "2026-06-07",
+      "sources": [
+        {
+          "source_id": "airmedscrubs",
+          "source_name": "Airmed Scrubs",
+          "product_url": "https://airmedscrubs.com.au/products/essential-jogger-scrub-pants-ceil-blue",
+          "fulfillment_type": "delivery",
+          "current_base_price": 37.8,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 37.8
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-06-07",
+          "airmedscrubs": 37.8
         }
       ]
     }
