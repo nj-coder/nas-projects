@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T04:45:00Z",
+  "last_updated": "2026-06-08T01:00:00Z",
   "wishlist": [
     {
       "id": "chiq-142l-freezer",
@@ -20,6 +20,10 @@
       "price_history": [
         {
           "date": "2026-06-07",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-08",
           "thegoodguys": 349.0
         }
       ]
@@ -44,6 +48,10 @@
         {
           "date": "2026-06-07",
           "amazon": 52.99
+        },
+        {
+          "date": "2026-06-08",
+          "amazon": 52.99
         }
       ]
     },
@@ -67,6 +75,10 @@
         {
           "date": "2026-06-07",
           "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-08",
+          "airmedscrubs": 37.8
         }
       ]
     },
@@ -89,6 +101,10 @@
       "price_history": [
         {
           "date": "2026-06-07",
+          "sowood": 149.0
+        },
+        {
+          "date": "2026-06-08",
           "sowood": 149.0
         }
       ]
