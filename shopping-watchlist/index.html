@@ -41,12 +41,10 @@
                 }
                 const ctx = chartRef.current.getContext('2d');
                 
-                // Create a beautiful fade-out gradient under the price line
                 const gradient = ctx.createLinearGradient(0, 0, 0, 150);
-                gradient.addColorStop(0, color + '4D'); // 30% opacity
-                gradient.addColorStop(1, color + '00'); // 0% opacity
+                gradient.addColorStop(0, color + '4D'); 
+                gradient.addColorStop(1, color + '00'); 
 
-                // Filter history entries that actually have a price for this specific source
                 const validHistory = history.filter(h => h[sourceId] !== undefined && h[sourceId] !== null);
 
                 chartInstance.current = new Chart(ctx, {
@@ -105,13 +103,12 @@
             
             if (!item.sources || item.sources.length === 0) return null;
 
-            // Step 1: Automatically calculate the absolute best deal right now
+            // Automatically calculate the absolute best deal right now
             const bestSource = item.sources.reduce((min, s) => 
                 s.current_total_price < min.current_total_price ? s : min, 
                 item.sources[0]
             );
 
-            // Chart color assignment loop
             const colors = ['#4f46e5', '#06b6d4', '#f59e0b'];
 
             return (
@@ -121,20 +118,37 @@
                         className={`cursor-pointer transition-all border-b border-slate-200/80 hover:bg-slate-50/80 ${expanded ? 'bg-indigo-50/40' : 'bg-white'}`}
                         onClick={() => setExpanded(!expanded)}
                     >
-                        <td className="px-6 py-5 font-semibold text-slate-900 text-base">
-                            <div className="flex items-center gap-3">
-                                <span className={`text-slate-400 transition-transform duration-200 ${expanded ? 'rotate-90 text-indigo-600' : ''}`}>
+                        <td className="px-6 py-4">
+                            <div className="flex items-center gap-4">
+                                <span className={`text-slate-400 transition-transform duration-200 flex-shrink-0 ${expanded ? 'rotate-90 text-indigo-600' : ''}`}>
                                     ▶
                                 </span>
-                                {item.product_name}
+                                
+                                {/* Image Thumbnail Wrapper */}
+                                {item.image_url ? (
+                                    <img 
+                                        src={item.image_url} 
+                                        alt={item.product_name} 
+                                        className="w-12 h-12 object-contain rounded-xl bg-white border border-slate-200 p-1 flex-shrink-0 shadow-sm"
+                                        onError={(e) => { e.target.style.display = 'none'; }}
+                                    />
+                                ) : (
+                                    <div className="w-12 h-12 rounded-xl bg-slate-100 border border-slate-200 flex items-center justify-center flex-shrink-0 text-slate-400 text-lg">
+                                        📦
+                                    </div>
+                                )}
+
+                                <div className="font-semibold text-slate-900 text-base">
+                                    {item.product_name}
+                                </div>
                             </div>
                         </td>
-                        <td className="px-6 py-5">
+                        <td className="px-6 py-4 vertical-align-middle">
                             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-sm font-medium bg-indigo-50 text-indigo-700 border border-indigo-100">
                                 🏬 {bestSource.source_name}
                             </span>
                         </td>
-                        <td className="px-6 py-5 text-right">
+                        <td className="px-6 py-4 text-right">
                             <span className="text-lg font-bold text-emerald-600">
                                 A$ {bestSource.current_total_price.toFixed(2)}
                             </span>
@@ -158,7 +172,6 @@
                                                 key={source.source_id} 
                                                 className={`bg-white rounded-xl p-5 border shadow-sm flex flex-col justify-between transition-all ${isWinner ? 'border-emerald-500 ring-2 ring-emerald-500/10' : 'border-slate-200'}`}
                                             >
-                                                {/* Card Header */}
                                                 <div className="flex justify-between items-start mb-2">
                                                     <div>
                                                         <h4 className="font-bold text-slate-900 text-base flex items-center gap-1.5">
@@ -176,14 +189,12 @@
                                                     </a>
                                                 </div>
 
-                                                {/* Price Breakdown */}
                                                 <div className="flex gap-4 border-t border-b border-slate-100 py-2.5 my-3 text-xs text-slate-500">
                                                     <div>Base: <span className="font-medium text-slate-700">${source.current_base_price.toFixed(2)}</span></div>
                                                     <div>Freight: <span className="font-medium text-slate-700">${source.fulfillment_cost.toFixed(2)}</span></div>
                                                     <div className="ml-auto font-bold text-sm text-slate-900">Total: ${source.current_total_price.toFixed(2)}</div>
                                                 </div>
 
-                                                {/* Isolated Price Graph for this source */}
                                                 <div className="mt-2">
                                                     <SourceChart 
                                                         history={item.price_history} 
@@ -210,7 +221,6 @@
             const [error, setError] = useState(null);
 
             useEffect(() => {
-                // Cache-busting parameter prevents browser display lag
                 const cacheBuster = new Date().getTime();
                 fetch(`./watchlist.json?t=${cacheBuster}`)
                     .then(res => {
@@ -229,7 +239,6 @@
 
             return (
                 <div className="max-w-6xl mx-auto">
-                    {/* Header Banner */}
                     <div className="gradient-bg rounded-2xl p-6 md:p-8 text-white shadow-md flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
                         <div>
                             <h1 className="text-2xl md:text-3xl font-black tracking-tight">Watchlist Control Center</h1>
@@ -242,7 +251,6 @@
                         )}
                     </div>
 
-                    {/* States Layouts */}
                     {loading && (
                         <div className="flex justify-center items-center py-24">
                             <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-indigo-600"></div>
@@ -261,7 +269,6 @@
                         </div>
                     )}
 
-                    {/* Master Interface Table */}
                     {data && data.wishlist && data.wishlist.length > 0 && (
                         <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
                             <table className="min-w-full divide-y divide-slate-200">
