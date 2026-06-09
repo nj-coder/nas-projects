@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T01:00:00Z",
+  "last_updated": "2026-06-10T01:00:00Z",
   "wishlist": [
     {
       "id": "chiq-142l-freezer",
@@ -28,6 +28,10 @@
         },
         {
           "date": "2026-06-09",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-10",
           "thegoodguys": 349.0
         }
       ]
@@ -60,6 +64,10 @@
         {
           "date": "2026-06-09",
           "amazon": 52.99
+        },
+        {
+          "date": "2026-06-10",
+          "amazon": 52.99
         }
       ]
     },
@@ -91,6 +99,10 @@
         {
           "date": "2026-06-09",
           "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-10",
+          "airmedscrubs": 37.8
         }
       ]
     },
@@ -105,9 +117,9 @@
           "source_name": "So Wood AU",
           "product_url": "https://sowood.com/products/convertable-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 149.0,
+          "current_base_price": 159.0,
           "fulfillment_cost": 0.0,
-          "current_total_price": 149.0
+          "current_total_price": 159.0
         }
       ],
       "price_history": [
@@ -122,6 +134,10 @@
         {
           "date": "2026-06-09",
           "sowood": 149.0
+        },
+        {
+          "date": "2026-06-10",
+          "sowood": 159.0
         }
       ]
     }
