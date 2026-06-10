@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T07:50:00Z",
+  "last_updated": "2026-06-11T01:00:00Z",
   "wishlist": [
     {
       "id": "chiq-142l-freezer",
@@ -32,6 +32,10 @@
         },
         {
           "date": "2026-06-10",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-11",
           "thegoodguys": 349.0
         }
       ]
@@ -68,6 +72,10 @@
         {
           "date": "2026-06-10",
           "amazon": 52.99
+        },
+        {
+          "date": "2026-06-11",
+          "amazon": 52.99
         }
       ]
     },
@@ -102,6 +110,10 @@
         },
         {
           "date": "2026-06-10",
+          "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-11",
           "airmedscrubs": 37.8
         }
       ]
@@ -155,6 +167,12 @@
         },
         {
           "date": "2026-06-10",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-11",
           "sowood": 159.0,
           "thelittlebunny": 194.0,
           "toypark": 199.75
