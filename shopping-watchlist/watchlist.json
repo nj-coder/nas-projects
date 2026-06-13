@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T01:00:00Z",
+  "last_updated": "2026-06-13T01:18:00Z",
   "wishlist": [
     {
       "id": "chiq-142l-freezer",
@@ -23,7 +23,8 @@
         { "date": "2026-06-09", "thegoodguys": 349.0 },
         { "date": "2026-06-10", "thegoodguys": 349.0 },
         { "date": "2026-06-11", "thegoodguys": 349.0 },
-        { "date": "2026-06-12", "thegoodguys": 349.0 }
+        { "date": "2026-06-12", "thegoodguys": 349.0 },
+        { "date": "2026-06-13", "thegoodguys": 349.0 }
       ]
     },
     {
@@ -48,7 +49,8 @@
         { "date": "2026-06-09", "amazon": 52.99 },
         { "date": "2026-06-10", "amazon": 52.99 },
         { "date": "2026-06-11", "amazon": 52.99 },
-        { "date": "2026-06-12", "amazon": 52.99 }
+        { "date": "2026-06-12", "amazon": 52.99 },
+        { "date": "2026-06-13", "amazon": 52.99 }
       ]
     },
     {
@@ -73,7 +75,8 @@
         { "date": "2026-06-09", "airmedscrubs": 37.8 },
         { "date": "2026-06-10", "airmedscrubs": 37.8 },
         { "date": "2026-06-11", "airmedscrubs": 37.8 },
-        { "date": "2026-06-12", "airmedscrubs": 37.8 }
+        { "date": "2026-06-12", "airmedscrubs": 37.8 },
+        { "date": "2026-06-13", "airmedscrubs": 37.8 }
       ]
     },
     {
@@ -105,9 +108,9 @@
           "source_name": "Toypark",
           "product_url": "https://www.toypark.com.au/products/toypark-convertible-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 199.75,
+          "current_base_price": 169.15,
           "fulfillment_cost": 0.0,
-          "current_total_price": 199.75
+          "current_total_price": 169.15
         }
       ],
       "price_history": [
@@ -116,7 +119,8 @@
         { "date": "2026-06-09", "sowood": 149.0 },
         { "date": "2026-06-10", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
         { "date": "2026-06-11", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
-        { "date": "2026-06-12", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 }
+        { "date": "2026-06-12", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
+        { "date": "2026-06-13", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 169.15 }
       ]
     }
   ]
