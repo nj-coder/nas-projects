@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T01:00:00Z",
+  "last_updated": "2026-06-15T01:00:00Z",
   "wishlist": [
     {
       "id": "chiq-142l-freezer",
@@ -25,7 +25,8 @@
         { "date": "2026-06-11", "thegoodguys": 349.0 },
         { "date": "2026-06-12", "thegoodguys": 349.0 },
         { "date": "2026-06-13", "thegoodguys": 349.0 },
-        { "date": "2026-06-14", "thegoodguys": 349.0 }
+        { "date": "2026-06-14", "thegoodguys": 349.0 },
+        { "date": "2026-06-15", "thegoodguys": 349.0 }
       ]
     },
     {
@@ -52,7 +53,8 @@
         { "date": "2026-06-11", "amazon": 52.99 },
         { "date": "2026-06-12", "amazon": 52.99 },
         { "date": "2026-06-13", "amazon": 52.99 },
-        { "date": "2026-06-14", "amazon": 52.99 }
+        { "date": "2026-06-14", "amazon": 52.99 },
+        { "date": "2026-06-15", "amazon": 52.99 }
       ]
     },
     {
@@ -79,7 +81,8 @@
         { "date": "2026-06-11", "airmedscrubs": 37.8 },
         { "date": "2026-06-12", "airmedscrubs": 37.8 },
         { "date": "2026-06-13", "airmedscrubs": 37.8 },
-        { "date": "2026-06-14", "airmedscrubs": 37.8 }
+        { "date": "2026-06-14", "airmedscrubs": 37.8 },
+        { "date": "2026-06-15", "airmedscrubs": 37.8 }
       ]
     },
     {
@@ -124,7 +127,8 @@
         { "date": "2026-06-11", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
         { "date": "2026-06-12", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
         { "date": "2026-06-13", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 169.15 },
-        { "date": "2026-06-14", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 }
+        { "date": "2026-06-14", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
+        { "date": "2026-06-15", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 }
       ]
     }
   ]
