@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16T01:00:00Z",
+  "last_updated": "2026-06-17T08:55:00Z",
   "wishlist": [
     {
       "id": "chiq-142l-freezer",
@@ -12,9 +12,9 @@
           "source_name": "The Good Guys",
           "product_url": "https://www.thegoodguys.com.au/chiq-142l-hybrid-chest-freezer-ccf141be",
           "fulfillment_type": "pickup",
-          "current_base_price": 349.0,
+          "current_base_price": 399.0,
           "fulfillment_cost": 0.0,
-          "current_total_price": 349.0
+          "current_total_price": 399.0
         }
       ],
       "price_history": [
@@ -27,7 +27,8 @@
         { "date": "2026-06-13", "thegoodguys": 349.0 },
         { "date": "2026-06-14", "thegoodguys": 349.0 },
         { "date": "2026-06-15", "thegoodguys": 349.0 },
-        { "date": "2026-06-16", "thegoodguys": 349.0 }
+        { "date": "2026-06-16", "thegoodguys": 349.0 },
+        { "date": "2026-06-17", "thegoodguys": 399.0 }
       ]
     },
     {
@@ -41,9 +42,9 @@
           "source_name": "Amazon AU",
           "product_url": "https://www.amazon.com.au/JOYBOS-Medicine-Storage-Portable-Organizer/dp/B0FVX8PJ4H",
           "fulfillment_type": "delivery",
-          "current_base_price": 52.99,
+          "current_base_price": 41.03,
           "fulfillment_cost": 0.0,
-          "current_total_price": 52.99
+          "current_total_price": 41.03
         }
       ],
       "price_history": [
@@ -56,7 +57,8 @@
         { "date": "2026-06-13", "amazon": 52.99 },
         { "date": "2026-06-14", "amazon": 52.99 },
         { "date": "2026-06-15", "amazon": 52.99 },
-        { "date": "2026-06-16", "amazon": 52.99 }
+        { "date": "2026-06-16", "amazon": 52.99 },
+        { "date": "2026-06-17", "amazon": 41.03 }
       ]
     },
     {
@@ -70,9 +72,9 @@
           "source_name": "Airmed Scrubs",
           "product_url": "https://airmedscrubs.com.au/products/essential-jogger-scrub-pants-ceil-blue",
           "fulfillment_type": "delivery",
-          "current_base_price": 37.8,
+          "current_base_price": 25.0,
           "fulfillment_cost": 0.0,
-          "current_total_price": 37.8
+          "current_total_price": 25.0
         }
       ],
       "price_history": [
@@ -85,7 +87,8 @@
         { "date": "2026-06-13", "airmedscrubs": 37.8 },
         { "date": "2026-06-14", "airmedscrubs": 37.8 },
         { "date": "2026-06-15", "airmedscrubs": 37.8 },
-        { "date": "2026-06-16", "airmedscrubs": 37.8 }
+        { "date": "2026-06-16", "airmedscrubs": 37.8 },
+        { "date": "2026-06-17", "airmedscrubs": 25.0 }
       ]
     },
     {
@@ -132,7 +135,8 @@
         { "date": "2026-06-13", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 169.15 },
         { "date": "2026-06-14", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
         { "date": "2026-06-15", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
-        { "date": "2026-06-16", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 }
+        { "date": "2026-06-16", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
+        { "date": "2026-06-17", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 }
       ]
     }
   ]
