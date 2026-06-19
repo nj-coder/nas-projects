@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T04:30:00Z",
+  "last_updated": "2026-06-19T02:04:40Z",
   "wishlist": [
     {
       "id": "chiq-142l-freezer",
@@ -145,6 +145,26 @@
         { "date": "2026-06-17", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
         { "date": "2026-06-18", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
         { "date": "2026-06-19", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 235.0 }
+      ]
+    },
+    {
+      "id": "our-place-titanium-pro-set",
+      "product_name": "Our Place Titanium Pro Cookware Set 10 Piece Set",
+      "image_url": "https://fromourplace.au/cdn/shop/files/our-place-hero-fullbleed-mobile-TitaniumProCookware-gold.jpg?crop=bottom&height=450&v=1745355718&width=376",
+      "date_added": "2026-06-19",
+      "sources": [
+        {
+          "source_id": "fromourplace",
+          "source_name": "Our Place AU",
+          "product_url": "https://fromourplace.au/products/titanium-pro-cookware-set?variant=44317924720812",
+          "fulfillment_type": "delivery",
+          "current_base_price": 699.0,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 699.0
+        }
+      ],
+      "price_history": [
+        { "date": "2026-06-19", "fromourplace": 699.0 }
       ]
     }
   ]
