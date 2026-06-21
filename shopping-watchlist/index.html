@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Price Sniper · Watchlist</title>
+<title>Price Sniper &#183; Watchlist</title>
 <meta name="description" content="Localised price tracking for Pakenham VIC 3810.">
+<link rel="icon" href="data:,">
 
 <!-- Only dependency: Chart.js (used for the price-history sparklines; the page degrades gracefully if it fails to load). -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js" defer></script>
@@ -115,7 +116,7 @@
 </head>
 <body>
 <div class="wrap" id="app">
-  <div class="state"><div class="spinner"></div>Loading watchlist</div>
+  <div class="state"><div class="spinner"></div>Loading watchlist&#8230;</div>
 </div>
 
 <script>
@@ -125,7 +126,7 @@
   var charts = [];
 
   var fmtAUD = function(n){
-    if (typeof n !== 'number' || isNaN(n)) return '';
+    if (typeof n !== 'number' || isNaN(n)) return '&#8212;';
     return new Intl.NumberFormat('en-AU',{style:'currency',currency:'AUD'}).format(n);
   };
   function esc(s){
@@ -158,9 +159,9 @@
     return {best:best, first:first, lowest:lowest, pct:pct};
   }
   function trendChip(t){
-    if (t.pct <= -0.5) return '<span class="chip down" title="Cheaper than when first tracked"> '+Math.abs(t.pct).toFixed(0)+'% since added</span>';
-    if (t.pct >=  0.5) return '<span class="chip up" title="More expensive than when first tracked"> '+t.pct.toFixed(0)+'% since added</span>';
-    return '<span class="chip flat"> Stable</span>';
+    if (t.pct <= -0.5) return '<span class="chip down" title="Cheaper than when first tracked">&#9660; '+Math.abs(t.pct).toFixed(0)+'% since added</span>';
+    if (t.pct >=  0.5) return '<span class="chip up" title="More expensive than when first tracked">&#9650; '+t.pct.toFixed(0)+'% since added</span>';
+    return '<span class="chip flat">&#9644; Stable</span>';
   }
 
   function render(data){
@@ -181,7 +182,7 @@
 
     var html = ''
       + '<div class="hero">'
-      +   '<div><h1> Price Sniper</h1><p>Localised price tracking · Pakenham VIC 3810</p></div>'
+      +   '<div><h1>&#127919; Price Sniper</h1><p>Localised price tracking &#183; Pakenham VIC 3810</p></div>'
       +   (synced ? '<div class="sync"><span class="dot"></span>Synced '+esc(synced)+'</div>' : '')
       + '</div>';
 
@@ -189,22 +190,22 @@
       html += '<div class="stats">'
         + '<div class="stat"><div class="k">Tracking</div><div class="v">'+items.length+'</div><div class="s">product'+(items.length===1?'':'s')+' watched</div></div>'
         + '<div class="stat"><div class="k">Best-price basket</div><div class="v">'+fmtAUD(basket)+'</div><div class="s">sum of cheapest options</div></div>'
-        + '<div class="stat"><div class="k">Biggest saver</div><div class="v">'+(saver && saver.pct<-0.5 ? ' '+Math.abs(saver.pct).toFixed(0)+'%' : '')+'</div><div class="s">'+esc(saver && saver.pct<-0.5 ? saver.name : 'no drops yet')+'</div></div>'
+        + '<div class="stat"><div class="k">Biggest saver</div><div class="v">'+(saver && saver.pct<-0.5 ? '&#9660; '+Math.abs(saver.pct).toFixed(0)+'%' : '&#8212;')+'</div><div class="s">'+esc(saver && saver.pct<-0.5 ? saver.name : 'no drops yet')+'</div></div>'
         + '</div>';
 
       html += '<div class="list">';
       items.forEach(function(it){
         var b = bestSource(it), t = trend(it);
         var thumb = it.image_url
-          ? '<img class="thumb" src="'+esc(it.image_url)+'" alt="'+esc(it.product_name)+'" loading="lazy" onerror="this.outerHTML=&quot;<div class=\\&quot;thumb ph\\&quot;></div>&quot;">'
-          : '<div class="thumb ph"></div>';
+          ? '<img class="thumb" src="'+esc(it.image_url)+'" alt="'+esc(it.product_name)+'" loading="lazy" onerror="this.outerHTML=&quot;<div class=\\&quot;thumb ph\\&quot;>&#128230;</div>&quot;">'
+          : '<div class="thumb ph">&#128230;</div>';
         html += ''
           + '<div class="card" data-id="'+esc(it.id)+'">'
           +   '<button class="head" aria-expanded="false">'
-          +     '<span class="chev"></span>'
+          +     '<span class="chev">&#8250;</span>'
           +     thumb
           +     '<div class="meta"><div class="name">'+esc(it.product_name)+'</div>'
-          +       '<div class="sub">'+it.sources.length+' outlet'+(it.sources.length===1?'':'s')+' · lowest seen '+fmtAUD(t.lowest)+'</div></div>'
+          +       '<div class="sub">'+it.sources.length+' outlet'+(it.sources.length===1?'':'s')+' &#183; lowest seen '+fmtAUD(t.lowest)+'</div></div>'
           +     '<div class="right"><div class="price">'+fmtAUD(b.current_total_price)+'</div>'
           +       '<div class="at">at '+esc(b.source_name)+'</div>'+trendChip(t)+'</div>'
           +   '</button>'
@@ -213,7 +214,7 @@
       });
       html += '</div>';
     } else if (data) {
-      html += '<div class="state"> Nothing on the watchlist yet.<br><span style="font-size:13px">Ask OpenClaw to add something to my shopping list.</span></div>';
+      html += '<div class="state">&#128237; Nothing on the watchlist yet.<br><span style="font-size:13px">Ask OpenClaw to &#8220;add something to my shopping list&#8221;.</span></div>';
     }
 
     app.innerHTML = html;
@@ -235,14 +236,14 @@
   function buildDetail(detail, item){
     var palette = ['#4f46e5','#06b6d4','#f59e0b'];
     var best = bestSource(item);
-    var html = '<div class="detail-top"><h3>All tracked outlets</h3><span class="added">Added '+esc(item.date_added||'')+'</span></div><div class="sources">';
+    var html = '<div class="detail-top"><h3>All tracked outlets</h3><span class="added">Added '+esc(item.date_added||'&#8212;')+'</span></div><div class="sources">';
     item.sources.forEach(function(s, i){
       var win = s.source_id === best.source_id;
       html += ''
         + '<div class="src'+(win?' best':'')+'">'
-        +   '<div class="src-head"><div><div class="src-name">'+esc(s.source_name)+(win?' <span class="badge"> BEST</span>':'')+'</div>'
+        +   '<div class="src-head"><div><div class="src-name">'+esc(s.source_name)+(win?' <span class="badge">&#9733; BEST</span>':'')+'</div>'
         +     '<div class="src-fulfil">'+esc(fulfilLabel(s.fulfillment_type))+'</div></div>'
-        +     '<a class="buy" href="'+esc(s.product_url)+'" target="_blank" rel="noopener noreferrer">Buy </a></div>'
+        +     '<a class="buy" href="'+esc(s.product_url)+'" target="_blank" rel="noopener noreferrer">Buy &#8599;</a></div>'
         +   '<div class="breakdown"><span>Base <b>'+fmtAUD(num(s.current_base_price))+'</b></span>'
         +     '<span>Freight <b>'+fmtAUD(num(s.fulfillment_cost))+'</b></span>'
         +     '<span class="tot">'+fmtAUD(num(s.current_total_price))+'</span></div>'
@@ -284,9 +285,9 @@
   }
 
   function showError(msg){
-    app.innerHTML = '<div class="hero"><div><h1> Price Sniper</h1>'
-      + '<p>Localised price tracking · Pakenham VIC 3810</p></div></div>'
-      + '<div class="state err"><strong> Couldnt load the watchlist.</strong><br>'
+    app.innerHTML = '<div class="hero"><div><h1>&#127919; Price Sniper</h1>'
+      + '<p>Localised price tracking &#183; Pakenham VIC 3810</p></div></div>'
+      + '<div class="state err"><strong>&#9888;&#65039; Couldn&#8217;t load the watchlist.</strong><br>'
       + '<span style="font-size:13px">Expected <code>watchlist.json</code> next to this page. ('+esc(msg)+')</span></div>';
   }
 
