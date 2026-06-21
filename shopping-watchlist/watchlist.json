@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-20T09:15:00Z",
+  "last_updated": "2026-06-21T15:40:37+10:00",
   "wishlist": [
     {
       "id": "chiq-142l-freezer",
       "product_name": "CHiQ 142L Hybrid Chest Freezer CCF141BE",
-      "image_url": "https://www.chiq.com.au/cdn/shop/products/CCF141BE_1_600x.jpg",
+      "image_url": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50086395_876204.png?v=1776229656",
       "date_added": "2026-06-07",
       "sources": [
         {
@@ -18,26 +18,68 @@
         }
       ],
       "price_history": [
-        { "date": "2026-06-07", "thegoodguys": 349.0 },
-        { "date": "2026-06-08", "thegoodguys": 349.0 },
-        { "date": "2026-06-09", "thegoodguys": 349.0 },
-        { "date": "2026-06-10", "thegoodguys": 349.0 },
-        { "date": "2026-06-11", "thegoodguys": 349.0 },
-        { "date": "2026-06-12", "thegoodguys": 349.0 },
-        { "date": "2026-06-13", "thegoodguys": 349.0 },
-        { "date": "2026-06-14", "thegoodguys": 349.0 },
-        { "date": "2026-06-15", "thegoodguys": 349.0 },
-        { "date": "2026-06-16", "thegoodguys": 349.0 },
-        { "date": "2026-06-17", "thegoodguys": 399.0 },
-        { "date": "2026-06-18", "thegoodguys": 399.0 },
-        { "date": "2026-06-19", "thegoodguys": 399.0 },
-        { "date": "2026-06-20", "thegoodguys": 399.0 }
+        {
+          "date": "2026-06-07",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-08",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-09",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-10",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-11",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-12",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-13",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-14",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-15",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-16",
+          "thegoodguys": 349.0
+        },
+        {
+          "date": "2026-06-17",
+          "thegoodguys": 399.0
+        },
+        {
+          "date": "2026-06-18",
+          "thegoodguys": 399.0
+        },
+        {
+          "date": "2026-06-19",
+          "thegoodguys": 399.0
+        },
+        {
+          "date": "2026-06-20",
+          "thegoodguys": 399.0
+        }
       ]
     },
     {
       "id": "joybos-medicine-box",
       "product_name": "JOYBOS 4-Tier Medicine Storage Box Cabinet",
-      "image_url": "https://m.media-amazon.com/images/I/71aXW_DkZ8L._AC_SL1500_.jpg",
+      "image_url": "https://m.media-amazon.com/images/I/71FU89Hov9L._AC_SL1500_.jpg",
       "date_added": "2026-06-07",
       "sources": [
         {
@@ -51,20 +93,62 @@
         }
       ],
       "price_history": [
-        { "date": "2026-06-07", "amazon": 52.99 },
-        { "date": "2026-06-08", "amazon": 52.99 },
-        { "date": "2026-06-09", "amazon": 52.99 },
-        { "date": "2026-06-10", "amazon": 52.99 },
-        { "date": "2026-06-11", "amazon": 52.99 },
-        { "date": "2026-06-12", "amazon": 52.99 },
-        { "date": "2026-06-13", "amazon": 52.99 },
-        { "date": "2026-06-14", "amazon": 52.99 },
-        { "date": "2026-06-15", "amazon": 52.99 },
-        { "date": "2026-06-16", "amazon": 52.99 },
-        { "date": "2026-06-17", "amazon": 41.03 },
-        { "date": "2026-06-18", "amazon": 41.03 },
-        { "date": "2026-06-19", "amazon": 41.03 },
-        { "date": "2026-06-20", "amazon": 41.03 }
+        {
+          "date": "2026-06-07",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-08",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-09",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-10",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-11",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-12",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-13",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-14",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-15",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-16",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-17",
+          "amazon": 41.03
+        },
+        {
+          "date": "2026-06-18",
+          "amazon": 41.03
+        },
+        {
+          "date": "2026-06-19",
+          "amazon": 41.03
+        },
+        {
+          "date": "2026-06-20",
+          "amazon": 41.03
+        }
       ]
     },
     {
@@ -84,26 +168,68 @@
         }
       ],
       "price_history": [
-        { "date": "2026-06-07", "airmedscrubs": 37.8 },
-        { "date": "2026-06-08", "airmedscrubs": 37.8 },
-        { "date": "2026-06-09", "airmedscrubs": 37.8 },
-        { "date": "2026-06-10", "airmedscrubs": 37.8 },
-        { "date": "2026-06-11", "airmedscrubs": 37.8 },
-        { "date": "2026-06-12", "airmedscrubs": 37.8 },
-        { "date": "2026-06-13", "airmedscrubs": 37.8 },
-        { "date": "2026-06-14", "airmedscrubs": 37.8 },
-        { "date": "2026-06-15", "airmedscrubs": 37.8 },
-        { "date": "2026-06-16", "airmedscrubs": 37.8 },
-        { "date": "2026-06-17", "airmedscrubs": 25.0 },
-        { "date": "2026-06-18", "airmedscrubs": 25.0 },
-        { "date": "2026-06-19", "airmedscrubs": 25.0 },
-        { "date": "2026-06-20", "airmedscrubs": 25.0 }
+        {
+          "date": "2026-06-07",
+          "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-08",
+          "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-09",
+          "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-10",
+          "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-11",
+          "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-12",
+          "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-13",
+          "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-14",
+          "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-15",
+          "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-16",
+          "airmedscrubs": 37.8
+        },
+        {
+          "date": "2026-06-17",
+          "airmedscrubs": 25.0
+        },
+        {
+          "date": "2026-06-18",
+          "airmedscrubs": 25.0
+        },
+        {
+          "date": "2026-06-19",
+          "airmedscrubs": 25.0
+        },
+        {
+          "date": "2026-06-20",
+          "airmedscrubs": 25.0
+        }
       ]
     },
     {
       "id": "sowood-learning-tower",
       "product_name": "Convertible Learning Tower - Natural",
-      "image_url": "https://sowood.com/cdn/shop/products/LearningTower_Natural_1.jpg",
+      "image_url": "https://sowood.com/cdn/shop/files/product_website_-09.png?v=1773852982",
       "date_added": "2026-06-07",
       "sources": [
         {
@@ -135,20 +261,84 @@
         }
       ],
       "price_history": [
-        { "date": "2026-06-07", "sowood": 149.0 },
-        { "date": "2026-06-08", "sowood": 149.0 },
-        { "date": "2026-06-09", "sowood": 149.0 },
-        { "date": "2026-06-10", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
-        { "date": "2026-06-11", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
-        { "date": "2026-06-12", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
-        { "date": "2026-06-13", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 169.15 },
-        { "date": "2026-06-14", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
-        { "date": "2026-06-15", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
-        { "date": "2026-06-16", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
-        { "date": "2026-06-17", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
-        { "date": "2026-06-18", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
-        { "date": "2026-06-19", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 235.0 },
-        { "date": "2026-06-20", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 235.0 }
+        {
+          "date": "2026-06-07",
+          "sowood": 149.0
+        },
+        {
+          "date": "2026-06-08",
+          "sowood": 149.0
+        },
+        {
+          "date": "2026-06-09",
+          "sowood": 149.0
+        },
+        {
+          "date": "2026-06-10",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-11",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-12",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-13",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 169.15
+        },
+        {
+          "date": "2026-06-14",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-15",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-16",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-17",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-18",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-19",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 235.0
+        },
+        {
+          "date": "2026-06-20",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 235.0
+        }
       ]
     },
     {
@@ -168,8 +358,14 @@
         }
       ],
       "price_history": [
-        { "date": "2026-06-19", "fromourplace": 699.0 },
-        { "date": "2026-06-20", "fromourplace": 699.0 }
+        {
+          "date": "2026-06-19",
+          "fromourplace": 699.0
+        },
+        {
+          "date": "2026-06-20",
+          "fromourplace": 699.0
+        }
       ]
     }
   ]

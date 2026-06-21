@@ -1,298 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Price Sniper Watchlist</title>
-    
-    <!-- Tailwind CSS for Premium UI -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Chart.js for Graphs -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    
-    <!-- React & ReactDOM -->
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-    
-    <!-- Babel for JSX compilation -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Price Sniper ∑ Watchlist</title>
+<meta name="description" content="Localised price tracking for Pakenham VIC 3810.">
 
-    <style>
-        body { background-color: #f1f5f9; }
-        .gradient-bg { background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%); }
-    </style>
+<!-- Only dependency: Chart.js (used for the price-history sparklines; the page degrades gracefully if it fails to load). -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js" defer></script>
+
+<style>
+  :root{
+    --bg:#f5f6fb; --card:#fff; --ink:#0f172a; --muted:#64748b; --faint:#94a3b8;
+    --line:#e7e9f2; --line-soft:#eef0f7;
+    --indigo:#4f46e5; --violet:#7c3aed; --indigo-soft:#eef2ff; --indigo-ink:#4338ca;
+    --good:#059669; --good-soft:#ecfdf5; --good-line:#a7f3d0;
+    --up:#e11d48; --up-soft:#fff1f2; --up-line:#fecdd3;
+    --shadow:0 1px 2px rgba(15,23,42,.04),0 8px 24px -12px rgba(15,23,42,.12);
+    --shadow-lg:0 10px 40px -12px rgba(79,70,229,.25);
+    --r:16px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji",sans-serif;
+    -webkit-font-smoothing:antialiased; line-height:1.45;
+    padding:20px 16px 64px;
+  }
+  .wrap{max-width:1040px;margin:0 auto}
+
+  /* Header */
+  .hero{
+    background:linear-gradient(135deg,var(--indigo) 0%,var(--violet) 100%);
+    border-radius:22px; padding:26px 28px; color:#fff; box-shadow:var(--shadow-lg);
+    display:flex; flex-wrap:wrap; gap:16px; align-items:center; justify-content:space-between;
+  }
+  .hero h1{margin:0; font-size:clamp(22px,3.4vw,30px); font-weight:800; letter-spacing:-.02em; display:flex; align-items:center; gap:10px}
+  .hero p{margin:6px 0 0; color:#e0e7ffd9; font-size:14px; font-weight:500}
+  .sync{
+    background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.28);
+    backdrop-filter:blur(6px); padding:8px 14px; border-radius:12px; font-size:12.5px; font-weight:600;
+    display:flex; gap:8px; align-items:center; white-space:nowrap;
+  }
+  .dot{width:8px;height:8px;border-radius:50%;background:#34d399;box-shadow:0 0 0 3px rgba(52,211,153,.25)}
+
+  /* Stats */
+  .stats{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin:18px 0}
+  .stat{background:var(--card); border:1px solid var(--line); border-radius:var(--r); padding:16px 18px; box-shadow:var(--shadow)}
+  .stat .k{font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.07em; color:var(--faint)}
+  .stat .v{font-size:23px; font-weight:800; letter-spacing:-.02em; margin-top:4px}
+  .stat .s{font-size:12.5px; color:var(--muted); margin-top:2px}
+
+  /* Product cards */
+  .list{display:flex; flex-direction:column; gap:12px}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:var(--r); box-shadow:var(--shadow); overflow:hidden; transition:border-color .18s, box-shadow .18s}
+  .card.open{border-color:#c7d2fe; box-shadow:var(--shadow-lg)}
+  .head{
+    width:100%; border:0; background:none; cursor:pointer; text-align:left; font:inherit; color:inherit;
+    display:flex; align-items:center; gap:16px; padding:16px 18px;
+  }
+  .head:focus-visible{outline:2px solid var(--indigo); outline-offset:-2px; border-radius:var(--r)}
+  .chev{flex:0 0 auto; color:var(--faint); font-size:20px; line-height:1; transition:transform .2s, color .2s}
+  .card.open .chev{transform:rotate(90deg); color:var(--indigo)}
+  .thumb{flex:0 0 auto; width:54px; height:54px; border-radius:13px; background:#fff; border:1px solid var(--line); object-fit:contain; padding:4px}
+  .thumb.ph{display:flex; align-items:center; justify-content:center; font-size:22px; background:#f8fafc; color:var(--faint)}
+  .meta{flex:1 1 auto; min-width:0}
+  .name{font-weight:650; font-size:15.5px; letter-spacing:-.01em; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .sub{font-size:12.5px; color:var(--muted); margin-top:2px}
+  .right{flex:0 0 auto; text-align:right; display:flex; flex-direction:column; align-items:flex-end; gap:5px}
+  .price{font-size:21px; font-weight:800; color:var(--good); letter-spacing:-.02em}
+  .at{font-size:11.5px; color:var(--muted); margin-top:-3px}
+  .chip{display:inline-flex; align-items:center; gap:4px; font-size:11.5px; font-weight:700; padding:3px 8px; border-radius:999px; border:1px solid transparent}
+  .chip.down{background:var(--good-soft); color:var(--good); border-color:var(--good-line)}
+  .chip.up{background:var(--up-soft); color:var(--up); border-color:var(--up-line)}
+  .chip.flat{background:#f1f5f9; color:var(--muted); border-color:var(--line)}
+
+  /* Detail */
+  .detail{border-top:1px solid var(--line-soft); padding:0 18px; max-height:0; opacity:0; overflow:hidden; transition:max-height .32s ease, opacity .26s, padding .32s}
+  .card.open .detail{max-height:2200px; opacity:1; padding:18px 18px 22px}
+  .detail-top{display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; gap:10px; flex-wrap:wrap}
+  .detail-top h3{margin:0; font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; color:var(--faint)}
+  .detail-top .added{font-size:12px; color:var(--muted)}
+  .sources{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:14px}
+  .src{background:#fff; border:1px solid var(--line); border-radius:14px; padding:15px; display:flex; flex-direction:column}
+  .src.best{border-color:var(--good); box-shadow:0 0 0 3px var(--good-soft)}
+  .src-head{display:flex; justify-content:space-between; align-items:flex-start; gap:10px}
+  .src-name{font-weight:700; font-size:14.5px; display:flex; align-items:center; gap:7px; flex-wrap:wrap}
+  .badge{font-size:10px; font-weight:800; letter-spacing:.04em; color:var(--good); background:var(--good-soft); border:1px solid var(--good-line); padding:2px 6px; border-radius:6px}
+  .src-fulfil{font-size:11.5px; color:var(--faint); margin-top:2px; text-transform:capitalize}
+  .buy{flex:0 0 auto; font-size:12px; font-weight:700; color:var(--indigo-ink); background:var(--indigo-soft); border:1px solid #e0e7ff; padding:6px 10px; border-radius:9px; text-decoration:none; transition:background .15s}
+  .buy:hover{background:#e0e7ff}
+  .breakdown{display:flex; gap:14px; align-items:baseline; border-top:1px solid var(--line-soft); border-bottom:1px solid var(--line-soft); padding:10px 0; margin:12px 0; font-size:12px; color:var(--muted)}
+  .breakdown b{color:var(--ink); font-weight:600}
+  .breakdown .tot{margin-left:auto; font-size:13.5px; color:var(--ink); font-weight:800}
+  .chartbox{position:relative; height:120px; margin-top:auto}
+  .chart-na{height:120px; display:flex; align-items:center; justify-content:center; color:var(--faint); font-size:12px; background:#f8fafc; border-radius:10px; margin-top:auto}
+
+  /* States */
+  .state{background:var(--card); border:1px solid var(--line); border-radius:var(--r); box-shadow:var(--shadow); padding:48px 24px; text-align:center; color:var(--muted)}
+  .spinner{width:38px;height:38px;margin:0 auto 14px;border:3px solid var(--line);border-top-color:var(--indigo);border-radius:50%;animation:spin .8s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .err{background:var(--up-soft); border-color:var(--up-line); color:#9f1239; text-align:left; padding:18px 20px}
+  .err code{background:rgba(0,0,0,.05); padding:1px 6px; border-radius:5px; font-size:12.5px}
+
+  @media (max-width:680px){
+    .stats{grid-template-columns:1fr}
+    .head{gap:12px; padding:14px}
+    .thumb{width:46px;height:46px}
+    .name{white-space:normal}
+    .price{font-size:19px}
+  }
+</style>
 </head>
-<body class="text-slate-800 font-sans antialiased p-4 md:p-8">
+<body>
+<div class="wrap" id="app">
+  <div class="state"><div class="spinner"></div>Loading watchlist</div>
+</div>
 
-    <div id="root"></div>
+<script>
+(function(){
+  "use strict";
+  var app = document.getElementById('app');
+  var charts = [];
 
-    <script type="text/babel">
-        const { useState, useEffect, useRef } = React;
+  var fmtAUD = function(n){
+    if (typeof n !== 'number' || isNaN(n)) return '';
+    return new Intl.NumberFormat('en-AU',{style:'currency',currency:'AUD'}).format(n);
+  };
+  function esc(s){
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+  function fulfilLabel(t){
+    return ({delivery:'Delivery', pickup:'Click & Collect', free_delivery:'Free delivery'})[t] || String(t||'').replace(/_/g,' ');
+  }
+  function num(x){ return typeof x === 'number' && !isNaN(x) ? x : 0; }
 
-        // --- Premium Single-Source Chart Component ---
-        const SourceChart = ({ history, sourceId, sourceName, color = '#4f46e5' }) => {
-            const chartRef = useRef(null);
-            const chartInstance = useRef(null);
+  function bestSource(item){
+    return item.sources.reduce(function(m,s){
+      return num(s.current_total_price) < num(m.current_total_price) ? s : m;
+    }, item.sources[0]);
+  }
+  function dayMins(item){
+    return (item.price_history||[]).map(function(h){
+      var vals = Object.keys(h).filter(function(k){return k!=='date';}).map(function(k){return h[k];}).filter(function(v){return typeof v==='number';});
+      return vals.length ? Math.min.apply(null, vals) : null;
+    }).filter(function(v){return v!=null;});
+  }
+  function trend(item){
+    var best = num(bestSource(item).current_total_price);
+    var mins = dayMins(item);
+    var first = mins.length ? mins[0] : best;
+    var lowest = Math.min.apply(null, mins.concat([best]));
+    var pct = first ? (best - first)/first*100 : 0;
+    return {best:best, first:first, lowest:lowest, pct:pct};
+  }
+  function trendChip(t){
+    if (t.pct <= -0.5) return '<span class="chip down" title="Cheaper than when first tracked"> '+Math.abs(t.pct).toFixed(0)+'% since added</span>';
+    if (t.pct >=  0.5) return '<span class="chip up" title="More expensive than when first tracked"> '+t.pct.toFixed(0)+'% since added</span>';
+    return '<span class="chip flat"> Stable</span>';
+  }
 
-            useEffect(() => {
-                if (chartInstance.current) {
-                    chartInstance.current.destroy();
-                }
-                const ctx = chartRef.current.getContext('2d');
-                
-                const gradient = ctx.createLinearGradient(0, 0, 0, 150);
-                gradient.addColorStop(0, color + '4D'); 
-                gradient.addColorStop(1, color + '00'); 
+  function render(data){
+    charts.forEach(function(c){ try{c.destroy();}catch(e){} });
+    charts = [];
+    var items = (data && Array.isArray(data.wishlist)) ? data.wishlist.filter(function(it){ return it && it.sources && it.sources.length; }) : [];
 
-                const validHistory = history.filter(h => h[sourceId] !== undefined && h[sourceId] !== null);
+    var synced = '';
+    if (data && data.last_updated){
+      var d = new Date(data.last_updated);
+      if (!isNaN(d)) synced = d.toLocaleString('en-AU',{dateStyle:'medium', timeStyle:'short'});
+    }
 
-                chartInstance.current = new Chart(ctx, {
-                    type: 'line',
-                    data: {
-                        labels: validHistory.map(h => h.date),
-                        datasets: [{
-                            label: `${sourceName} Price`,
-                            data: validHistory.map(h => h[sourceId]),
-                            borderColor: color,
-                            backgroundColor: gradient,
-                            borderWidth: 2.5,
-                            pointBackgroundColor: color,
-                            pointRadius: 3,
-                            pointHoverRadius: 6,
-                            tension: 0.35,
-                            fill: true
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: {
-                            legend: { display: false },
-                            tooltip: {
-                                mode: 'index',
-                                intersect: false,
-                                callbacks: {
-                                    label: function(context) {
-                                        return ' ' + new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(context.parsed.y);
-                                    }
-                                }
-                            }
-                        },
-                        scales: {
-                            x: { grid: { display: false }, ticks: { font: { size: 10 } } },
-                            y: { 
-                                ticks: { 
-                                    font: { size: 10 },
-                                    callback: function(value) { return '$' + value; }
-                                }
-                            }
-                        }
-                    }
-                });
+    // summary stats
+    var basket = items.reduce(function(a,it){ return a + num(bestSource(it).current_total_price); }, 0);
+    var saver = null;
+    items.forEach(function(it){ var t = trend(it); if (saver===null || t.pct < saver.pct) saver = {name:it.product_name, pct:t.pct}; });
 
-                return () => { if (chartInstance.current) chartInstance.current.destroy(); }
-            }, [history, sourceId, sourceName]);
+    var html = ''
+      + '<div class="hero">'
+      +   '<div><h1> Price Sniper</h1><p>Localised price tracking ∑ Pakenham VIC 3810</p></div>'
+      +   (synced ? '<div class="sync"><span class="dot"></span>Synced '+esc(synced)+'</div>' : '')
+      + '</div>';
 
-            return <div className="h-36 w-full"><canvas ref={chartRef}></canvas></div>;
-        };
+    if (items.length){
+      html += '<div class="stats">'
+        + '<div class="stat"><div class="k">Tracking</div><div class="v">'+items.length+'</div><div class="s">product'+(items.length===1?'':'s')+' watched</div></div>'
+        + '<div class="stat"><div class="k">Best-price basket</div><div class="v">'+fmtAUD(basket)+'</div><div class="s">sum of cheapest options</div></div>'
+        + '<div class="stat"><div class="k">Biggest saver</div><div class="v">'+(saver && saver.pct<-0.5 ? ' '+Math.abs(saver.pct).toFixed(0)+'%' : '')+'</div><div class="s">'+esc(saver && saver.pct<-0.5 ? saver.name : 'no drops yet')+'</div></div>'
+        + '</div>';
 
-        // --- Master Product Row Component ---
-        const ProductRow = ({ item }) => {
-            const [expanded, setExpanded] = useState(false);
-            
-            if (!item.sources || item.sources.length === 0) return null;
+      html += '<div class="list">';
+      items.forEach(function(it){
+        var b = bestSource(it), t = trend(it);
+        var thumb = it.image_url
+          ? '<img class="thumb" src="'+esc(it.image_url)+'" alt="'+esc(it.product_name)+'" loading="lazy" onerror="this.outerHTML=&quot;<div class=\\&quot;thumb ph\\&quot;></div>&quot;">'
+          : '<div class="thumb ph"></div>';
+        html += ''
+          + '<div class="card" data-id="'+esc(it.id)+'">'
+          +   '<button class="head" aria-expanded="false">'
+          +     '<span class="chev"></span>'
+          +     thumb
+          +     '<div class="meta"><div class="name">'+esc(it.product_name)+'</div>'
+          +       '<div class="sub">'+it.sources.length+' outlet'+(it.sources.length===1?'':'s')+' ∑ lowest seen '+fmtAUD(t.lowest)+'</div></div>'
+          +     '<div class="right"><div class="price">'+fmtAUD(b.current_total_price)+'</div>'
+          +       '<div class="at">at '+esc(b.source_name)+'</div>'+trendChip(t)+'</div>'
+          +   '</button>'
+          +   '<div class="detail"></div>'
+          + '</div>';
+      });
+      html += '</div>';
+    } else if (data) {
+      html += '<div class="state"> Nothing on the watchlist yet.<br><span style="font-size:13px">Ask OpenClaw to add something to my shopping list.</span></div>';
+    }
 
-            // Automatically calculate the absolute best deal right now
-            const bestSource = item.sources.reduce((min, s) => 
-                s.current_total_price < min.current_total_price ? s : min, 
-                item.sources[0]
-            );
+    app.innerHTML = html;
 
-            const colors = ['#4f46e5', '#06b6d4', '#f59e0b'];
+    // wire expand/collapse (lazy-build detail + charts on first open)
+    Array.prototype.forEach.call(app.querySelectorAll('.card'), function(card){
+      var id = card.getAttribute('data-id');
+      var item = items.filter(function(x){return String(x.id)===id;})[0];
+      var head = card.querySelector('.head');
+      var detail = card.querySelector('.detail');
+      head.addEventListener('click', function(){
+        var open = card.classList.toggle('open');
+        head.setAttribute('aria-expanded', open ? 'true' : 'false');
+        if (open && !detail.dataset.built){ buildDetail(detail, item); detail.dataset.built = '1'; }
+      });
+    });
+  }
 
-            return (
-                <React.Fragment>
-                    {/* Clean Executive Summary Line */}
-                    <tr 
-                        className={`cursor-pointer transition-all border-b border-slate-200/80 hover:bg-slate-50/80 ${expanded ? 'bg-indigo-50/40' : 'bg-white'}`}
-                        onClick={() => setExpanded(!expanded)}
-                    >
-                        <td className="px-6 py-4">
-                            <div className="flex items-center gap-4">
-                                <span className={`text-slate-400 transition-transform duration-200 flex-shrink-0 ${expanded ? 'rotate-90 text-indigo-600' : ''}`}>
-                                    ‚ñ∂
-                                </span>
-                                
-                                {/* Image Thumbnail Wrapper */}
-                                {item.image_url ? (
-                                    <img 
-                                        src={item.image_url} 
-                                        alt={item.product_name} 
-                                        className="w-12 h-12 object-contain rounded-xl bg-white border border-slate-200 p-1 flex-shrink-0 shadow-sm"
-                                        onError={(e) => { e.target.style.display = 'none'; }}
-                                    />
-                                ) : (
-                                    <div className="w-12 h-12 rounded-xl bg-slate-100 border border-slate-200 flex items-center justify-center flex-shrink-0 text-slate-400 text-lg">
-                                        üì¶
-                                    </div>
-                                )}
+  function buildDetail(detail, item){
+    var palette = ['#4f46e5','#06b6d4','#f59e0b'];
+    var best = bestSource(item);
+    var html = '<div class="detail-top"><h3>All tracked outlets</h3><span class="added">Added '+esc(item.date_added||'')+'</span></div><div class="sources">';
+    item.sources.forEach(function(s, i){
+      var win = s.source_id === best.source_id;
+      html += ''
+        + '<div class="src'+(win?' best':'')+'">'
+        +   '<div class="src-head"><div><div class="src-name">'+esc(s.source_name)+(win?' <span class="badge"> BEST</span>':'')+'</div>'
+        +     '<div class="src-fulfil">'+esc(fulfilLabel(s.fulfillment_type))+'</div></div>'
+        +     '<a class="buy" href="'+esc(s.product_url)+'" target="_blank" rel="noopener noreferrer">Buy </a></div>'
+        +   '<div class="breakdown"><span>Base <b>'+fmtAUD(num(s.current_base_price))+'</b></span>'
+        +     '<span>Freight <b>'+fmtAUD(num(s.fulfillment_cost))+'</b></span>'
+        +     '<span class="tot">'+fmtAUD(num(s.current_total_price))+'</span></div>'
+        +   (typeof Chart !== 'undefined'
+              ? '<div class="chartbox"><canvas></canvas></div>'
+              : '<div class="chart-na">Trend chart unavailable offline</div>')
+        + '</div>';
+    });
+    html += '</div>';
+    detail.innerHTML = html;
 
-                                <div className="font-semibold text-slate-900 text-base">
-                                    {item.product_name}
-                                </div>
-                            </div>
-                        </td>
-                        <td className="px-6 py-4 vertical-align-middle">
-                            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-md text-sm font-medium bg-indigo-50 text-indigo-700 border border-indigo-100">
-                                üè¨ {bestSource.source_name}
-                            </span>
-                        </td>
-                        <td className="px-6 py-4 text-right">
-                            <span className="text-lg font-bold text-emerald-600">
-                                A$ {bestSource.current_total_price.toFixed(2)}
-                            </span>
-                        </td>
-                    </tr>
+    if (typeof Chart === 'undefined') return;
+    var canvases = detail.querySelectorAll('canvas');
+    item.sources.forEach(function(s, i){
+      var canvas = canvases[i];
+      if (!canvas) return;
+      var win = s.source_id === best.source_id;
+      var color = win ? '#059669' : palette[i % palette.length];
+      var rows = (item.price_history||[]).filter(function(h){ return typeof h[s.source_id] === 'number'; });
+      var ctx = canvas.getContext('2d');
+      var grad = ctx.createLinearGradient(0,0,0,120);
+      grad.addColorStop(0, color+'40'); grad.addColorStop(1, color+'00');
+      charts.push(new Chart(ctx, {
+        type:'line',
+        data:{ labels: rows.map(function(h){return h.date;}),
+               datasets:[{ data: rows.map(function(h){return h[s.source_id];}),
+                 borderColor:color, backgroundColor:grad, borderWidth:2.4, fill:true, tension:.35,
+                 pointRadius:0, pointHoverRadius:5, pointBackgroundColor:color }] },
+        options:{ responsive:true, maintainAspectRatio:false, animation:{duration:500},
+          interaction:{intersect:false, mode:'index'},
+          plugins:{ legend:{display:false},
+            tooltip:{ displayColors:false,
+              callbacks:{ label:function(c){ return fmtAUD(c.parsed.y); } } } },
+          scales:{ x:{ grid:{display:false}, ticks:{ font:{size:9}, maxTicksLimit:6, color:'#94a3b8' } },
+                   y:{ grid:{color:'#f1f5f9'}, ticks:{ font:{size:9}, color:'#94a3b8',
+                       callback:function(v){ return '$'+v; } } } } }
+      }));
+    });
+  }
 
-                    {/* Deep-Dive Sub-Rows Grid */}
-                    {expanded && (
-                        <tr className="bg-slate-50/50 border-b border-slate-200">
-                            <td colSpan="3" className="px-8 py-6">
-                                <div className="mb-4 flex items-center justify-between">
-                                    <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400">All Tracked Outlets for this item</h3>
-                                    <span className="text-xs text-slate-400">Date Added: {item.date_added}</span>
-                                </div>
-                                
-                                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                    {item.sources.map((source, idx) => {
-                                        const isWinner = source.source_id === bestSource.source_id;
-                                        return (
-                                            <div 
-                                                key={source.source_id} 
-                                                className={`bg-white rounded-xl p-5 border shadow-sm flex flex-col justify-between transition-all ${isWinner ? 'border-emerald-500 ring-2 ring-emerald-500/10' : 'border-slate-200'}`}
-                                            >
-                                                <div className="flex justify-between items-start mb-2">
-                                                    <div>
-                                                        <h4 className="font-bold text-slate-900 text-base flex items-center gap-1.5">
-                                                            {source.source_name}
-                                                            {isWinner && <span className="text-xs text-emerald-600 font-bold bg-emerald-50 px-1.5 py-0.5 rounded border border-emerald-200">‚≠ê BEST</span>}
-                                                        </h4>
-                                                        <p className="text-xs text-slate-400 capitalize mt-0.5">Fulfillment: {source.fulfillment_type.replace('_', ' ')}</p>
-                                                    </div>
-                                                    <a 
-                                                        href={source.product_url} 
-                                                        target="_blank" 
-                                                        className="text-xs font-semibold text-indigo-600 hover:text-indigo-800 bg-indigo-50 hover:bg-indigo-100 px-2.5 py-1.5 rounded-lg transition-colors"
-                                                    >
-                                                        Buy Link ‚Üó
-                                                    </a>
-                                                </div>
+  function showError(msg){
+    app.innerHTML = '<div class="hero"><div><h1> Price Sniper</h1>'
+      + '<p>Localised price tracking ∑ Pakenham VIC 3810</p></div></div>'
+      + '<div class="state err"><strong> Couldnt load the watchlist.</strong><br>'
+      + '<span style="font-size:13px">Expected <code>watchlist.json</code> next to this page. ('+esc(msg)+')</span></div>';
+  }
 
-                                                <div className="flex gap-4 border-t border-b border-slate-100 py-2.5 my-3 text-xs text-slate-500">
-                                                    <div>Base: <span className="font-medium text-slate-700">${source.current_base_price.toFixed(2)}</span></div>
-                                                    <div>Freight: <span className="font-medium text-slate-700">${source.fulfillment_cost.toFixed(2)}</span></div>
-                                                    <div className="ml-auto font-bold text-sm text-slate-900">Total: ${source.current_total_price.toFixed(2)}</div>
-                                                </div>
+  function start(){
+    fetch('./watchlist.json?t=' + Date.now(), {cache:'no-store'})
+      .then(function(res){ if(!res.ok) throw new Error('HTTP '+res.status); return res.json(); })
+      .then(function(data){ try{ render(data); }catch(e){ showError(e.message); } })
+      .catch(function(err){ showError(err.message); });
+  }
 
-                                                <div className="mt-2">
-                                                    <SourceChart 
-                                                        history={item.price_history} 
-                                                        sourceId={source.source_id} 
-                                                        sourceName={source.source_name}
-                                                        color={isWinner ? '#10b981' : colors[idx % colors.length]} 
-                                                    />
-                                                </div>
-                                            </div>
-                                        );
-                                    })}
-                                </div>
-                            </td>
-                        </tr>
-                    )}
-                </React.Fragment>
-            );
-        };
-
-        // --- Core Application Workspace ---
-        const App = () => {
-            const [data, setData] = useState(null);
-            const [loading, setLoading] = useState(true);
-            const [error, setError] = useState(null);
-
-            useEffect(() => {
-                const cacheBuster = new Date().getTime();
-                fetch(`./watchlist.json?t=${cacheBuster}`)
-                    .then(res => {
-                        if (!res.ok) throw new Error('Failed to download watchlist schema.');
-                        return res.json();
-                    })
-                    .then(jsonData => {
-                        setData(jsonData);
-                        setLoading(false);
-                    })
-                    .catch(err => {
-                        setError(err.message);
-                        setLoading(false);
-                    });
-            }, []);
-
-            return (
-                <div className="max-w-6xl mx-auto">
-                    <div className="gradient-bg rounded-2xl p-6 md:p-8 text-white shadow-md flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
-                        <div>
-                            <h1 className="text-2xl md:text-3xl font-black tracking-tight">Watchlist Control Center</h1>
-                            <p className="text-indigo-100/90 text-sm mt-1">Aggregated, localized price telemetry for Postcode 3810.</p>
-                        </div>
-                        {data && data.last_updated && (
-                            <div className="bg-white/10 backdrop-blur-md px-3.5 py-1.5 rounded-lg border border-white/20 text-xs font-semibold uppercase tracking-wider">
-                                System Sync: {new Date(data.last_updated).toLocaleTimeString()}
-                            </div>
-                        )}
-                    </div>
-
-                    {loading && (
-                        <div className="flex justify-center items-center py-24">
-                            <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-indigo-600"></div>
-                        </div>
-                    )}
-
-                    {error && (
-                        <div className="bg-rose-50 border border-rose-200 text-rose-800 p-4 rounded-xl text-sm font-medium shadow-sm">
-                            ‚ö†Ô∏è System Link Error: Check if data exists in watchlist.json ({error})
-                        </div>
-                    )}
-
-                    {data && data.wishlist && data.wishlist.length === 0 && (
-                        <div className="text-center py-16 bg-white rounded-2xl border border-slate-200 text-slate-400 text-sm font-medium">
-                            No items actively monitored. Instruct OpenClaw to begin target scanning.
-                        </div>
-                    )}
-
-                    {data && data.wishlist && data.wishlist.length > 0 && (
-                        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-                            <table className="min-w-full divide-y divide-slate-200">
-                                <thead className="bg-slate-50 text-slate-400 text-xs font-bold uppercase tracking-wider">
-                                    <tr>
-                                        <th scope="col" className="px-6 py-4 text-left">Tracked Product</th>
-                                        <th scope="col" className="px-6 py-4 text-left">Top Local Merchant</th>
-                                        <th scope="col" className="px-6 py-4 text-right">Best Active Price</th>
-                                    </tr>
-                                </thead>
-                                <tbody className="divide-y divide-slate-200 bg-white">
-                                    {data.wishlist.map(item => (
-                                        <ProductRow key={item.id} item={item} />
-                                    ))}
-                                </tbody>
-                            </table>
-                        </div>
-                    )}
-                </div>
-            );
-        };
-
-        const root = ReactDOM.createRoot(document.getElementById('root'));
-        root.render(<App />);
-    </script>
+  // Chart.js loads with `defer`; start once the DOM (and deferred scripts) are ready.
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
+  else start();
+})();
+</script>
 </body>
 </html>
