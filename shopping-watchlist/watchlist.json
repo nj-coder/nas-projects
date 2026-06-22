@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T01:01:34.086025",
+  "last_updated": "2026-06-23T06:10:00",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -34,6 +34,244 @@
         },
         {
           "date": "2026-06-23"
+        }
+      ]
+    },
+    {
+      "id": "joybos-medicine-box",
+      "product_name": "JOYBOS 4-Tier Medicine Storage Box Cabinet",
+      "image_url": "https://m.media-amazon.com/images/I/71FU89Hov9L._AC_SL1500_.jpg",
+      "date_added": "2026-06-07",
+      "sources": [
+        {
+          "source_id": "amazon",
+          "source_name": "Amazon AU",
+          "product_url": "https://www.amazon.com.au/JOYBOS-Medicine-Storage-Portable-Organizer/dp/B0FVX8PJ4H",
+          "fulfillment_type": "delivery",
+          "current_base_price": 41.03,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 41.03
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-06-07",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-08",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-09",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-10",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-11",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-12",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-13",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-14",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-15",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-16",
+          "amazon": 52.99
+        },
+        {
+          "date": "2026-06-17",
+          "amazon": 41.03
+        },
+        {
+          "date": "2026-06-18",
+          "amazon": 41.03
+        },
+        {
+          "date": "2026-06-19",
+          "amazon": 41.03
+        },
+        {
+          "date": "2026-06-20",
+          "amazon": 41.03
+        },
+        {
+          "date": "2026-06-21",
+          "amazon": 41.03
+        },
+        {
+          "date": "2026-06-22",
+          "amazon": 41.03
+        }
+      ]
+    },
+    {
+      "id": "sowood-learning-tower",
+      "product_name": "Convertible Learning Tower - Natural",
+      "image_url": "https://sowood.com/cdn/shop/files/product_website_-09.png?v=1773852982",
+      "date_added": "2026-06-07",
+      "sources": [
+        {
+          "source_id": "sowood",
+          "source_name": "So Wood AU",
+          "product_url": "https://sowood.com/products/convertable-learning-tower",
+          "fulfillment_type": "delivery",
+          "current_base_price": 159.0,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 159.0
+        },
+        {
+          "source_id": "thelittlebunny",
+          "source_name": "The Little Bunny",
+          "product_url": "https://thelittlebunny.com.au/products/montessori-convertible-learning-tower-bunny",
+          "fulfillment_type": "delivery",
+          "current_base_price": 179.0,
+          "fulfillment_cost": 15.0,
+          "current_total_price": 194.0
+        },
+        {
+          "source_id": "toypark",
+          "source_name": "Toypark",
+          "product_url": "https://www.toypark.com.au/products/toypark-convertible-learning-tower",
+          "fulfillment_type": "delivery",
+          "current_base_price": 235.0,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 235.0
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-06-07",
+          "sowood": 149.0
+        },
+        {
+          "date": "2026-06-08",
+          "sowood": 149.0
+        },
+        {
+          "date": "2026-06-09",
+          "sowood": 149.0
+        },
+        {
+          "date": "2026-06-10",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-11",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-12",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-13",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 169.15
+        },
+        {
+          "date": "2026-06-14",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-15",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-16",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-17",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-18",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 199.75
+        },
+        {
+          "date": "2026-06-19",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 235.0
+        },
+        {
+          "date": "2026-06-20",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 235.0
+        },
+        {
+          "date": "2026-06-21",
+          "sowood": 159.0
+        },
+        {
+          "date": "2026-06-22",
+          "thelittlebunny": 194.0,
+          "toypark": 235.0
+        }
+      ]
+    },
+    {
+      "id": "our-place-titanium-pro-set",
+      "product_name": "Our Place Titanium Pro Cookware Set 10 Piece Set",
+      "image_url": "https://fromourplace.au/cdn/shop/files/our-place-product-thumbnail-TitaniumProCookwareSet-4pieces-gold.jpg?v=1745352241",
+      "date_added": "2026-06-19",
+      "sources": [
+        {
+          "source_id": "fromourplace",
+          "source_name": "Our Place AU",
+          "product_url": "https://fromourplace.au/products/titanium-pro-cookware-set?variant=44317924720812",
+          "fulfillment_type": "delivery",
+          "current_base_price": 699.0,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 699.0
+        }
+      ],
+      "price_history": [
+        {
+          "date": "2026-06-19",
+          "fromourplace": 699.0
+        },
+        {
+          "date": "2026-06-20",
+          "fromourplace": 699.0
+        },
+        {
+          "date": "2026-06-21",
+          "fromourplace": 699.0
         }
       ]
     }
