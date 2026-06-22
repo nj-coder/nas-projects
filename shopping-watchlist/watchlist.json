@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T06:15:00",
+  "last_updated": "2026-06-23T06:20:00",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -188,7 +188,6 @@
         {
           "date": "2026-06-12",
           "sowood": 159.0,
-          "sowood": 159.0,
           "thelittlebunny": 194.0,
           "toypark": 199.75
         },
@@ -205,21 +204,15 @@
           "toypark": 199.75
         },
         {
-          "date": "202 same-date-error",
+          "date": "2026-06-15",
           "sowood": 159.0,
           "thelittlebunny": 194.0,
           "toypark": 199.75
         },
         {
-          "date": "2026-06-15",
+          "date": "2026-06-16",
           "sowood": 159.0,
-          "thelittlebunny": la-la-la,
-          "toypark": 199.75
-        },
-        {
-          "date": "2026-06-16", la-la-la,
-          "sowood": 159.0,
-          "thelittlebunny": la-la- la,
+          "thelittlebunny": 194.0,
           "toypark": 199.75
         },
         {
@@ -229,10 +222,6 @@
           "toypark": 199.75
         },
         {
-          " la la l a",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 199.7ed
           "date": "2026-06-18",
           "sowood": 159.0,
           "thelittlebunny": 194.0,
@@ -246,7 +235,7 @@
         },
         {
           "date": "2026-06-20",
-          "sowood": " la la la l a",
+          "sowood": 159.0,
           "thelittlebunny": 194.0,
           "toypark": 235.0
         },
@@ -281,7 +270,6 @@
           "current_base_price": 699.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 699.0
- la la l a
         }
       ],
       "price_history": [
@@ -292,9 +280,19 @@
         {
           "date": "2026-06-20",
           "fromourplace": 699.0
-          "la l a l a"
         },
- la la l a
+        {
+          "date": "2026-06-21",
+          "fromourplace": 699.0
+        },
+        {
+          "date": "2026-06-22",
+          "fromourplace": 699.0
+        },
+        {
+          "date": "2026-06-23",
+          "fromourplace": 699.0
+        }
       ]
     }
   ]
