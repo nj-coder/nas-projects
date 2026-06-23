@@ -77,6 +77,10 @@
   .chip.down{background:var(--good-soft); color:var(--good); border-color:var(--good-line)}
   .chip.up{background:var(--up-soft); color:var(--up); border-color:var(--up-line)}
   .chip.flat{background:#f1f5f9; color:var(--muted); border-color:var(--line)}
+  .chip.unavail{background:#475569; color:#fff; border-color:#475569}
+  .price.na{color:var(--muted)}
+  .src.na{opacity:.7}
+  .badge.na{color:#fff; background:#475569; border-color:#475569}
 
   /* Detail */
   .detail{border-top:1px solid var(--line-soft); padding:0 18px; max-height:0; opacity:0; overflow:hidden; transition:max-height .32s ease, opacity .26s, padding .32s}
@@ -140,10 +144,21 @@
   }
   function num(x){ return typeof x === 'number' && !isNaN(x) ? x : 0; }
 
-  function bestSource(item){
-    return item.sources.reduce(function(m,s){
-      return num(s.current_total_price) < num(m.current_total_price) ? s : m;
-    }, item.sources[0]);
+  function isAvail(s){ return s.status == null || s.status === 'available'; }
+  function shownPrice(s){ return isAvail(s) ? num(s.current_total_price) : num(s.last_known_price != null ? s.last_known_price : s.current_total_price); }
+  function naLabel(s){ return s.status === 'unknown' ? 'Price unconfirmed' : 'Unavailable'; }
+  // Cheapest AVAILABLE source; if none are available, cheapest by last-known price (the item is then unavailable).
+  function pickBest(item){
+    var avail = item.sources.filter(isAvail);
+    if (avail.length){
+      return { src: avail.reduce(function(m,s){ return num(s.current_total_price) < num(m.current_total_price) ? s : m; }, avail[0]), available:true };
+    }
+    return { src: item.sources.reduce(function(m,s){ return shownPrice(s) < shownPrice(m) ? s : m; }, item.sources[0]), available:false };
+  }
+  function bestSource(item){ return pickBest(item).src; }
+  function unavailChip(s){
+    var when = s.last_available_date ? ' &#183; as of '+esc(s.last_available_date) : '';
+    return '<span class="chip unavail"><b>&#10005;</b> '+naLabel(s)+' &#183; last known '+fmtAUD(shownPrice(s))+when+'</span>';
   }
   function dayMins(item){
     return (item.price_history||[]).map(function(h){
@@ -152,7 +167,7 @@
     }).filter(function(v){return v!=null;});
   }
   function trend(item){
-    var best = num(bestSource(item).current_total_price);
+    var best = shownPrice(bestSource(item));
     var mins = dayMins(item);
     var first = mins.length ? mins[0] : best;
     var lowest = Math.min.apply(null, mins.concat([best]));
@@ -179,9 +194,9 @@
     }
 
     // summary stats
-    var basket = items.reduce(function(a,it){ return a + num(bestSource(it).current_total_price); }, 0);
+    var basket = items.reduce(function(a,it){ return a + shownPrice(bestSource(it)); }, 0);
     var saver = null;
-    items.forEach(function(it){ var t = trend(it); if (saver===null || t.pct < saver.pct) saver = {name:it.product_name, pct:t.pct}; });
+    items.forEach(function(it){ if(!pickBest(it).available) return; var t = trend(it); if (saver===null || t.pct < saver.pct) saver = {name:it.product_name, pct:t.pct}; });
 
     var html = ''
       + '<div class="hero">'
@@ -198,7 +213,7 @@
 
       html += '<div class="list">';
       items.forEach(function(it){
-        var b = bestSource(it), t = trend(it);
+        var bp = pickBest(it), b = bp.src, t = trend(it);
         var thumb = it.image_url
           ? '<img class="thumb" src="'+esc(it.image_url)+'" alt="'+esc(it.product_name)+'" loading="lazy" onerror="this.outerHTML=&quot;<div class=\\&quot;thumb ph\\&quot;>&#128230;</div>&quot;">'
           : '<div class="thumb ph">&#128230;</div>';
@@ -209,8 +224,8 @@
           +     thumb
           +     '<div class="meta"><div class="name">'+esc(it.product_name)+'</div>'
           +       '<div class="sub">'+it.sources.length+' outlet'+(it.sources.length===1?'':'s')+' &#183; lowest seen '+fmtAUD(t.lowest)+'</div></div>'
-          +     '<div class="right"><div class="price">'+fmtAUD(b.current_total_price)+'</div>'
-          +       '<div class="at">at '+esc(b.source_name)+'</div>'+trendChip(t)+'</div>'
+          +     '<div class="right"><div class="price'+(bp.available?'':' na')+'">'+fmtAUD(shownPrice(b))+'</div>'
+          +       '<div class="at">at '+esc(b.source_name)+'</div>'+(bp.available?trendChip(t):unavailChip(b))+'</div>'
           +   '</button>'
           +   '<div class="detail"></div>'
           + '</div>';
@@ -238,18 +253,18 @@
 
   function buildDetail(detail, item){
     var palette = ['#4f46e5','#06b6d4','#f59e0b'];
-    var best = bestSource(item);
+    var bp = pickBest(item), best = bp.src;
     var html = '<div class="detail-top"><h3>All tracked outlets</h3><span class="added">Added '+esc(item.date_added||'&#8212;')+'</span></div><div class="sources">';
     item.sources.forEach(function(s, i){
-      var win = s.source_id === best.source_id;
+      var win = bp.available && s.source_id === best.source_id; var na = !isAvail(s);
       html += ''
-        + '<div class="src'+(win?' best':'')+'">'
-        +   '<div class="src-head"><div><div class="src-name">'+esc(s.source_name)+(win?' <span class="badge">&#9733; BEST</span>':'')+'</div>'
-        +     '<div class="src-fulfil">'+esc(fulfilLabel(s.fulfillment_type))+'</div></div>'
+        + '<div class="src'+(win?' best':'')+(na?' na':'')+'">'
+        +   '<div class="src-head"><div><div class="src-name">'+esc(s.source_name)+(win?' <span class="badge">&#9733; BEST</span>':(na?' <span class="badge na">'+naLabel(s)+'</span>':''))+'</div>'
+        +     '<div class="src-fulfil">'+esc(fulfilLabel(s.fulfillment_type))+(na&&s.last_available_date?' &#183; last seen '+esc(s.last_available_date):'')+'</div></div>'
         +     '<a class="buy" href="'+esc(s.product_url)+'" target="_blank" rel="noopener noreferrer">Buy &#8599;</a></div>'
         +   '<div class="breakdown"><span>Base <b>'+fmtAUD(num(s.current_base_price))+'</b></span>'
         +     '<span>Freight <b>'+fmtAUD(num(s.fulfillment_cost))+'</b></span>'
-        +     '<span class="tot">'+fmtAUD(num(s.current_total_price))+'</span></div>'
+        +     '<span class="tot">'+fmtAUD(shownPrice(s))+'</span></div>'
         +   (typeof Chart !== 'undefined'
               ? '<div class="chartbox"><canvas></canvas></div>'
               : '<div class="chart-na">Trend chart unavailable offline</div>')
