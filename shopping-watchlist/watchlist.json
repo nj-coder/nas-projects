@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T19:49:00+10:00",
+  "last_updated": "2026-06-24T20:40:00+10:00",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -12,11 +12,11 @@
           "source_name": "Coles",
           "product_url": "https://www.coles.com.au/product/the-laughing-cow-cheese-16-portions-256g-3275581",
           "fulfillment_type": "pickup",
-          "current_base_price": 6.5,
+          "current_base_price": 8.5,
           "fulfillment_cost": 0.0,
-          "current_total_price": 6.5,
+          "current_total_price": 8.5,
           "status": "available",
-          "last_known_price": 6.5,
+          "last_known_price": 8.5,
           "last_available_date": "2026-06-24"
         },
         {
@@ -45,7 +45,7 @@
         },
         {
           "date": "2026-06-24",
-          "coles": 6.5,
+          "coles": 8.5,
           "woolworths": 7.5
         }
       ]
