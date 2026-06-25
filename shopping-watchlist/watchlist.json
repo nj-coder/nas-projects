@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T01:00:00+10:00",
+  "last_updated": "2026-06-26T05:35:00+10:00",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-06-25"
+          "last_available_date": "2026-06-26"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 7.5,
           "status": "available",
           "last_known_price": 7.5,
-          "last_available_date": "2026-06-25"
+          "last_available_date": "2026-06-26"
         }
       ],
       "price_history": [
@@ -50,6 +50,11 @@
         },
         {
           "date": "2026-06-25",
+          "coles": 8.5,
+          "woolworths": 7.5
+        },
+        {
+          "date": "2026-06-26",
           "coles": 8.5,
           "woolworths": 7.5
         }
@@ -150,6 +155,10 @@
         {
           "date": "2026-06-25",
           "amazon": 41.03
+        },
+        {
+          "date": "2026-06-26",
+          "amazon": 41.03
         }
       ]
     },
@@ -169,7 +178,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-06-25"
+          "last_available_date": "2026-06-26"
         },
         {
           "source_id": "thelittlebunny",
@@ -181,10 +190,10 @@
           "current_total_price": 194.0,
           "status": "available",
           "last_known_price": 194.0,
-          "last_available_date": "2026-06-25"
+          "last_available_date": "2026-06-26"
         },
         {
-          "source_id": la "toypark",
+          "source_id": "toypark",
           "source_name": "Toypark",
           "product_url": "https://www.toypark.com.au/products/toypark-convertible-learning-tower",
           "fulfillment_type": "delivery",
@@ -193,7 +202,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-06-25"
+          "last_available_date": "2026-06-26"
         }
       ],
       "price_history": [
@@ -301,6 +310,12 @@
           "sowood": 159.0,
           "thelittlebunny": 194.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-06-26",
+          "sowood": 159.0,
+          "thelittlebunny": 194.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -320,7 +335,7 @@
           "current_total_price": 699.0,
           "status": "available",
           "last_known_price": 699.0,
-          "last_available_date": "2026-06-25"
+          "last_available_date": "2026-06-26"
         }
       ],
       "price_history": [
@@ -350,6 +365,10 @@
         },
         {
           "date": "2026-06-25",
+          "fromourplace": 699.0
+        },
+        {
+          "date": "2026-06-26",
           "fromourplace": 699.0
         }
       ]
