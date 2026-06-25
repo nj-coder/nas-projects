@@ -310,7 +310,7 @@
   }
 
   function start(){
-    fetch('./watchlist.json?t=' + Date.now(), {cache:'no-store'})
+    fetch('https://nj-coder.github.io/nas-projects/shopping-watchlist/watchlist.json?t=' + Date.now(), {cache:'no-store'})
       .then(function(res){ if(!res.ok) throw new Error('HTTP '+res.status); return res.json(); })
       .then(function(data){ try{ render(data); }catch(e){ showError(e.message); } })
       .catch(function(err){ showError(err.message); });
