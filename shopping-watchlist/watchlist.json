@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T05:35:00+10:00",
+  "last_updated": "2026-06-26T06:12:00+10:00",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -33,31 +33,11 @@
         }
       ],
       "price_history": [
-        {
-          "date": "2026-06-22",
-          "coles": 6.5,
-          "woolworths": 7.5
-        },
-        {
-          "date": "2026-06-23",
-          "coles": 6.5,
-          "woolworths": 7.5
-        },
-        {
-          "date": "2026-06-24",
-          "coles": 8.5,
-          "woolworths": 7.5
-        },
-        {
-          "date": "2026-06-25",
-          "coles": 8.5,
-          "woolworths": 7.5
-        },
-        {
-          "date": "2026-06-26",
-          "coles": 8.5,
-          "woolworths": 7.5
-        }
+        { "date": "2026-06-22", "coles": 6.5, "woolworths": 7.5 },
+        { "date": "2026-06-23", "coles": 6.5, "woolworths": 7.5 },
+        { "date": "2026-06-24", "coles": 8.5, "woolworths": 7.5 },
+        { "date": "2026-06-25", "coles": 8.5, "woolworths": 7.5 },
+        { "date": "2026-06-26", "coles": 8.5, "woolworths": 7.5 }
       ]
     },
     {
@@ -80,86 +60,26 @@
         }
       ],
       "price_history": [
-        {
-          "date": "2026-06-07",
-          "amazon": 52.99
-        },
-        {
-          "date": "2026-06-08",
-          "amazon": 52.99
-        },
-        {
-          "date": "2026-06-09",
-          "amazon": 52.99
-        },
-        {
-          "date": "2026-06-10",
-          "amazon": 52.99
-        },
-        {
-          "date": "2026-06-11",
-          "amazon": 52.99
-        },
-        {
-          "date": "2026-06-12",
-          "amazon": 52.99
-        },
-        {
-          "date": "2026-06-13",
-          "amazon": 52.99
-        },
-        {
-          "date": "2026-06-14",
-          "amazon": 52.99
-        },
-        {
-          "date": "2026-06-15",
-          "amazon": 52.99
-        },
-        {
-          "date": "2026-06-16",
-          "amazon": 52.99
-        },
-        {
-          "date": "2026-06-17",
-          "amazon": 41.03
-        },
-        {
-          "date": "2026-06-18",
-          "amazon": 41.03
-        },
-        {
-          "date": "2026-06-19",
-          "amazon": 41.03
-        },
-        {
-          "date": "2026-06-20",
-          "amazon": 41.03
-        },
-        {
-          "date": "2026-06-21",
-          "amazon": 41.03
-        },
-        {
-          "date": "2026-06-22",
-          "amazon": 41.03
-        },
-        {
-          "date": "2026-06-23",
-          "amazon": 41.03
-        },
-        {
-          "date": "2026-06-24",
-          "amazon": 41.03
-        },
-        {
-          "date": "2026-06-25",
-          "amazon": 41.03
-        },
-        {
-          "date": "2026-06-26",
-          "amazon": 41.03
-        }
+        { "date": "2026-06-07", "amazon": 52.99 },
+        { "date": "2026-06-08", "amazon": 52.99 },
+        { "date": "2026-06-09", "amazon": 52.99 },
+        { "date": "2026-06-10", "amazon": 52.99 },
+        { "date": "2026-06-11", "amazon": 52.99 },
+        { "date": "2026-06-12", "amazon": 52.99 },
+        { "date": "2026-06-13", "amazon": 52.99 },
+        { "date": "2026-06-14", "amazon": 52.99 },
+        { "date": "2026-06-15", "amazon": 52.99 },
+        { "date": "2026-06-16", "amazon": 52.99 },
+        { "date": "2026-06-17", "amazon": 41.03 },
+        { "date": "2026-06-18", "amazon": 41.03 },
+        { "date": "2026-06-19", "amazon": 41.03 },
+        { "date": "2026-06-20", "amazon": 41.03 },
+        { "date": "2026-06-21", "amazon": 41.03 },
+        { "date": "2026-06-22", "amazon": 41.03 },
+        { "date": "2026-06-23", "amazon": 41.03 },
+        { "date": "2026-06-24", "amazon": 41.03 },
+        { "date": "2026-06-25", "amazon": 41.03 },
+        { "date": "2026-06-26", "amazon": 41.03 }
       ]
     },
     {
@@ -206,117 +126,26 @@
         }
       ],
       "price_history": [
-        {
-          "date": "2026-06-07",
-          "sowood": 149.0
-        },
-        {
-          "date": "2026-06-08",
-          "sowood": 149.0
-        },
-        {
-          "date": "2026-06-09",
-          "sowood": 149.0
-        },
-        {
-          "date": "2026-06-10",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 199.75
-        },
-        {
-          "date": "2026-06-11",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 199.75
-        },
-        {
-          "date": "2026-06-12",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 199.75
-        },
-        {
-          "date": "2026-06-13",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 169.15
-        },
-        {
-          "date": "2026-06-14",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 199.75
-        },
-        {
-          "date": "2026-06-15",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 199.75
-        },
-        {
-          "date": "2026-06-16",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 199.75
-        },
-        {
-          "date": "2026-06-17",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 199.75
-        },
-        {
-          "date": "2026-06-18",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 199.75
-        },
-        {
-          "date": "2026-06-19",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 235.0
-        },
-        {
-          "date": "2026-06-20",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 235.0
-        },
-        {
-          "date": "2026-06-21",
-          "sowood": 159.0
-        },
-        {
-          "date": "2026-06-22",
-          "thelittlebunny": 194.0,
-          "toypark": 235.0
-        },
-        {
-          "date": "2026-06-23",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 235.0
-        },
-        {
-          "date": "2026-06-24",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 235.0
-        },
-        {
-          "date": "2026-06-25",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 235.0
-        },
-        {
-          "date": "2026-06-26",
-          "sowood": 159.0,
-          "thelittlebunny": 194.0,
-          "toypark": 235.0
-        }
+        { "date": "2026-06-07", "sowood": 149.0 },
+        { "date": "2026-06-08", "sowood": 149.0 },
+        { "date": "2026-06-09", "sowood": 149.0 },
+        { "date": "2026-06-10", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
+        { "date": "2026-06-11", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
+        { "date": "2026-06-12", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
+        { "date": "2026-06-13", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 169.15 },
+        { "date": "2026-06-14", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
+        { "date": "2026-06-15", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
+        { "date": "2026-06-16", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
+        { "date": "2026-06-17", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
+        { "date": "2026-06-18", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 199.75 },
+        { "date": "2026-06-19", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 235.0 },
+        { "date": "2026-06-20", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 235.0 },
+        { "date": "2026-06-21", "sowood": 159.0 },
+        { "date": "2026-06-22", "thelittlebunny": 194.0, "toypark": 235.0 },
+        { "date": "2026-06-23", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 235.0 },
+        { "date": "2026-06-24", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 235.0 },
+        { "date": "2026-06-25", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 235.0 },
+        { "date": "2026-06-26", "sowood": 159.0, "thelittlebunny": 194.0, "toypark": 235.0 }
       ]
     },
     {
@@ -339,37 +168,91 @@
         }
       ],
       "price_history": [
+        { "date": "2026-06-19", "fromourplace": 699.0 },
+        { "date": "2026-06-20", "fromourplace": 699.0 },
+        { "date": "2026-06-21", "fromourplace": 699.0 },
+        { "date": "2026-06-22", "fromourplace": 699.0 },
+        { "date": "2026-06-23", "fromourplace": 699.0 },
+        { "date": "2026-06-24", "fromourplace": 699.0 },
+        { "date": "2026-06-25", "fromourplace": 699.0 },
+        { "date": "2026-06-26", "fromourplace": 699.0 }
+      ]
+    },
+    {
+      "id": "ninja-crispi-pro-6-in-1",
+      "product_name": "Ninja Crispi Pro 6-in-1 Countertop Glass Air Fryer",
+      "image_url": null,
+      "date_added": "2026-06-26",
+      "sources": [
         {
-          "date": "2026-06-19",
-          "fromourplace": 699.0
+          "source_id": "thegoodguys",
+          "source_name": "The Good Guys",
+          "product_url": "https://www.thegoodguys.com.au/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer-cyberspace-as101blanz",
+          "fulfillment_type": "pickup",
+          "current_base_price": 399.0,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 399.0,
+          "status": "available",
+          "last_known_price": 399.0,
+          "last_available_date": "2026-06-26"
         },
         {
-          "date": "2026-06-20",
-          "fromourplace": 699.0
+          "source_id": "ninjakitchen",
+          "source_name": "Ninja Kitchen",
+          "product_url": "https://ninjakitchen.com.au/products/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer?srsltid=AfmBOorQ9Xs9FE99LkbkFerVX94KDgaD0eo0V9ayQmPWkr9smYBzJZ_W",
+          "fulfillment_type": "delivery",
+          "current_base_price": 399.0,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 399.0,
+          "status": "available",
+          "last_known_price": 399.0,
+          "last_available_date": "2026-06-26"
         },
         {
-          "date": "2026-06-21",
-          "fromourplace": 699.0
+          "source_id": "jbhifi",
+          "source_name": "JB Hi-Fi",
+          "product_url": "https://www.jbhifi.com.au/products/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer-cyberspace",
+          "fulfillment_type": "pickup",
+          "current_base_price": 399.0,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 399.0,
+          "status": "available",
+          "last_known_price": 399.0,
+          "last_available_date": "2026-06-26"
         },
         {
-          "date": "2026-06-22",
-          "fromourplace": 699.0
+          "source_id": "harveynorman",
+          "source_name": "Harvey Norman",
+          "product_url": "https://www.harveynorman.com.au/ninja-crispi-pro-xl-6-in-1-countertop-glass-air-fryer.html",
+          "fulfillment_type": "pickup",
+          "current_base_price": 399.0,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 399.0,
+          "status": "available",
+          "last_known_price": 399.0,
+          "last_available_date": "2026-06-26"
         },
         {
-          "date": "2026-06-23",
-          "fromourplace": 699.0
-        },
-        {
-          "date": "2026-06-24",
-          "fromourplace": 699.0
-        },
-        {
-          "date": "2026-06-25",
-          "fromourplace": 699.0
-        },
+          "source_id": "amazon",
+          "source_name": "Amazon AU",
+          "product_url": "https://www.amazon.com.au/Ninja-Crispi-Countertop-Glass-AS101GYANZ/dp/B0GXL6CK8Q",
+          "fulfillment_type": "delivery",
+          "current_base_price": 399.0,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 399.0,
+          "status": "available",
+          "last_known_price": 399.0,
+          "last_available_date": "2026-06-26"
+        }
+      ],
+      "price_history": [
         {
           "date": "2026-06-26",
-          "fromourplace": 699.0
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.0,
+          "jbhifi": 399.0,
+          "harveynorman": 399.0,
+          "amazon": 399.0
         }
       ]
     }
