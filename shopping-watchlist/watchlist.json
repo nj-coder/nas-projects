@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T01:01:32.620910+10:00",
+  "last_updated": "2026-06-30T01:05:06.078901+10:00",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -24,12 +24,12 @@
           "source_name": "Woolworths",
           "product_url": "https://www.woolworths.com.au/shop/productdetails/236831/the-laughing-cow-cheese-original-wedges",
           "fulfillment_type": "pickup",
-          "current_base_price": 0.0,
+          "current_base_price": 7.5,
           "fulfillment_cost": 0.0,
-          "current_total_price": 0.0,
+          "current_total_price": 7.5,
           "status": "available",
-          "last_known_price": 0.0,
-          "last_available_date": "2026-06-29"
+          "last_known_price": 7.5,
+          "last_available_date": "2026-06-30"
         }
       ],
       "price_history": [
@@ -71,6 +71,10 @@
         {
           "date": "2026-06-29",
           "woolworths": 0.0
+        },
+        {
+          "date": "2026-06-30",
+          "woolworths": 7.5
         }
       ]
     },
@@ -199,12 +203,12 @@
           "source_name": "So Wood AU",
           "product_url": "https://sowood.com/products/convertable-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 159.0,
+          "current_base_price": 169.0,
           "fulfillment_cost": 0.0,
-          "current_total_price": 159.0,
+          "current_total_price": 169.0,
           "status": "unknown",
-          "last_known_price": 159.0,
-          "last_available_date": "2026-06-26"
+          "last_known_price": 169.0,
+          "last_available_date": "2026-06-30"
         },
         {
           "source_id": "thelittlebunny",
@@ -357,6 +361,10 @@
         },
         {
           "date": "2026-06-29"
+        },
+        {
+          "date": "2026-06-30",
+          "sowood": 169.0
         }
       ]
     },
@@ -376,7 +384,7 @@
           "current_total_price": 699.0,
           "status": "unknown",
           "last_known_price": 699.0,
-          "last_available_date": "2026-06-26"
+          "last_available_date": "2026-06-30"
         }
       ],
       "price_history": [
@@ -422,6 +430,10 @@
         },
         {
           "date": "2026-06-29"
+        },
+        {
+          "date": "2026-06-30",
+          "fromourplace": 699.0
         }
       ]
     },
@@ -448,12 +460,12 @@
           "source_name": "Ninja Kitchen",
           "product_url": "https://ninjakitchen.com.au/products/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer?srsltid=AfmBOorQ9Xs9FE99LkbkFerVX94KDgaD0eo0V9ayQmPWkr9smYBzJZ_W",
           "fulfillment_type": "delivery",
-          "current_base_price": 399.0,
+          "current_base_price": 399.99,
           "fulfillment_cost": 0.0,
-          "current_total_price": 399.0,
+          "current_total_price": 399.99,
           "status": "unknown",
-          "last_known_price": 399.0,
-          "last_available_date": "2026-06-26"
+          "last_known_price": 399.99,
+          "last_available_date": "2026-06-30"
         },
         {
           "source_id": "jbhifi",
@@ -465,7 +477,7 @@
           "current_total_price": 399.0,
           "status": "unknown",
           "last_known_price": 399.0,
-          "last_available_date": "2026-06-26"
+          "last_available_date": "2026-06-30"
         },
         {
           "source_id": "harveynorman",
@@ -489,7 +501,7 @@
           "current_total_price": 398.0,
           "status": "available",
           "last_known_price": 398.0,
-          "last_available_date": "2026-06-29"
+          "last_available_date": "2026-06-30"
         }
       ],
       "price_history": [
@@ -520,6 +532,12 @@
         {
           "date": "2026-06-29",
           "amazon": 398.0
+        },
+        {
+          "date": "2026-06-30",
+          "ninjakitchen": 399.99,
+          "amazon": 398.0,
+          "jbhifi": 399.0
         }
       ]
     }
