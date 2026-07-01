@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T01:03:52.156061",
+  "last_updated": "2026-07-02T01:10:00.000000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-07-01"
+          "last_available_date": "2026-07-02"
         },
         {
           "source_id": "woolworths",
@@ -27,7 +27,7 @@
           "current_base_price": 7.5,
           "fulfillment_cost": 0.0,
           "current_total_price": 7.5,
-          "status": "available",
+          "status": "unavailable",
           "last_known_price": 7.5,
           "last_available_date": "2026-07-01"
         }
@@ -80,6 +80,11 @@
           "date": "2026-07-01",
           "coles": 8.5,
           "woolworths": 7.5
+        },
+        {
+          "date": "2026-07-02",
+          "coles": 8.5,
+          "woolworths": 7.5
         }
       ]
     },
@@ -99,7 +104,7 @@
           "current_total_price": 39.99,
           "status": "available",
           "last_known_price": 39.99,
-          "last_available_date": "2026-07-01"
+          "last_available_date": "2026-07-02"
         }
       ],
       "price_history": [
@@ -202,6 +207,10 @@
         {
           "date": "2026-07-01",
           "amazon": 39.99
+        },
+        {
+          "date": "2026-07-02",
+          "amazon": 39.99
         }
       ]
     },
@@ -216,12 +225,12 @@
           "source_name": "So Wood AU",
           "product_url": "https://sowood.com/products/convertable-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 169.0,
+          "current_base_price": 179.0,
           "fulfillment_cost": 0.0,
-          "current_total_price": 169.0,
+          "current_total_price": 179.0,
           "status": "available",
-          "last_known_price": 169.0,
-          "last_available_date": "2026-07-01"
+          "last_known_price": 179.0,
+          "last_available_date": "2026-07-02"
         },
         {
           "source_id": "thelittlebunny",
@@ -229,11 +238,11 @@
           "product_url": "https://thelittlebunny.com.au/products/montessori-convertible-learning-tower-bunny",
           "fulfillment_type": "delivery",
           "current_base_price": 179.0,
-          "fulfillment_cost": 15.0,
-          "current_total_price": 194.0,
+          "fulfillment_cost": 0.0,
+          "current_total_price": 179.0,
           "status": "available",
-          "last_known_price": 194.0,
-          "last_available_date": "2026-07-01"
+          "last_known_price": 179.0,
+          "last_available_date": "2026-07-02"
         },
         {
           "source_id": "toypark",
@@ -245,7 +254,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-07-01"
+          "last_available_date": "2026-07-02"
         }
       ],
       "price_history": [
@@ -384,6 +393,12 @@
           "sowood": 169.0,
           "thelittlebunny": 194.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-07-02",
+          "sowood": 179.0,
+          "thelittlebunny": 179.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -403,7 +418,7 @@
           "current_total_price": 699.0,
           "status": "available",
           "last_known_price": 699.0,
-          "last_available_date": "2026-07-01"
+          "last_available_date": "2026-07-02"
         }
       ],
       "price_history": [
@@ -457,6 +472,10 @@
         {
           "date": "2026-07-01",
           "fromourplace": 699.0
+        },
+        {
+          "date": "2026-07-02",
+          "fromourplace": 699.0
         }
       ]
     },
@@ -476,7 +495,7 @@
           "current_total_price": 399.0,
           "status": "available",
           "last_known_price": 399.0,
-          "last_available_date": "2026-07-01"
+          "last_available_date": "2026-07-02"
         },
         {
           "source_id": "ninjakitchen",
@@ -488,7 +507,7 @@
           "current_total_price": 399.99,
           "status": "available",
           "last_known_price": 399.99,
-          "last_available_date": "2026-07-01"
+          "last_available_date": "2026-07-02"
         },
         {
           "source_id": "jbhifi",
@@ -500,7 +519,7 @@
           "current_total_price": 399.0,
           "status": "available",
           "last_known_price": 399.0,
-          "last_available_date": "2026-07-01"
+          "last_available_date": "2026-07-02"
         },
         {
           "source_id": "harveynorman",
@@ -569,6 +588,12 @@
           "jbhifi": 399.0,
           "harveynorman": 399.0,
           "amazon": 397.0
+        },
+        {
+          "date": "2026-07-02",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.99,
+          "jbhifi": 399.0
         }
       ]
     }
