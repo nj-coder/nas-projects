@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "last_updated": "2026-07-05T01:00:00.000000",
+=======
+  "last_updated": "2026-07-05T01:02:56+10:00",
+>>>>>>> 193a684 (auto(watchlist): update tracking data [2026-07-05])
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -15,7 +19,7 @@
           "current_base_price": 8.5,
           "fulfillment_cost": 0.0,
           "current_total_price": 8.5,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 8.5,
           "last_available_date": "2026-07-04"
         },
@@ -27,7 +31,7 @@
           "current_base_price": 7.5,
           "fulfillment_cost": 0.0,
           "current_total_price": 7.5,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 7.5,
           "last_available_date": "2026-07-04"
         }
@@ -112,7 +116,7 @@
           "current_base_price": 41.03,
           "fulfillment_cost": 0.0,
           "current_total_price": 41.03,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 41.03,
           "last_available_date": "2026-07-04"
         }
@@ -246,7 +250,7 @@
           "current_base_price": 159.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 159.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 159.0,
           "last_available_date": "2026-07-04"
         },
@@ -258,7 +262,7 @@
           "current_base_price": 179.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 179.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 179.0,
           "last_available_date": "2026-07-04"
         },
@@ -270,7 +274,7 @@
           "current_base_price": 235.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 235.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 235.0,
           "last_available_date": "2026-07-04"
         }
@@ -446,7 +450,7 @@
           "current_base_price": 699.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 699.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 699.0,
           "last_available_date": "2026-07-04"
         }
@@ -531,7 +535,7 @@
           "current_base_price": 399.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 399.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.0,
           "last_available_date": "2026-07-04"
         },
@@ -543,7 +547,7 @@
           "current_base_price": 399.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 399.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.0,
           "last_available_date": "2026-07-04"
         },
@@ -555,7 +559,7 @@
           "current_base_price": 399.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 399.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.0,
           "last_available_date": "2026-07-04"
         },
@@ -567,7 +571,7 @@
           "current_base_price": 399.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 399.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.0,
           "last_available_date": "2026-07-04"
         },
@@ -579,7 +583,7 @@
           "current_base_price": 399.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 399.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.0,
           "last_available_date": "2026-07-04"
         }
