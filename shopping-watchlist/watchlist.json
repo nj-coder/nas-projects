@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04T19:43:02+10:00",
+  "last_updated": "2026-07-05T01:00:00.000000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -88,6 +88,11 @@
         },
         {
           "date": "2026-07-04",
+          "coles": 8.5,
+          "woolworths": 7.5
+        },
+        {
+          "date": "2026-07-05",
           "coles": 8.5,
           "woolworths": 7.5
         }
@@ -219,6 +224,10 @@
         },
         {
           "date": "2026-07-04",
+          "amazon": 41.03
+        },
+        {
+          "date": "2026-07-05",
           "amazon": 41.03
         }
       ]
@@ -414,6 +423,12 @@
           "sowood": 159.0,
           "thelittlebunny": 179.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-07-05",
+          "sowood": 159.0,
+          "thelittlebunny": 179.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -494,6 +509,10 @@
         },
         {
           "date": "2026-07-04",
+          "fromourplace": 699.0
+        },
+        {
+          "date": "2026-07-05",
           "fromourplace": 699.0
         }
       ]
@@ -616,6 +635,14 @@
         },
         {
           "date": "2026-07-04",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.0,
+          "jbhifi": 399.0,
+          "harveynorman": 399.0,
+          "amazon": 399.0
+        },
+        {
+          "date": "2026-07-05",
           "thegoodguys": 399.0,
           "ninjakitchen": 399.0,
           "jbhifi": 399.0,
