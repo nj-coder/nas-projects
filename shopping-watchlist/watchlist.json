@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05T09:32:56+10:00",
+  "last_updated": "2026-07-06T01:03:14+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -13,11 +13,11 @@
           "product_url": "https://www.coles.com.au/product/the-laughing-cow-cheese-16-portions-256g-3275581",
           "fulfillment_type": "pickup",
           "current_base_price": 8.5,
-          "fulfillment_cost": 0.0,
+          "fulfillment_cost": 0,
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-07-04"
+          "last_available_date": "2026-07-06"
         },
         {
           "source_id": "woolworths",
@@ -25,11 +25,11 @@
           "product_url": "https://www.woolworths.com.au/shop/productdetails/236831/the-laughing-cow-cheese-original-wedges",
           "fulfillment_type": "pickup",
           "current_base_price": 7.5,
-          "fulfillment_cost": 0.0,
+          "fulfillment_cost": 0,
           "current_total_price": 7.5,
           "status": "available",
           "last_known_price": 7.5,
-          "last_available_date": "2026-07-04"
+          "last_available_date": "2026-07-06"
         }
       ],
       "price_history": [
@@ -95,6 +95,11 @@
           "date": "2026-07-05",
           "coles": 8.5,
           "woolworths": 7.5
+        },
+        {
+          "date": "2026-07-06",
+          "coles": 8.5,
+          "woolworths": 7.5
         }
       ]
     },
@@ -110,11 +115,11 @@
           "product_url": "https://www.amazon.com.au/JOYBOS-Medicine-Storage-Portable-Organizer/dp/B0FVX8PJ4H",
           "fulfillment_type": "delivery",
           "current_base_price": 41.03,
-          "fulfillment_cost": 0.0,
+          "fulfillment_cost": 0,
           "current_total_price": 41.03,
           "status": "available",
           "last_known_price": 41.03,
-          "last_available_date": "2026-07-04"
+          "last_available_date": "2026-07-06"
         }
       ],
       "price_history": [
@@ -229,6 +234,10 @@
         {
           "date": "2026-07-05",
           "amazon": 41.03
+        },
+        {
+          "date": "2026-07-06",
+          "amazon": 41.03
         }
       ]
     },
@@ -243,12 +252,12 @@
           "source_name": "So Wood AU",
           "product_url": "https://sowood.com/products/convertable-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 159.0,
-          "fulfillment_cost": 0.0,
-          "current_total_price": 159.0,
+          "current_base_price": 169.0,
+          "fulfillment_cost": 0,
+          "current_total_price": 169.0,
           "status": "available",
-          "last_known_price": 159.0,
-          "last_available_date": "2026-07-04"
+          "last_known_price": 169.0,
+          "last_available_date": "2026-07-06"
         },
         {
           "source_id": "thelittlebunny",
@@ -256,11 +265,11 @@
           "product_url": "https://thelittlebunny.com.au/products/montessori-convertible-learning-tower-bunny",
           "fulfillment_type": "delivery",
           "current_base_price": 179.0,
-          "fulfillment_cost": 0.0,
-          "current_total_price": 179.0,
+          "fulfillment_cost": 15.0,
+          "current_total_price": 194.0,
           "status": "available",
-          "last_known_price": 179.0,
-          "last_available_date": "2026-07-04"
+          "last_known_price": 194.0,
+          "last_available_date": "2026-07-06"
         },
         {
           "source_id": "toypark",
@@ -270,7 +279,7 @@
           "current_base_price": 235.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 235.0,
-          "status": "available",
+          "status": "unavailable",
           "last_known_price": 235.0,
           "last_available_date": "2026-07-04"
         }
@@ -429,6 +438,12 @@
           "sowood": 159.0,
           "thelittlebunny": 179.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-07-06",
+          "sowood": 169.0,
+          "thelittlebunny": 194.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -444,11 +459,11 @@
           "product_url": "https://fromourplace.au/products/titanium-pro-cookware-set?variant=44317924720812",
           "fulfillment_type": "delivery",
           "current_base_price": 699.0,
-          "fulfillment_cost": 0.0,
+          "fulfillment_cost": 0,
           "current_total_price": 699.0,
           "status": "available",
           "last_known_price": 699.0,
-          "last_available_date": "2026-07-04"
+          "last_available_date": "2026-07-06"
         }
       ],
       "price_history": [
@@ -514,6 +529,10 @@
         {
           "date": "2026-07-05",
           "fromourplace": 699.0
+        },
+        {
+          "date": "2026-07-06",
+          "fromourplace": 699.0
         }
       ]
     },
@@ -531,7 +550,7 @@
           "current_base_price": 399.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 399.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.0,
           "last_available_date": "2026-07-04"
         },
@@ -543,7 +562,7 @@
           "current_base_price": 399.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 399.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.0,
           "last_available_date": "2026-07-04"
         },
@@ -555,7 +574,7 @@
           "current_base_price": 399.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 399.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.0,
           "last_available_date": "2026-07-04"
         },
@@ -567,7 +586,7 @@
           "current_base_price": 399.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 399.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.0,
           "last_available_date": "2026-07-04"
         },
@@ -579,7 +598,7 @@
           "current_base_price": 399.0,
           "fulfillment_cost": 0.0,
           "current_total_price": 399.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.0,
           "last_available_date": "2026-07-04"
         }
@@ -643,6 +662,14 @@
         },
         {
           "date": "2026-07-05",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.0,
+          "jbhifi": 399.0,
+          "harveynorman": 399.0,
+          "amazon": 399.0
+        },
+        {
+          "date": "2026-07-06",
           "thegoodguys": 399.0,
           "ninjakitchen": 399.0,
           "jbhifi": 399.0,
