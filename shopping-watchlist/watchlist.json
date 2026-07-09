@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09T17:10:26+1000",
+  "last_updated": "2026-07-10T01:06:28+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 6.5,
           "status": "available",
           "last_known_price": 6.5,
-          "last_available_date": "2026-07-09"
+          "last_available_date": "2026-07-10"
         },
         {
           "source_id": "woolworths",
@@ -115,6 +115,11 @@
           "date": "2026-07-09",
           "coles": 6.5,
           "woolworths": 7.5
+        },
+        {
+          "date": "2026-07-10",
+          "coles": 6.5,
+          "woolworths": 7.5
         }
       ]
     },
@@ -134,7 +139,7 @@
           "current_total_price": 88.39,
           "status": "available",
           "last_known_price": 88.39,
-          "last_available_date": "2026-07-09"
+          "last_available_date": "2026-07-10"
         }
       ],
       "price_history": [
@@ -265,6 +270,10 @@
         {
           "date": "2026-07-09",
           "amazon": 88.39
+        },
+        {
+          "date": "2026-07-10",
+          "amazon": 88.39
         }
       ]
     },
@@ -279,12 +288,12 @@
           "source_name": "So Wood AU",
           "product_url": "https://sowood.com/products/convertable-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 169.0,
+          "current_base_price": 179.0,
           "fulfillment_cost": 0,
-          "current_total_price": 169.0,
+          "current_total_price": 179.0,
           "status": "available",
-          "last_known_price": 169.0,
-          "last_available_date": "2026-07-09"
+          "last_known_price": 179.0,
+          "last_available_date": "2026-07-10"
         },
         {
           "source_id": "thelittlebunny",
@@ -296,7 +305,7 @@
           "current_total_price": 204.0,
           "status": "available",
           "last_known_price": 204.0,
-          "last_available_date": "2026-07-09"
+          "last_available_date": "2026-07-10"
         },
         {
           "source_id": "toypark",
@@ -308,7 +317,7 @@
           "current_total_price": 211.5,
           "status": "available",
           "last_known_price": 211.5,
-          "last_available_date": "2026-07-09"
+          "last_available_date": "2026-07-10"
         }
       ],
       "price_history": [
@@ -489,6 +498,12 @@
           "sowood": 169.0,
           "thelittlebunny": 204.0,
           "toypark": 211.5
+        },
+        {
+          "date": "2026-07-10",
+          "sowood": 179.0,
+          "thelittlebunny": 204.0,
+          "toypark": 211.5
         }
       ]
     },
@@ -590,6 +605,10 @@
         {
           "date": "2026-07-09",
           "fromourplace": 750.0
+        },
+        {
+          "date": "2026-07-10",
+          "fromourplace": 750.0
         }
       ]
     },
@@ -631,7 +650,7 @@
           "current_base_price": 359.0,
           "fulfillment_cost": 0,
           "current_total_price": 359.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 359.0,
           "last_available_date": "2026-07-09"
         },
@@ -751,6 +770,14 @@
         },
         {
           "date": "2026-07-09",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.0,
+          "jbhifi": 359.0,
+          "harveynorman": 399.0,
+          "amazon": 399.0
+        },
+        {
+          "date": "2026-07-10",
           "thegoodguys": 399.0,
           "ninjakitchen": 399.0,
           "jbhifi": 359.0,
