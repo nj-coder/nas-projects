@@ -1,0 +1,339 @@
+{
+  "created_at": "2026-07-12T07:01:01.643035+00:00",
+  "rounds": [
+    {
+      "budget": 50.0,
+      "candidate_products": [
+        "SetForLife"
+      ],
+      "created_at": "2026-07-12T07:01:01.646170+00:00",
+      "date": "2026-07-12",
+      "loss_amount": 50.0,
+      "max_loss_amount": 50.0,
+      "profit_loss": -50.0,
+      "results": [],
+      "return_amount": 0.0,
+      "round_id": "2026-07-12-0001",
+      "spent": 50.0,
+      "status": "active",
+      "tickets": [
+        {
+          "draw_date": "2026-07-12",
+          "draw_dates": [
+            "2026-07-12",
+            "2026-07-13",
+            "2026-07-14",
+            "2026-07-15",
+            "2026-07-16",
+            "2026-07-17",
+            "2026-07-18"
+          ],
+          "draw_number": null,
+          "line_results": [],
+          "lines": [
+            {
+              "main": [
+                2,
+                3,
+                4,
+                16,
+                21,
+                35,
+                43
+              ]
+            },
+            {
+              "main": [
+                3,
+                7,
+                13,
+                18,
+                30,
+                33,
+                44
+              ]
+            }
+          ],
+          "product_id": "SetForLife",
+          "product_name": "Set for Life",
+          "purchase_date": "2026-07-12",
+          "return_amount": 0.0,
+          "selection_strategy": {
+            "features": [
+              "prior-result-frequency",
+              "cold-number-nudge",
+              "overdue-number-nudge",
+              "anti-crowd-nudge",
+              "duplicate-avoidance",
+              "pair-co-occurrence",
+              "sum-range-shape",
+              "odd-even-balance",
+              "decade-coverage"
+            ],
+            "method": "weighted-coverage",
+            "truth": "Lottery draws are independent; this optimizes experiment coverage, not real predictive certainty."
+          },
+          "settled_draws": [],
+          "status": "active",
+          "ticket_id": "2026-07-12-001-SetForLife",
+          "valid_draw_count": 7,
+          "virtual_cost": 10.0
+        },
+        {
+          "draw_date": "2026-07-12",
+          "draw_dates": [
+            "2026-07-12",
+            "2026-07-13",
+            "2026-07-14",
+            "2026-07-15",
+            "2026-07-16",
+            "2026-07-17",
+            "2026-07-18"
+          ],
+          "draw_number": null,
+          "line_results": [],
+          "lines": [
+            {
+              "main": [
+                2,
+                12,
+                21,
+                22,
+                28,
+                29,
+                40
+              ]
+            },
+            {
+              "main": [
+                4,
+                9,
+                17,
+                23,
+                29,
+                31,
+                36
+              ]
+            }
+          ],
+          "product_id": "SetForLife",
+          "product_name": "Set for Life",
+          "purchase_date": "2026-07-12",
+          "return_amount": 0.0,
+          "selection_strategy": {
+            "features": [
+              "prior-result-frequency",
+              "cold-number-nudge",
+              "overdue-number-nudge",
+              "anti-crowd-nudge",
+              "duplicate-avoidance",
+              "pair-co-occurrence",
+              "sum-range-shape",
+              "odd-even-balance",
+              "decade-coverage"
+            ],
+            "method": "weighted-coverage",
+            "truth": "Lottery draws are independent; this optimizes experiment coverage, not real predictive certainty."
+          },
+          "settled_draws": [],
+          "status": "active",
+          "ticket_id": "2026-07-12-002-SetForLife",
+          "valid_draw_count": 7,
+          "virtual_cost": 10.0
+        },
+        {
+          "draw_date": "2026-07-12",
+          "draw_dates": [
+            "2026-07-12",
+            "2026-07-13",
+            "2026-07-14",
+            "2026-07-15",
+            "2026-07-16",
+            "2026-07-17",
+            "2026-07-18"
+          ],
+          "draw_number": null,
+          "line_results": [],
+          "lines": [
+            {
+              "main": [
+                7,
+                14,
+                17,
+                24,
+                33,
+                34,
+                42
+              ]
+            },
+            {
+              "main": [
+                11,
+                16,
+                21,
+                27,
+                40,
+                41,
+                44
+              ]
+            }
+          ],
+          "product_id": "SetForLife",
+          "product_name": "Set for Life",
+          "purchase_date": "2026-07-12",
+          "return_amount": 0.0,
+          "selection_strategy": {
+            "features": [
+              "prior-result-frequency",
+              "cold-number-nudge",
+              "overdue-number-nudge",
+              "anti-crowd-nudge",
+              "duplicate-avoidance",
+              "pair-co-occurrence",
+              "sum-range-shape",
+              "odd-even-balance",
+              "decade-coverage"
+            ],
+            "method": "weighted-coverage",
+            "truth": "Lottery draws are independent; this optimizes experiment coverage, not real predictive certainty."
+          },
+          "settled_draws": [],
+          "status": "active",
+          "ticket_id": "2026-07-12-003-SetForLife",
+          "valid_draw_count": 7,
+          "virtual_cost": 10.0
+        },
+        {
+          "draw_date": "2026-07-12",
+          "draw_dates": [
+            "2026-07-12",
+            "2026-07-13",
+            "2026-07-14",
+            "2026-07-15",
+            "2026-07-16",
+            "2026-07-17",
+            "2026-07-18"
+          ],
+          "draw_number": null,
+          "line_results": [],
+          "lines": [
+            {
+              "main": [
+                4,
+                8,
+                16,
+                27,
+                31,
+                40,
+                42
+              ]
+            },
+            {
+              "main": [
+                4,
+                15,
+                19,
+                25,
+                26,
+                29,
+                34
+              ]
+            }
+          ],
+          "product_id": "SetForLife",
+          "product_name": "Set for Life",
+          "purchase_date": "2026-07-12",
+          "return_amount": 0.0,
+          "selection_strategy": {
+            "features": [
+              "prior-result-frequency",
+              "cold-number-nudge",
+              "overdue-number-nudge",
+              "anti-crowd-nudge",
+              "duplicate-avoidance",
+              "pair-co-occurrence",
+              "sum-range-shape",
+              "odd-even-balance",
+              "decade-coverage"
+            ],
+            "method": "weighted-coverage",
+            "truth": "Lottery draws are independent; this optimizes experiment coverage, not real predictive certainty."
+          },
+          "settled_draws": [],
+          "status": "active",
+          "ticket_id": "2026-07-12-004-SetForLife",
+          "valid_draw_count": 7,
+          "virtual_cost": 10.0
+        },
+        {
+          "draw_date": "2026-07-12",
+          "draw_dates": [
+            "2026-07-12",
+            "2026-07-13",
+            "2026-07-14",
+            "2026-07-15",
+            "2026-07-16",
+            "2026-07-17",
+            "2026-07-18"
+          ],
+          "draw_number": null,
+          "line_results": [],
+          "lines": [
+            {
+              "main": [
+                5,
+                10,
+                18,
+                19,
+                27,
+                32,
+                36
+              ]
+            },
+            {
+              "main": [
+                1,
+                8,
+                13,
+                14,
+                22,
+                30,
+                44
+              ]
+            }
+          ],
+          "product_id": "SetForLife",
+          "product_name": "Set for Life",
+          "purchase_date": "2026-07-12",
+          "return_amount": 0.0,
+          "selection_strategy": {
+            "features": [
+              "prior-result-frequency",
+              "cold-number-nudge",
+              "overdue-number-nudge",
+              "anti-crowd-nudge",
+              "duplicate-avoidance",
+              "pair-co-occurrence",
+              "sum-range-shape",
+              "odd-even-balance",
+              "decade-coverage"
+            ],
+            "method": "weighted-coverage",
+            "truth": "Lottery draws are independent; this optimizes experiment coverage, not real predictive certainty."
+          },
+          "settled_draws": [],
+          "status": "active",
+          "ticket_id": "2026-07-12-005-SetForLife",
+          "valid_draw_count": 7,
+          "virtual_cost": 10.0
+        }
+      ],
+      "unspent": 0.0
+    }
+  ],
+  "settings": {
+    "default_budget": 50.0,
+    "jurisdiction": "VIC"
+  },
+  "version": 1
+}

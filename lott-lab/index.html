@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lott Lab Ledger</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f7fb;
+      --panel: #ffffff;
+      --ink: #152033;
+      --muted: #64748b;
+      --line: #dbe4ef;
+      --blue: #2563eb;
+      --cyan: #0e7490;
+      --green: #047857;
+      --red: #be123c;
+      --amber: #b45309;
+      --slate: #334155;
+      --shadow: 0 12px 30px rgba(20, 32, 51, 0.10);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+    }
+    button, input { font: inherit; }
+    .wrap {
+      width: min(1220px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 24px 0 40px;
+    }
+    .topbar {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 16px;
+      align-items: center;
+      padding: 18px 0 22px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+    .subtle { color: var(--muted); }
+    .file {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: 8px;
+      padding: 10px 12px;
+      box-shadow: 0 4px 14px rgba(20, 32, 51, 0.06);
+      white-space: nowrap;
+    }
+    .file input { max-width: 220px; }
+    .status {
+      margin: 18px 0;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--muted);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 14px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .metric {
+      grid-column: span 3;
+      padding: 16px;
+      min-height: 116px;
+    }
+    .metric .label {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .metric .value {
+      margin-top: 10px;
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+    .metric .hint {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .good { color: var(--green); }
+    .bad { color: var(--red); }
+    .warn { color: var(--amber); }
+    .blue { color: var(--blue); }
+    .wide { grid-column: span 8; }
+    .side { grid-column: span 4; }
+    .full { grid-column: 1 / -1; }
+    .head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--line);
+    }
+    .head h2 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.2;
+    }
+    .body { padding: 16px 18px 18px; }
+    .bars { display: grid; gap: 12px; }
+    .bar-row {
+      display: grid;
+      grid-template-columns: minmax(115px, 1fr) 3fr auto;
+      gap: 10px;
+      align-items: center;
+      font-size: 14px;
+    }
+    .track {
+      height: 12px;
+      border-radius: 999px;
+      background: #e7edf5;
+      overflow: hidden;
+    }
+    .fill {
+      height: 100%;
+      width: var(--w, 0%);
+      background: var(--blue);
+    }
+    .canvas-wrap {
+      height: 250px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfdff;
+      padding: 10px;
+    }
+    canvas { width: 100%; height: 100%; display: block; }
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 10px;
+    }
+    .day {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      min-height: 88px;
+      background: #fbfdff;
+    }
+    .day .date { font-weight: 800; font-size: 14px; }
+    .day .count { margin-top: 8px; color: var(--muted); font-size: 13px; }
+    .day.active { border-color: #93c5fd; background: #eff6ff; }
+    .day.settled { border-color: #86efac; background: #f0fdf4; }
+    .rounds, .tickets { display: grid; gap: 12px; }
+    details {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfdff;
+      overflow: hidden;
+    }
+    summary {
+      cursor: pointer;
+      list-style: none;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 14px;
+      padding: 14px;
+      align-items: center;
+    }
+    summary::-webkit-details-marker { display: none; }
+    .round-title {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      font-weight: 800;
+    }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #ffffff;
+      color: var(--slate);
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .chip.active { color: var(--blue); border-color: #bfdbfe; background: #eff6ff; }
+    .chip.settled { color: var(--green); border-color: #bbf7d0; background: #f0fdf4; }
+    .chip.planned { color: var(--amber); border-color: #fde68a; background: #fffbeb; }
+    .ticket {
+      padding: 14px;
+      border-top: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 14px;
+    }
+    .ticket h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+    .numbers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 8px 0 12px;
+    }
+    .ball {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: inline-grid;
+      place-items: center;
+      background: #ffffff;
+      border: 2px solid #cbd5e1;
+      font-size: 13px;
+      font-weight: 900;
+      color: var(--ink);
+      box-shadow: inset 0 -3px 0 rgba(20, 32, 51, 0.05);
+    }
+    .line-label {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+    .draws {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      max-width: 380px;
+      justify-content: flex-end;
+    }
+    .draw-pill {
+      font-size: 12px;
+      border: 1px solid var(--line);
+      color: var(--muted);
+      background: #ffffff;
+      border-radius: 999px;
+      padding: 4px 8px;
+      white-space: nowrap;
+    }
+    .draw-pill.done { color: var(--green); border-color: #bbf7d0; background: #f0fdf4; }
+    .muted-list {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      line-height: 1.7;
+      font-size: 14px;
+    }
+    .error {
+      color: var(--red);
+      border-color: #fecdd3;
+      background: #fff1f2;
+    }
+    @media (max-width: 900px) {
+      .metric { grid-column: span 6; }
+      .wide, .side { grid-column: 1 / -1; }
+      .ticket { grid-template-columns: 1fr; }
+      .draws { justify-content: flex-start; max-width: none; }
+    }
+    @media (max-width: 640px) {
+      .wrap { width: min(100% - 20px, 1220px); padding-top: 12px; }
+      .topbar { grid-template-columns: 1fr; }
+      h1 { font-size: 25px; }
+      .metric { grid-column: 1 / -1; }
+      .bar-row { grid-template-columns: 1fr; }
+      summary { grid-template-columns: 1fr; }
+      .file { align-items: flex-start; flex-direction: column; white-space: normal; }
+      .file input { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="topbar">
+      <div>
+        <h1>Lott Lab Ledger</h1>
+        <div class="subtle" id="sourceLabel">Loading GitHub Pages ledger</div>
+      </div>
+      <label class="file">
+        <span>Open ledger JSON</span>
+        <input id="fileInput" type="file" accept="application/json,.json">
+      </label>
+    </section>
+
+    <section id="app" class="status">Loading...</section>
+  </main>
+
+  <script>
+    (function () {
+      "use strict";
+
+      var app = document.getElementById("app");
+      var sourceLabel = document.getElementById("sourceLabel");
+      var fileInput = document.getElementById("fileInput");
+
+      function esc(value) {
+        return String(value == null ? "" : value).replace(/[&<>"']/g, function (char) {
+          return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char];
+        });
+      }
+
+      function money(value) {
+        var n = Number(value || 0);
+        return new Intl.NumberFormat("en-AU", {style: "currency", currency: "AUD"}).format(n);
+      }
+
+      function num(value) {
+        var n = Number(value);
+        return Number.isFinite(n) ? n : 0;
+      }
+
+      function pct(value, total) {
+        return total ? Math.max(0, Math.min(100, (value / total) * 100)) : 0;
+      }
+
+      function dateShort(value) {
+        if (!value) return "-";
+        var parts = String(value).split("-");
+        return parts.length === 3 ? parts[2] + "/" + parts[1] : String(value);
+      }
+
+      function allTickets(data) {
+        return (data.rounds || []).flatMap(function (round) {
+          return (round.tickets || []).map(function (ticket) {
+            return {round: round, ticket: ticket};
+          });
+        });
+      }
+
+      function settledDates(ticket) {
+        return new Set((ticket.settled_draws || []).map(function (draw) { return String(draw.draw_date); }));
+      }
+
+      function coveredDates(ticket) {
+        if (Array.isArray(ticket.draw_dates) && ticket.draw_dates.length) {
+          return ticket.draw_dates.map(String);
+        }
+        return ticket.draw_date ? [String(ticket.draw_date)] : [];
+      }
+
+      function stats(data) {
+        var rounds = data.rounds || [];
+        var tickets = allTickets(data);
+        var spend = rounds.reduce(function (sum, round) { return sum + num(round.spent); }, 0);
+        var returns = rounds.reduce(function (sum, round) { return sum + num(round.return_amount); }, 0);
+        var activeTickets = tickets.filter(function (row) {
+          var dates = coveredDates(row.ticket);
+          var done = settledDates(row.ticket);
+          return dates.some(function (date) { return !done.has(date); });
+        }).length;
+        return {
+          rounds: rounds.length,
+          tickets: tickets.length,
+          spend: spend,
+          returns: returns,
+          profit: returns - spend,
+          activeTickets: activeTickets
+        };
+      }
+
+      function productRows(data) {
+        var rows = {};
+        allTickets(data).forEach(function (row) {
+          var product = row.ticket.product_name || row.ticket.product_id || "Unknown";
+          if (!rows[product]) rows[product] = {product: product, spend: 0, returns: 0, tickets: 0};
+          rows[product].spend += num(row.ticket.virtual_cost);
+          rows[product].returns += num(row.ticket.return_amount);
+          rows[product].tickets += 1;
+        });
+        return Object.keys(rows).map(function (key) { return rows[key]; })
+          .sort(function (a, b) { return b.spend - a.spend; });
+      }
+
+      function drawCalendar(data) {
+        var days = {};
+        allTickets(data).forEach(function (row) {
+          var done = settledDates(row.ticket);
+          coveredDates(row.ticket).forEach(function (date) {
+            if (!days[date]) days[date] = {date: date, tickets: 0, settled: 0, spend: 0};
+            days[date].tickets += 1;
+            days[date].spend += num(row.ticket.virtual_cost);
+            if (done.has(date)) days[date].settled += 1;
+          });
+        });
+        return Object.keys(days).sort().map(function (key) { return days[key]; });
+      }
+
+      function metric(label, value, hint, cls) {
+        return '<div class="panel metric"><div class="label">' + esc(label) + '</div><div class="value ' + (cls || "") + '">' + value + '</div><div class="hint">' + esc(hint || "") + '</div></div>';
+      }
+
+      function productBars(rows) {
+        var max = rows.reduce(function (m, row) { return Math.max(m, row.spend); }, 0);
+        if (!rows.length) return '<div class="subtle">No tickets yet.</div>';
+        return '<div class="bars">' + rows.map(function (row, index) {
+          var colors = ["#2563eb", "#047857", "#b45309", "#0e7490", "#be123c"];
+          return '<div class="bar-row">'
+            + '<strong>' + esc(row.product) + '</strong>'
+            + '<div class="track"><div class="fill" style="--w:' + pct(row.spend, max).toFixed(2) + '%;background:' + colors[index % colors.length] + '"></div></div>'
+            + '<span>' + money(row.spend) + '</span>'
+            + '</div>';
+        }).join("") + '</div>';
+      }
+
+      function calendar(days) {
+        if (!days.length) return '<div class="subtle">No covered draw dates yet.</div>';
+        return '<div class="timeline">' + days.map(function (day) {
+          var settled = day.tickets > 0 && day.settled === day.tickets;
+          var active = day.settled > 0 && day.settled < day.tickets;
+          return '<div class="day ' + (settled ? "settled" : active ? "active" : "") + '">'
+            + '<div class="date">' + esc(dateShort(day.date)) + '</div>'
+            + '<div class="count">' + day.tickets + ' ticket' + (day.tickets === 1 ? "" : "s") + '</div>'
+            + '<div class="count">' + day.settled + ' settled</div>'
+            + '</div>';
+        }).join("") + '</div>';
+      }
+
+      function ticketHtml(row) {
+        var ticket = row.ticket;
+        var done = settledDates(ticket);
+        var lines = (ticket.lines || []).map(function (line, index) {
+          return '<div><div class="line-label">Line ' + (index + 1) + '</div><div class="numbers">'
+            + (line.main || []).map(function (n) { return '<span class="ball">' + esc(n) + '</span>'; }).join("")
+            + (line.powerball ? '<span class="ball">' + esc(line.powerball) + '</span>' : "")
+            + '</div></div>';
+        }).join("");
+        var draws = coveredDates(ticket).map(function (date) {
+          return '<span class="draw-pill ' + (done.has(date) ? "done" : "") + '">' + esc(dateShort(date)) + '</span>';
+        }).join("");
+        return '<div class="ticket">'
+          + '<div>'
+          + '<h3>' + esc(ticket.product_name || ticket.product_id) + ' <span class="subtle">' + esc(ticket.ticket_id) + '</span></h3>'
+          + '<div class="chips">'
+          + '<span class="chip ' + esc(ticket.status || "active") + '">' + esc(ticket.status || "active") + '</span>'
+          + '<span class="chip">' + money(ticket.virtual_cost) + '</span>'
+          + '<span class="chip">' + (coveredDates(ticket).length || 1) + ' draw' + (coveredDates(ticket).length === 1 ? "" : "s") + '</span>'
+          + '<span class="chip">' + money(ticket.return_amount) + ' returned</span>'
+          + '</div>'
+          + lines
+          + '</div>'
+          + '<div class="draws">' + draws + '</div>'
+          + '</div>';
+      }
+
+      function roundHtml(round) {
+        var tickets = (round.tickets || []).map(function (ticket) {
+          return ticketHtml({round: round, ticket: ticket});
+        }).join("");
+        return '<details open>'
+          + '<summary>'
+          + '<div><div class="round-title"><span>' + esc(round.date) + '</span><span class="chip ' + esc(round.status || "planned") + '">' + esc(round.status || "planned") + '</span></div>'
+          + '<div class="subtle">' + esc(round.round_id) + '</div></div>'
+          + '<div class="chips"><span class="chip">' + money(round.spent) + ' spent</span><span class="chip">' + money(round.return_amount) + ' returned</span><span class="chip">' + money(round.profit_loss) + ' P/L</span></div>'
+          + '</summary>'
+          + '<div class="tickets">' + tickets + '</div>'
+          + '</details>';
+      }
+
+      function drawChart(canvas, days) {
+        var ctx = canvas.getContext("2d");
+        var rect = canvas.getBoundingClientRect();
+        var dpr = window.devicePixelRatio || 1;
+        canvas.width = Math.max(1, Math.floor(rect.width * dpr));
+        canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+        ctx.scale(dpr, dpr);
+        var w = rect.width;
+        var h = rect.height;
+        ctx.clearRect(0, 0, w, h);
+        var pad = 34;
+        var max = days.reduce(function (m, day) { return Math.max(m, day.tickets); }, 1);
+        ctx.strokeStyle = "#dbe4ef";
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(pad, 12);
+        ctx.lineTo(pad, h - pad);
+        ctx.lineTo(w - 12, h - pad);
+        ctx.stroke();
+        if (!days.length) return;
+        var bw = Math.max(16, (w - pad - 24) / days.length - 8);
+        days.forEach(function (day, index) {
+          var x = pad + 10 + index * ((w - pad - 24) / days.length);
+          var bh = (h - pad - 24) * (day.tickets / max);
+          var y = h - pad - bh;
+          ctx.fillStyle = day.settled === day.tickets ? "#047857" : "#2563eb";
+          ctx.fillRect(x, y, bw, bh);
+          ctx.fillStyle = "#64748b";
+          ctx.font = "12px system-ui";
+          ctx.textAlign = "center";
+          ctx.fillText(dateShort(day.date), x + bw / 2, h - 10);
+        });
+      }
+
+      function render(data, label) {
+        var s = stats(data);
+        var rows = productRows(data);
+        var days = drawCalendar(data);
+        sourceLabel.textContent = label || "ledger.json";
+        app.className = "";
+        app.innerHTML = '<section class="grid">'
+          + metric("Virtual Spend", money(s.spend), s.rounds + " round" + (s.rounds === 1 ? "" : "s"), "blue")
+          + metric("Returned", money(s.returns), s.tickets + " ticket" + (s.tickets === 1 ? "" : "s"), "good")
+          + metric("Profit / Loss", money(s.profit), s.profit >= 0 ? "ahead of spend" : "behind spend", s.profit >= 0 ? "good" : "bad")
+          + metric("Active Tickets", String(s.activeTickets), "unsettled covered draws", "warn")
+          + '<div class="panel wide"><div class="head"><h2>Draw Coverage</h2><span class="subtle">' + days.length + ' dates</span></div><div class="body"><div class="canvas-wrap"><canvas id="coverageChart"></canvas></div></div></div>'
+          + '<div class="panel side"><div class="head"><h2>Product Split</h2></div><div class="body">' + productBars(rows) + '</div></div>'
+          + '<div class="panel full"><div class="head"><h2>Covered Dates</h2></div><div class="body">' + calendar(days) + '</div></div>'
+          + '<div class="panel full"><div class="head"><h2>Rounds And Tickets</h2><span class="subtle">' + esc(data.created_at || "") + '</span></div><div class="body rounds">' + ((data.rounds || []).map(roundHtml).join("") || '<div class="subtle">No rounds yet.</div>') + '</div></div>'
+          + '</section>';
+        var chart = document.getElementById("coverageChart");
+        if (chart) drawChart(chart, days);
+        window.onresize = function () {
+          var c = document.getElementById("coverageChart");
+          if (c) drawChart(c, days);
+        };
+      }
+
+      function showError(message) {
+        app.className = "status error";
+        app.innerHTML = esc(message);
+      }
+
+      function loadText(text, label) {
+        try {
+          render(JSON.parse(text), label);
+        } catch (error) {
+          showError("Could not read ledger JSON: " + error.message);
+        }
+      }
+
+      fileInput.addEventListener("change", function () {
+        var file = fileInput.files && fileInput.files[0];
+        if (!file) return;
+        file.text().then(function (text) { loadText(text, file.name); }, function (error) {
+          showError("Could not open file: " + error.message);
+        });
+      });
+
+      var ledgerUrl = "https://nj-coder.github.io/nas-projects/lott-lab/ledger.json?t=" + Date.now();
+      fetch(ledgerUrl, {cache: "no-store"}).then(function (response) {
+        if (!response.ok) throw new Error("ledger.json returned HTTP " + response.status);
+        return response.text();
+      }).then(function (text) {
+        loadText(text, "GitHub Pages ledger.json");
+      }).catch(function () {
+        app.className = "status";
+        app.innerHTML = "Could not load the GitHub Pages ledger. Open a ledger JSON file to view the dashboard.";
+        sourceLabel.textContent = "Choose a file";
+      });
+    }());
+  </script>
+</body>
+</html>
