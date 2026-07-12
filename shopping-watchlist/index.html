@@ -157,8 +157,7 @@
   }
   function bestSource(item){ return pickBest(item).src; }
   function unavailChip(s){
-    var when = s.last_available_date ? ' &#183; as of '+esc(s.last_available_date) : '';
-    return '<span class="chip unavail"><b>&#10005;</b> '+naLabel(s)+' &#183; last known '+fmtAUD(shownPrice(s))+when+'</span>';
+    return '<span class="chip unavail"><b>&#10005;</b> '+naLabel(s)+'</span>';
   }
   function dayMins(item){
     return (item.price_history||[]).map(function(h){
