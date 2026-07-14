@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T01:04:21+1000",
+  "last_updated": "2026-07-15T01:03:37+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -12,12 +12,12 @@
           "source_name": "Coles",
           "product_url": "https://www.coles.com.au/product/the-laughing-cow-cheese-16-portions-256g-3275581",
           "fulfillment_type": "pickup",
-          "current_base_price": 6.5,
+          "current_base_price": 8.5,
           "fulfillment_cost": 0,
-          "current_total_price": 6.5,
+          "current_total_price": 8.5,
           "status": "available",
-          "last_known_price": 6.5,
-          "last_available_date": "2026-07-14"
+          "last_known_price": 8.5,
+          "last_available_date": "2026-07-15"
         },
         {
           "source_id": "woolworths",
@@ -139,6 +139,11 @@
         {
           "date": "2026-07-14",
           "coles": 6.5,
+          "woolworths": 7.5
+        },
+        {
+          "date": "2026-07-15",
+          "coles": 8.5,
           "woolworths": 7.5
         }
       ]
@@ -310,6 +315,10 @@
         {
           "date": "2026-07-14",
           "amazon": 88.39
+        },
+        {
+          "date": "2026-07-15",
+          "amazon": 88.39
         }
       ]
     },
@@ -329,7 +338,7 @@
           "current_total_price": 169.0,
           "status": "available",
           "last_known_price": 169.0,
-          "last_available_date": "2026-07-14"
+          "last_available_date": "2026-07-15"
         },
         {
           "source_id": "thelittlebunny",
@@ -337,11 +346,11 @@
           "product_url": "https://thelittlebunny.com.au/products/montessori-convertible-learning-tower-bunny",
           "fulfillment_type": "delivery",
           "current_base_price": 189.0,
-          "fulfillment_cost": 15.0,
-          "current_total_price": 204.0,
+          "fulfillment_cost": 0,
+          "current_total_price": 189.0,
           "status": "available",
-          "last_known_price": 204.0,
-          "last_available_date": "2026-07-14"
+          "last_known_price": 189.0,
+          "last_available_date": "2026-07-15"
         },
         {
           "source_id": "toypark",
@@ -564,6 +573,12 @@
           "sowood": 169.0,
           "thelittlebunny": 204.0,
           "toypark": 211.5
+        },
+        {
+          "date": "2026-07-15",
+          "sowood": 169.0,
+          "thelittlebunny": 189.0,
+          "toypark": 211.5
         }
       ]
     },
@@ -685,6 +700,10 @@
         {
           "date": "2026-07-14",
           "fromourplace": 750.0
+        },
+        {
+          "date": "2026-07-15",
+          "fromourplace": 750.0
         }
       ]
     },
@@ -747,12 +766,12 @@
           "source_name": "Amazon AU",
           "product_url": "https://www.amazon.com.au/Ninja-Crispi-Countertop-Glass-AS101GYANZ/dp/B0GXL6CK8Q",
           "fulfillment_type": "delivery",
-          "current_base_price": 359.0,
+          "current_base_price": 233.0,
           "fulfillment_cost": 0,
-          "current_total_price": 359.0,
+          "current_total_price": 233.0,
           "status": "available",
-          "last_known_price": 359.0,
-          "last_available_date": "2026-07-14"
+          "last_known_price": 233.0,
+          "last_available_date": "2026-07-15"
         }
       ],
       "price_history": [
@@ -891,6 +910,14 @@
           "jbhifi": 359.0,
           "harveynorman": 399.0,
           "amazon": 359.0
+        },
+        {
+          "date": "2026-07-15",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.0,
+          "jbhifi": 359.0,
+          "harveynorman": 399.0,
+          "amazon": 233.0
         }
       ]
     }
