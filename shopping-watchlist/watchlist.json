@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T01:03:37+1000",
+  "last_updated": "2026-07-16T01:05:48+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-07-15"
+          "last_available_date": "2026-07-16"
         },
         {
           "source_id": "woolworths",
@@ -27,7 +27,7 @@
           "current_base_price": 7.5,
           "fulfillment_cost": 0,
           "current_total_price": 7.5,
-          "status": "unavailable",
+          "status": "unknown",
           "last_known_price": 7.5,
           "last_available_date": "2026-07-09"
         }
@@ -145,6 +145,11 @@
           "date": "2026-07-15",
           "coles": 8.5,
           "woolworths": 7.5
+        },
+        {
+          "date": "2026-07-16",
+          "coles": 8.5,
+          "woolworths": 7.5
         }
       ]
     },
@@ -159,12 +164,12 @@
           "source_name": "Amazon AU",
           "product_url": "https://www.amazon.com.au/JOYBOS-Medicine-Storage-Portable-Organizer/dp/B0FVX8PJ4H",
           "fulfillment_type": "delivery",
-          "current_base_price": 88.39,
+          "current_base_price": 39.99,
           "fulfillment_cost": 0,
-          "current_total_price": 88.39,
-          "status": "unavailable",
-          "last_known_price": 88.39,
-          "last_available_date": "2026-07-13"
+          "current_total_price": 39.99,
+          "status": "available",
+          "last_known_price": 39.99,
+          "last_available_date": "2026-07-16"
         }
       ],
       "price_history": [
@@ -319,6 +324,10 @@
         {
           "date": "2026-07-15",
           "amazon": 88.39
+        },
+        {
+          "date": "2026-07-16",
+          "amazon": 39.99
         }
       ]
     },
@@ -333,12 +342,12 @@
           "source_name": "So Wood AU",
           "product_url": "https://sowood.com/products/convertable-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 169.0,
+          "current_base_price": 179.0,
           "fulfillment_cost": 0,
-          "current_total_price": 169.0,
+          "current_total_price": 179.0,
           "status": "available",
-          "last_known_price": 169.0,
-          "last_available_date": "2026-07-15"
+          "last_known_price": 179.0,
+          "last_available_date": "2026-07-16"
         },
         {
           "source_id": "thelittlebunny",
@@ -350,7 +359,7 @@
           "current_total_price": 189.0,
           "status": "available",
           "last_known_price": 189.0,
-          "last_available_date": "2026-07-15"
+          "last_available_date": "2026-07-16"
         },
         {
           "source_id": "toypark",
@@ -360,9 +369,9 @@
           "current_base_price": 211.5,
           "fulfillment_cost": 0,
           "current_total_price": 211.5,
-          "status": "unavailable",
+          "status": "available",
           "last_known_price": 211.5,
-          "last_available_date": "2026-07-11"
+          "last_available_date": "2026-07-16"
         }
       ],
       "price_history": [
@@ -579,6 +588,12 @@
           "sowood": 169.0,
           "thelittlebunny": 189.0,
           "toypark": 211.5
+        },
+        {
+          "date": "2026-07-16",
+          "sowood": 179.0,
+          "thelittlebunny": 189.0,
+          "toypark": 211.5
         }
       ]
     },
@@ -704,6 +719,10 @@
         {
           "date": "2026-07-15",
           "fromourplace": 750.0
+        },
+        {
+          "date": "2026-07-16",
+          "fromourplace": 750.0
         }
       ]
     },
@@ -769,7 +788,7 @@
           "current_base_price": 233.0,
           "fulfillment_cost": 0,
           "current_total_price": 233.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 233.0,
           "last_available_date": "2026-07-15"
         }
@@ -913,6 +932,14 @@
         },
         {
           "date": "2026-07-15",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.0,
+          "jbhifi": 359.0,
+          "harveynorman": 399.0,
+          "amazon": 233.0
+        },
+        {
+          "date": "2026-07-16",
           "thegoodguys": 399.0,
           "ninjakitchen": 399.0,
           "jbhifi": 359.0,
