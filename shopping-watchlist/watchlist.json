@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T01:06:01+1000",
+  "last_updated": "2026-07-18T01:04:17+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-07-17"
+          "last_available_date": "2026-07-18"
         },
         {
           "source_id": "woolworths",
@@ -155,6 +155,11 @@
           "date": "2026-07-17",
           "coles": 8.5,
           "woolworths": 7.5
+        },
+        {
+          "date": "2026-07-18",
+          "coles": 8.5,
+          "woolworths": 7.5
         }
       ]
     },
@@ -174,7 +179,7 @@
           "current_total_price": 39.99,
           "status": "available",
           "last_known_price": 39.99,
-          "last_available_date": "2026-07-17"
+          "last_available_date": "2026-07-18"
         }
       ],
       "price_history": [
@@ -337,6 +342,10 @@
         {
           "date": "2026-07-17",
           "amazon": 39.99
+        },
+        {
+          "date": "2026-07-18",
+          "amazon": 39.99
         }
       ]
     },
@@ -356,7 +365,7 @@
           "current_total_price": 179.0,
           "status": "available",
           "last_known_price": 179.0,
-          "last_available_date": "2026-07-17"
+          "last_available_date": "2026-07-18"
         },
         {
           "source_id": "thelittlebunny",
@@ -368,7 +377,7 @@
           "current_total_price": 204.0,
           "status": "available",
           "last_known_price": 204.0,
-          "last_available_date": "2026-07-17"
+          "last_available_date": "2026-07-18"
         },
         {
           "source_id": "toypark",
@@ -380,7 +389,7 @@
           "current_total_price": 211.5,
           "status": "available",
           "last_known_price": 211.5,
-          "last_available_date": "2026-07-17"
+          "last_available_date": "2026-07-18"
         }
       ],
       "price_history": [
@@ -609,6 +618,12 @@
           "sowood": 179.0,
           "thelittlebunny": 204.0,
           "toypark": 211.5
+        },
+        {
+          "date": "2026-07-18",
+          "sowood": 179.0,
+          "thelittlebunny": 204.0,
+          "toypark": 211.5
         }
       ]
     },
@@ -741,6 +756,10 @@
         },
         {
           "date": "2026-07-17",
+          "fromourplace": 750.0
+        },
+        {
+          "date": "2026-07-18",
           "fromourplace": 750.0
         }
       ]
@@ -967,6 +986,14 @@
         },
         {
           "date": "2026-07-17",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.0,
+          "jbhifi": 359.0,
+          "harveynorman": 399.0,
+          "amazon": 233.0
+        },
+        {
+          "date": "2026-07-18",
           "thegoodguys": 399.0,
           "ninjakitchen": 399.0,
           "jbhifi": 359.0,
