@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18T01:04:17+1000",
+  "last_updated": "2026-07-19T01:04:23+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-07-18"
+          "last_available_date": "2026-07-19"
         },
         {
           "source_id": "woolworths",
@@ -160,6 +160,11 @@
           "date": "2026-07-18",
           "coles": 8.5,
           "woolworths": 7.5
+        },
+        {
+          "date": "2026-07-19",
+          "coles": 8.5,
+          "woolworths": 7.5
         }
       ]
     },
@@ -179,7 +184,7 @@
           "current_total_price": 39.99,
           "status": "available",
           "last_known_price": 39.99,
-          "last_available_date": "2026-07-18"
+          "last_available_date": "2026-07-19"
         }
       ],
       "price_history": [
@@ -346,6 +351,10 @@
         {
           "date": "2026-07-18",
           "amazon": 39.99
+        },
+        {
+          "date": "2026-07-19",
+          "amazon": 39.99
         }
       ]
     },
@@ -365,7 +374,7 @@
           "current_total_price": 179.0,
           "status": "available",
           "last_known_price": 179.0,
-          "last_available_date": "2026-07-18"
+          "last_available_date": "2026-07-19"
         },
         {
           "source_id": "thelittlebunny",
@@ -377,7 +386,7 @@
           "current_total_price": 204.0,
           "status": "available",
           "last_known_price": 204.0,
-          "last_available_date": "2026-07-18"
+          "last_available_date": "2026-07-19"
         },
         {
           "source_id": "toypark",
@@ -389,7 +398,7 @@
           "current_total_price": 211.5,
           "status": "available",
           "last_known_price": 211.5,
-          "last_available_date": "2026-07-18"
+          "last_available_date": "2026-07-19"
         }
       ],
       "price_history": [
@@ -624,6 +633,12 @@
           "sowood": 179.0,
           "thelittlebunny": 204.0,
           "toypark": 211.5
+        },
+        {
+          "date": "2026-07-19",
+          "sowood": 179.0,
+          "thelittlebunny": 204.0,
+          "toypark": 211.5
         }
       ]
     },
@@ -761,6 +776,10 @@
         {
           "date": "2026-07-18",
           "fromourplace": 750.0
+        },
+        {
+          "date": "2026-07-19",
+          "fromourplace": 750.0
         }
       ]
     },
@@ -823,12 +842,12 @@
           "source_name": "Amazon AU",
           "product_url": "https://www.amazon.com.au/Ninja-Crispi-Countertop-Glass-AS101GYANZ/dp/B0GXL6CK8Q",
           "fulfillment_type": "delivery",
-          "current_base_price": 233.0,
+          "current_base_price": 398.0,
           "fulfillment_cost": 0,
-          "current_total_price": 233.0,
-          "status": "unknown",
-          "last_known_price": 233.0,
-          "last_available_date": "2026-07-15"
+          "current_total_price": 398.0,
+          "status": "available",
+          "last_known_price": 398.0,
+          "last_available_date": "2026-07-19"
         }
       ],
       "price_history": [
@@ -999,6 +1018,14 @@
           "jbhifi": 359.0,
           "harveynorman": 399.0,
           "amazon": 233.0
+        },
+        {
+          "date": "2026-07-19",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.0,
+          "jbhifi": 359.0,
+          "harveynorman": 399.0,
+          "amazon": 398.0
         }
       ]
     }
