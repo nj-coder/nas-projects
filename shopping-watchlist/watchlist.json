@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T01:08:08+1000",
+  "last_updated": "2026-07-21T01:17:51+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-07-20"
+          "last_available_date": "2026-07-21"
         },
         {
           "source_id": "woolworths",
@@ -170,6 +170,11 @@
           "date": "2026-07-20",
           "coles": 8.5,
           "woolworths": 7.5
+        },
+        {
+          "date": "2026-07-21",
+          "coles": 8.5,
+          "woolworths": 7.5
         }
       ]
     },
@@ -184,12 +189,12 @@
           "source_name": "Amazon AU",
           "product_url": "https://www.amazon.com.au/JOYBOS-Medicine-Storage-Portable-Organizer/dp/B0FVX8PJ4H",
           "fulfillment_type": "delivery",
-          "current_base_price": 39.99,
+          "current_base_price": 41.03,
           "fulfillment_cost": 0,
-          "current_total_price": 39.99,
+          "current_total_price": 41.03,
           "status": "available",
-          "last_known_price": 39.99,
-          "last_available_date": "2026-07-20"
+          "last_known_price": 41.03,
+          "last_available_date": "2026-07-21"
         }
       ],
       "price_history": [
@@ -364,6 +369,10 @@
         {
           "date": "2026-07-20",
           "amazon": 39.99
+        },
+        {
+          "date": "2026-07-21",
+          "amazon": 41.03
         }
       ]
     },
@@ -383,7 +392,7 @@
           "current_total_price": 179.0,
           "status": "available",
           "last_known_price": 179.0,
-          "last_available_date": "2026-07-20"
+          "last_available_date": "2026-07-21"
         },
         {
           "source_id": "thelittlebunny",
@@ -395,7 +404,7 @@
           "current_total_price": 204.0,
           "status": "available",
           "last_known_price": 204.0,
-          "last_available_date": "2026-07-20"
+          "last_available_date": "2026-07-21"
         },
         {
           "source_id": "toypark",
@@ -407,7 +416,7 @@
           "current_total_price": 211.5,
           "status": "available",
           "last_known_price": 211.5,
-          "last_available_date": "2026-07-20"
+          "last_available_date": "2026-07-21"
         }
       ],
       "price_history": [
@@ -654,6 +663,12 @@
           "sowood": 179.0,
           "thelittlebunny": 204.0,
           "toypark": 211.5
+        },
+        {
+          "date": "2026-07-21",
+          "sowood": 179.0,
+          "thelittlebunny": 204.0,
+          "toypark": 211.5
         }
       ]
     },
@@ -671,7 +686,7 @@
           "current_base_price": 750.0,
           "fulfillment_cost": 0,
           "current_total_price": 750.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 750.0,
           "last_available_date": "2026-07-20"
         }
@@ -799,6 +814,10 @@
         {
           "date": "2026-07-20",
           "fromourplace": 750.0
+        },
+        {
+          "date": "2026-07-21",
+          "fromourplace": 750.0
         }
       ]
     },
@@ -828,7 +847,7 @@
           "current_base_price": 399.99,
           "fulfillment_cost": 0,
           "current_total_price": 399.99,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.99,
           "last_available_date": "2026-07-20"
         },
@@ -1048,6 +1067,14 @@
         },
         {
           "date": "2026-07-20",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.99,
+          "jbhifi": 359.0,
+          "harveynorman": 399.0,
+          "amazon": 398.0
+        },
+        {
+          "date": "2026-07-21",
           "thegoodguys": 399.0,
           "ninjakitchen": 399.99,
           "jbhifi": 359.0,
