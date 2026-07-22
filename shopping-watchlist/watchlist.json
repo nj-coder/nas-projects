@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T01:07:18+1000",
+  "last_updated": "2026-07-23T01:07:12+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 6.5,
           "status": "available",
           "last_known_price": 6.5,
-          "last_available_date": "2026-07-22"
+          "last_available_date": "2026-07-23"
         },
         {
           "source_id": "woolworths",
@@ -180,6 +180,11 @@
           "date": "2026-07-22",
           "coles": 6.5,
           "woolworths": 7.5
+        },
+        {
+          "date": "2026-07-23",
+          "coles": 6.5,
+          "woolworths": 7.5
         }
       ]
     },
@@ -199,7 +204,7 @@
           "current_total_price": 41.03,
           "status": "available",
           "last_known_price": 41.03,
-          "last_available_date": "2026-07-22"
+          "last_available_date": "2026-07-23"
         }
       ],
       "price_history": [
@@ -382,6 +387,10 @@
         {
           "date": "2026-07-22",
           "amazon": 41.03
+        },
+        {
+          "date": "2026-07-23",
+          "amazon": 41.03
         }
       ]
     },
@@ -396,12 +405,12 @@
           "source_name": "So Wood AU",
           "product_url": "https://sowood.com/products/convertable-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 179.0,
+          "current_base_price": 159.0,
           "fulfillment_cost": 0,
-          "current_total_price": 179.0,
+          "current_total_price": 159.0,
           "status": "available",
-          "last_known_price": 179.0,
-          "last_available_date": "2026-07-22"
+          "last_known_price": 159.0,
+          "last_available_date": "2026-07-23"
         },
         {
           "source_id": "thelittlebunny",
@@ -413,19 +422,19 @@
           "current_total_price": 204.0,
           "status": "available",
           "last_known_price": 204.0,
-          "last_available_date": "2026-07-22"
+          "last_available_date": "2026-07-23"
         },
         {
           "source_id": "toypark",
           "source_name": "Toypark",
           "product_url": "https://www.toypark.com.au/products/toypark-convertible-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 211.5,
+          "current_base_price": 235.0,
           "fulfillment_cost": 0,
-          "current_total_price": 211.5,
+          "current_total_price": 235.0,
           "status": "available",
-          "last_known_price": 211.5,
-          "last_available_date": "2026-07-22"
+          "last_known_price": 235.0,
+          "last_available_date": "2026-07-23"
         }
       ],
       "price_history": [
@@ -684,6 +693,12 @@
           "sowood": 179.0,
           "thelittlebunny": 204.0,
           "toypark": 211.5
+        },
+        {
+          "date": "2026-07-23",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -837,6 +852,10 @@
         {
           "date": "2026-07-22",
           "fromourplace": 750.0
+        },
+        {
+          "date": "2026-07-23",
+          "fromourplace": 750.0
         }
       ]
     },
@@ -902,9 +921,9 @@
           "current_base_price": 398.0,
           "fulfillment_cost": 0,
           "current_total_price": 398.0,
-          "status": "unknown",
+          "status": "available",
           "last_known_price": 398.0,
-          "last_available_date": "2026-07-19"
+          "last_available_date": "2026-07-23"
         }
       ],
       "price_history": [
@@ -1102,6 +1121,14 @@
         },
         {
           "date": "2026-07-22",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.99,
+          "jbhifi": 359.0,
+          "harveynorman": 399.0,
+          "amazon": 398.0
+        },
+        {
+          "date": "2026-07-23",
           "thegoodguys": 399.0,
           "ninjakitchen": 399.99,
           "jbhifi": 359.0,
