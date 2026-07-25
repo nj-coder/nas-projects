@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T16:48:53+1000",
+  "last_updated": "2026-07-25T17:20:28+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -945,11 +945,11 @@
           "product_url": "https://www.harveynorman.com.au/ninja-crispi-pro-xl-6-in-1-countertop-glass-air-fryer.html",
           "fulfillment_type": "pickup",
           "current_base_price": 399.0,
-          "fulfillment_cost": 0.0,
+          "fulfillment_cost": 0,
           "current_total_price": 399.0,
-          "status": "unknown",
+          "status": "available",
           "last_known_price": 399.0,
-          "last_available_date": "2026-07-04"
+          "last_available_date": "2026-07-25"
         },
         {
           "source_id": "amazon",
