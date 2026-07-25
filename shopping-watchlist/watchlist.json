@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T01:06:02+1000",
+  "last_updated": "2026-07-25T16:23:37+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -24,12 +24,12 @@
           "source_name": "Woolworths",
           "product_url": "https://www.woolworths.com.au/shop/productdetails/236831/the-laughing-cow-cheese-original-wedges",
           "fulfillment_type": "pickup",
-          "current_base_price": 7.5,
+          "current_base_price": 8.5,
           "fulfillment_cost": 0,
-          "current_total_price": 7.5,
-          "status": "unavailable",
-          "last_known_price": 7.5,
-          "last_available_date": "2026-07-09"
+          "current_total_price": 8.5,
+          "status": "available",
+          "last_known_price": 8.5,
+          "last_available_date": "2026-07-25"
         }
       ],
       "price_history": [
@@ -194,7 +194,7 @@
         {
           "date": "2026-07-25",
           "coles": 6.5,
-          "woolworths": 7.5
+          "woolworths": 8.5
         }
       ]
     },
@@ -450,9 +450,9 @@
           "current_base_price": 235.0,
           "fulfillment_cost": 0,
           "current_total_price": 235.0,
-          "status": "unavailable",
+          "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-07-24"
+          "last_available_date": "2026-07-25"
         }
       ],
       "price_history": [
@@ -743,12 +743,12 @@
           "source_name": "Our Place AU",
           "product_url": "https://fromourplace.au/products/titanium-pro-cookware-set?variant=44317924720812",
           "fulfillment_type": "delivery",
-          "current_base_price": 750.0,
+          "current_base_price": 825.0,
           "fulfillment_cost": 0,
-          "current_total_price": 750.0,
-          "status": "unknown",
-          "last_known_price": 750.0,
-          "last_available_date": "2026-07-20"
+          "current_total_price": 825.0,
+          "status": "available",
+          "last_known_price": 825.0,
+          "last_available_date": "2026-07-25"
         }
       ],
       "price_history": [
@@ -893,7 +893,7 @@
         },
         {
           "date": "2026-07-25",
-          "fromourplace": 750.0
+          "fromourplace": 825.0
         }
       ]
     },
@@ -908,12 +908,12 @@
           "source_name": "The Good Guys",
           "product_url": "https://www.thegoodguys.com.au/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer-cyberspace-as101blanz",
           "fulfillment_type": "pickup",
-          "current_base_price": 399.0,
-          "fulfillment_cost": 0.0,
-          "current_total_price": 399.0,
-          "status": "unknown",
-          "last_known_price": 399.0,
-          "last_available_date": "2026-07-04"
+          "current_base_price": 359.0,
+          "fulfillment_cost": 0,
+          "current_total_price": 359.0,
+          "status": "available",
+          "last_known_price": 359.0,
+          "last_available_date": "2026-07-25"
         },
         {
           "source_id": "ninjakitchen",
@@ -923,7 +923,7 @@
           "current_base_price": 399.99,
           "fulfillment_cost": 0,
           "current_total_price": 399.99,
-          "status": "unknown",
+          "status": "unavailable",
           "last_known_price": 399.99,
           "last_available_date": "2026-07-20"
         },
@@ -935,9 +935,9 @@
           "current_base_price": 359.0,
           "fulfillment_cost": 0,
           "current_total_price": 359.0,
-          "status": "unknown",
+          "status": "available",
           "last_known_price": 359.0,
-          "last_available_date": "2026-07-11"
+          "last_available_date": "2026-07-25"
         },
         {
           "source_id": "harveynorman",
@@ -1183,7 +1183,7 @@
         },
         {
           "date": "2026-07-25",
-          "thegoodguys": 399.0,
+          "thegoodguys": 359.0,
           "ninjakitchen": 399.99,
           "jbhifi": 359.0,
           "harveynorman": 399.0,
