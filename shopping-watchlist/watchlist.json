@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26T08:46:40+1000",
+  "last_updated": "2026-07-27T01:01:02+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 6.5,
           "status": "available",
           "last_known_price": 6.5,
-          "last_available_date": "2026-07-26"
+          "last_available_date": "2026-07-27"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-07-26"
+          "last_available_date": "2026-07-27"
         }
       ],
       "price_history": [
@@ -200,6 +200,11 @@
           "date": "2026-07-26",
           "coles": 6.5,
           "woolworths": 8.5
+        },
+        {
+          "date": "2026-07-27",
+          "coles": 6.5,
+          "woolworths": 8.5
         }
       ]
     },
@@ -219,7 +224,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-07-26"
+          "last_available_date": "2026-07-27"
         },
         {
           "source_id": "thelittlebunny",
@@ -231,7 +236,7 @@
           "current_total_price": 204.0,
           "status": "available",
           "last_known_price": 204.0,
-          "last_available_date": "2026-07-26"
+          "last_available_date": "2026-07-27"
         },
         {
           "source_id": "toypark",
@@ -243,7 +248,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-07-26"
+          "last_available_date": "2026-07-27"
         }
       ],
       "price_history": [
@@ -526,6 +531,12 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-07-27",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -545,7 +556,7 @@
           "current_total_price": 825.0,
           "status": "available",
           "last_known_price": 825.0,
-          "last_available_date": "2026-07-26"
+          "last_available_date": "2026-07-27"
         }
       ],
       "price_history": [
@@ -695,6 +706,10 @@
         {
           "date": "2026-07-26",
           "fromourplace": 825.0
+        },
+        {
+          "date": "2026-07-27",
+          "fromourplace": 825.0
         }
       ]
     },
@@ -714,7 +729,7 @@
           "current_total_price": 359.0,
           "status": "available",
           "last_known_price": 359.0,
-          "last_available_date": "2026-07-26"
+          "last_available_date": "2026-07-27"
         },
         {
           "source_id": "ninjakitchen",
@@ -738,7 +753,7 @@
           "current_total_price": 359.0,
           "status": "available",
           "last_known_price": 359.0,
-          "last_available_date": "2026-07-26"
+          "last_available_date": "2026-07-27"
         },
         {
           "source_id": "harveynorman",
@@ -750,7 +765,7 @@
           "current_total_price": 399.0,
           "status": "available",
           "last_known_price": 399.0,
-          "last_available_date": "2026-07-26"
+          "last_available_date": "2026-07-27"
         },
         {
           "source_id": "amazon",
@@ -762,7 +777,7 @@
           "current_total_price": 359.0,
           "status": "available",
           "last_known_price": 359.0,
-          "last_available_date": "2026-07-26"
+          "last_available_date": "2026-07-27"
         }
       ],
       "price_history": [
@@ -992,6 +1007,14 @@
         },
         {
           "date": "2026-07-26",
+          "thegoodguys": 359.0,
+          "ninjakitchen": 399.99,
+          "jbhifi": 359.0,
+          "harveynorman": 399.0,
+          "amazon": 359.0
+        },
+        {
+          "date": "2026-07-27",
           "thegoodguys": 359.0,
           "ninjakitchen": 399.99,
           "jbhifi": 359.0,
