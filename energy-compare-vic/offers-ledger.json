@@ -1,0 +1,2840 @@
+{
+  "checks": [
+    {
+      "alerted_energy_types": [
+        "electricity"
+      ],
+      "checked_at": "2026-07-25T05:20:22.542598+00:00",
+      "comparisons": [
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 110.341,
+            "current_usage_rates": [
+              27.126
+            ],
+            "daily_supply_charge_cents": 90.93,
+            "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+            "eligible": true,
+            "fingerprint": "c0e6694f77514e63",
+            "offer_id": "ALI762071MR",
+            "offer_name": "HomeDeal Smart - Single Rate",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.83008996,
+            "rate_score_worst": 0.83609821,
+            "retailer": "Alinta Energy",
+            "tariff_compatible": true,
+            "tariff_type": "single_rate",
+            "usage_rates": [
+              22.68
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "electricity",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 90.93,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "c0e6694f77514e63",
+              "offer_id": "ALI762071MR",
+              "offer_name": "HomeDeal Smart - Single Rate",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.83008996,
+              "rate_score_worst": 0.83609821,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                22.68
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 95.4765,
+              "eligibility_notes": "Available to all inclining block tariff customers in the Ausnet network with a smart meter",
+              "eligible": true,
+              "fingerprint": "7ef5afb67fe5f3a3",
+              "offer_id": "OVO769066MR",
+              "offer_name": "The Basic Plan - JUL2026v2",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.87140092,
+              "rate_score_worst": 0.87751604,
+              "retailer": "OVO Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                23.8035
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 100.2,
+              "eligibility_notes": "This offer is available to customers within the AusNet Services distribution zone with the applicable network tariff and meter configuration.",
+              "eligible": true,
+              "fingerprint": "ee3f1abd975f4f8a",
+              "offer_id": "1ST764116MR",
+              "offer_name": "1st Opal, Residential - Anytime",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.9148595,
+              "rate_score_worst": 0.92162501,
+              "retailer": "1st Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                25.0
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "Offer applies to customers with an applicable network tariff. Offer available by signing up with an authorised AGL representative",
+              "eligible": true,
+              "fingerprint": "04ed3c32a5fa5c98",
+              "offer_id": "AGD754673MR",
+              "offer_name": "Residential Smart Saver - 3rd Party",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au.",
+              "eligible": true,
+              "fingerprint": "32c6ee2f1533edff",
+              "offer_id": "AGD762154MR",
+              "offer_name": "AGL Residential Smart Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            }
+          ]
+        },
+        {
+          "best_qualifying_offer": null,
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "gas",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 61.1,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "aec841fbdd4fee99",
+              "offer_id": "ALI760085MR",
+              "offer_name": "HomeDeal Smart Gas - AGN Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.26304167,
+              "rate_score_worst": 1.5355617,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.24,
+                2.83,
+                2.2
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 62.3432,
+              "eligibility_notes": "The details presented in this Price Fact Sheet are for a Residential customer located in the Australian Gas Networks gas distribution zone, who agrees to eBilling and eCommunications. Offers vary based on distribution zone, and may not be available in all areas in Victoria. Further eligibility criteria may apply.",
+              "eligible": true,
+              "fingerprint": "bd863e5af99dbed4",
+              "offer_id": "DOD729107MR",
+              "offer_name": "Real Deal - Australian Gas Networks Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.43333162,
+              "rate_score_worst": 1.61091667,
+              "retailer": "Dodo Power & Gas",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.8662,
+                3.2094,
+                2.7265
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 72.95,
+              "eligibility_notes": "Available only to new Sumo residential customers",
+              "eligible": true,
+              "fingerprint": "e09b7806b3860eb5",
+              "offer_id": "SUM723627MR",
+              "offer_name": "Sumo Sunrise  Gas (Australian Gas Network South East)",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.22430607,
+              "rate_score_worst": 1.83337522,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.45,
+                2.35,
+                2.4
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 75.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 1300 115 866.",
+              "eligible": true,
+              "fingerprint": "55ba469ff88c0a1b",
+              "offer_id": "LU2738084MR",
+              "offer_name": "Lumo Plus",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.63676798,
+              "rate_score_worst": 1.8848957,
+              "retailer": "Lumo Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                4.11,
+                3.76,
+                3.09
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 79.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 131 806.",
+              "eligible": true,
+              "fingerprint": "7fd996c35e5d8c33",
+              "offer_id": "RED738017MR",
+              "offer_name": "Living Energy Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.54376567,
+              "rate_score_worst": 1.98542347,
+              "retailer": "Red Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.6,
+                3.25,
+                3.0
+              ]
+            }
+          ]
+        }
+      ],
+      "source_method": "browser_response",
+      "source_url": "https://compare.energy.vic.gov.au/offers"
+    },
+    {
+      "alerted_energy_types": [],
+      "checked_at": "2026-07-26T01:00:23.883715+00:00",
+      "comparisons": [
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 110.341,
+            "current_usage_rates": [
+              27.126
+            ],
+            "daily_supply_charge_cents": 90.93,
+            "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+            "eligible": true,
+            "fingerprint": "c0e6694f77514e63",
+            "offer_id": "ALI762071MR",
+            "offer_name": "HomeDeal Smart - Single Rate",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.83008996,
+            "rate_score_worst": 0.83609821,
+            "retailer": "Alinta Energy",
+            "tariff_compatible": true,
+            "tariff_type": "single_rate",
+            "usage_rates": [
+              22.68
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "electricity",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 90.93,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "c0e6694f77514e63",
+              "offer_id": "ALI762071MR",
+              "offer_name": "HomeDeal Smart - Single Rate",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.83008996,
+              "rate_score_worst": 0.83609821,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                22.68
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 95.4765,
+              "eligibility_notes": "Available to all inclining block tariff customers in the Ausnet network with a smart meter",
+              "eligible": true,
+              "fingerprint": "7ef5afb67fe5f3a3",
+              "offer_id": "OVO769066MR",
+              "offer_name": "The Basic Plan - JUL2026v2",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.87140092,
+              "rate_score_worst": 0.87751604,
+              "retailer": "OVO Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                23.8035
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 100.2,
+              "eligibility_notes": "This offer is available to customers within the AusNet Services distribution zone with the applicable network tariff and meter configuration.",
+              "eligible": true,
+              "fingerprint": "ee3f1abd975f4f8a",
+              "offer_id": "1ST764116MR",
+              "offer_name": "1st Opal, Residential - Anytime",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.9148595,
+              "rate_score_worst": 0.92162501,
+              "retailer": "1st Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                25.0
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "Offer applies to customers with an applicable network tariff. Offer available by signing up with an authorised AGL representative",
+              "eligible": true,
+              "fingerprint": "04ed3c32a5fa5c98",
+              "offer_id": "AGD754673MR",
+              "offer_name": "Residential Smart Saver - 3rd Party",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au.",
+              "eligible": true,
+              "fingerprint": "32c6ee2f1533edff",
+              "offer_id": "AGD762154MR",
+              "offer_name": "AGL Residential Smart Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            }
+          ]
+        },
+        {
+          "best_qualifying_offer": null,
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "gas",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 61.1,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "aec841fbdd4fee99",
+              "offer_id": "ALI760085MR",
+              "offer_name": "HomeDeal Smart Gas - AGN Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.26304167,
+              "rate_score_worst": 1.5355617,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.24,
+                2.83,
+                2.2
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 62.3432,
+              "eligibility_notes": "The details presented in this Price Fact Sheet are for a Residential customer located in the Australian Gas Networks gas distribution zone, who agrees to eBilling and eCommunications. Offers vary based on distribution zone, and may not be available in all areas in Victoria. Further eligibility criteria may apply.",
+              "eligible": true,
+              "fingerprint": "bd863e5af99dbed4",
+              "offer_id": "DOD729107MR",
+              "offer_name": "Real Deal - Australian Gas Networks Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.43333162,
+              "rate_score_worst": 1.61091667,
+              "retailer": "Dodo Power & Gas",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.8662,
+                3.2094,
+                2.7265
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 72.95,
+              "eligibility_notes": "Available only to new Sumo residential customers",
+              "eligible": true,
+              "fingerprint": "e09b7806b3860eb5",
+              "offer_id": "SUM723627MR",
+              "offer_name": "Sumo Sunrise  Gas (Australian Gas Network South East)",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.22430607,
+              "rate_score_worst": 1.83337522,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.45,
+                2.35,
+                2.4
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 75.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 1300 115 866.",
+              "eligible": true,
+              "fingerprint": "55ba469ff88c0a1b",
+              "offer_id": "LU2738084MR",
+              "offer_name": "Lumo Plus",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.63676798,
+              "rate_score_worst": 1.8848957,
+              "retailer": "Lumo Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                4.11,
+                3.76,
+                3.09
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 79.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 131 806.",
+              "eligible": true,
+              "fingerprint": "7fd996c35e5d8c33",
+              "offer_id": "RED738017MR",
+              "offer_name": "Living Energy Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.54376567,
+              "rate_score_worst": 1.98542347,
+              "retailer": "Red Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.6,
+                3.25,
+                3.0
+              ]
+            }
+          ]
+        }
+      ],
+      "source_method": "browser_response",
+      "source_url": "https://compare.energy.vic.gov.au/offers"
+    },
+    {
+      "alerted_energy_types": [
+        "gas"
+      ],
+      "checked_at": "2026-07-27T01:00:33.675837+00:00",
+      "comparisons": [
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 110.341,
+            "current_usage_rates": [
+              27.126
+            ],
+            "daily_supply_charge_cents": 90.93,
+            "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+            "eligible": true,
+            "fingerprint": "c0e6694f77514e63",
+            "offer_id": "ALI762071MR",
+            "offer_name": "HomeDeal Smart - Single Rate",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.83008996,
+            "rate_score_worst": 0.83609821,
+            "retailer": "Alinta Energy",
+            "tariff_compatible": true,
+            "tariff_type": "single_rate",
+            "usage_rates": [
+              22.68
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "electricity",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 90.93,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "c0e6694f77514e63",
+              "offer_id": "ALI762071MR",
+              "offer_name": "HomeDeal Smart - Single Rate",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.83008996,
+              "rate_score_worst": 0.83609821,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                22.68
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 95.4765,
+              "eligibility_notes": "Available to all inclining block tariff customers in the Ausnet network with a smart meter",
+              "eligible": true,
+              "fingerprint": "7ef5afb67fe5f3a3",
+              "offer_id": "OVO769066MR",
+              "offer_name": "The Basic Plan - JUL2026v2",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.87140092,
+              "rate_score_worst": 0.87751604,
+              "retailer": "OVO Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                23.8035
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 100.2,
+              "eligibility_notes": "This offer is available to customers within the AusNet Services distribution zone with the applicable network tariff and meter configuration.",
+              "eligible": true,
+              "fingerprint": "ee3f1abd975f4f8a",
+              "offer_id": "1ST764116MR",
+              "offer_name": "1st Opal, Residential - Anytime",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.9148595,
+              "rate_score_worst": 0.92162501,
+              "retailer": "1st Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                25.0
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "Offer applies to customers with an applicable network tariff. Offer available by signing up with an authorised AGL representative",
+              "eligible": true,
+              "fingerprint": "04ed3c32a5fa5c98",
+              "offer_id": "AGD754673MR",
+              "offer_name": "Residential Smart Saver - 3rd Party",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au.",
+              "eligible": true,
+              "fingerprint": "32c6ee2f1533edff",
+              "offer_id": "AGD762154MR",
+              "offer_name": "AGL Residential Smart Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            }
+          ]
+        },
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 39.79,
+            "current_usage_rates": [
+              2.4,
+              2.3,
+              2.35
+            ],
+            "daily_supply_charge_cents": 36.17,
+            "eligibility_notes": "Available to new customers setting up a Sumo residential account who meet our credit requirements (a satisfactory credit check).",
+            "eligible": true,
+            "fingerprint": "48db5129e2b63fd0",
+            "offer_id": "SUM774380MR",
+            "offer_name": "Sumo Winter Saver",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.90917241,
+            "rate_score_worst": 0.9106383,
+            "retailer": "Sumo",
+            "tariff_compatible": true,
+            "tariff_type": "seasonal_tiered",
+            "usage_rates": [
+              2.18,
+              2.09,
+              2.14
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "gas",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 36.17,
+              "eligibility_notes": "Available to new customers setting up a Sumo residential account who meet our credit requirements (a satisfactory credit check).",
+              "eligible": true,
+              "fingerprint": "48db5129e2b63fd0",
+              "offer_id": "SUM774380MR",
+              "offer_name": "Sumo Winter Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.90917241,
+              "rate_score_worst": 0.9106383,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.18,
+                2.09,
+                2.14
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 56.0015,
+              "eligibility_notes": "The details presented in this Price Fact Sheet are for a Residential customer located in the Australian Gas Networks gas distribution zone, who agrees to eBilling and eCommunications. Offers vary based on distribution zone, and may not be available in all areas in Victoria. Further eligibility criteria may apply.",
+              "eligible": true,
+              "fingerprint": "e2b73ee554854ca7",
+              "offer_id": "DOD771215MR",
+              "offer_name": "Real Deal - Australian Gas Networks Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.29871018,
+              "rate_score_worst": 1.52679167,
+              "retailer": "Dodo Power & Gas",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.6643,
+                2.8733,
+                2.3767
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 61.1,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "aec841fbdd4fee99",
+              "offer_id": "ALI760085MR",
+              "offer_name": "HomeDeal Smart Gas - AGN Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.26304167,
+              "rate_score_worst": 1.5355617,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.24,
+                2.83,
+                2.2
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 72.95,
+              "eligibility_notes": "Available only to new Sumo residential customers",
+              "eligible": true,
+              "fingerprint": "e09b7806b3860eb5",
+              "offer_id": "SUM723627MR",
+              "offer_name": "Sumo Sunrise  Gas (Australian Gas Network South East)",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.22430607,
+              "rate_score_worst": 1.83337522,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.45,
+                2.35,
+                2.4
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 75.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 1300 115 866.",
+              "eligible": true,
+              "fingerprint": "55ba469ff88c0a1b",
+              "offer_id": "LU2738084MR",
+              "offer_name": "Lumo Plus",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.63676798,
+              "rate_score_worst": 1.8848957,
+              "retailer": "Lumo Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                4.11,
+                3.76,
+                3.09
+              ]
+            }
+          ]
+        }
+      ],
+      "source_method": "browser_response",
+      "source_url": "https://compare.energy.vic.gov.au/offers"
+    },
+    {
+      "alerted_energy_types": [],
+      "checked_at": "2026-07-28T01:00:44.232968+00:00",
+      "comparisons": [
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 110.341,
+            "current_usage_rates": [
+              27.126
+            ],
+            "daily_supply_charge_cents": 90.93,
+            "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+            "eligible": true,
+            "fingerprint": "c0e6694f77514e63",
+            "offer_id": "ALI762071MR",
+            "offer_name": "HomeDeal Smart - Single Rate",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.83008996,
+            "rate_score_worst": 0.83609821,
+            "retailer": "Alinta Energy",
+            "tariff_compatible": true,
+            "tariff_type": "single_rate",
+            "usage_rates": [
+              22.68
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "electricity",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 90.93,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "c0e6694f77514e63",
+              "offer_id": "ALI762071MR",
+              "offer_name": "HomeDeal Smart - Single Rate",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.83008996,
+              "rate_score_worst": 0.83609821,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                22.68
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 95.4765,
+              "eligibility_notes": "Available to all inclining block tariff customers in the Ausnet network with a smart meter",
+              "eligible": true,
+              "fingerprint": "7ef5afb67fe5f3a3",
+              "offer_id": "OVO769066MR",
+              "offer_name": "The Basic Plan - JUL2026v2",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.87140092,
+              "rate_score_worst": 0.87751604,
+              "retailer": "OVO Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                23.8035
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 100.2,
+              "eligibility_notes": "This offer is available to customers within the AusNet Services distribution zone with the applicable network tariff and meter configuration.",
+              "eligible": true,
+              "fingerprint": "ee3f1abd975f4f8a",
+              "offer_id": "1ST764116MR",
+              "offer_name": "1st Opal, Residential - Anytime",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.9148595,
+              "rate_score_worst": 0.92162501,
+              "retailer": "1st Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                25.0
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "Offer applies to customers with an applicable network tariff. Offer available by signing up with an authorised AGL representative",
+              "eligible": true,
+              "fingerprint": "04ed3c32a5fa5c98",
+              "offer_id": "AGD754673MR",
+              "offer_name": "Residential Smart Saver - 3rd Party",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au.",
+              "eligible": true,
+              "fingerprint": "32c6ee2f1533edff",
+              "offer_id": "AGD762154MR",
+              "offer_name": "AGL Residential Smart Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            }
+          ]
+        },
+        {
+          "best_qualifying_offer": null,
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "gas",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 56.0015,
+              "eligibility_notes": "The details presented in this Price Fact Sheet are for a Residential customer located in the Australian Gas Networks gas distribution zone, who agrees to eBilling and eCommunications. Offers vary based on distribution zone, and may not be available in all areas in Victoria. Further eligibility criteria may apply.",
+              "eligible": true,
+              "fingerprint": "e2b73ee554854ca7",
+              "offer_id": "DOD771215MR",
+              "offer_name": "Real Deal - Australian Gas Networks Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.29871018,
+              "rate_score_worst": 1.52679167,
+              "retailer": "Dodo Power & Gas",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.6643,
+                2.8733,
+                2.3767
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 61.1,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "aec841fbdd4fee99",
+              "offer_id": "ALI760085MR",
+              "offer_name": "HomeDeal Smart Gas - AGN Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.26304167,
+              "rate_score_worst": 1.5355617,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.24,
+                2.83,
+                2.2
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 72.95,
+              "eligibility_notes": "Available only to new Sumo residential customers",
+              "eligible": true,
+              "fingerprint": "e09b7806b3860eb5",
+              "offer_id": "SUM723627MR",
+              "offer_name": "Sumo Sunrise  Gas (Australian Gas Network South East)",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.22430607,
+              "rate_score_worst": 1.83337522,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.45,
+                2.35,
+                2.4
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 75.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 1300 115 866.",
+              "eligible": true,
+              "fingerprint": "55ba469ff88c0a1b",
+              "offer_id": "LU2738084MR",
+              "offer_name": "Lumo Plus",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.63676798,
+              "rate_score_worst": 1.8848957,
+              "retailer": "Lumo Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                4.11,
+                3.76,
+                3.09
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 79.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 131 806.",
+              "eligible": true,
+              "fingerprint": "7fd996c35e5d8c33",
+              "offer_id": "RED738017MR",
+              "offer_name": "Living Energy Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.54376567,
+              "rate_score_worst": 1.98542347,
+              "retailer": "Red Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.6,
+                3.25,
+                3.0
+              ]
+            }
+          ]
+        }
+      ],
+      "source_method": "browser_response",
+      "source_url": "https://compare.energy.vic.gov.au/offers"
+    },
+    {
+      "alerted_energy_types": [],
+      "checked_at": "2026-07-29T01:00:52.558470+00:00",
+      "comparisons": [
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 110.341,
+            "current_usage_rates": [
+              27.126
+            ],
+            "daily_supply_charge_cents": 90.93,
+            "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+            "eligible": true,
+            "fingerprint": "c0e6694f77514e63",
+            "offer_id": "ALI762071MR",
+            "offer_name": "HomeDeal Smart - Single Rate",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.83008996,
+            "rate_score_worst": 0.83609821,
+            "retailer": "Alinta Energy",
+            "tariff_compatible": true,
+            "tariff_type": "single_rate",
+            "usage_rates": [
+              22.68
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "electricity",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 90.93,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "c0e6694f77514e63",
+              "offer_id": "ALI762071MR",
+              "offer_name": "HomeDeal Smart - Single Rate",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.83008996,
+              "rate_score_worst": 0.83609821,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                22.68
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 95.4765,
+              "eligibility_notes": "Available to all inclining block tariff customers in the Ausnet network with a smart meter",
+              "eligible": true,
+              "fingerprint": "7ef5afb67fe5f3a3",
+              "offer_id": "OVO769066MR",
+              "offer_name": "The Basic Plan - JUL2026v2",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.87140092,
+              "rate_score_worst": 0.87751604,
+              "retailer": "OVO Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                23.8035
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 100.2,
+              "eligibility_notes": "This offer is available to customers within the AusNet Services distribution zone with the applicable network tariff and meter configuration.",
+              "eligible": true,
+              "fingerprint": "ee3f1abd975f4f8a",
+              "offer_id": "1ST764116MR",
+              "offer_name": "1st Opal, Residential - Anytime",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.9148595,
+              "rate_score_worst": 0.92162501,
+              "retailer": "1st Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                25.0
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "Offer applies to customers with an applicable network tariff. Offer available by signing up with an authorised AGL representative",
+              "eligible": true,
+              "fingerprint": "04ed3c32a5fa5c98",
+              "offer_id": "AGD754673MR",
+              "offer_name": "Residential Smart Saver - 3rd Party",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au.",
+              "eligible": true,
+              "fingerprint": "32c6ee2f1533edff",
+              "offer_id": "AGD762154MR",
+              "offer_name": "AGL Residential Smart Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            }
+          ]
+        },
+        {
+          "best_qualifying_offer": null,
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "gas",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 56.0015,
+              "eligibility_notes": "The details presented in this Price Fact Sheet are for a Residential customer located in the Australian Gas Networks gas distribution zone, who agrees to eBilling and eCommunications. Offers vary based on distribution zone, and may not be available in all areas in Victoria. Further eligibility criteria may apply.",
+              "eligible": true,
+              "fingerprint": "e2b73ee554854ca7",
+              "offer_id": "DOD771215MR",
+              "offer_name": "Real Deal - Australian Gas Networks Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.29871018,
+              "rate_score_worst": 1.52679167,
+              "retailer": "Dodo Power & Gas",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.6643,
+                2.8733,
+                2.3767
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 61.1,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "aec841fbdd4fee99",
+              "offer_id": "ALI760085MR",
+              "offer_name": "HomeDeal Smart Gas - AGN Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.26304167,
+              "rate_score_worst": 1.5355617,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.24,
+                2.83,
+                2.2
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 72.95,
+              "eligibility_notes": "Available only to new Sumo residential customers",
+              "eligible": true,
+              "fingerprint": "e09b7806b3860eb5",
+              "offer_id": "SUM723627MR",
+              "offer_name": "Sumo Sunrise  Gas (Australian Gas Network South East)",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.22430607,
+              "rate_score_worst": 1.83337522,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.45,
+                2.35,
+                2.4
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 75.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 1300 115 866.",
+              "eligible": true,
+              "fingerprint": "55ba469ff88c0a1b",
+              "offer_id": "LU2738084MR",
+              "offer_name": "Lumo Plus",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.63676798,
+              "rate_score_worst": 1.8848957,
+              "retailer": "Lumo Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                4.11,
+                3.76,
+                3.09
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 79.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 131 806.",
+              "eligible": true,
+              "fingerprint": "7fd996c35e5d8c33",
+              "offer_id": "RED738017MR",
+              "offer_name": "Living Energy Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.54376567,
+              "rate_score_worst": 1.98542347,
+              "retailer": "Red Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.6,
+                3.25,
+                3.0
+              ]
+            }
+          ]
+        }
+      ],
+      "source_method": "browser_response",
+      "source_url": "https://compare.energy.vic.gov.au/offers"
+    },
+    {
+      "alerted_energy_types": [
+        "gas"
+      ],
+      "checked_at": "2026-07-30T01:01:01.948132+00:00",
+      "comparisons": [
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 110.341,
+            "current_usage_rates": [
+              27.126
+            ],
+            "daily_supply_charge_cents": 90.93,
+            "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+            "eligible": true,
+            "fingerprint": "c0e6694f77514e63",
+            "offer_id": "ALI762071MR",
+            "offer_name": "HomeDeal Smart - Single Rate",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.83008996,
+            "rate_score_worst": 0.83609821,
+            "retailer": "Alinta Energy",
+            "tariff_compatible": true,
+            "tariff_type": "single_rate",
+            "usage_rates": [
+              22.68
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "electricity",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 90.93,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "c0e6694f77514e63",
+              "offer_id": "ALI762071MR",
+              "offer_name": "HomeDeal Smart - Single Rate",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.83008996,
+              "rate_score_worst": 0.83609821,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                22.68
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 95.4765,
+              "eligibility_notes": "Available to all inclining block tariff customers in the Ausnet network with a smart meter",
+              "eligible": true,
+              "fingerprint": "7ef5afb67fe5f3a3",
+              "offer_id": "OVO769066MR",
+              "offer_name": "The Basic Plan - JUL2026v2",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.87140092,
+              "rate_score_worst": 0.87751604,
+              "retailer": "OVO Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                23.8035
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 100.2,
+              "eligibility_notes": "This offer is available to customers within the AusNet Services distribution zone with the applicable network tariff and meter configuration.",
+              "eligible": true,
+              "fingerprint": "ee3f1abd975f4f8a",
+              "offer_id": "1ST764116MR",
+              "offer_name": "1st Opal, Residential - Anytime",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.9148595,
+              "rate_score_worst": 0.92162501,
+              "retailer": "1st Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                25.0
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "Offer applies to customers with an applicable network tariff. Offer available by signing up with an authorised AGL representative",
+              "eligible": true,
+              "fingerprint": "04ed3c32a5fa5c98",
+              "offer_id": "AGD754673MR",
+              "offer_name": "Residential Smart Saver - 3rd Party",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au.",
+              "eligible": true,
+              "fingerprint": "32c6ee2f1533edff",
+              "offer_id": "AGD762154MR",
+              "offer_name": "AGL Residential Smart Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            }
+          ]
+        },
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 39.79,
+            "current_usage_rates": [
+              2.4,
+              2.3,
+              2.35
+            ],
+            "daily_supply_charge_cents": 36.17,
+            "eligibility_notes": "Available to new customers setting up a Sumo residential account who meet our credit requirements (a satisfactory credit check).",
+            "eligible": true,
+            "fingerprint": "c847daaa4235ee5e",
+            "offer_id": "SUM774918MR",
+            "offer_name": "Sumo Winter Saver",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.90917241,
+            "rate_score_worst": 0.9106383,
+            "retailer": "Sumo",
+            "tariff_compatible": true,
+            "tariff_type": "seasonal_tiered",
+            "usage_rates": [
+              2.18,
+              2.09,
+              2.14
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "gas",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 36.17,
+              "eligibility_notes": "Available to new customers setting up a Sumo residential account who meet our credit requirements (a satisfactory credit check).",
+              "eligible": true,
+              "fingerprint": "c847daaa4235ee5e",
+              "offer_id": "SUM774918MR",
+              "offer_name": "Sumo Winter Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.90917241,
+              "rate_score_worst": 0.9106383,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.18,
+                2.09,
+                2.14
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 56.0015,
+              "eligibility_notes": "The details presented in this Price Fact Sheet are for a Residential customer located in the Australian Gas Networks gas distribution zone, who agrees to eBilling and eCommunications. Offers vary based on distribution zone, and may not be available in all areas in Victoria. Further eligibility criteria may apply.",
+              "eligible": true,
+              "fingerprint": "e2b73ee554854ca7",
+              "offer_id": "DOD771215MR",
+              "offer_name": "Real Deal - Australian Gas Networks Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.29871018,
+              "rate_score_worst": 1.52679167,
+              "retailer": "Dodo Power & Gas",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.6643,
+                2.8733,
+                2.3767
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 61.1,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "aec841fbdd4fee99",
+              "offer_id": "ALI760085MR",
+              "offer_name": "HomeDeal Smart Gas - AGN Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.26304167,
+              "rate_score_worst": 1.5355617,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.24,
+                2.83,
+                2.2
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 72.95,
+              "eligibility_notes": "Available only to new Sumo residential customers",
+              "eligible": true,
+              "fingerprint": "e09b7806b3860eb5",
+              "offer_id": "SUM723627MR",
+              "offer_name": "Sumo Sunrise  Gas (Australian Gas Network South East)",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.22430607,
+              "rate_score_worst": 1.83337522,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.45,
+                2.35,
+                2.4
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 75.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 1300 115 866.",
+              "eligible": true,
+              "fingerprint": "55ba469ff88c0a1b",
+              "offer_id": "LU2738084MR",
+              "offer_name": "Lumo Plus",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.63676798,
+              "rate_score_worst": 1.8848957,
+              "retailer": "Lumo Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                4.11,
+                3.76,
+                3.09
+              ]
+            }
+          ]
+        }
+      ],
+      "source_method": "browser_response",
+      "source_url": "https://compare.energy.vic.gov.au/offers"
+    },
+    {
+      "alerted_energy_types": [],
+      "checked_at": "2026-07-31T01:01:11.327681+00:00",
+      "comparisons": [
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 110.341,
+            "current_usage_rates": [
+              27.126
+            ],
+            "daily_supply_charge_cents": 90.93,
+            "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+            "eligible": true,
+            "fingerprint": "c0e6694f77514e63",
+            "offer_id": "ALI762071MR",
+            "offer_name": "HomeDeal Smart - Single Rate",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.83008996,
+            "rate_score_worst": 0.83609821,
+            "retailer": "Alinta Energy",
+            "tariff_compatible": true,
+            "tariff_type": "single_rate",
+            "usage_rates": [
+              22.68
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "electricity",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 90.93,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "c0e6694f77514e63",
+              "offer_id": "ALI762071MR",
+              "offer_name": "HomeDeal Smart - Single Rate",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.83008996,
+              "rate_score_worst": 0.83609821,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                22.68
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 95.4765,
+              "eligibility_notes": "Available to all inclining block tariff customers in the Ausnet network with a smart meter",
+              "eligible": true,
+              "fingerprint": "7ef5afb67fe5f3a3",
+              "offer_id": "OVO769066MR",
+              "offer_name": "The Basic Plan - JUL2026v2",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.87140092,
+              "rate_score_worst": 0.87751604,
+              "retailer": "OVO Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                23.8035
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 100.2,
+              "eligibility_notes": "This offer is available to customers within the AusNet Services distribution zone with the applicable network tariff and meter configuration.",
+              "eligible": true,
+              "fingerprint": "ee3f1abd975f4f8a",
+              "offer_id": "1ST764116MR",
+              "offer_name": "1st Opal, Residential - Anytime",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.9148595,
+              "rate_score_worst": 0.92162501,
+              "retailer": "1st Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                25.0
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "Offer applies to customers with an applicable network tariff. Offer available by signing up with an authorised AGL representative",
+              "eligible": true,
+              "fingerprint": "04ed3c32a5fa5c98",
+              "offer_id": "AGD754673MR",
+              "offer_name": "Residential Smart Saver - 3rd Party",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au.",
+              "eligible": true,
+              "fingerprint": "32c6ee2f1533edff",
+              "offer_id": "AGD762154MR",
+              "offer_name": "AGL Residential Smart Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            }
+          ]
+        },
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 39.79,
+            "current_usage_rates": [
+              2.4,
+              2.3,
+              2.35
+            ],
+            "daily_supply_charge_cents": 36.17,
+            "eligibility_notes": "Available to new customers setting up a Sumo residential account who meet our credit requirements (a satisfactory credit check).",
+            "eligible": true,
+            "fingerprint": "c847daaa4235ee5e",
+            "offer_id": "SUM774918MR",
+            "offer_name": "Sumo Winter Saver",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.90917241,
+            "rate_score_worst": 0.9106383,
+            "retailer": "Sumo",
+            "tariff_compatible": true,
+            "tariff_type": "seasonal_tiered",
+            "usage_rates": [
+              2.18,
+              2.09,
+              2.14
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "gas",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 36.17,
+              "eligibility_notes": "Available to new customers setting up a Sumo residential account who meet our credit requirements (a satisfactory credit check).",
+              "eligible": true,
+              "fingerprint": "c847daaa4235ee5e",
+              "offer_id": "SUM774918MR",
+              "offer_name": "Sumo Winter Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.90917241,
+              "rate_score_worst": 0.9106383,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.18,
+                2.09,
+                2.14
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 56.0015,
+              "eligibility_notes": "The details presented in this Price Fact Sheet are for a Residential customer located in the Australian Gas Networks gas distribution zone, who agrees to eBilling and eCommunications. Offers vary based on distribution zone, and may not be available in all areas in Victoria. Further eligibility criteria may apply.",
+              "eligible": true,
+              "fingerprint": "e2b73ee554854ca7",
+              "offer_id": "DOD771215MR",
+              "offer_name": "Real Deal - Australian Gas Networks Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.29871018,
+              "rate_score_worst": 1.52679167,
+              "retailer": "Dodo Power & Gas",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.6643,
+                2.8733,
+                2.3767
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 61.1,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "aec841fbdd4fee99",
+              "offer_id": "ALI760085MR",
+              "offer_name": "HomeDeal Smart Gas - AGN Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.26304167,
+              "rate_score_worst": 1.5355617,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.24,
+                2.83,
+                2.2
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 72.95,
+              "eligibility_notes": "Available only to new Sumo residential customers",
+              "eligible": true,
+              "fingerprint": "e09b7806b3860eb5",
+              "offer_id": "SUM723627MR",
+              "offer_name": "Sumo Sunrise  Gas (Australian Gas Network South East)",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.22430607,
+              "rate_score_worst": 1.83337522,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.45,
+                2.35,
+                2.4
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 75.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 1300 115 866.",
+              "eligible": true,
+              "fingerprint": "55ba469ff88c0a1b",
+              "offer_id": "LU2738084MR",
+              "offer_name": "Lumo Plus",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.63676798,
+              "rate_score_worst": 1.8848957,
+              "retailer": "Lumo Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                4.11,
+                3.76,
+                3.09
+              ]
+            }
+          ]
+        }
+      ],
+      "source_method": "browser_response",
+      "source_url": "https://compare.energy.vic.gov.au/offers"
+    },
+    {
+      "alerted_energy_types": [],
+      "checked_at": "2026-08-01T01:00:21.102692+00:00",
+      "comparisons": [
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 110.341,
+            "current_usage_rates": [
+              27.126
+            ],
+            "daily_supply_charge_cents": 90.93,
+            "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+            "eligible": true,
+            "fingerprint": "c0e6694f77514e63",
+            "offer_id": "ALI762071MR",
+            "offer_name": "HomeDeal Smart - Single Rate",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.83008996,
+            "rate_score_worst": 0.83609821,
+            "retailer": "Alinta Energy",
+            "tariff_compatible": true,
+            "tariff_type": "single_rate",
+            "usage_rates": [
+              22.68
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "electricity",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 90.93,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "c0e6694f77514e63",
+              "offer_id": "ALI762071MR",
+              "offer_name": "HomeDeal Smart - Single Rate",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.83008996,
+              "rate_score_worst": 0.83609821,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                22.68
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 95.4765,
+              "eligibility_notes": "Available to all inclining block tariff customers in the Ausnet network with a smart meter",
+              "eligible": true,
+              "fingerprint": "7ef5afb67fe5f3a3",
+              "offer_id": "OVO769066MR",
+              "offer_name": "The Basic Plan - JUL2026v2",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.87140092,
+              "rate_score_worst": 0.87751604,
+              "retailer": "OVO Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                23.8035
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 100.2,
+              "eligibility_notes": "This offer is available to customers within the AusNet Services distribution zone with the applicable network tariff and meter configuration.",
+              "eligible": true,
+              "fingerprint": "ee3f1abd975f4f8a",
+              "offer_id": "1ST764116MR",
+              "offer_name": "1st Opal, Residential - Anytime",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.9148595,
+              "rate_score_worst": 0.92162501,
+              "retailer": "1st Energy",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                25.0
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "Offer applies to customers with an applicable network tariff. Offer available by signing up with an authorised AGL representative",
+              "eligible": true,
+              "fingerprint": "04ed3c32a5fa5c98",
+              "offer_id": "AGD754673MR",
+              "offer_name": "Residential Smart Saver - 3rd Party",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 110.341,
+              "current_usage_rates": [
+                27.126
+              ],
+              "daily_supply_charge_cents": 104.923636,
+              "eligibility_notes": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au.",
+              "eligible": true,
+              "fingerprint": "32c6ee2f1533edff",
+              "offer_id": "AGD762154MR",
+              "offer_name": "AGL Residential Smart Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.95774645,
+              "rate_score_worst": 0.96458947,
+              "retailer": "AGL",
+              "tariff_compatible": true,
+              "tariff_type": "single_rate",
+              "usage_rates": [
+                26.165454
+              ]
+            }
+          ]
+        },
+        {
+          "best_qualifying_offer": {
+            "current_daily_supply_charge_cents": 39.79,
+            "current_usage_rates": [
+              2.4,
+              2.3,
+              2.35
+            ],
+            "daily_supply_charge_cents": 36.17,
+            "eligibility_notes": "Available to new customers setting up a Sumo residential account who meet our credit requirements (a satisfactory credit check).",
+            "eligible": true,
+            "fingerprint": "c847daaa4235ee5e",
+            "offer_id": "SUM774918MR",
+            "offer_name": "Sumo Winter Saver",
+            "offer_url": "https://compare.energy.vic.gov.au/offers",
+            "qualifies": true,
+            "rate_dominates_current": true,
+            "rate_score_average": 0.90917241,
+            "rate_score_worst": 0.9106383,
+            "retailer": "Sumo",
+            "tariff_compatible": true,
+            "tariff_type": "seasonal_tiered",
+            "usage_rates": [
+              2.18,
+              2.09,
+              2.14
+            ]
+          },
+          "comparison_basis": "strict_rate_dominance",
+          "energy_type": "gas",
+          "offers": [
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 36.17,
+              "eligibility_notes": "Available to new customers setting up a Sumo residential account who meet our credit requirements (a satisfactory credit check).",
+              "eligible": true,
+              "fingerprint": "c847daaa4235ee5e",
+              "offer_id": "SUM774918MR",
+              "offer_name": "Sumo Winter Saver",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": true,
+              "rate_dominates_current": true,
+              "rate_score_average": 0.90917241,
+              "rate_score_worst": 0.9106383,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.18,
+                2.09,
+                2.14
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 56.0015,
+              "eligibility_notes": "The details presented in this Price Fact Sheet are for a Residential customer located in the Australian Gas Networks gas distribution zone, who agrees to eBilling and eCommunications. Offers vary based on distribution zone, and may not be available in all areas in Victoria. Further eligibility criteria may apply.",
+              "eligible": true,
+              "fingerprint": "e2b73ee554854ca7",
+              "offer_id": "DOD771215MR",
+              "offer_name": "Real Deal - Australian Gas Networks Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.29871018,
+              "rate_score_worst": 1.52679167,
+              "retailer": "Dodo Power & Gas",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.6643,
+                2.8733,
+                2.3767
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 61.1,
+              "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+              "eligible": true,
+              "fingerprint": "aec841fbdd4fee99",
+              "offer_id": "ALI760085MR",
+              "offer_name": "HomeDeal Smart Gas - AGN Central 1",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.26304167,
+              "rate_score_worst": 1.5355617,
+              "retailer": "Alinta Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                3.24,
+                2.83,
+                2.2
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 72.95,
+              "eligibility_notes": "Available only to new Sumo residential customers",
+              "eligible": true,
+              "fingerprint": "e09b7806b3860eb5",
+              "offer_id": "SUM723627MR",
+              "offer_name": "Sumo Sunrise  Gas (Australian Gas Network South East)",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.22430607,
+              "rate_score_worst": 1.83337522,
+              "retailer": "Sumo",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                2.45,
+                2.35,
+                2.4
+              ]
+            },
+            {
+              "current_daily_supply_charge_cents": 39.79,
+              "current_usage_rates": [
+                2.4,
+                2.3,
+                2.35
+              ],
+              "daily_supply_charge_cents": 75.0,
+              "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 1300 115 866.",
+              "eligible": true,
+              "fingerprint": "55ba469ff88c0a1b",
+              "offer_id": "LU2738084MR",
+              "offer_name": "Lumo Plus",
+              "offer_url": "https://compare.energy.vic.gov.au/offers",
+              "qualifies": false,
+              "rate_dominates_current": false,
+              "rate_score_average": 1.63676798,
+              "rate_score_worst": 1.8848957,
+              "retailer": "Lumo Energy",
+              "tariff_compatible": true,
+              "tariff_type": "seasonal_tiered",
+              "usage_rates": [
+                4.11,
+                3.76,
+                3.09
+              ]
+            }
+          ]
+        }
+      ],
+      "source_method": "browser_response",
+      "source_url": "https://compare.energy.vic.gov.au/offers"
+    }
+  ],
+  "created_at": "2026-07-19T01:00:42.379068+00:00",
+  "last_alerts": {
+    "electricity": {
+      "checked_at": "2026-07-25T05:20:22.542598+00:00",
+      "current_daily_supply_charge_cents": 110.341,
+      "current_usage_rates": [
+        27.126
+      ],
+      "daily_supply_charge_cents": 90.93,
+      "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+      "eligible": true,
+      "energy_type": "electricity",
+      "fingerprint": "c0e6694f77514e63",
+      "offer_id": "ALI762071MR",
+      "offer_name": "HomeDeal Smart - Single Rate",
+      "offer_url": "https://compare.energy.vic.gov.au/offers",
+      "qualifies": true,
+      "rate_dominates_current": true,
+      "rate_score_average": 0.83008996,
+      "rate_score_worst": 0.83609821,
+      "retailer": "Alinta Energy",
+      "tariff_compatible": true,
+      "tariff_type": "single_rate",
+      "usage_rates": [
+        22.68
+      ]
+    },
+    "gas": {
+      "checked_at": "2026-07-30T01:01:01.948132+00:00",
+      "current_daily_supply_charge_cents": 39.79,
+      "current_usage_rates": [
+        2.4,
+        2.3,
+        2.35
+      ],
+      "daily_supply_charge_cents": 36.17,
+      "eligibility_notes": "Available to new customers setting up a Sumo residential account who meet our credit requirements (a satisfactory credit check).",
+      "eligible": true,
+      "energy_type": "gas",
+      "fingerprint": "c847daaa4235ee5e",
+      "offer_id": "SUM774918MR",
+      "offer_name": "Sumo Winter Saver",
+      "offer_url": "https://compare.energy.vic.gov.au/offers",
+      "qualifies": true,
+      "rate_dominates_current": true,
+      "rate_score_average": 0.90917241,
+      "rate_score_worst": 0.9106383,
+      "retailer": "Sumo",
+      "tariff_compatible": true,
+      "tariff_type": "seasonal_tiered",
+      "usage_rates": [
+        2.18,
+        2.09,
+        2.14
+      ]
+    }
+  },
+  "latest_by_energy": {
+    "electricity": {
+      "best_qualifying_offer": {
+        "current_daily_supply_charge_cents": 110.341,
+        "current_usage_rates": [
+          27.126
+        ],
+        "daily_supply_charge_cents": 90.93,
+        "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+        "eligible": true,
+        "fingerprint": "c0e6694f77514e63",
+        "offer_id": "ALI762071MR",
+        "offer_name": "HomeDeal Smart - Single Rate",
+        "offer_url": "https://compare.energy.vic.gov.au/offers",
+        "qualifies": true,
+        "rate_dominates_current": true,
+        "rate_score_average": 0.83008996,
+        "rate_score_worst": 0.83609821,
+        "retailer": "Alinta Energy",
+        "tariff_compatible": true,
+        "tariff_type": "single_rate",
+        "usage_rates": [
+          22.68
+        ]
+      },
+      "checked_at": "2026-08-01T01:00:21.102692+00:00",
+      "comparison_basis": "strict_rate_dominance",
+      "energy_type": "electricity",
+      "offers": [
+        {
+          "current_daily_supply_charge_cents": 110.341,
+          "current_usage_rates": [
+            27.126
+          ],
+          "daily_supply_charge_cents": 90.93,
+          "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+          "eligible": true,
+          "fingerprint": "c0e6694f77514e63",
+          "offer_id": "ALI762071MR",
+          "offer_name": "HomeDeal Smart - Single Rate",
+          "offer_url": "https://compare.energy.vic.gov.au/offers",
+          "qualifies": true,
+          "rate_dominates_current": true,
+          "rate_score_average": 0.83008996,
+          "rate_score_worst": 0.83609821,
+          "retailer": "Alinta Energy",
+          "tariff_compatible": true,
+          "tariff_type": "single_rate",
+          "usage_rates": [
+            22.68
+          ]
+        },
+        {
+          "current_daily_supply_charge_cents": 110.341,
+          "current_usage_rates": [
+            27.126
+          ],
+          "daily_supply_charge_cents": 95.4765,
+          "eligibility_notes": "Available to all inclining block tariff customers in the Ausnet network with a smart meter",
+          "eligible": true,
+          "fingerprint": "7ef5afb67fe5f3a3",
+          "offer_id": "OVO769066MR",
+          "offer_name": "The Basic Plan - JUL2026v2",
+          "offer_url": "https://compare.energy.vic.gov.au/offers",
+          "qualifies": true,
+          "rate_dominates_current": true,
+          "rate_score_average": 0.87140092,
+          "rate_score_worst": 0.87751604,
+          "retailer": "OVO Energy",
+          "tariff_compatible": true,
+          "tariff_type": "single_rate",
+          "usage_rates": [
+            23.8035
+          ]
+        },
+        {
+          "current_daily_supply_charge_cents": 110.341,
+          "current_usage_rates": [
+            27.126
+          ],
+          "daily_supply_charge_cents": 100.2,
+          "eligibility_notes": "This offer is available to customers within the AusNet Services distribution zone with the applicable network tariff and meter configuration.",
+          "eligible": true,
+          "fingerprint": "ee3f1abd975f4f8a",
+          "offer_id": "1ST764116MR",
+          "offer_name": "1st Opal, Residential - Anytime",
+          "offer_url": "https://compare.energy.vic.gov.au/offers",
+          "qualifies": true,
+          "rate_dominates_current": true,
+          "rate_score_average": 0.9148595,
+          "rate_score_worst": 0.92162501,
+          "retailer": "1st Energy",
+          "tariff_compatible": true,
+          "tariff_type": "single_rate",
+          "usage_rates": [
+            25.0
+          ]
+        },
+        {
+          "current_daily_supply_charge_cents": 110.341,
+          "current_usage_rates": [
+            27.126
+          ],
+          "daily_supply_charge_cents": 104.923636,
+          "eligibility_notes": "Offer applies to customers with an applicable network tariff. Offer available by signing up with an authorised AGL representative",
+          "eligible": true,
+          "fingerprint": "04ed3c32a5fa5c98",
+          "offer_id": "AGD754673MR",
+          "offer_name": "Residential Smart Saver - 3rd Party",
+          "offer_url": "https://compare.energy.vic.gov.au/offers",
+          "qualifies": true,
+          "rate_dominates_current": true,
+          "rate_score_average": 0.95774645,
+          "rate_score_worst": 0.96458947,
+          "retailer": "AGL",
+          "tariff_compatible": true,
+          "tariff_type": "single_rate",
+          "usage_rates": [
+            26.165454
+          ]
+        },
+        {
+          "current_daily_supply_charge_cents": 110.341,
+          "current_usage_rates": [
+            27.126
+          ],
+          "daily_supply_charge_cents": 104.923636,
+          "eligibility_notes": "This offer applies to customers with an applicable network tariff. For solar feed-in tariff eligibility, or for further information about the terms and conditions applicable to this energy offer, please contact AGL on 131 245 or visit agl.com.au.",
+          "eligible": true,
+          "fingerprint": "32c6ee2f1533edff",
+          "offer_id": "AGD762154MR",
+          "offer_name": "AGL Residential Smart Saver",
+          "offer_url": "https://compare.energy.vic.gov.au/offers",
+          "qualifies": true,
+          "rate_dominates_current": true,
+          "rate_score_average": 0.95774645,
+          "rate_score_worst": 0.96458947,
+          "retailer": "AGL",
+          "tariff_compatible": true,
+          "tariff_type": "single_rate",
+          "usage_rates": [
+            26.165454
+          ]
+        }
+      ]
+    },
+    "gas": {
+      "best_qualifying_offer": {
+        "current_daily_supply_charge_cents": 39.79,
+        "current_usage_rates": [
+          2.4,
+          2.3,
+          2.35
+        ],
+        "daily_supply_charge_cents": 36.17,
+        "eligibility_notes": "Available to new customers setting up a Sumo residential account who meet our credit requirements (a satisfactory credit check).",
+        "eligible": true,
+        "fingerprint": "c847daaa4235ee5e",
+        "offer_id": "SUM774918MR",
+        "offer_name": "Sumo Winter Saver",
+        "offer_url": "https://compare.energy.vic.gov.au/offers",
+        "qualifies": true,
+        "rate_dominates_current": true,
+        "rate_score_average": 0.90917241,
+        "rate_score_worst": 0.9106383,
+        "retailer": "Sumo",
+        "tariff_compatible": true,
+        "tariff_type": "seasonal_tiered",
+        "usage_rates": [
+          2.18,
+          2.09,
+          2.14
+        ]
+      },
+      "checked_at": "2026-08-01T01:00:21.102692+00:00",
+      "comparison_basis": "strict_rate_dominance",
+      "energy_type": "gas",
+      "offers": [
+        {
+          "current_daily_supply_charge_cents": 39.79,
+          "current_usage_rates": [
+            2.4,
+            2.3,
+            2.35
+          ],
+          "daily_supply_charge_cents": 36.17,
+          "eligibility_notes": "Available to new customers setting up a Sumo residential account who meet our credit requirements (a satisfactory credit check).",
+          "eligible": true,
+          "fingerprint": "c847daaa4235ee5e",
+          "offer_id": "SUM774918MR",
+          "offer_name": "Sumo Winter Saver",
+          "offer_url": "https://compare.energy.vic.gov.au/offers",
+          "qualifies": true,
+          "rate_dominates_current": true,
+          "rate_score_average": 0.90917241,
+          "rate_score_worst": 0.9106383,
+          "retailer": "Sumo",
+          "tariff_compatible": true,
+          "tariff_type": "seasonal_tiered",
+          "usage_rates": [
+            2.18,
+            2.09,
+            2.14
+          ]
+        },
+        {
+          "current_daily_supply_charge_cents": 39.79,
+          "current_usage_rates": [
+            2.4,
+            2.3,
+            2.35
+          ],
+          "daily_supply_charge_cents": 56.0015,
+          "eligibility_notes": "The details presented in this Price Fact Sheet are for a Residential customer located in the Australian Gas Networks gas distribution zone, who agrees to eBilling and eCommunications. Offers vary based on distribution zone, and may not be available in all areas in Victoria. Further eligibility criteria may apply.",
+          "eligible": true,
+          "fingerprint": "e2b73ee554854ca7",
+          "offer_id": "DOD771215MR",
+          "offer_name": "Real Deal - Australian Gas Networks Central 1",
+          "offer_url": "https://compare.energy.vic.gov.au/offers",
+          "qualifies": false,
+          "rate_dominates_current": false,
+          "rate_score_average": 1.29871018,
+          "rate_score_worst": 1.52679167,
+          "retailer": "Dodo Power & Gas",
+          "tariff_compatible": true,
+          "tariff_type": "seasonal_tiered",
+          "usage_rates": [
+            3.6643,
+            2.8733,
+            2.3767
+          ]
+        },
+        {
+          "current_daily_supply_charge_cents": 39.79,
+          "current_usage_rates": [
+            2.4,
+            2.3,
+            2.35
+          ],
+          "daily_supply_charge_cents": 61.1,
+          "eligibility_notes": "This Energy Plan is only available to customers with an applicable network tariff.",
+          "eligible": true,
+          "fingerprint": "aec841fbdd4fee99",
+          "offer_id": "ALI760085MR",
+          "offer_name": "HomeDeal Smart Gas - AGN Central 1",
+          "offer_url": "https://compare.energy.vic.gov.au/offers",
+          "qualifies": false,
+          "rate_dominates_current": false,
+          "rate_score_average": 1.26304167,
+          "rate_score_worst": 1.5355617,
+          "retailer": "Alinta Energy",
+          "tariff_compatible": true,
+          "tariff_type": "seasonal_tiered",
+          "usage_rates": [
+            3.24,
+            2.83,
+            2.2
+          ]
+        },
+        {
+          "current_daily_supply_charge_cents": 39.79,
+          "current_usage_rates": [
+            2.4,
+            2.3,
+            2.35
+          ],
+          "daily_supply_charge_cents": 72.95,
+          "eligibility_notes": "Available only to new Sumo residential customers",
+          "eligible": true,
+          "fingerprint": "e09b7806b3860eb5",
+          "offer_id": "SUM723627MR",
+          "offer_name": "Sumo Sunrise  Gas (Australian Gas Network South East)",
+          "offer_url": "https://compare.energy.vic.gov.au/offers",
+          "qualifies": false,
+          "rate_dominates_current": false,
+          "rate_score_average": 1.22430607,
+          "rate_score_worst": 1.83337522,
+          "retailer": "Sumo",
+          "tariff_compatible": true,
+          "tariff_type": "seasonal_tiered",
+          "usage_rates": [
+            2.45,
+            2.35,
+            2.4
+          ]
+        },
+        {
+          "current_daily_supply_charge_cents": 39.79,
+          "current_usage_rates": [
+            2.4,
+            2.3,
+            2.35
+          ],
+          "daily_supply_charge_cents": 75.0,
+          "eligibility_notes": "This offer is available to residential customers currently within the Australian Gas Network Central (Zone 1) distribution zone. For more information contact 1300 115 866.",
+          "eligible": true,
+          "fingerprint": "55ba469ff88c0a1b",
+          "offer_id": "LU2738084MR",
+          "offer_name": "Lumo Plus",
+          "offer_url": "https://compare.energy.vic.gov.au/offers",
+          "qualifies": false,
+          "rate_dominates_current": false,
+          "rate_score_average": 1.63676798,
+          "rate_score_worst": 1.8848957,
+          "retailer": "Lumo Energy",
+          "tariff_compatible": true,
+          "tariff_type": "seasonal_tiered",
+          "usage_rates": [
+            4.11,
+            3.76,
+            3.09
+          ]
+        }
+      ]
+    }
+  },
+  "version": 1
+}

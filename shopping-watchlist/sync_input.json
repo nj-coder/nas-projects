@@ -1,0 +1,80 @@
+{
+  "items": [
+    {
+      "id": "the-laughing-cow-cheese-16-portions-256g",
+      "sources": [
+        {
+          "source_id": "coles",
+          "base_price": 8.5,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "method": "crawl4ai",
+          "evidence_url": "https://www.coles.com.au/product/the-laughing-cow-cheese-16-portions-256g-3275581"
+        },
+        {
+          "source_id": "woolworths",
+          "status": "unavailable"
+        }
+      ]
+    },
+    {
+      "id": "joybos-medicine-box",
+      "sources": [
+        {
+          "source_id": "amazon",
+          "base_price": 39.99,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "method": "http",
+          "evidence_url": "https://www.amazon.com.au/JOYBOS-Medicine-Storage-Portable-Organizer/dp/B0FVX8PJ4H"
+        }
+      ]
+    },
+    {
+      "id": "sowood-learning-tower",
+      "sources": [
+        {
+          "source_id": "sowood",
+          "base_price": 179.0,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "method": "crawl4ai",
+          "evidence_url": "https://sowood.com/products/convertable-learning-tower"
+        },
+        {
+          "source_id": "thelittlebunny",
+          "base_price": 189.0,
+          "fulfillment_cost": 15.0,
+          "status": "available",
+          "method": "crawl4ai",
+          "evidence_url": "https://thelittlebunny.com.au/products/montessori-convertible-learning-tower-bunny"
+        },
+        {
+          "source_id": "toypark",
+          "base_price": 211.5,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "method": "crawl4ai",
+          "evidence_url": "https://www.toypark.com.au/products/toypark-convertible-learning-tower"
+        }
+      ]
+    },
+    {
+      "id": "our-place-titanium-pro-set",
+      "sources": []
+    },
+    {
+      "id": "ninja-crispi-pro-6-in-1",
+      "sources": [
+        {
+          "source_id": "amazon",
+          "base_price": 398.0,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "method": "http",
+          "evidence_url": "https://www.amazon.com.au/s?k=Ninja+Crispi+Pro+6-in-1+Countertop+Glass+Air+Fryer"
+        }
+      ]
+    }
+  ]
+}

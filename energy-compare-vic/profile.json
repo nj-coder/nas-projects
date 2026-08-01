@@ -1,0 +1,59 @@
+{
+  "customer_type": "residential",
+  "energy": {
+    "electricity": {
+      "daily_supply_charge_cents": 110.341,
+      "distributor": "AusNet Services",
+      "plan_name": "HomeDeal Now Electricity Plan",
+      "retailer": "Alinta Energy",
+      "source_checked_at": "2026-06-29",
+      "tariff_type": "single_rate",
+      "usage_rates": [
+        {
+          "label": "all_usage",
+          "rate": 27.126,
+          "unit": "c_per_kwh"
+        }
+      ]
+    },
+    "gas": {
+      "daily_supply_charge_cents": 39.79,
+      "distribution_zone": "Central",
+      "distributor": "Australian Gas Networks",
+      "document_network_label": "Australian Gas Network South East",
+      "plan_name": "Sumo Winter Saver Residential Gas",
+      "retailer": "Sumo",
+      "source_checked_at": "2026-07-08",
+      "tariff_type": "seasonal_tiered",
+      "usage_rates": [
+        {
+          "label": "0_to_27_mj_per_day",
+          "rate": 2.4,
+          "unit": "c_per_mj",
+          "up_to_per_day": 27.0
+        },
+        {
+          "label": "27_to_50_mj_per_day",
+          "rate": 2.3,
+          "unit": "c_per_mj",
+          "up_to_per_day": 50.0
+        },
+        {
+          "label": "over_50_mj_per_day",
+          "rate": 2.35,
+          "unit": "c_per_mj",
+          "up_to_per_day": null
+        }
+      ]
+    }
+  },
+  "has_concession": null,
+  "has_controlled_load": false,
+  "has_solar": false,
+  "jurisdiction": "VIC",
+  "postcode": "3810",
+  "settings": {
+    "comparison_mode": "strict_rate_dominance"
+  },
+  "version": 1
+}
