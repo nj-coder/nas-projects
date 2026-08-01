@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01T15:39:19+1000",
+  "last_updated": "2026-08-01T15:47:24+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -1135,6 +1135,45 @@
           "jbhifi": 399.0,
           "harveynorman": 399.0,
           "amazon": 368.0
+        }
+      ]
+    },
+    {
+      "id": "birds-eye-snap-frozen-mixed-garden-vegetables-1kg",
+      "product_name": "Birds Eye Snap Frozen Mixed Garden Vegetables 1Kg",
+      "image_url": null,
+      "sources": [
+        {
+          "source_id": "coles",
+          "source_name": "Coles",
+          "product_url": "https://www.coles.com.au/search/products?q=Birds%20Eye%20Snap%20Frozen%20Mixed%20Garden%20Vegetables%201Kg",
+          "fulfillment_type": "pickup",
+          "current_base_price": 5.2,
+          "fulfillment_cost": 0,
+          "current_total_price": 5.2,
+          "status": "available",
+          "last_known_price": 5.2,
+          "last_available_date": "2026-08-01"
+        },
+        {
+          "source_id": "woolworths",
+          "source_name": "Woolworths",
+          "product_url": "https://www.woolworths.com.au/shop/search/products?searchTerm=Birds+Eye+Snap+Frozen+Mixed+Garden+Vegetables+1Kg",
+          "fulfillment_type": "pickup",
+          "current_base_price": 6.5,
+          "fulfillment_cost": 0,
+          "current_total_price": 6.5,
+          "status": "available",
+          "last_known_price": 6.5,
+          "last_available_date": "2026-08-01"
+        }
+      ],
+      "date_added": "2026-08-01",
+      "price_history": [
+        {
+          "date": "2026-08-01",
+          "coles": 5.2,
+          "woolworths": 6.5
         }
       ]
     }
