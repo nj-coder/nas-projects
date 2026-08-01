@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01T15:47:24+1000",
+  "last_updated": "2026-08-02T01:01:43+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-08-01"
+          "last_available_date": "2026-08-02"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 6.5,
           "status": "available",
           "last_known_price": 6.5,
-          "last_available_date": "2026-08-01"
+          "last_available_date": "2026-08-02"
         }
       ],
       "price_history": [
@@ -230,6 +230,11 @@
           "date": "2026-08-01",
           "coles": 8.5,
           "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-02",
+          "coles": 8.5,
+          "woolworths": 6.5
         }
       ]
     },
@@ -249,7 +254,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-08-01"
+          "last_available_date": "2026-08-02"
         },
         {
           "source_id": "thelittlebunny",
@@ -261,7 +266,7 @@
           "current_total_price": 204.0,
           "status": "available",
           "last_known_price": 204.0,
-          "last_available_date": "2026-08-01"
+          "last_available_date": "2026-08-02"
         },
         {
           "source_id": "toypark",
@@ -273,7 +278,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-08-01"
+          "last_available_date": "2026-08-02"
         }
       ],
       "price_history": [
@@ -592,6 +597,12 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-08-02",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -611,7 +622,7 @@
           "current_total_price": 825.0,
           "status": "available",
           "last_known_price": 825.0,
-          "last_available_date": "2026-08-01"
+          "last_available_date": "2026-08-02"
         }
       ],
       "price_history": [
@@ -785,6 +796,10 @@
         {
           "date": "2026-08-01",
           "fromourplace": 825.0
+        },
+        {
+          "date": "2026-08-02",
+          "fromourplace": 825.0
         }
       ]
     },
@@ -804,7 +819,7 @@
           "current_total_price": 359.0,
           "status": "available",
           "last_known_price": 359.0,
-          "last_available_date": "2026-08-01"
+          "last_available_date": "2026-08-02"
         },
         {
           "source_id": "ninjakitchen",
@@ -828,7 +843,7 @@
           "current_total_price": 399.0,
           "status": "available",
           "last_known_price": 399.0,
-          "last_available_date": "2026-08-01"
+          "last_available_date": "2026-08-02"
         },
         {
           "source_id": "harveynorman",
@@ -852,7 +867,7 @@
           "current_total_price": 368.0,
           "status": "available",
           "last_known_price": 368.0,
-          "last_available_date": "2026-08-01"
+          "last_available_date": "2026-08-02"
         }
       ],
       "price_history": [
@@ -1135,6 +1150,14 @@
           "jbhifi": 399.0,
           "harveynorman": 399.0,
           "amazon": 368.0
+        },
+        {
+          "date": "2026-08-02",
+          "thegoodguys": 359.0,
+          "ninjakitchen": 399.99,
+          "jbhifi": 399.0,
+          "harveynorman": 399.0,
+          "amazon": 368.0
         }
       ]
     },
@@ -1151,7 +1174,7 @@
           "current_base_price": 5.2,
           "fulfillment_cost": 0,
           "current_total_price": 5.2,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 5.2,
           "last_available_date": "2026-08-01"
         },
@@ -1163,7 +1186,7 @@
           "current_base_price": 6.5,
           "fulfillment_cost": 0,
           "current_total_price": 6.5,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 6.5,
           "last_available_date": "2026-08-01"
         }
@@ -1172,6 +1195,11 @@
       "price_history": [
         {
           "date": "2026-08-01",
+          "coles": 5.2,
+          "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-02",
           "coles": 5.2,
           "woolworths": 6.5
         }
