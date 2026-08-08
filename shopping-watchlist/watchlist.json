@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T01:02:14+1000",
+  "last_updated": "2026-08-09T01:02:24+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-08-08"
+          "last_available_date": "2026-08-09"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-08-08"
+          "last_available_date": "2026-08-09"
         }
       ],
       "price_history": [
@@ -265,6 +265,11 @@
           "date": "2026-08-08",
           "coles": 8.5,
           "woolworths": 8.5
+        },
+        {
+          "date": "2026-08-09",
+          "coles": 8.5,
+          "woolworths": 8.5
         }
       ]
     },
@@ -284,7 +289,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-08-08"
+          "last_available_date": "2026-08-09"
         },
         {
           "source_id": "thelittlebunny",
@@ -296,7 +301,7 @@
           "current_total_price": 204.0,
           "status": "available",
           "last_known_price": 204.0,
-          "last_available_date": "2026-08-08"
+          "last_available_date": "2026-08-09"
         },
         {
           "source_id": "toypark",
@@ -308,7 +313,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-08-08"
+          "last_available_date": "2026-08-09"
         }
       ],
       "price_history": [
@@ -669,6 +674,12 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-08-09",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -688,7 +699,7 @@
           "current_total_price": 825.0,
           "status": "available",
           "last_known_price": 825.0,
-          "last_available_date": "2026-08-08"
+          "last_available_date": "2026-08-09"
         }
       ],
       "price_history": [
@@ -890,6 +901,10 @@
         {
           "date": "2026-08-08",
           "fromourplace": 825.0
+        },
+        {
+          "date": "2026-08-09",
+          "fromourplace": 825.0
         }
       ]
     },
@@ -909,7 +924,7 @@
           "current_total_price": 399.0,
           "status": "available",
           "last_known_price": 399.0,
-          "last_available_date": "2026-08-08"
+          "last_available_date": "2026-08-09"
         },
         {
           "source_id": "ninjakitchen",
@@ -933,7 +948,7 @@
           "current_total_price": 399.0,
           "status": "available",
           "last_known_price": 399.0,
-          "last_available_date": "2026-08-08"
+          "last_available_date": "2026-08-09"
         },
         {
           "source_id": "harveynorman",
@@ -957,7 +972,7 @@
           "current_total_price": 399.0,
           "status": "available",
           "last_known_price": 399.0,
-          "last_available_date": "2026-08-08"
+          "last_available_date": "2026-08-09"
         }
       ],
       "price_history": [
@@ -1296,6 +1311,14 @@
           "jbhifi": 399.0,
           "harveynorman": 399.0,
           "amazon": 399.0
+        },
+        {
+          "date": "2026-08-09",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.99,
+          "jbhifi": 399.0,
+          "harveynorman": 399.0,
+          "amazon": 399.0
         }
       ]
     },
@@ -1368,6 +1391,11 @@
         },
         {
           "date": "2026-08-08",
+          "coles": 5.2,
+          "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-09",
           "coles": 5.2,
           "woolworths": 6.5
         }
