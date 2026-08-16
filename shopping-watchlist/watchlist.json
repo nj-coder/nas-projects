@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T01:02:10+1000",
+  "last_updated": "2026-08-16T13:46:28+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -1034,14 +1034,14 @@
         {
           "source_id": "ninjakitchen",
           "source_name": "Ninja Kitchen",
-          "product_url": "https://ninjakitchen.com.au/products/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer?srsltid=AfmBOorQ9Xs9FE99LkbkFerVX94KDgaD0eo0V9ayQmPWkr9smYBzJZ_W",
+          "product_url": "https://sharkninja.com.au/products/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer",
           "fulfillment_type": "delivery",
           "current_base_price": 399.99,
           "fulfillment_cost": 0,
           "current_total_price": 399.99,
-          "status": "unknown",
+          "status": "available",
           "last_known_price": 399.99,
-          "last_available_date": "2026-07-20"
+          "last_available_date": "2026-08-16"
         },
         {
           "source_id": "jbhifi",
@@ -1503,14 +1503,14 @@
         {
           "source_id": "woolworths",
           "source_name": "Woolworths",
-          "product_url": "https://www.woolworths.com.au/shop/search/products?searchTerm=Birds+Eye+Snap+Frozen+Mixed+Garden+Vegetables+1Kg",
+          "product_url": "https://www.woolworths.com.au/shop/productdetails/249382/birds-eye-frozen-garden-vegetable-mix",
           "fulfillment_type": "pickup",
           "current_base_price": 6.5,
           "fulfillment_cost": 0,
           "current_total_price": 6.5,
-          "status": "unknown",
+          "status": "available",
           "last_known_price": 6.5,
-          "last_available_date": "2026-08-01"
+          "last_available_date": "2026-08-16"
         }
       ],
       "date_added": "2026-08-01",
