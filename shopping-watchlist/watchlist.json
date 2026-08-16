@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T01:02:09+1000",
+  "last_updated": "2026-08-17T08:24:01+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -1087,11 +1087,11 @@
           "source_name": "Amazon AU",
           "product_url": "https://www.amazon.com.au/Ninja-Crispi-Countertop-Glass-AS101GYANZ/dp/B0GXL6CK8Q",
           "fulfillment_type": "delivery",
-          "current_base_price": 399.0,
+          "current_base_price": 377.0,
           "fulfillment_cost": 0,
-          "current_total_price": 399.0,
+          "current_total_price": 377.0,
           "status": "available",
-          "last_known_price": 399.0,
+          "last_known_price": 377.0,
           "last_available_date": "2026-08-17"
         }
       ],
@@ -1502,7 +1502,7 @@
           "ninjakitchen": 399.99,
           "jbhifi": 399.0,
           "harveynorman": 399.0,
-          "amazon": 399.0
+          "amazon": 377.0
         }
       ]
     },
@@ -1514,14 +1514,14 @@
         {
           "source_id": "coles",
           "source_name": "Coles",
-          "product_url": "https://www.coles.com.au/search/products?q=Birds%20Eye%20Snap%20Frozen%20Mixed%20Garden%20Vegetables%201Kg",
+          "product_url": "https://www.coles.com.au/product/birds-eye-frozen-mixed-garden-vegetables-1kg-5075084",
           "fulfillment_type": "pickup",
-          "current_base_price": 5.2,
+          "current_base_price": 6.9,
           "fulfillment_cost": 0,
-          "current_total_price": 5.2,
-          "status": "unknown",
-          "last_known_price": 5.2,
-          "last_available_date": "2026-08-01"
+          "current_total_price": 6.9,
+          "status": "available",
+          "last_known_price": 6.9,
+          "last_available_date": "2026-08-17"
         },
         {
           "source_id": "woolworths",
@@ -1620,7 +1620,7 @@
         },
         {
           "date": "2026-08-17",
-          "coles": 5.2,
+          "coles": 6.9,
           "woolworths": 6.5
         }
       ]
