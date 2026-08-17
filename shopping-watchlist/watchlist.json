@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T04:33:02+1000",
+  "last_updated": "2026-08-18T04:43:33+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -1650,6 +1650,58 @@
           "date": "2026-08-18",
           "coles": 6.9,
           "woolworths": 6.5
+        }
+      ]
+    },
+    {
+      "id": "iphone-17-pro-max-256gb-cosmic-orange",
+      "product_name": "Apple iPhone 17 Pro Max 256GB Cosmic Orange",
+      "image_url": null,
+      "sources": [
+        {
+          "source_id": "harveynorman",
+          "source_name": "Harvey Norman",
+          "product_url": "https://www.harveynorman.com.au/apple-iphone-17-pro-max-256gb-cosmic-orange.html",
+          "fulfillment_type": "delivery",
+          "current_base_price": 0.0,
+          "fulfillment_cost": 0,
+          "current_total_price": 0.0,
+          "status": "available",
+          "last_known_price": 0.0,
+          "last_available_date": "2026-08-18"
+        },
+        {
+          "source_id": "officeworks",
+          "source_name": "Officeworks",
+          "product_url": "https://www.officeworks.com.au/shop/officeworks/p/iphone-17-pro-max-256gb-cosmic-orange-ip17px25og",
+          "fulfillment_type": "delivery",
+          "current_base_price": 0.0,
+          "fulfillment_cost": 0,
+          "current_total_price": 0.0,
+          "status": "available",
+          "last_known_price": 0.0,
+          "last_available_date": "2026-08-18"
+        },
+        {
+          "source_id": "kogan",
+          "source_name": "Kogan",
+          "product_url": "https://www.kogan.com/au/buy/tristar-online-apple-iphone-17-pro-max-international-version-256gb-cosmic-orange-esim-only-ip17pmes-256-org/",
+          "fulfillment_type": "delivery",
+          "current_base_price": 0.0,
+          "fulfillment_cost": 0,
+          "current_total_price": 0.0,
+          "status": "available",
+          "last_known_price": 0.0,
+          "last_available_date": "2026-08-18"
+        }
+      ],
+      "date_added": "2026-08-18",
+      "price_history": [
+        {
+          "date": "2026-08-18",
+          "harveynorman": 0.0,
+          "officeworks": 0.0,
+          "kogan": 0.0
         }
       ]
     }
