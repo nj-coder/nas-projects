@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22T10:40:04+1000",
+  "last_updated": "2026-08-22T10:42:12+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -1771,6 +1771,54 @@
       "image_url": null,
       "sources": [
         {
+          "source_id": "jbhifi",
+          "source_name": "JB Hi-Fi",
+          "product_url": "https://www.jbhifi.com.au/products/apple-iphone-17-pro-max-256gb-cosmic-orange",
+          "fulfillment_type": "delivery",
+          "current_base_price": 1889.0,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "current_total_price": 1889.0,
+          "last_known_price": 1889.0,
+          "last_available_date": "2026-08-22"
+        },
+        {
+          "source_id": "amazon",
+          "source_name": "Amazon AU",
+          "product_url": "https://amzn.asia/d/0e3oOOS5",
+          "fulfillment_type": "delivery",
+          "current_base_price": 1889.0,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "current_total_price": 1889.0,
+          "last_known_price": 1889.0,
+          "last_available_date": "2026-08-22"
+        },
+        {
+          "source_id": "costco",
+          "source_name": "Costco",
+          "product_url": "https://www.costco.com.au/Electronics/Mobile-Phones/iPhones/iPhone-17-Pro-Max/Apple-iPhone-17-Pro-Max-256GB-Cosmic-Orange/p/240949",
+          "fulfillment_type": "delivery",
+          "current_base_price": 1889.99,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "current_total_price": 1889.99,
+          "last_known_price": 1889.99,
+          "last_available_date": "2026-08-22"
+        },
+        {
+          "source_id": "thegoodguys",
+          "source_name": "The Good Guys",
+          "product_url": "https://www.thegoodguys.com.au/apple-iphone-17-pro-max-256gb-cosmic-orange-mfyn4xa",
+          "fulfillment_type": "delivery",
+          "current_base_price": 1999.0,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "current_total_price": 1999.0,
+          "last_known_price": 1999.0,
+          "last_available_date": "2026-08-22"
+        },
+        {
           "source_id": "harveynorman",
           "source_name": "Harvey Norman",
           "product_url": "https://www.harveynorman.com.au/apple-iphone-17-pro-max-256gb-cosmic-orange.html",
@@ -1837,7 +1885,11 @@
           "date": "2026-08-22",
           "harveynorman": 1889.0,
           "officeworks": 1889.0,
-          "kogan": 1889.0
+          "kogan": 1889.0,
+          "jbhifi": 1889.0,
+          "amazon": 1889.0,
+          "costco": 1889.99,
+          "thegoodguys": 1999.0
         }
       ]
     }
