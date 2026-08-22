@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T04:46:41+1000",
+  "last_updated": "2026-08-22T10:40:04+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,19 +17,19 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-08-18"
+          "last_available_date": "2026-08-22"
         },
         {
           "source_id": "woolworths",
           "source_name": "Woolworths",
           "product_url": "https://www.woolworths.com.au/shop/productdetails/236831/the-laughing-cow-cheese-original-wedges",
           "fulfillment_type": "pickup",
-          "current_base_price": 6.5,
+          "current_base_price": 8.5,
           "fulfillment_cost": 0,
-          "current_total_price": 6.5,
+          "current_total_price": 8.5,
           "status": "available",
-          "last_known_price": 6.5,
-          "last_available_date": "2026-08-18"
+          "last_known_price": 8.5,
+          "last_available_date": "2026-08-22"
         }
       ],
       "price_history": [
@@ -315,6 +315,26 @@
           "date": "2026-08-18",
           "coles": 8.5,
           "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-19",
+          "coles": 8.5,
+          "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-20",
+          "coles": 8.5,
+          "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-21",
+          "coles": 8.5,
+          "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-22",
+          "coles": 8.5,
+          "woolworths": 8.5
         }
       ]
     },
@@ -334,7 +354,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-08-18"
+          "last_available_date": "2026-08-22"
         },
         {
           "source_id": "thelittlebunny",
@@ -346,19 +366,19 @@
           "current_total_price": 204.0,
           "status": "available",
           "last_known_price": 204.0,
-          "last_available_date": "2026-08-18"
+          "last_available_date": "2026-08-22"
         },
         {
           "source_id": "toypark",
           "source_name": "Toypark",
           "product_url": "https://www.toypark.com.au/products/toypark-convertible-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 206.8,
+          "current_base_price": 235.0,
           "fulfillment_cost": 0,
-          "current_total_price": 206.8,
+          "current_total_price": 235.0,
           "status": "available",
-          "last_known_price": 206.8,
-          "last_available_date": "2026-08-18"
+          "last_known_price": 235.0,
+          "last_available_date": "2026-08-22"
         }
       ],
       "price_history": [
@@ -779,6 +799,30 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 206.8
+        },
+        {
+          "date": "2026-08-19",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 206.8
+        },
+        {
+          "date": "2026-08-20",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 206.8
+        },
+        {
+          "date": "2026-08-21",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 206.8
+        },
+        {
+          "date": "2026-08-22",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -798,7 +842,7 @@
           "current_total_price": 825.0,
           "status": "available",
           "last_known_price": 825.0,
-          "last_available_date": "2026-08-18"
+          "last_available_date": "2026-08-22"
         }
       ],
       "price_history": [
@@ -1040,6 +1084,22 @@
         {
           "date": "2026-08-18",
           "fromourplace": 825.0
+        },
+        {
+          "date": "2026-08-19",
+          "fromourplace": 825.0
+        },
+        {
+          "date": "2026-08-20",
+          "fromourplace": 825.0
+        },
+        {
+          "date": "2026-08-21",
+          "fromourplace": 825.0
+        },
+        {
+          "date": "2026-08-22",
+          "fromourplace": 825.0
         }
       ]
     },
@@ -1054,36 +1114,36 @@
           "source_name": "The Good Guys",
           "product_url": "https://www.thegoodguys.com.au/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer-cyberspace-as101blanz",
           "fulfillment_type": "pickup",
-          "current_base_price": 369.0,
+          "current_base_price": 329.0,
           "fulfillment_cost": 0,
-          "current_total_price": 369.0,
+          "current_total_price": 329.0,
           "status": "available",
-          "last_known_price": 369.0,
-          "last_available_date": "2026-08-18"
+          "last_known_price": 329.0,
+          "last_available_date": "2026-08-22"
         },
         {
           "source_id": "ninjakitchen",
           "source_name": "Ninja Kitchen",
           "product_url": "https://sharkninja.com.au/products/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer",
           "fulfillment_type": "delivery",
-          "current_base_price": 399.99,
+          "current_base_price": 329.99,
           "fulfillment_cost": 0,
-          "current_total_price": 399.99,
+          "current_total_price": 329.99,
           "status": "available",
-          "last_known_price": 399.99,
-          "last_available_date": "2026-08-18"
+          "last_known_price": 329.99,
+          "last_available_date": "2026-08-22"
         },
         {
           "source_id": "jbhifi",
           "source_name": "JB Hi-Fi",
           "product_url": "https://www.jbhifi.com.au/products/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer-cyberspace",
           "fulfillment_type": "pickup",
-          "current_base_price": 399.0,
+          "current_base_price": 322.0,
           "fulfillment_cost": 0,
-          "current_total_price": 399.0,
+          "current_total_price": 322.0,
           "status": "available",
-          "last_known_price": 399.0,
-          "last_available_date": "2026-08-18"
+          "last_known_price": 322.0,
+          "last_available_date": "2026-08-22"
         },
         {
           "source_id": "harveynorman",
@@ -1093,7 +1153,7 @@
           "current_base_price": 399.0,
           "fulfillment_cost": 0,
           "current_total_price": 399.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 399.0,
           "last_available_date": "2026-08-18"
         },
@@ -1102,12 +1162,12 @@
           "source_name": "Amazon AU",
           "product_url": "https://www.amazon.com.au/Ninja-Crispi-Countertop-Glass-AS101GYANZ/dp/B0GXL6CK8Q",
           "fulfillment_type": "delivery",
-          "current_base_price": 377.0,
+          "current_base_price": 321.0,
           "fulfillment_cost": 0,
-          "current_total_price": 377.0,
+          "current_total_price": 321.0,
           "status": "available",
-          "last_known_price": 377.0,
-          "last_available_date": "2026-08-18"
+          "last_known_price": 321.0,
+          "last_available_date": "2026-08-22"
         }
       ],
       "price_history": [
@@ -1526,6 +1586,38 @@
           "jbhifi": 399.0,
           "harveynorman": 399.0,
           "amazon": 377.0
+        },
+        {
+          "date": "2026-08-19",
+          "thegoodguys": 369.0,
+          "ninjakitchen": 399.99,
+          "jbhifi": 399.0,
+          "harveynorman": 399.0,
+          "amazon": 377.0
+        },
+        {
+          "date": "2026-08-20",
+          "thegoodguys": 369.0,
+          "ninjakitchen": 399.99,
+          "jbhifi": 399.0,
+          "harveynorman": 399.0,
+          "amazon": 377.0
+        },
+        {
+          "date": "2026-08-21",
+          "thegoodguys": 369.0,
+          "ninjakitchen": 399.99,
+          "jbhifi": 399.0,
+          "harveynorman": 399.0,
+          "amazon": 377.0
+        },
+        {
+          "date": "2026-08-22",
+          "thegoodguys": 329.0,
+          "ninjakitchen": 329.99,
+          "jbhifi": 322.0,
+          "harveynorman": 399.0,
+          "amazon": 321.0
         }
       ]
     },
@@ -1544,7 +1636,7 @@
           "current_total_price": 6.9,
           "status": "available",
           "last_known_price": 6.9,
-          "last_available_date": "2026-08-18"
+          "last_available_date": "2026-08-22"
         },
         {
           "source_id": "woolworths",
@@ -1556,7 +1648,7 @@
           "current_total_price": 6.5,
           "status": "available",
           "last_known_price": 6.5,
-          "last_available_date": "2026-08-18"
+          "last_available_date": "2026-08-22"
         }
       ],
       "date_added": "2026-08-01",
@@ -1650,6 +1742,26 @@
           "date": "2026-08-18",
           "coles": 6.9,
           "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-19",
+          "coles": 6.9,
+          "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-20",
+          "coles": 6.9,
+          "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-21",
+          "coles": 6.9,
+          "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-22",
+          "coles": 6.9,
+          "woolworths": 6.5
         }
       ]
     },
@@ -1666,7 +1778,7 @@
           "current_base_price": 1889.0,
           "fulfillment_cost": 0,
           "current_total_price": 1889.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 1889.0,
           "last_available_date": "2026-08-18"
         },
@@ -1678,7 +1790,7 @@
           "current_base_price": 1889.0,
           "fulfillment_cost": 0,
           "current_total_price": 1889.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 1889.0,
           "last_available_date": "2026-08-18"
         },
@@ -1690,7 +1802,7 @@
           "current_base_price": 1889.0,
           "fulfillment_cost": 0,
           "current_total_price": 1889.0,
-          "status": "available",
+          "status": "unknown",
           "last_known_price": 1889.0,
           "last_available_date": "2026-08-18"
         }
@@ -1699,6 +1811,30 @@
       "price_history": [
         {
           "date": "2026-08-18",
+          "harveynorman": 1889.0,
+          "officeworks": 1889.0,
+          "kogan": 1889.0
+        },
+        {
+          "date": "2026-08-19",
+          "harveynorman": 1889.0,
+          "officeworks": 1889.0,
+          "kogan": 1889.0
+        },
+        {
+          "date": "2026-08-20",
+          "harveynorman": 1889.0,
+          "officeworks": 1889.0,
+          "kogan": 1889.0
+        },
+        {
+          "date": "2026-08-21",
+          "harveynorman": 1889.0,
+          "officeworks": 1889.0,
+          "kogan": 1889.0
+        },
+        {
+          "date": "2026-08-22",
           "harveynorman": 1889.0,
           "officeworks": 1889.0,
           "kogan": 1889.0
