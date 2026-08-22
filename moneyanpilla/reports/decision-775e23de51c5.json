@@ -1,0 +1,119 @@
+{
+  "as_of": "2026-08-22",
+  "assumptions": {
+    "estimated": {
+      "base_discount": 0.1,
+      "base_fcf_growth": 0.12,
+      "bear_discount": 0.12,
+      "bear_fcf_growth": -0.02,
+      "bull_discount": 0.09,
+      "bull_fcf_growth": 0.2,
+      "dilution": "1-2% annual (SBC running US$1.6B/yr vs US$6.6B revenue)",
+      "scenario_probabilities": "bear 0.30 / base 0.50 / bull 0.20 (judgemental, uncalibrated)"
+    },
+    "observed": {
+      "aud_usd_rate": 0.71755997,
+      "current_price_usd": 171.81,
+      "diluted_shares": 260163000,
+      "fy2026_cash_usd": 1239512000,
+      "fy2026_fcf_usd": 1319075000,
+      "fy2026_lt_debt_usd": 989560000,
+      "fy2026_net_income_usd": -53828000,
+      "fy2026_revenue_usd": 6572308000,
+      "latest_trading_day": "2026-08-21"
+    },
+    "user_provided": {
+      "invest_amount_aud": 10000,
+      "invest_amount_usd_equiv": 7175.6
+    }
+  },
+  "call": "avoid",
+  "confidence": {
+    "data_quality": 78,
+    "forecastability": 25,
+    "model_stability": 38
+  },
+  "created_at": "2026-08-22T10:09:06.579818+00:00",
+  "execution_authorized": false,
+  "id": "decision-775e23de51c5",
+  "professional_review_required": false,
+  "question": "Whether to invest A$10,000 (\u2248US$7,176) in Atlassian (TEAM) now, given 5-month and 5-year price scenarios.",
+  "recommendation": "Avoid an A$10,000 single-stock position in TEAM now. Market price (US$171.81) sits ~40% above the DCF-implied fair value (US$103), with 75-83% of value in the terminal assumption. For a 5-year horizon the model is terminal-heavy and unstable; for a 5-month horizon the outcome is regime noise, not edge.",
+  "scenarios": {
+    "baseline": {
+      "model": "no-change",
+      "value_usd": 171.81
+    },
+    "five_month": {
+      "base": {
+        "point": 168,
+        "range_usd": [
+          155,
+          182
+        ]
+      },
+      "bear": {
+        "point": 140,
+        "range_usd": [
+          125,
+          152
+        ]
+      },
+      "bull": {
+        "point": 205,
+        "range_usd": [
+          190,
+          225
+        ]
+      },
+      "expected_usd": 167.0
+    },
+    "five_year": {
+      "base": {
+        "point": 104.06,
+        "range_usd": [
+          85,
+          135
+        ]
+      },
+      "bear": {
+        "point": 40.55,
+        "range_usd": [
+          30,
+          60
+        ]
+      },
+      "bull": {
+        "point": 195.67,
+        "range_usd": [
+          160,
+          250
+        ]
+      },
+      "expected_usd": 103.33
+    }
+  },
+  "schema_version": 1,
+  "sha256": "a00dae7e58c44a9bb6a58138f8abd5c62c96f1d3c5bba2aa12df526ec0545c04",
+  "sources": [
+    {
+      "as_of": "2026-06-30",
+      "form": "10-K",
+      "provider": "SEC EDGAR",
+      "sha256": "283dce9fdffdc760aac3ccd554e01634aa3b53055d0ba3836ca4a6db917c1052"
+    },
+    {
+      "as_of": "2026-08-21",
+      "provider": "Alpha Vantage GLOBAL_QUOTE",
+      "symbol": "TEAM",
+      "user_provided": true
+    },
+    {
+      "as_of": "2026-08-22",
+      "pair": "AUD/USD",
+      "provider": "Alpha Vantage CURRENCY_EXCHANGE_RATE",
+      "user_provided": true
+    }
+  ],
+  "what_changes_the_call": "A re-rating toward or below US$120-130 on unchanged fundamentals (closes the DCF gap); durable FCF growth re-accelerating above 15% with margin expansion; SBC/dilution falling meaningfully below 1%/yr; or the model earning a calibrated forecasting edge after 10+ scored forecasts (currently 0)."
+}

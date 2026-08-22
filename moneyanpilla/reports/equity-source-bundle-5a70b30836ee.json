@@ -1,0 +1,263 @@
+{
+  "created_at": "2026-08-22T10:01:52.805204+00:00",
+  "fundamentals": {
+    "cik": "0001650372",
+    "company": "Atlassian Corp",
+    "evidence": [
+      {
+        "as_of": null,
+        "provider": "SEC ticker mapping",
+        "retrieved_at": "2026-08-22T10:01:52.248479+00:00",
+        "sha256": "4849637f2df253ce0c4def3492972346adf5ec7aba5f970cf30daed102af111b",
+        "snapshot": "source-cache/20260822/sec-ticker-mapping-20260822100152248479-4849637f2df2.json",
+        "source_url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "as_of": null,
+        "provider": "SEC submissions",
+        "retrieved_at": "2026-08-22T10:01:52.763690+00:00",
+        "sha256": "7cee5390c13abc36a608e3337134fc09d89e6d08b3a883fbc1bf8eceb636d9fd",
+        "snapshot": "source-cache/20260822/sec-submissions-20260822100152763690-7cee5390c13a.json",
+        "source_url": "https://data.sec.gov/submissions/CIK0001650372.json"
+      },
+      {
+        "as_of": null,
+        "provider": "SEC companyfacts",
+        "retrieved_at": "2026-08-22T10:01:52.768803+00:00",
+        "sha256": "283dce9fdffdc760aac3ccd554e01634aa3b53055d0ba3836ca4a6db917c1052",
+        "snapshot": "source-cache/20260822/sec-companyfacts-20260822100152768803-283dce9fdffd.json",
+        "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001650372.json"
+      }
+    ],
+    "fundamentals": {
+      "capital_expenditure": {
+        "accession": "0001650372-26-000036",
+        "filed": "2026-08-14",
+        "fiscal_period": "FY",
+        "form": "10-K",
+        "period_end": "2026-06-30",
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "taxonomy": "us-gaap",
+        "unit": "USD",
+        "value": 34060000
+      },
+      "cash": {
+        "accession": "0001650372-26-000036",
+        "filed": "2026-08-14",
+        "fiscal_period": "FY",
+        "form": "10-K",
+        "period_end": "2026-06-30",
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "taxonomy": "us-gaap",
+        "unit": "USD",
+        "value": 1239512000
+      },
+      "free_cash_flow_proxy": {
+        "definition": "operating cash flow minus absolute capital expenditure",
+        "unit": "USD",
+        "value": 1319075000.0
+      },
+      "net_income": {
+        "accession": "0001650372-26-000036",
+        "filed": "2026-08-14",
+        "fiscal_period": "FY",
+        "form": "10-K",
+        "period_end": "2026-06-30",
+        "tag": "NetIncomeLoss",
+        "taxonomy": "us-gaap",
+        "unit": "USD",
+        "value": -53828000
+      },
+      "operating_cash_flow": {
+        "accession": "0001650372-26-000036",
+        "filed": "2026-08-14",
+        "fiscal_period": "FY",
+        "form": "10-K",
+        "period_end": "2026-06-30",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "taxonomy": "us-gaap",
+        "unit": "USD",
+        "value": 1353135000
+      },
+      "revenue": {
+        "accession": "0001650372-26-000036",
+        "filed": "2026-08-14",
+        "fiscal_period": "FY",
+        "form": "10-K",
+        "period_end": "2026-06-30",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "taxonomy": "us-gaap",
+        "unit": "USD",
+        "value": 6572308000
+      }
+    },
+    "provider": "SEC EDGAR",
+    "recent_filings": [
+      {
+        "accessionNumber": "0001650372-26-000036",
+        "filingDate": "2026-08-14",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000036/team-20260630.htm",
+        "form": "10-K",
+        "primaryDocument": "team-20260630.htm",
+        "reportDate": "2026-06-30"
+      },
+      {
+        "accessionNumber": "0001650372-26-000031",
+        "filingDate": "2026-08-06",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000031/team-20260806.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20260806.htm",
+        "reportDate": "2026-08-06"
+      },
+      {
+        "accessionNumber": "0001650372-26-000027",
+        "filingDate": "2026-05-01",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000027/team-20260331.htm",
+        "form": "10-Q",
+        "primaryDocument": "team-20260331.htm",
+        "reportDate": "2026-03-31"
+      },
+      {
+        "accessionNumber": "0001650372-26-000024",
+        "filingDate": "2026-04-30",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000024/team-20260430.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20260430.htm",
+        "reportDate": "2026-04-30"
+      },
+      {
+        "accessionNumber": "0001650372-26-000021",
+        "filingDate": "2026-03-11",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000021/team-20260311.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20260311.htm",
+        "reportDate": "2026-03-11"
+      },
+      {
+        "accessionNumber": "0001650372-26-000017",
+        "filingDate": "2026-02-18",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000017/team-20260218.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20260218.htm",
+        "reportDate": "2026-02-18"
+      },
+      {
+        "accessionNumber": "0001650372-26-000011",
+        "filingDate": "2026-02-06",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000011/team-20251231.htm",
+        "form": "10-Q",
+        "primaryDocument": "team-20251231.htm",
+        "reportDate": "2025-12-31"
+      },
+      {
+        "accessionNumber": "0001650372-26-000008",
+        "filingDate": "2026-02-05",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000008/team-20260205.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20260205.htm",
+        "reportDate": "2026-02-05"
+      },
+      {
+        "accessionNumber": "0001650372-26-000003",
+        "filingDate": "2026-01-15",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037226000003/team-20260115.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20260115.htm",
+        "reportDate": "2026-01-15"
+      },
+      {
+        "accessionNumber": "0001650372-25-000072",
+        "filingDate": "2025-12-22",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000072/team-20251218.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20251218.htm",
+        "reportDate": "2025-12-18"
+      },
+      {
+        "accessionNumber": "0001650372-25-000070",
+        "filingDate": "2025-12-03",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000070/team-20251202.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20251202.htm",
+        "reportDate": "2025-12-02"
+      },
+      {
+        "accessionNumber": "0001650372-25-000068",
+        "filingDate": "2025-10-31",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000068/team-20250930.htm",
+        "form": "10-Q",
+        "primaryDocument": "team-20250930.htm",
+        "reportDate": "2025-09-30"
+      },
+      {
+        "accessionNumber": "0001650372-25-000064",
+        "filingDate": "2025-10-30",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000064/team-20251030.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20251030.htm",
+        "reportDate": "2025-10-30"
+      },
+      {
+        "accessionNumber": "0001650372-25-000050",
+        "filingDate": "2025-09-18",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000050/team-20250918.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20250918.htm",
+        "reportDate": "2025-09-18"
+      },
+      {
+        "accessionNumber": "0001650372-25-000047",
+        "filingDate": "2025-09-17",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000047/team-20250915.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20250915.htm",
+        "reportDate": "2025-09-15"
+      },
+      {
+        "accessionNumber": "0001650372-25-000045",
+        "filingDate": "2025-09-08",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000045/team-20250908.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20250908.htm",
+        "reportDate": "2025-09-08"
+      },
+      {
+        "accessionNumber": "0001650372-25-000040",
+        "filingDate": "2025-09-04",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000040/team-20250904.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20250904.htm",
+        "reportDate": "2025-09-04"
+      },
+      {
+        "accessionNumber": "0001650372-25-000036",
+        "filingDate": "2025-08-15",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000036/team-20250630.htm",
+        "form": "10-K",
+        "primaryDocument": "team-20250630.htm",
+        "reportDate": "2025-06-30"
+      },
+      {
+        "accessionNumber": "0001650372-25-000028",
+        "filingDate": "2025-08-07",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000028/team-20250807.htm",
+        "form": "8-K",
+        "primaryDocument": "team-20250807.htm",
+        "reportDate": "2025-08-07"
+      },
+      {
+        "accessionNumber": "0001650372-25-000022",
+        "filingDate": "2025-05-02",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1650372/000165037225000022/team-20250331.htm",
+        "form": "10-Q",
+        "primaryDocument": "team-20250331.htm",
+        "reportDate": "2025-03-31"
+      }
+    ],
+    "retrieved_at": "2026-08-22T10:01:52.802534+00:00",
+    "ticker": "TEAM"
+  },
+  "id": "equity-source-bundle-5a70b30836ee",
+  "schema_version": 1,
+  "sha256": "1c333d73fadf594fdb3bad8e7d95bc1d09222268a53f7b7ad5ef4684e7ad455d"
+}

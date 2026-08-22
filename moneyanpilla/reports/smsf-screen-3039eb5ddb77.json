@@ -1,0 +1,18 @@
+{
+  "alternative_terminal_value": 358169.5393085709,
+  "calculation": "smsf-screen-v1",
+  "created_at": "2026-08-22T10:12:37.159265+00:00",
+  "difference": -66476.96802688547,
+  "id": "smsf-screen-3039eb5ddb77",
+  "professional_review_required": true,
+  "red_flags": [
+    "More than 70% of fund assets would be concentrated in property",
+    "Less than 12 months of modelled fund expenses remain liquid",
+    "Borrowing has not been confirmed as a limited recourse borrowing arrangement"
+  ],
+  "schema_version": 1,
+  "screening_outcome": "not_ready",
+  "sha256": "b277e9ab490ac4de6ac067f5cdc1afcc5acbff902824d8e401d08c0dad21382b",
+  "smsf_terminal_value": 291692.57128168544,
+  "warning": "Starting balance alone never determines whether an SMSF is suitable."
+}

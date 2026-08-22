@@ -1,0 +1,37 @@
+{
+  "ticker": "TEAM",
+  "currency": "USD",
+  "current_price": 171.81,
+  "current_free_cash_flow": 1319075000,
+  "diluted_shares": 260163000,
+  "net_cash": 249952000,
+  "scenarios": [
+    {
+      "name": "bear",
+      "probability": 0.30,
+      "years": 5,
+      "fcf_growth_rate": -0.02,
+      "discount_rate": 0.12,
+      "annual_dilution_rate": 0.02,
+      "terminal_growth_rate": 0.02
+    },
+    {
+      "name": "base",
+      "probability": 0.50,
+      "years": 5,
+      "fcf_growth_rate": 0.12,
+      "discount_rate": 0.10,
+      "annual_dilution_rate": 0.01,
+      "terminal_growth_rate": 0.03
+    },
+    {
+      "name": "bull",
+      "probability": 0.20,
+      "years": 5,
+      "fcf_growth_rate": 0.20,
+      "discount_rate": 0.09,
+      "annual_dilution_rate": 0.01,
+      "terminal_growth_rate": 0.04
+    }
+  ]
+}

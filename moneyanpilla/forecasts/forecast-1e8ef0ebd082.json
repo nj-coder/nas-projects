@@ -1,0 +1,35 @@
+{
+  "baseline_model": "no-change",
+  "baseline_value": 171.81,
+  "current_value": 171.81,
+  "expected_value": 103.329,
+  "horizon_date": "2031-08-22",
+  "id": "forecast-1e8ef0ebd082",
+  "issued_at": "2026-08-22T10:08:14.494929+00:00",
+  "metric": "share_price_usd",
+  "model": "equity-dcf-scenario",
+  "scenarios": [
+    {
+      "high": 60.0,
+      "low": 30.0,
+      "name": "bear",
+      "point": 40.55,
+      "probability": 0.3
+    },
+    {
+      "high": 135.0,
+      "low": 85.0,
+      "name": "base",
+      "point": 104.06,
+      "probability": 0.5
+    },
+    {
+      "high": 250.0,
+      "low": 160.0,
+      "name": "bull",
+      "point": 195.67,
+      "probability": 0.2
+    }
+  ],
+  "target": "Atlassian Corp Class A (TEAM)"
+}

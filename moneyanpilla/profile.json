@@ -1,0 +1,38 @@
+{
+  "assets": {
+    "cash": null,
+    "property": [],
+    "securities": [],
+    "super": []
+  },
+  "base_currency": "AUD",
+  "employment_concentration": {
+    "employer": null,
+    "unvested_equity_value": null,
+    "vested_employer_equity_value": null
+  },
+  "goals": [],
+  "household": {
+    "adults": null,
+    "annual_core_expenses": null,
+    "dependants": null,
+    "emergency_fund_target_months": 6,
+    "gross_annual_income": null
+  },
+  "liabilities": [],
+  "notes": "Complete only fields needed for a decision. Never store passwords, tokens or account credentials.",
+  "risk": {
+    "capacity_for_loss_pct": null,
+    "default_horizon_years": null,
+    "liquidity_need_within_years": null,
+    "maximum_tolerable_drawdown_pct": null
+  },
+  "schema_version": 1,
+  "tax": {
+    "country": "AU",
+    "financial_year": null,
+    "residency": "unknown",
+    "state": "VIC"
+  },
+  "updated_at": null
+}

@@ -1,0 +1,16 @@
+{
+  "as_of": null,
+  "provider": "SEC ticker mapping",
+  "request": {
+    "ticker": "TEAM"
+  },
+  "response": {
+    "cik_str": 1650372,
+    "ticker": "TEAM",
+    "title": "Atlassian Corp"
+  },
+  "retrieved_at": "2026-08-22T10:02:31.904437+00:00",
+  "schema_version": 1,
+  "sha256": "4849637f2df253ce0c4def3492972346adf5ec7aba5f970cf30daed102af111b",
+  "source_url": "https://www.sec.gov/files/company_tickers.json"
+}

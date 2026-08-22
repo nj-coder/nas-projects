@@ -1,0 +1,35 @@
+{
+  "baseline_model": "no-change",
+  "baseline_value": 171.81,
+  "current_value": 171.81,
+  "expected_value": 167.0,
+  "horizon_date": "2027-01-22",
+  "id": "forecast-cc87989e4bc8",
+  "issued_at": "2026-08-22T10:08:14.389809+00:00",
+  "metric": "share_price_usd",
+  "model": "event-regime-scenario",
+  "scenarios": [
+    {
+      "high": 152.0,
+      "low": 125.0,
+      "name": "bear",
+      "point": 140.0,
+      "probability": 0.3
+    },
+    {
+      "high": 182.0,
+      "low": 155.0,
+      "name": "base",
+      "point": 168.0,
+      "probability": 0.5
+    },
+    {
+      "high": 225.0,
+      "low": 190.0,
+      "name": "bull",
+      "point": 205.0,
+      "probability": 0.2
+    }
+  ],
+  "target": "Atlassian Corp Class A (TEAM)"
+}

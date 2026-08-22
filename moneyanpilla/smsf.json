@@ -1,0 +1,15 @@
+{
+  "starting_balance": 200000,
+  "setup_cost": 4000,
+  "annual_cost": 4500,
+  "horizon_years": 10,
+  "smsf_expected_return": 0.06,
+  "alternative_expected_return": 0.07,
+  "alternative_fee_rate": 0.01,
+  "property_concentration": 0.85,
+  "liquid_expense_months": 6,
+  "borrowing": true,
+  "lrba_structure_confirmed": false,
+  "member_or_related_party_use": false,
+  "acquire_residential_property_from_related_party": false
+}

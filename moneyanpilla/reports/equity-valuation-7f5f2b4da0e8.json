@@ -1,0 +1,154 @@
+{
+  "baseline": {
+    "model": "no-change",
+    "value": 171.81
+  },
+  "calculation": "equity-dcf-v1",
+  "created_at": "2026-08-22T10:07:10.501387+00:00",
+  "currency": "USD",
+  "current_price": 171.81,
+  "expected_fair_value": 103.32952689853224,
+  "expected_upside_pct": -39.8583,
+  "id": "equity-valuation-7f5f2b4da0e8",
+  "limitations": [
+    "valuation scenarios are conditional assumptions, not calibrated market probabilities",
+    "short-horizon prices can diverge materially from intrinsic-value estimates"
+  ],
+  "scenarios": [
+    {
+      "assumptions": {
+        "annual_dilution_rate_pct": 2.0,
+        "discount_rate_pct": 12.0,
+        "exit_fcf_multiple": null,
+        "fcf_growth_rate_pct": -2.0,
+        "terminal_growth_rate_pct": 2.0,
+        "years": 5
+      },
+      "enterprise_value": 11398534133.30078,
+      "equity_value": 11648486133.30078,
+      "fair_value_per_share": 40.55301014674286,
+      "forecast_free_cash_flow": [
+        {
+          "free_cash_flow": 1292693500.0,
+          "present_value": 1154190625.0,
+          "year": 1
+        },
+        {
+          "free_cash_flow": 1266839630.0,
+          "present_value": 1009916796.8749999,
+          "year": 2
+        },
+        {
+          "free_cash_flow": 1241502837.4,
+          "present_value": 883677197.2656248,
+          "year": 3
+        },
+        {
+          "free_cash_flow": 1216672780.6520002,
+          "present_value": 773217547.6074218,
+          "year": 4
+        },
+        {
+          "free_cash_flow": 1192339325.0389602,
+          "present_value": 676565354.156494,
+          "year": 5
+        }
+      ],
+      "name": "bear",
+      "probability": 0.3,
+      "terminal_method": "perpetuity_growth",
+      "terminal_value_share_pct": 60.5426
+    },
+    {
+      "assumptions": {
+        "annual_dilution_rate_pct": 1.0,
+        "discount_rate_pct": 10.0,
+        "exit_fcf_multiple": null,
+        "fcf_growth_rate_pct": 12.0,
+        "terminal_growth_rate_pct": 3.0,
+        "years": 5
+      },
+      "enterprise_value": 28203027091.745102,
+      "equity_value": 28452979091.745102,
+      "fair_value_per_share": 104.0579687195631,
+      "forecast_free_cash_flow": [
+        {
+          "free_cash_flow": 1477364000.0000002,
+          "present_value": 1343058181.818182,
+          "year": 1
+        },
+        {
+          "free_cash_flow": 1654647680.0000005,
+          "present_value": 1367477421.4876034,
+          "year": 2
+        },
+        {
+          "free_cash_flow": 1853205401.6000006,
+          "present_value": 1392340647.3328326,
+          "year": 3
+        },
+        {
+          "free_cash_flow": 2075590049.792001,
+          "present_value": 1417655931.8297935,
+          "year": 4
+        },
+        {
+          "free_cash_flow": 2324660855.767041,
+          "present_value": 1443431494.2266986,
+          "year": 5
+        }
+      ],
+      "name": "base",
+      "probability": 0.5,
+      "terminal_method": "perpetuity_growth",
+      "terminal_value_share_pct": 75.3077
+    },
+    {
+      "assumptions": {
+        "annual_dilution_rate_pct": 1.0,
+        "discount_rate_pct": 9.0,
+        "exit_fcf_multiple": null,
+        "fcf_growth_rate_pct": 20.0,
+        "terminal_growth_rate_pct": 4.0,
+        "years": 5
+      },
+      "enterprise_value": 53253738923.82318,
+      "equity_value": 53503690923.82318,
+      "fair_value_per_share": 195.67319747363914,
+      "forecast_free_cash_flow": [
+        {
+          "free_cash_flow": 1582890000.0,
+          "present_value": 1452192660.5504587,
+          "year": 1
+        },
+        {
+          "free_cash_flow": 1899468000.0,
+          "present_value": 1598744213.450046,
+          "year": 2
+        },
+        {
+          "free_cash_flow": 2279361600.0,
+          "present_value": 1760085372.6055553,
+          "year": 3
+        },
+        {
+          "free_cash_flow": 2735233920.0,
+          "present_value": 1937708667.0886843,
+          "year": 4
+        },
+        {
+          "free_cash_flow": 3282280704.0,
+          "present_value": 2133257248.1710286,
+          "year": 5
+        }
+      ],
+      "name": "bull",
+      "probability": 0.2,
+      "terminal_method": "perpetuity_growth",
+      "terminal_value_share_pct": 83.3214
+    }
+  ],
+  "schema_version": 1,
+  "sha256": "d5b5e240197764f4da100e8674646489486537b87865c85bf479e3b9537b90a3",
+  "ticker": "TEAM"
+}
