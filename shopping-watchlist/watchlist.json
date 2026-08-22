@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-22T10:49:11+1000",
+  "last_updated": "2026-08-22T10:52:49+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -1775,11 +1775,11 @@
           "source_name": "JB Hi-Fi",
           "product_url": "https://www.jbhifi.com.au/products/apple-iphone-17-pro-max-256gb-cosmic-orange",
           "fulfillment_type": "delivery",
-          "current_base_price": 1889.0,
+          "current_base_price": 1899.0,
           "fulfillment_cost": 0,
           "status": "available",
-          "current_total_price": 1889.0,
-          "last_known_price": 1889.0,
+          "current_total_price": 1899.0,
+          "last_known_price": 1899.0,
           "last_available_date": "2026-08-22"
         },
         {
@@ -1787,11 +1787,11 @@
           "source_name": "Amazon AU",
           "product_url": "https://amzn.asia/d/0e3oOOS5",
           "fulfillment_type": "delivery",
-          "current_base_price": 1889.0,
+          "current_base_price": 1899.0,
           "fulfillment_cost": 0,
           "status": "available",
-          "current_total_price": 1889.0,
-          "last_known_price": 1889.0,
+          "current_total_price": 1899.0,
+          "last_known_price": 1899.0,
           "last_available_date": "2026-08-22"
         },
         {
@@ -1801,7 +1801,7 @@
           "fulfillment_type": "delivery",
           "current_base_price": 1889.0,
           "fulfillment_cost": 0,
-          "status": "available",
+          "status": "unknown",
           "current_total_price": 1889.0,
           "last_known_price": 1889.0,
           "last_available_date": "2026-08-22"
@@ -1811,11 +1811,11 @@
           "source_name": "Officeworks",
           "product_url": "https://www.officeworks.com.au/shop/officeworks/p/iphone-17-pro-max-256gb-cosmic-orange-ip17px25og",
           "fulfillment_type": "delivery",
-          "current_base_price": 1889.0,
+          "current_base_price": 1899.0,
           "fulfillment_cost": 0,
           "status": "available",
-          "current_total_price": 1889.0,
-          "last_known_price": 1889.0,
+          "current_total_price": 1899.0,
+          "last_known_price": 1899.0,
           "last_available_date": "2026-08-22"
         },
         {
@@ -1847,10 +1847,10 @@
       "price_history": [
         {
           "date": "2026-08-22",
-          "jbhifi": 1889.0,
-          "amazon": 1889.0,
+          "jbhifi": 1899.0,
+          "amazon": 1899.0,
           "harveynorman": 1889.0,
-          "officeworks": 1889.0,
+          "officeworks": 1899.0,
           "costco": 1889.99,
           "thegoodguys": 1999.0
         }
