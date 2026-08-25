@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T01:02:50+1000",
+  "last_updated": "2026-08-26T01:02:49+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         }
       ],
       "price_history": [
@@ -350,6 +350,11 @@
           "date": "2026-08-25",
           "coles": 8.5,
           "woolworths": 8.5
+        },
+        {
+          "date": "2026-08-26",
+          "coles": 8.5,
+          "woolworths": 8.5
         }
       ]
     },
@@ -369,7 +374,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         },
         {
           "source_id": "thelittlebunny",
@@ -381,7 +386,7 @@
           "current_total_price": 204.0,
           "status": "available",
           "last_known_price": 204.0,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         },
         {
           "source_id": "toypark",
@@ -393,7 +398,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         }
       ],
       "price_history": [
@@ -856,6 +861,12 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-08-26",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -875,7 +886,7 @@
           "current_total_price": 825.0,
           "status": "available",
           "last_known_price": 825.0,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         }
       ],
       "price_history": [
@@ -1145,6 +1156,10 @@
         {
           "date": "2026-08-25",
           "fromourplace": 825.0
+        },
+        {
+          "date": "2026-08-26",
+          "fromourplace": 825.0
         }
       ]
     },
@@ -1164,7 +1179,7 @@
           "current_total_price": 329.0,
           "status": "available",
           "last_known_price": 329.0,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         },
         {
           "source_id": "ninjakitchen",
@@ -1176,7 +1191,7 @@
           "current_total_price": 329.99,
           "status": "available",
           "last_known_price": 329.99,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         },
         {
           "source_id": "jbhifi",
@@ -1188,7 +1203,7 @@
           "current_total_price": 322.0,
           "status": "available",
           "last_known_price": 322.0,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         },
         {
           "source_id": "harveynorman",
@@ -1212,7 +1227,7 @@
           "current_total_price": 321.0,
           "status": "available",
           "last_known_price": 321.0,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         }
       ],
       "price_history": [
@@ -1687,6 +1702,14 @@
           "jbhifi": 322.0,
           "harveynorman": 399.0,
           "amazon": 321.0
+        },
+        {
+          "date": "2026-08-26",
+          "thegoodguys": 329.0,
+          "ninjakitchen": 329.99,
+          "jbhifi": 322.0,
+          "harveynorman": 399.0,
+          "amazon": 321.0
         }
       ]
     },
@@ -1700,12 +1723,12 @@
           "source_name": "Coles",
           "product_url": "https://www.coles.com.au/product/birds-eye-frozen-mixed-garden-vegetables-1kg-5075084",
           "fulfillment_type": "pickup",
-          "current_base_price": 6.9,
+          "current_base_price": 5.9,
           "fulfillment_cost": 0,
-          "current_total_price": 6.9,
+          "current_total_price": 5.9,
           "status": "available",
-          "last_known_price": 6.9,
-          "last_available_date": "2026-08-25"
+          "last_known_price": 5.9,
+          "last_available_date": "2026-08-26"
         },
         {
           "source_id": "woolworths",
@@ -1717,7 +1740,7 @@
           "current_total_price": 6.5,
           "status": "available",
           "last_known_price": 6.5,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         }
       ],
       "date_added": "2026-08-01",
@@ -1846,6 +1869,11 @@
           "date": "2026-08-25",
           "coles": 6.9,
           "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-26",
+          "coles": 5.9,
+          "woolworths": 6.5
         }
       ]
     },
@@ -1864,7 +1892,7 @@
           "status": "available",
           "current_total_price": 1899.0,
           "last_known_price": 1899.0,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         },
         {
           "source_id": "amazon",
@@ -1876,7 +1904,7 @@
           "status": "available",
           "current_total_price": 1889.0,
           "last_known_price": 1889.0,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         },
         {
           "source_id": "harveynorman",
@@ -1895,12 +1923,12 @@
           "source_name": "Officeworks",
           "product_url": "https://www.officeworks.com.au/shop/officeworks/p/iphone-17-pro-max-256gb-cosmic-orange-ip17px25og",
           "fulfillment_type": "delivery",
-          "current_base_price": 1899.0,
+          "current_base_price": 1889.0,
           "fulfillment_cost": 0,
           "status": "available",
-          "current_total_price": 1899.0,
-          "last_known_price": 1899.0,
-          "last_available_date": "2026-08-25"
+          "current_total_price": 1889.0,
+          "last_known_price": 1889.0,
+          "last_available_date": "2026-08-26"
         },
         {
           "source_id": "costco",
@@ -1912,7 +1940,7 @@
           "status": "available",
           "current_total_price": 1889.99,
           "last_known_price": 1889.99,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         },
         {
           "source_id": "thegoodguys",
@@ -1924,7 +1952,7 @@
           "status": "available",
           "current_total_price": 1999.0,
           "last_known_price": 1999.0,
-          "last_available_date": "2026-08-25"
+          "last_available_date": "2026-08-26"
         }
       ],
       "date_added": "2026-08-22",
@@ -1962,6 +1990,15 @@
           "amazon": 1889.0,
           "harveynorman": 1889.0,
           "officeworks": 1899.0,
+          "costco": 1889.99,
+          "thegoodguys": 1999.0
+        },
+        {
+          "date": "2026-08-26",
+          "jbhifi": 1899.0,
+          "amazon": 1889.0,
+          "harveynorman": 1889.0,
+          "officeworks": 1889.0,
           "costco": 1889.99,
           "thegoodguys": 1999.0
         }
