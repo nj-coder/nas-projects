@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T01:02:49+1000",
+  "last_updated": "2026-08-27T01:03:07+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,19 +17,19 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         },
         {
           "source_id": "woolworths",
           "source_name": "Woolworths",
           "product_url": "https://www.woolworths.com.au/shop/productdetails/236831/the-laughing-cow-cheese-original-wedges",
           "fulfillment_type": "pickup",
-          "current_base_price": 8.5,
+          "current_base_price": 7.65,
           "fulfillment_cost": 0,
-          "current_total_price": 8.5,
+          "current_total_price": 7.65,
           "status": "available",
-          "last_known_price": 8.5,
-          "last_available_date": "2026-08-26"
+          "last_known_price": 7.65,
+          "last_available_date": "2026-08-27"
         }
       ],
       "price_history": [
@@ -355,6 +355,11 @@
           "date": "2026-08-26",
           "coles": 8.5,
           "woolworths": 8.5
+        },
+        {
+          "date": "2026-08-27",
+          "coles": 8.5,
+          "woolworths": 7.65
         }
       ]
     },
@@ -374,7 +379,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         },
         {
           "source_id": "thelittlebunny",
@@ -386,7 +391,7 @@
           "current_total_price": 204.0,
           "status": "available",
           "last_known_price": 204.0,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         },
         {
           "source_id": "toypark",
@@ -398,7 +403,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         }
       ],
       "price_history": [
@@ -867,6 +872,12 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-08-27",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -886,7 +897,7 @@
           "current_total_price": 825.0,
           "status": "available",
           "last_known_price": 825.0,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         }
       ],
       "price_history": [
@@ -1160,6 +1171,10 @@
         {
           "date": "2026-08-26",
           "fromourplace": 825.0
+        },
+        {
+          "date": "2026-08-27",
+          "fromourplace": 825.0
         }
       ]
     },
@@ -1174,36 +1189,36 @@
           "source_name": "The Good Guys",
           "product_url": "https://www.thegoodguys.com.au/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer-cyberspace-as101blanz",
           "fulfillment_type": "pickup",
-          "current_base_price": 329.0,
+          "current_base_price": 399.0,
           "fulfillment_cost": 0,
-          "current_total_price": 329.0,
+          "current_total_price": 399.0,
           "status": "available",
-          "last_known_price": 329.0,
-          "last_available_date": "2026-08-26"
+          "last_known_price": 399.0,
+          "last_available_date": "2026-08-27"
         },
         {
           "source_id": "ninjakitchen",
           "source_name": "Ninja Kitchen",
           "product_url": "https://sharkninja.com.au/products/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer",
           "fulfillment_type": "delivery",
-          "current_base_price": 329.99,
+          "current_base_price": 399.99,
           "fulfillment_cost": 0,
-          "current_total_price": 329.99,
+          "current_total_price": 399.99,
           "status": "available",
-          "last_known_price": 329.99,
-          "last_available_date": "2026-08-26"
+          "last_known_price": 399.99,
+          "last_available_date": "2026-08-27"
         },
         {
           "source_id": "jbhifi",
           "source_name": "JB Hi-Fi",
           "product_url": "https://www.jbhifi.com.au/products/ninja-crispi-pro-6-in-1-countertop-glass-air-fryer-cyberspace",
           "fulfillment_type": "pickup",
-          "current_base_price": 322.0,
+          "current_base_price": 399.0,
           "fulfillment_cost": 0,
-          "current_total_price": 322.0,
+          "current_total_price": 399.0,
           "status": "available",
-          "last_known_price": 322.0,
-          "last_available_date": "2026-08-26"
+          "last_known_price": 399.0,
+          "last_available_date": "2026-08-27"
         },
         {
           "source_id": "harveynorman",
@@ -1227,7 +1242,7 @@
           "current_total_price": 321.0,
           "status": "available",
           "last_known_price": 321.0,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         }
       ],
       "price_history": [
@@ -1710,6 +1725,14 @@
           "jbhifi": 322.0,
           "harveynorman": 399.0,
           "amazon": 321.0
+        },
+        {
+          "date": "2026-08-27",
+          "thegoodguys": 399.0,
+          "ninjakitchen": 399.99,
+          "jbhifi": 399.0,
+          "harveynorman": 399.0,
+          "amazon": 321.0
         }
       ]
     },
@@ -1728,7 +1751,7 @@
           "current_total_price": 5.9,
           "status": "available",
           "last_known_price": 5.9,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         },
         {
           "source_id": "woolworths",
@@ -1740,7 +1763,7 @@
           "current_total_price": 6.5,
           "status": "available",
           "last_known_price": 6.5,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         }
       ],
       "date_added": "2026-08-01",
@@ -1874,6 +1897,11 @@
           "date": "2026-08-26",
           "coles": 5.9,
           "woolworths": 6.5
+        },
+        {
+          "date": "2026-08-27",
+          "coles": 5.9,
+          "woolworths": 6.5
         }
       ]
     },
@@ -1892,7 +1920,7 @@
           "status": "available",
           "current_total_price": 1899.0,
           "last_known_price": 1899.0,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         },
         {
           "source_id": "amazon",
@@ -1904,7 +1932,7 @@
           "status": "available",
           "current_total_price": 1889.0,
           "last_known_price": 1889.0,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         },
         {
           "source_id": "harveynorman",
@@ -1928,7 +1956,7 @@
           "status": "available",
           "current_total_price": 1889.0,
           "last_known_price": 1889.0,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         },
         {
           "source_id": "costco",
@@ -1940,7 +1968,7 @@
           "status": "available",
           "current_total_price": 1889.99,
           "last_known_price": 1889.99,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         },
         {
           "source_id": "thegoodguys",
@@ -1952,7 +1980,7 @@
           "status": "available",
           "current_total_price": 1999.0,
           "last_known_price": 1999.0,
-          "last_available_date": "2026-08-26"
+          "last_available_date": "2026-08-27"
         }
       ],
       "date_added": "2026-08-22",
@@ -1995,6 +2023,15 @@
         },
         {
           "date": "2026-08-26",
+          "jbhifi": 1899.0,
+          "amazon": 1889.0,
+          "harveynorman": 1889.0,
+          "officeworks": 1889.0,
+          "costco": 1889.99,
+          "thegoodguys": 1999.0
+        },
+        {
+          "date": "2026-08-27",
           "jbhifi": 1899.0,
           "amazon": 1889.0,
           "harveynorman": 1889.0,
