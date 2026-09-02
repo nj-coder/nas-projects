@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T01:02:25+1000",
+  "last_updated": "2026-09-02T13:15:29+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -2260,6 +2260,32 @@
           "officeworks": 2197.0,
           "costco": 1879.99,
           "thegoodguys": 1999.0
+        }
+      ]
+    },
+    {
+      "id": "kitchen-pro-airlock-glass-container-set-10pc",
+      "product_name": "Kitchen Pro Airlock Glass Container Set 10pc",
+      "image_url": null,
+      "sources": [
+        {
+          "source_id": "kitchenwarehouse",
+          "source_name": "Kitchen Warehouse",
+          "product_url": "https://www.kitchenwarehouse.com.au/product/kitchen-pro-airlock-glass-container-set-10pc",
+          "fulfillment_type": "pickup",
+          "current_base_price": 119.95,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "current_total_price": 119.95,
+          "last_known_price": 119.95,
+          "last_available_date": "2026-09-02"
+        }
+      ],
+      "date_added": "2026-09-02",
+      "price_history": [
+        {
+          "date": "2026-09-02",
+          "kitchenwarehouse": 119.95
         }
       ]
     }
