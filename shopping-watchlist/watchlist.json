@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T13:15:29+1000",
+  "last_updated": "2026-09-02T13:15:35+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -2286,6 +2286,32 @@
         {
           "date": "2026-09-02",
           "kitchenwarehouse": 119.95
+        }
+      ]
+    },
+    {
+      "id": "seedsprout-full-pantry-bundle-newrybar",
+      "product_name": "Seedsprout Full Pantry Bundle - Newrybar",
+      "image_url": null,
+      "sources": [
+        {
+          "source_id": "seedsprout",
+          "source_name": "Seedsprout",
+          "product_url": "https://seedsprout.com.au/products/full-pantry-set1?variant=44986667925527",
+          "fulfillment_type": "pickup",
+          "current_base_price": 248.0,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "current_total_price": 248.0,
+          "last_known_price": 248.0,
+          "last_available_date": "2026-09-02"
+        }
+      ],
+      "date_added": "2026-09-02",
+      "price_history": [
+        {
+          "date": "2026-09-02",
+          "seedsprout": 248.0
         }
       ]
     }
