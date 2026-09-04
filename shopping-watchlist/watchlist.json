@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T15:02:27+1000",
+  "last_updated": "2026-09-05T06:02:44+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 7.5,
           "status": "available",
           "last_known_price": 7.5,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 7.65,
           "status": "available",
           "last_known_price": 7.65,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         }
       ],
       "price_history": [
@@ -400,6 +400,11 @@
           "date": "2026-09-04",
           "coles": 7.5,
           "woolworths": 7.65
+        },
+        {
+          "date": "2026-09-05",
+          "coles": 7.5,
+          "woolworths": 7.65
         }
       ]
     },
@@ -419,7 +424,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         },
         {
           "source_id": "thelittlebunny",
@@ -443,7 +448,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         }
       ],
       "price_history": [
@@ -966,6 +971,12 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-09-05",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -985,7 +996,7 @@
           "current_total_price": 699.0,
           "status": "available",
           "last_known_price": 699.0,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         }
       ],
       "price_history": [
@@ -1295,6 +1306,10 @@
         {
           "date": "2026-09-04",
           "fromourplace": 699.0
+        },
+        {
+          "date": "2026-09-05",
+          "fromourplace": 699.0
         }
       ]
     },
@@ -1314,7 +1329,7 @@
           "current_total_price": 377.0,
           "status": "available",
           "last_known_price": 377.0,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         },
         {
           "source_id": "ninjakitchen",
@@ -1326,7 +1341,7 @@
           "current_total_price": 399.99,
           "status": "available",
           "last_known_price": 399.99,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         },
         {
           "source_id": "jbhifi",
@@ -1338,7 +1353,7 @@
           "current_total_price": 399.0,
           "status": "available",
           "last_known_price": 399.0,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         },
         {
           "source_id": "harveynorman",
@@ -1362,7 +1377,7 @@
           "current_total_price": 377.0,
           "status": "available",
           "last_known_price": 377.0,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         }
       ],
       "price_history": [
@@ -1917,6 +1932,14 @@
           "jbhifi": 399.0,
           "harveynorman": 399.0,
           "amazon": 377.0
+        },
+        {
+          "date": "2026-09-05",
+          "thegoodguys": 377.0,
+          "ninjakitchen": 399.99,
+          "jbhifi": 399.0,
+          "harveynorman": 399.0,
+          "amazon": 377.0
         }
       ]
     },
@@ -1935,7 +1958,7 @@
           "current_total_price": 5.9,
           "status": "available",
           "last_known_price": 5.9,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         },
         {
           "source_id": "woolworths",
@@ -1947,7 +1970,7 @@
           "current_total_price": 6.5,
           "status": "available",
           "last_known_price": 6.5,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         }
       ],
       "date_added": "2026-08-01",
@@ -2126,6 +2149,11 @@
           "date": "2026-09-04",
           "coles": 5.9,
           "woolworths": 6.5
+        },
+        {
+          "date": "2026-09-05",
+          "coles": 5.9,
+          "woolworths": 6.5
         }
       ]
     },
@@ -2144,7 +2172,7 @@
           "status": "available",
           "current_total_price": 1999.0,
           "last_known_price": 1999.0,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         },
         {
           "source_id": "amazon",
@@ -2156,7 +2184,7 @@
           "status": "available",
           "current_total_price": 1997.0,
           "last_known_price": 1997.0,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         },
         {
           "source_id": "harveynorman",
@@ -2175,12 +2203,12 @@
           "source_name": "Officeworks",
           "product_url": "https://www.officeworks.com.au/shop/officeworks/p/iphone-17-pro-max-256gb-cosmic-orange-ip17px25og",
           "fulfillment_type": "delivery",
-          "current_base_price": 2197.0,
+          "current_base_price": 1995.0,
           "fulfillment_cost": 0,
           "status": "available",
-          "current_total_price": 2197.0,
-          "last_known_price": 2197.0,
-          "last_available_date": "2026-09-04"
+          "current_total_price": 1995.0,
+          "last_known_price": 1995.0,
+          "last_available_date": "2026-09-05"
         },
         {
           "source_id": "costco",
@@ -2192,7 +2220,7 @@
           "status": "available",
           "current_total_price": 1879.99,
           "last_known_price": 1879.99,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         },
         {
           "source_id": "thegoodguys",
@@ -2204,7 +2232,7 @@
           "status": "available",
           "current_total_price": 1999.0,
           "last_known_price": 1999.0,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         }
       ],
       "date_added": "2026-08-22",
@@ -2334,6 +2362,15 @@
           "officeworks": 2197.0,
           "costco": 1879.99,
           "thegoodguys": 1999.0
+        },
+        {
+          "date": "2026-09-05",
+          "jbhifi": 1999.0,
+          "amazon": 1997.0,
+          "harveynorman": 1889.0,
+          "officeworks": 1995.0,
+          "costco": 1879.99,
+          "thegoodguys": 1999.0
         }
       ]
     },
@@ -2352,7 +2389,7 @@
           "status": "available",
           "current_total_price": 119.95,
           "last_known_price": 119.95,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         }
       ],
       "date_added": "2026-09-02",
@@ -2367,6 +2404,10 @@
         },
         {
           "date": "2026-09-04",
+          "kitchenwarehouse": 119.95
+        },
+        {
+          "date": "2026-09-05",
           "kitchenwarehouse": 119.95
         }
       ]
@@ -2386,7 +2427,7 @@
           "status": "available",
           "current_total_price": 248.0,
           "last_known_price": 248.0,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         }
       ],
       "date_added": "2026-09-02",
@@ -2401,6 +2442,10 @@
         },
         {
           "date": "2026-09-04",
+          "seedsprout": 248.0
+        },
+        {
+          "date": "2026-09-05",
           "seedsprout": 248.0
         }
       ]
@@ -2420,7 +2465,7 @@
           "status": "available",
           "current_total_price": 321.0,
           "last_known_price": 321.0,
-          "last_available_date": "2026-09-04"
+          "last_available_date": "2026-09-05"
         }
       ],
       "date_added": "2026-09-02",
@@ -2435,6 +2480,10 @@
         },
         {
           "date": "2026-09-04",
+          "seedsprout": 321.0
+        },
+        {
+          "date": "2026-09-05",
           "seedsprout": 321.0
         }
       ]
