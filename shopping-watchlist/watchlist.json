@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T06:02:44+1000",
+  "last_updated": "2026-09-05T15:02:42+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -2179,11 +2179,11 @@
           "source_name": "Amazon AU",
           "product_url": "https://amzn.asia/d/0e3oOOS5",
           "fulfillment_type": "delivery",
-          "current_base_price": 1997.0,
+          "current_base_price": 1995.0,
           "fulfillment_cost": 0,
           "status": "available",
-          "current_total_price": 1997.0,
-          "last_known_price": 1997.0,
+          "current_total_price": 1995.0,
+          "last_known_price": 1995.0,
           "last_available_date": "2026-09-05"
         },
         {
@@ -2366,7 +2366,7 @@
         {
           "date": "2026-09-05",
           "jbhifi": 1999.0,
-          "amazon": 1997.0,
+          "amazon": 1995.0,
           "harveynorman": 1889.0,
           "officeworks": 1995.0,
           "costco": 1879.99,
