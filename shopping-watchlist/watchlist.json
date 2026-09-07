@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T06:03:02+1000",
+  "last_updated": "2026-09-07T15:03:22+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -1402,11 +1402,11 @@
           "source_name": "Amazon AU",
           "product_url": "https://www.amazon.com.au/Ninja-Crispi-Countertop-Glass-AS101GYANZ/dp/B0GXL6CK8Q",
           "fulfillment_type": "delivery",
-          "current_base_price": 377.0,
+          "current_base_price": 399.0,
           "fulfillment_cost": 0,
-          "current_total_price": 377.0,
+          "current_total_price": 399.0,
           "status": "available",
-          "last_known_price": 377.0,
+          "last_known_price": 399.0,
           "last_available_date": "2026-09-07"
         }
       ],
@@ -1985,7 +1985,7 @@
           "ninjakitchen": 399.99,
           "jbhifi": 399.0,
           "harveynorman": 399.0,
-          "amazon": 377.0
+          "amazon": 399.0
         }
       ]
     },
@@ -2460,7 +2460,7 @@
           "fulfillment_type": "pickup",
           "current_base_price": 119.95,
           "fulfillment_cost": 0,
-          "status": "available",
+          "status": "unknown",
           "current_total_price": 119.95,
           "last_known_price": 119.95,
           "last_available_date": "2026-09-07"
