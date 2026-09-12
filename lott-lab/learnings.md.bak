@@ -1,6 +1,6 @@
 # Lott Lab Learnings
 
-Generated: 2026-09-11T01:19:14.857974+00:00
+Generated: 2026-09-11T01:20:04.606504+00:00
 Algorithm: `odds-gated-coverage-v5`
 
 This file is generated deterministically from verified draw history and settled selected-vs-control results. Do not hand-edit the machine block.
@@ -61,7 +61,7 @@ Historical frequency is descriptive, not a promise of predictability. The planne
 {
   "algorithm_version": "odds-gated-coverage-v5",
   "format_version": 1,
-  "generated_at": "2026-09-11T01:19:14.857974+00:00",
+  "generated_at": "2026-09-11T01:20:04.606504+00:00",
   "history_limit_per_product": 200,
   "products": {
     "MondayWednesdayFridayLotto": {
@@ -7491,6 +7491,6 @@ Historical frequency is descriptive, not a promise of predictability. The planne
       "product_name": "Saturday Lotto"
     }
   },
-  "snapshot_hash": "8891773ec28d6e9bf2e11c9ddad8f0e93dbf1a2ef692b928cd023960b658c588"
+  "snapshot_hash": "1455b8963ddce047529d09e76129e79841daf9e9e64555a54c6c6de3dc6653ce"
 }
 LOTT_LAB_LEARNING_JSON -->
