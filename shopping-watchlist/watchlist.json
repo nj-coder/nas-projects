@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T06:01:19+1000",
+  "last_updated": "2026-09-14T15:01:26+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -488,11 +488,11 @@
           "source_name": "Toypark",
           "product_url": "https://www.toypark.com.au/products/toypark-convertible-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 235.0,
+          "current_base_price": 188.0,
           "fulfillment_cost": 0,
-          "current_total_price": 235.0,
+          "current_total_price": 188.0,
           "status": "available",
-          "last_known_price": 235.0,
+          "last_known_price": 188.0,
           "last_available_date": "2026-09-14"
         }
       ],
@@ -1075,7 +1075,7 @@
           "date": "2026-09-14",
           "sowood": 159.0,
           "thelittlebunny": 204.0,
-          "toypark": 235.0
+          "toypark": 188.0
         }
       ]
     },
