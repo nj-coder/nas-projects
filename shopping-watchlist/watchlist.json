@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T15:03:08+1000",
+  "last_updated": "2026-09-16T06:03:16+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -12,12 +12,12 @@
           "source_name": "Coles",
           "product_url": "https://www.coles.com.au/product/the-laughing-cow-cheese-16-portions-256g-3275581",
           "fulfillment_type": "pickup",
-          "current_base_price": 7.5,
+          "current_base_price": 8.5,
           "fulfillment_cost": 0,
-          "current_total_price": 7.5,
+          "current_total_price": 8.5,
           "status": "available",
-          "last_known_price": 7.5,
-          "last_available_date": "2026-09-15"
+          "last_known_price": 8.5,
+          "last_available_date": "2026-09-16"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 7.65,
           "status": "available",
           "last_known_price": 7.65,
-          "last_available_date": "2026-09-15"
+          "last_available_date": "2026-09-16"
         }
       ],
       "price_history": [
@@ -455,6 +455,11 @@
           "date": "2026-09-15",
           "coles": 7.5,
           "woolworths": 7.65
+        },
+        {
+          "date": "2026-09-16",
+          "coles": 8.5,
+          "woolworths": 7.65
         }
       ]
     },
@@ -474,7 +479,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-09-15"
+          "last_available_date": "2026-09-16"
         },
         {
           "source_id": "thelittlebunny",
@@ -498,7 +503,7 @@
           "current_total_price": 188.0,
           "status": "available",
           "last_known_price": 188.0,
-          "last_available_date": "2026-09-15"
+          "last_available_date": "2026-09-16"
         }
       ],
       "price_history": [
@@ -1087,6 +1092,12 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 188.0
+        },
+        {
+          "date": "2026-09-16",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 188.0
         }
       ]
     },
@@ -1106,7 +1117,7 @@
           "current_total_price": 850.0,
           "status": "available",
           "last_known_price": 850.0,
-          "last_available_date": "2026-09-15"
+          "last_available_date": "2026-09-16"
         }
       ],
       "price_history": [
@@ -1460,6 +1471,10 @@
         {
           "date": "2026-09-15",
           "fromourplace": 850.0
+        },
+        {
+          "date": "2026-09-16",
+          "fromourplace": 850.0
         }
       ]
     },
@@ -1473,24 +1488,24 @@
           "source_name": "Coles",
           "product_url": "https://www.coles.com.au/product/birds-eye-frozen-mixed-garden-vegetables-1kg-5075084",
           "fulfillment_type": "pickup",
-          "current_base_price": 5.9,
+          "current_base_price": 6.9,
           "fulfillment_cost": 0,
-          "current_total_price": 5.9,
+          "current_total_price": 6.9,
           "status": "available",
-          "last_known_price": 5.9,
-          "last_available_date": "2026-09-15"
+          "last_known_price": 6.9,
+          "last_available_date": "2026-09-16"
         },
         {
           "source_id": "woolworths",
           "source_name": "Woolworths",
           "product_url": "https://www.woolworths.com.au/shop/productdetails/249382/birds-eye-frozen-garden-vegetable-mix",
           "fulfillment_type": "pickup",
-          "current_base_price": 6.5,
+          "current_base_price": 5.2,
           "fulfillment_cost": 0,
-          "current_total_price": 6.5,
+          "current_total_price": 5.2,
           "status": "available",
-          "last_known_price": 6.5,
-          "last_available_date": "2026-09-15"
+          "last_known_price": 5.2,
+          "last_available_date": "2026-09-16"
         }
       ],
       "date_added": "2026-08-01",
@@ -1724,6 +1739,11 @@
           "date": "2026-09-15",
           "coles": 5.9,
           "woolworths": 6.5
+        },
+        {
+          "date": "2026-09-16",
+          "coles": 6.9,
+          "woolworths": 5.2
         }
       ]
     },
@@ -1802,6 +1822,10 @@
         {
           "date": "2026-09-15",
           "kitchenwarehouse": 119.95
+        },
+        {
+          "date": "2026-09-16",
+          "kitchenwarehouse": 119.95
         }
       ]
     },
@@ -1820,7 +1844,7 @@
           "status": "available",
           "current_total_price": 248.0,
           "last_known_price": 248.0,
-          "last_available_date": "2026-09-15"
+          "last_available_date": "2026-09-16"
         }
       ],
       "date_added": "2026-09-02",
@@ -1879,6 +1903,10 @@
         },
         {
           "date": "2026-09-15",
+          "seedsprout": 248.0
+        },
+        {
+          "date": "2026-09-16",
           "seedsprout": 248.0
         }
       ]
@@ -1898,7 +1926,7 @@
           "status": "available",
           "current_total_price": 321.0,
           "last_known_price": 321.0,
-          "last_available_date": "2026-09-15"
+          "last_available_date": "2026-09-16"
         }
       ],
       "date_added": "2026-09-02",
@@ -1957,6 +1985,10 @@
         },
         {
           "date": "2026-09-15",
+          "seedsprout": 321.0
+        },
+        {
+          "date": "2026-09-16",
           "seedsprout": 321.0
         }
       ]
