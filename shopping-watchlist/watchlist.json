@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T15:03:14+1000",
+  "last_updated": "2026-09-23T06:03:20+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-09-22"
+          "last_available_date": "2026-09-23"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 7.65,
           "status": "available",
           "last_known_price": 7.65,
-          "last_available_date": "2026-09-22"
+          "last_available_date": "2026-09-23"
         }
       ],
       "price_history": [
@@ -490,6 +490,11 @@
           "date": "2026-09-22",
           "coles": 8.5,
           "woolworths": 7.65
+        },
+        {
+          "date": "2026-09-23",
+          "coles": 8.5,
+          "woolworths": 7.65
         }
       ]
     },
@@ -509,7 +514,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-09-22"
+          "last_available_date": "2026-09-23"
         },
         {
           "source_id": "thelittlebunny",
@@ -533,7 +538,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-09-22"
+          "last_available_date": "2026-09-23"
         }
       ],
       "price_history": [
@@ -1164,6 +1169,12 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-09-23",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -1183,7 +1194,7 @@
           "current_total_price": 850.0,
           "status": "available",
           "last_known_price": 850.0,
-          "last_available_date": "2026-09-22"
+          "last_available_date": "2026-09-23"
         }
       ],
       "price_history": [
@@ -1565,6 +1576,10 @@
         {
           "date": "2026-09-22",
           "fromourplace": 850.0
+        },
+        {
+          "date": "2026-09-23",
+          "fromourplace": 850.0
         }
       ]
     },
@@ -1578,24 +1593,24 @@
           "source_name": "Coles",
           "product_url": "https://www.coles.com.au/product/birds-eye-frozen-mixed-garden-vegetables-1kg-5075084",
           "fulfillment_type": "pickup",
-          "current_base_price": 6.9,
+          "current_base_price": 3.45,
           "fulfillment_cost": 0,
-          "current_total_price": 6.9,
+          "current_total_price": 3.45,
           "status": "available",
-          "last_known_price": 6.9,
-          "last_available_date": "2026-09-22"
+          "last_known_price": 3.45,
+          "last_available_date": "2026-09-23"
         },
         {
           "source_id": "woolworths",
           "source_name": "Woolworths",
           "product_url": "https://www.woolworths.com.au/shop/productdetails/249382/birds-eye-frozen-garden-vegetable-mix",
           "fulfillment_type": "pickup",
-          "current_base_price": 5.2,
+          "current_base_price": 6.5,
           "fulfillment_cost": 0,
-          "current_total_price": 5.2,
+          "current_total_price": 6.5,
           "status": "available",
-          "last_known_price": 5.2,
-          "last_available_date": "2026-09-22"
+          "last_known_price": 6.5,
+          "last_available_date": "2026-09-23"
         }
       ],
       "date_added": "2026-08-01",
@@ -1864,6 +1879,11 @@
           "date": "2026-09-22",
           "coles": 6.9,
           "woolworths": 5.2
+        },
+        {
+          "date": "2026-09-23",
+          "coles": 3.45,
+          "woolworths": 6.5
         }
       ]
     },
@@ -1970,6 +1990,10 @@
         {
           "date": "2026-09-22",
           "kitchenwarehouse": 119.95
+        },
+        {
+          "date": "2026-09-23",
+          "kitchenwarehouse": 119.95
         }
       ]
     },
@@ -1988,7 +2012,7 @@
           "status": "available",
           "current_total_price": 248.0,
           "last_known_price": 248.0,
-          "last_available_date": "2026-09-22"
+          "last_available_date": "2026-09-23"
         }
       ],
       "date_added": "2026-09-02",
@@ -2075,6 +2099,10 @@
         },
         {
           "date": "2026-09-22",
+          "seedsprout": 248.0
+        },
+        {
+          "date": "2026-09-23",
           "seedsprout": 248.0
         }
       ]
@@ -2094,7 +2122,7 @@
           "status": "available",
           "current_total_price": 321.0,
           "last_known_price": 321.0,
-          "last_available_date": "2026-09-22"
+          "last_available_date": "2026-09-23"
         }
       ],
       "date_added": "2026-09-02",
@@ -2181,6 +2209,10 @@
         },
         {
           "date": "2026-09-22",
+          "seedsprout": 321.0
+        },
+        {
+          "date": "2026-09-23",
           "seedsprout": 321.0
         }
       ]
