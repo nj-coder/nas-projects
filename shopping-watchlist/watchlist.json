@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T15:00:46+1000",
+  "last_updated": "2026-09-24T06:00:52+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-09-23"
+          "last_available_date": "2026-09-24"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 7.65,
           "status": "available",
           "last_known_price": 7.65,
-          "last_available_date": "2026-09-23"
+          "last_available_date": "2026-09-24"
         }
       ],
       "price_history": [
@@ -495,6 +495,11 @@
           "date": "2026-09-23",
           "coles": 8.5,
           "woolworths": 7.65
+        },
+        {
+          "date": "2026-09-24",
+          "coles": 8.5,
+          "woolworths": 7.65
         }
       ]
     },
@@ -514,7 +519,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-09-23"
+          "last_available_date": "2026-09-24"
         },
         {
           "source_id": "thelittlebunny",
@@ -538,7 +543,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-09-23"
+          "last_available_date": "2026-09-24"
         }
       ],
       "price_history": [
@@ -1175,6 +1180,12 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-09-24",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -1194,7 +1205,7 @@
           "current_total_price": 850.0,
           "status": "available",
           "last_known_price": 850.0,
-          "last_available_date": "2026-09-23"
+          "last_available_date": "2026-09-24"
         }
       ],
       "price_history": [
@@ -1580,6 +1591,10 @@
         {
           "date": "2026-09-23",
           "fromourplace": 850.0
+        },
+        {
+          "date": "2026-09-24",
+          "fromourplace": 850.0
         }
       ]
     },
@@ -1598,7 +1613,7 @@
           "current_total_price": 3.45,
           "status": "available",
           "last_known_price": 3.45,
-          "last_available_date": "2026-09-23"
+          "last_available_date": "2026-09-24"
         },
         {
           "source_id": "woolworths",
@@ -1610,7 +1625,7 @@
           "current_total_price": 6.5,
           "status": "available",
           "last_known_price": 6.5,
-          "last_available_date": "2026-09-23"
+          "last_available_date": "2026-09-24"
         }
       ],
       "date_added": "2026-08-01",
@@ -1884,6 +1899,11 @@
           "date": "2026-09-23",
           "coles": 3.45,
           "woolworths": 6.5
+        },
+        {
+          "date": "2026-09-24",
+          "coles": 3.45,
+          "woolworths": 6.5
         }
       ]
     },
@@ -1902,7 +1922,7 @@
           "status": "available",
           "current_total_price": 119.95,
           "last_known_price": 119.95,
-          "last_available_date": "2026-09-23"
+          "last_available_date": "2026-09-24"
         }
       ],
       "date_added": "2026-09-02",
@@ -1993,6 +2013,10 @@
         },
         {
           "date": "2026-09-23",
+          "kitchenwarehouse": 119.95
+        },
+        {
+          "date": "2026-09-24",
           "kitchenwarehouse": 119.95
         }
       ]
@@ -2012,7 +2036,7 @@
           "status": "available",
           "current_total_price": 248.0,
           "last_known_price": 248.0,
-          "last_available_date": "2026-09-23"
+          "last_available_date": "2026-09-24"
         }
       ],
       "date_added": "2026-09-02",
@@ -2103,6 +2127,10 @@
         },
         {
           "date": "2026-09-23",
+          "seedsprout": 248.0
+        },
+        {
+          "date": "2026-09-24",
           "seedsprout": 248.0
         }
       ]
@@ -2122,7 +2150,7 @@
           "status": "available",
           "current_total_price": 321.0,
           "last_known_price": 321.0,
-          "last_available_date": "2026-09-23"
+          "last_available_date": "2026-09-24"
         }
       ],
       "date_added": "2026-09-02",
@@ -2213,6 +2241,10 @@
         },
         {
           "date": "2026-09-23",
+          "seedsprout": 321.0
+        },
+        {
+          "date": "2026-09-24",
           "seedsprout": 321.0
         }
       ]
