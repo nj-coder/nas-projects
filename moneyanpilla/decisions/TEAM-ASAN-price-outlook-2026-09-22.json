@@ -1,0 +1,45 @@
+{
+  "question": "Month-on-month price prediction / scenario outlook for TEAM (Atlassian NASDAQ) and ASAN (Asana NYSE) from 2026-09-22 through 2027-03-31 (approx 6 months).",
+  "call": "research_only",
+  "recommendation": "No calibrated price forecast issued. Alpha Vantage free quota hit (limit: 25/day, 1/sec) prevented fetching TIME_SERIES_WEEKLY (>=26 weekly closes required by equity-price-outlook engine). Engine rejected outlook inputs. Scenario framework saved as user-provided (unproven, uncalibrated). Do NOT trade on these scenarios without a licensed professional and a calibrated outlook with 26+ weekly closes.",
+  "as_of": "2026-09-22",
+  "horizon_date": "2027-03-31",
+  "forecast_dependent": false,
+  "execution_authorized": false,
+  "professional_review_required": true,
+  "assumptions": {
+    "observed_prices_20260922": {"TEAM": "188.65 USD (Yahoo Finance snapshot; Alpha Vantage GLOBAL_QUOTE sha256 d91bfd63; prev close 195.67; 52w 56.01-200.00; beta 1.16; PE --; EPS -0.22; volume 2.96M; mkt cap 47.8B)", "ASAN": "9.11 USD (Yahoo Finance snapshot; Alpha Vantage GLOBAL_QUOTE sha256 58a288ee; prev close 9.54; 52w 5.38-15.48; beta 0.95; PE --; EPS -0.65; volume 8.18M; mkt cap 2.08B)"},
+    "user_provided_scenarios": true,
+    "weekly_history_missing": true,
+    "calibration_record_exists": false,
+    "currency": "USD",
+    "horizon_days": 190,
+    "scenario_annual_returns": "user-provided judgemental; not calibrated; probabilities sum to 1 per ticker but are estimates"
+  },
+  "scenarios": {
+    "TEAM_2026_09_22_to_2027_03_31": {
+      "adverse_25pct_approx_6mo": "-11% (annual -22% => ~-11% over 6mo); price zone ~168 USD; drivers: rate cut delay, AI spend compression, SBC dilution, NASDAQ stress, 10-K FY26 net income -53.8M.",
+      "base_50pct_approx_6mo": "+3% (annual +6% => ~3% over 6mo); price zone ~194 USD; drivers: steady growth, FCF 1.32B, cash 1.24B, beta 1.16.",
+      "bull_25pct_approx_6mo": "+16% (annual +32% => ~16% over 6mo); price zone ~219 USD; drivers: AI adoption accelerates, multiple expansion, 52w high retested."
+    },
+    "ASAN_2026_09_22_to_2027_03_31": {
+      "adverse_30pct_approx_6mo": "-18% (annual -35% => ~-18% over 6mo); price zone ~7.47 USD; drivers: thin cash 219.6M vs 2.08B cap, EPS -0.65, risk-off small-cap, 52w low 5.38 retested.",
+      "base_50pct_approx_6mo": "+1% (annual +2% => ~1% over 6mo); price zone ~9.20 USD; drivers: modest growth, FCF ~86.6M, profitability path.",
+      "bull_20pct_approx_6mo": "+27% (annual +55% => ~27% over 6mo); price zone ~11.57 USD; drivers: AI/work-management adoption accelerates, profitability improves multiple, 52w high 15.48 retested."
+    }
+  },
+  "sources": [
+    {"name":"TEAM_AlphaVantage_GLOBAL_QUOTE_20260922","sha256":"d91bfd63ff7a33c9e42a8658378b79c6a1720c998ed87f079aa154d4364b1769","url":"https://www.alphavantage.co/query","as_of":"2026-09-22","user_provided":false},
+    {"name":"ASAN_AlphaVantage_GLOBAL_QUOTE_20260922","sha256":"58a288ee1fd8deb6ffe18116e8125da490d7276cf6decdcb56a13a3d5dfe2d08","url":"https://www.alphavantage.co/query","as_of":"2026-09-22","user_provided":false},
+    {"name":"TEAM_10K_20260630","sha256":"90422f7e8ce8f0a609c401458d3f8f5e27939e16240809a06e8f158492ebec1a","url":"https://data.sec.gov/submissions/CIK0001650372.json","as_of":"2026-08-14 (filed FY26 period 2026-06-30)","user_provided":false},
+    {"name":"ASAN_10K_10Q_20260131_20260731","sha256":"4eb7cd163c0d.json (10-Q 20260731) / 10-K 20260131 accession 0001477720-26-000021","url":"https://data.sec.gov/submissions/CIK0001477720.json","as_of":"2026-03-13 / 2026-09-03","user_provided":false},
+    {"name":"YahooFinance_TEAM_snapshot_20260922","sha256":"N/A (browser snapshot, no persistent SHA issued)","as_of":"2026-09-22","user_provided":false},
+    {"name":"YahooFinance_ASAN_snapshot_20260922","sha256":"N/A (browser snapshot)","as_of":"2026-09-22","user_provided":false},
+    {"name":"monthly_price_trajectory","user_provided":true,"note":"Not issued. 'Month-on-month' trajectory was requested but engine requires calibrated weekly history; without it any monthly point would be fabricated. Only scenario framework above (unproven, judgemental) saved."}
+  ],
+  "confidence": {"data_quality":75,"model_stability":30,"forecastability":0},
+  "what_changes_the_call": "A calibrated equity-price-outlook (26+ weekly closes from Alpha Vantage or equivalent) plus a saved forecast_record with forecast_kind=market_price, value_semantics=horizon_market_price, and a calibrated forecast_summary (>10 scored forecasts with positive mean edge) would allow a forecast-dependent recommendation. Also: TEAM earnings guidance (next earnings estimated per Yahoo snapshot — date not extracted fully), ASAN profitability milestones, and NASDAQ regime (rate path).",
+  "notes": "Forecastability = 0 because: (a) no 26+ weekly closes available (Alpha Vantage quota); (b) no calibration record exists (forecast_summary expected <10, likely 0); (c) scenario probabilities are user-provided judgemental, not calibrated. Per decision-contract: forecast-dependent directional call requires forecastability >=30. Therefore no buy/hold/reduce/avoid forecast call — only research_only with explicit gap stated.",
+  "professional_review_boundary": "Any trade, position limit, tax-year entry/exit, or SMSF-related action on TEAM/ASAN requires review by a licensed financial adviser (AFS licence) and a registered tax agent / accountant for Australian tax treatment (capital gains, foreign income, currency). This memo is research only, not personal advice.",
+  "currency_context": "TEAM and ASAN trade in USD. User profile is AUD-based household (VIC). Any AUD-equivalent exposure requires a separate FX rate (not fetched here) and currency-hedging / conversion cost assessment. Not included."
+}

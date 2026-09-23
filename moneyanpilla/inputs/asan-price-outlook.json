@@ -1,0 +1,33 @@
+{
+  "ticker": "ASAN",
+  "current_price": 9.11,
+  "as_of_date": "2026-09-22",
+  "horizon_date": "2027-03-31",
+  "currency": "USD",
+  "weekly_history": {
+    "note": "Not available: Alpha Vantage free quota hit (25/day, 1/sec) 2026-09-22; TIME_SERIES_WEEKLY not fetched. Engine requires >=26 weekly closes for calibrated outlook. User-provided scenario rates — uncalibrated; must be flagged unproven.",
+    "user_provided": true,
+    "observed_closes_52w_range": {"low": 5.38, "high": 15.48, "source": "Yahoo Finance 52-week range, snapshot 2026-09-22"},
+    "prior_close": 9.54,
+    "volume_20260922": 8183151,
+    "avg_volume_approx": 6158103,
+    "beta": 0.95,
+    "mkt_cap_usd_b": 2.079,
+    "eps_ttm": -0.65,
+    "pe_ttm": null,
+    "net_income_20260131_10k": -15734000,
+    "cash_20260731_10q": 219562000,
+    "operating_cash_flow_20250731_10q": 90389000,
+    "capex_20260131_10k": 3792000,
+    "fcf_proxy_20250731": 86569000
+  },
+  "scenarios": [
+    {"name":"adverse","probability":0.30,"expected_annual_return":-0.35,"rationale":"High dilution; revenue growth uncertain; cash 219.6M thin vs 2.08B mkt cap; earnings still negative (EPS -0.65); NASDAQ small-cap risk-off; 52w low 5.38 retested. ~6mo return approx -18%."},
+    {"name":"base","probability":0.50,"expected_annual_return":0.02,"rationale":"Steady SaaS retention; modest growth; FCF positive (~86.6M); market expects profitability path; range-bound 7-11 USD over 6mo (~1%)."},
+    {"name":"bull","probability":0.20,"expected_annual_return":0.55,"rationale":"Enterprise AI/work-management adoption accelerates; path to profitability improves multiple; 52w high 15.48 retested. ~6mo return approx +27%."}
+  ],
+  "user_provided_assumptions": {"expected_annual_returns": true, "scenario_probabilities": true, "weekly_history_missing": true},
+  "sources": {"price_20260922": "Yahoo Finance snapshot 2026-09-22 (ASAN 9.11 USD, prev 9.54); Alpha Vantage GLOBAL_QUOTE sha256 58a288ee...",
+    "sec_10k_20260131": "SEC CIK 0001477720 accession 0001477720-26-000021; capex 3.79M; cash 219.6M (10-Q 20260731); FCF proxy 86.57M",
+    "market_data_20260922": "Yahoo Finance: beta 0.95, PE --, EPS -0.65, volume 8.18M, 52w 5.38-15.48, mkt cap 2.08B"}
+}

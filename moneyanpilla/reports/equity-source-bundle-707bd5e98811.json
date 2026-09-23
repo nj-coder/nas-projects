@@ -1,0 +1,289 @@
+{
+  "created_at": "2026-09-22T20:44:55.309635+00:00",
+  "fundamentals": {
+    "cik": "0001477720",
+    "company": "Asana, Inc.",
+    "evidence": [
+      {
+        "as_of": null,
+        "provider": "SEC ticker mapping",
+        "retrieved_at": "2026-09-22T20:44:53.578204+00:00",
+        "sha256": "bd9285ef0c1ea5ec50ed9e15368ccc5617b9a47e784f5b612cc8dfbf2c3a8d44",
+        "snapshot": "source-cache/20260922/sec-ticker-mapping-20260922204453578204-bd9285ef0c1e.json",
+        "source_url": "https://www.sec.gov/files/company_tickers.json"
+      },
+      {
+        "as_of": null,
+        "provider": "SEC submissions",
+        "retrieved_at": "2026-09-22T20:44:54.324654+00:00",
+        "sha256": "dae4b4489cb84ec40ff9ee885d2b46f9c9d0a886248066c43b46a98090e909f6",
+        "snapshot": "source-cache/20260922/sec-submissions-20260922204454324654-dae4b4489cb8.json",
+        "source_url": "https://data.sec.gov/submissions/CIK0001477720.json"
+      },
+      {
+        "as_of": null,
+        "provider": "SEC companyfacts",
+        "retrieved_at": "2026-09-22T20:44:54.329676+00:00",
+        "sha256": "4eb7cd163c0dbd5b3f2cfda3909acdf2ffb33d4b996de56d4c2fb39a3a7d242f",
+        "snapshot": "source-cache/20260922/sec-companyfacts-20260922204454329676-4eb7cd163c0d.json",
+        "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001477720.json"
+      }
+    ],
+    "fundamentals": {
+      "capital_expenditure": {
+        "accession": "0001477720-26-000021",
+        "filed": "2026-03-13",
+        "fiscal_period": "FY",
+        "form": "10-K",
+        "period_end": "2026-01-31",
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "taxonomy": "us-gaap",
+        "unit": "USD",
+        "value": 3792000
+      },
+      "cash": {
+        "accession": "0001477720-26-000060",
+        "filed": "2026-09-03",
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "period_end": "2026-07-31",
+        "tag": "CashAndCashEquivalentsAtCarryingValue",
+        "taxonomy": "us-gaap",
+        "unit": "USD",
+        "value": 219562000
+      },
+      "free_cash_flow_proxy": {
+        "definition": "operating cash flow minus absolute capital expenditure",
+        "unit": "USD",
+        "value": 86569000.0
+      },
+      "net_income": {
+        "accession": "0001477720-26-000021",
+        "filed": "2026-03-13",
+        "fiscal_period": "FY",
+        "form": "10-K",
+        "period_end": "2026-01-31",
+        "tag": "NetIncomeLoss",
+        "taxonomy": "us-gaap",
+        "unit": "USD",
+        "value": -189024000
+      },
+      "operating_cash_flow": {
+        "accession": "0001477720-26-000021",
+        "filed": "2026-03-13",
+        "fiscal_period": "FY",
+        "form": "10-K",
+        "period_end": "2026-01-31",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "taxonomy": "us-gaap",
+        "unit": "USD",
+        "value": 90361000
+      },
+      "revenue": {
+        "accession": "0001477720-26-000021",
+        "filed": "2026-03-13",
+        "fiscal_period": "FY",
+        "form": "10-K",
+        "period_end": "2026-01-31",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "taxonomy": "us-gaap",
+        "unit": "USD",
+        "value": 790806000
+      }
+    },
+    "provider": "SEC EDGAR",
+    "recent_filings": [
+      {
+        "accessionNumber": "0001477720-26-000060",
+        "filingDate": "2026-09-03",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772026000060/asan-20260731.htm",
+        "form": "10-Q",
+        "primaryDocument": "asan-20260731.htm",
+        "reportDate": "2026-07-31"
+      },
+      {
+        "accessionNumber": "0001477720-26-000058",
+        "filingDate": "2026-09-03",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772026000058/asan-20260903.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20260903.htm",
+        "reportDate": "2026-09-03"
+      },
+      {
+        "accessionNumber": "0001628280-26-059413",
+        "filingDate": "2026-08-28",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000162828026059413/asan-20260826.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20260826.htm",
+        "reportDate": "2026-08-26"
+      },
+      {
+        "accessionNumber": "0001628280-26-048674",
+        "filingDate": "2026-07-17",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000162828026048674/asan-20260713.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20260713.htm",
+        "reportDate": "2026-07-13"
+      },
+      {
+        "accessionNumber": "0001628280-26-042881",
+        "filingDate": "2026-06-12",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000162828026042881/asan-20260608.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20260608.htm",
+        "reportDate": "2026-06-08"
+      },
+      {
+        "accessionNumber": "0001477720-26-000039",
+        "filingDate": "2026-05-28",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772026000039/asan-20260430.htm",
+        "form": "10-Q",
+        "primaryDocument": "asan-20260430.htm",
+        "reportDate": "2026-04-30"
+      },
+      {
+        "accessionNumber": "0001477720-26-000037",
+        "filingDate": "2026-05-28",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772026000037/asan-20260528.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20260528.htm",
+        "reportDate": "2026-05-28"
+      },
+      {
+        "accessionNumber": "0001628280-26-025988",
+        "filingDate": "2026-04-20",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000162828026025988/asan-20260414.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20260414.htm",
+        "reportDate": "2026-04-14"
+      },
+      {
+        "accessionNumber": "0001477720-26-000021",
+        "filingDate": "2026-03-13",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772026000021/asan-20260131.htm",
+        "form": "10-K",
+        "primaryDocument": "asan-20260131.htm",
+        "reportDate": "2026-01-31"
+      },
+      {
+        "accessionNumber": "0001477720-26-000019",
+        "filingDate": "2026-03-13",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772026000019/asan-20260310.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20260310.htm",
+        "reportDate": "2026-03-10"
+      },
+      {
+        "accessionNumber": "0001477720-26-000012",
+        "filingDate": "2026-03-02",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772026000012/asan-20260226.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20260226.htm",
+        "reportDate": "2026-02-26"
+      },
+      {
+        "accessionNumber": "0001628280-26-013212",
+        "filingDate": "2026-03-02",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000162828026013212/asan-20260226.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20260226.htm",
+        "reportDate": "2026-02-26"
+      },
+      {
+        "accessionNumber": "0001477720-25-000237",
+        "filingDate": "2025-12-02",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772025000237/asan-20251031.htm",
+        "form": "10-Q",
+        "primaryDocument": "asan-20251031.htm",
+        "reportDate": "2025-10-31"
+      },
+      {
+        "accessionNumber": "0001477720-25-000235",
+        "filingDate": "2025-12-02",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772025000235/asan-20251130.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20251130.htm",
+        "reportDate": "2025-11-30"
+      },
+      {
+        "accessionNumber": "0001477720-25-000202",
+        "filingDate": "2025-09-09",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772025000202/asan-20250905.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20250905.htm",
+        "reportDate": "2025-09-05"
+      },
+      {
+        "accessionNumber": "0001477720-25-000200",
+        "filingDate": "2025-09-03",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772025000200/asan-20250731.htm",
+        "form": "10-Q",
+        "primaryDocument": "asan-20250731.htm",
+        "reportDate": "2025-07-31"
+      },
+      {
+        "accessionNumber": "0001477720-25-000198",
+        "filingDate": "2025-09-03",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772025000198/asan-20250903.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20250903.htm",
+        "reportDate": "2025-09-03"
+      },
+      {
+        "accessionNumber": "0001477720-25-000132",
+        "filingDate": "2025-06-25",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772025000132/asan-20250623.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20250623.htm",
+        "reportDate": "2025-06-23"
+      },
+      {
+        "accessionNumber": "0001477720-25-000123",
+        "filingDate": "2025-06-20",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772025000123/asan-20250616.htm",
+        "form": "8-K",
+        "primaryDocument": "asan-20250616.htm",
+        "reportDate": "2025-06-16"
+      },
+      {
+        "accessionNumber": "0001477720-25-000107",
+        "filingDate": "2025-06-03",
+        "filing_url": "https://www.sec.gov/Archives/edgar/data/1477720/000147772025000107/asan-20250430.htm",
+        "form": "10-Q",
+        "primaryDocument": "asan-20250430.htm",
+        "reportDate": "2025-04-30"
+      }
+    ],
+    "retrieved_at": "2026-09-22T20:44:54.362295+00:00",
+    "ticker": "ASAN"
+  },
+  "id": "equity-source-bundle-707bd5e98811",
+  "market": {
+    "cache_status": {
+      "history": "unavailable",
+      "quote": "miss"
+    },
+    "evidence": [
+      {
+        "as_of": "2026-09-22",
+        "provider": "Alpha Vantage quote",
+        "retrieved_at": "2026-09-22T20:44:55.058765+00:00",
+        "sha256": "58a288ee1fd8deb6ffe18116e8125da490d7276cf6decdcb56a13a3d5dfe2d08",
+        "snapshot": "source-cache/20260922/alpha-vantage-quote-20260922204455058765-58a288ee1fd8.json",
+        "source_url": "https://www.alphavantage.co/query"
+      }
+    ],
+    "history_adjusted": false,
+    "latest_trading_day": "2026-09-22",
+    "price": 9.11,
+    "provider": "Alpha Vantage",
+    "quote_freshness": "end_of_day_unless_entitled_otherwise",
+    "ticker": "ASAN",
+    "warnings": [
+      "Alpha Vantage quota is unavailable. Do not retry in this turn; continue without market data. Provider detail: Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to lift the free key rate limit (25 requests per day), raise the per-second burst limit, and instantly unlock all premium endpoints"
+    ],
+    "weekly_history": []
+  },
+  "schema_version": 1,
+  "sha256": "53e77a1885260b8dcac7dd38c34e785f13cf74e5b636c3b519d8cf3d8de7ea1d"
+}

@@ -1,0 +1,26 @@
+{
+  "as_of": "2026-09-22",
+  "provider": "Alpha Vantage quote",
+  "request": {
+    "function": "GLOBAL_QUOTE",
+    "symbol": "ASAN"
+  },
+  "response": {
+    "Global Quote": {
+      "01. symbol": "ASAN",
+      "02. open": "9.7300",
+      "03. high": "9.8300",
+      "04. low": "8.8900",
+      "05. price": "9.1100",
+      "06. volume": "8183151",
+      "07. latest trading day": "2026-09-22",
+      "08. previous close": "9.5400",
+      "09. change": "-0.4300",
+      "10. change percent": "-4.5073%"
+    }
+  },
+  "retrieved_at": "2026-09-22T20:44:55.058765+00:00",
+  "schema_version": 1,
+  "sha256": "58a288ee1fd8deb6ffe18116e8125da490d7276cf6decdcb56a13a3d5dfe2d08",
+  "source_url": "https://www.alphavantage.co/query"
+}

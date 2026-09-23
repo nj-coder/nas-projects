@@ -1,0 +1,16 @@
+{
+  "as_of": null,
+  "provider": "SEC ticker mapping",
+  "request": {
+    "ticker": "ASAN"
+  },
+  "response": {
+    "cik_str": 1477720,
+    "ticker": "ASAN",
+    "title": "Asana, Inc."
+  },
+  "retrieved_at": "2026-09-22T20:44:53.578204+00:00",
+  "schema_version": 1,
+  "sha256": "bd9285ef0c1ea5ec50ed9e15368ccc5617b9a47e784f5b612cc8dfbf2c3a8d44",
+  "source_url": "https://www.sec.gov/files/company_tickers.json"
+}

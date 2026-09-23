@@ -1,0 +1,26 @@
+{
+  "ticker": "TEAM",
+  "current_price": 188.65,
+  "as_of_date": "2026-09-22",
+  "horizon_date": "2027-03-31",
+  "currency": "USD",
+  "weekly_history": {
+    "note": "Not available: Alpha Vantage free quota hit (25/day, 1/sec) 2026-09-22; TIME_SERIES_WEEKLY not fetched. Engine requires >=26 weekly closes for calibrated outlook. User-provided scenario rates — uncalibrated; must be flagged unproven.",
+    "user_provided": true,
+    "observed_closes_52w_range": {"low": 56.01, "high": 200.00, "source": "Yahoo Finance 52-week range, snapshot 2026-09-22"},
+    "prior_close": 195.67,
+    "volume_20260922": 2956107,
+    "avg_volume_approx": 4362953,
+    "beta": 1.16,
+    "mkt_cap_usd_b": 47.755
+  },
+  "scenarios": [
+    {"name":"adverse","probability":0.25,"expected_annual_return":-0.22,"rationale":"Rate cuts delayed; AI collaboration spend compression; net income still negative (-53.8M FY26 10-K); SBC dilution; 52w low 56.01 realistic stress. ~6mo return approx -11%."},
+    {"name":"base","probability":0.50,"expected_annual_return":0.06,"rationale":"Steady growth; strong FCF (1.319B); cash 1.239B; NASDAQ beta 1.16; range-bound vs index over 6mo (~3%)."},
+    {"name":"bull","probability":0.25,"expected_annual_return":0.32,"rationale":"Enterprise AI adoption accelerates; operating leverage improves; premium multiple sustained. ~6mo return approx +16%."}
+  ],
+  "user_provided_assumptions": {"expected_annual_returns": true, "scenario_probabilities": true, "weekly_history_missing": true},
+  "sources": {"price_20260922": "Yahoo Finance snapshot 2026-09-22 (TEAM 188.65 USD, prev 195.67); Alpha Vantage GLOBAL_QUOTE sha256 d91bfd63...",
+    "sec_10k_20260630": "SEC accession 0001650372-26-000036; net_income -53.83M; operating_cash_flow 1.353B; capex 34.1M; cash 1.239B; fcf_proxy 1.319B",
+    "market_data_20260922": "Yahoo Finance: beta 1.16, PE --, EPS -0.22, volume 2.96M, 52w 56.01-200.00, mkt cap 47.8B"}
+}
