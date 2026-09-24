@@ -1,6 +1,6 @@
 # Lott Lab Learnings
 
-Generated: 2026-09-23T07:00:37.235965+00:00
+Generated: 2026-09-23T21:00:14.704494+00:00
 Algorithm: `odds-gated-coverage-v5`
 
 This file is generated deterministically from verified draw history and settled selected-vs-control results. Do not hand-edit the machine block.
@@ -9,11 +9,11 @@ Historical frequency is descriptive, not a promise of predictability. The planne
 
 ## Set for Life (`SetForLife`)
 
-- Verified draws retained: 200 (2026-03-07 to 2026-09-22).
-- Full-history positive deviations: 35 (39 observed; 31.818 expected), 1 (38 observed; 31.818 expected), 27 (38 observed; 31.818 expected), 43 (38 observed; 31.818 expected), 15 (37 observed; 31.818 expected), 40 (37 observed; 31.818 expected), 44 (37 observed; 31.818 expected), 3 (36 observed; 31.818 expected).
-- Latest 20 draws positive deviations: 32 (8 observed; 3.182 expected), 43 (8 observed; 3.182 expected), 1 (6 observed; 3.182 expected), 6 (6 observed; 3.182 expected), 24 (6 observed; 3.182 expected), 7 (5 observed; 3.182 expected), 16 (5 observed; 3.182 expected), 40 (5 observed; 3.182 expected).
-- Largest recent upward occurrence shifts: 32 (1 in the previous window to 8 in the latest window), 6 (0 in the previous window to 6 in the latest window), 24 (0 in the previous window to 6 in the latest window), 1 (2 in the previous window to 6 in the latest window), 43 (4 in the previous window to 8 in the latest window), 44 (1 in the previous window to 5 in the latest window), 7 (2 in the previous window to 5 in the latest window), 16 (2 in the previous window to 5 in the latest window).
-- Live selected-vs-control evidence: weakened; 58 draws; mean match delta -1.06897; recommended weight 0.15.
+- Verified draws retained: 200 (2026-03-08 to 2026-09-23).
+- Full-history positive deviations: 1 (39 observed; 31.818 expected), 27 (38 observed; 31.818 expected), 35 (38 observed; 31.818 expected), 43 (38 observed; 31.818 expected), 15 (37 observed; 31.818 expected), 40 (37 observed; 31.818 expected), 44 (37 observed; 31.818 expected), 3 (36 observed; 31.818 expected).
+- Latest 20 draws positive deviations: 32 (8 observed; 3.182 expected), 43 (8 observed; 3.182 expected), 1 (6 observed; 3.182 expected), 6 (6 observed; 3.182 expected), 24 (6 observed; 3.182 expected), 16 (5 observed; 3.182 expected), 40 (5 observed; 3.182 expected), 42 (5 observed; 3.182 expected).
+- Largest recent upward occurrence shifts: 32 (1 in the previous window to 8 in the latest window), 6 (0 in the previous window to 6 in the latest window), 24 (1 in the previous window to 6 in the latest window), 43 (3 in the previous window to 8 in the latest window), 44 (1 in the previous window to 5 in the latest window), 1 (3 in the previous window to 6 in the latest window), 16 (2 in the previous window to 5 in the latest window), 40 (2 in the previous window to 5 in the latest window).
+- Live selected-vs-control evidence: weakened; 59 draws; mean match delta -1.0678; recommended weight 0.15.
 - Walk-forward evidence: weakened; 60 folds; mean match delta -0.25729; recommended weight 0.15.
 - Next-plan action: cap historical weighting at 0.15; retain diversified uniform controls for comparison.
 
@@ -61,7 +61,7 @@ Historical frequency is descriptive, not a promise of predictability. The planne
 {
   "algorithm_version": "odds-gated-coverage-v5",
   "format_version": 1,
-  "generated_at": "2026-09-23T07:00:37.235965+00:00",
+  "generated_at": "2026-09-23T21:00:14.704494+00:00",
   "history_limit_per_product": 200,
   "products": {
     "MondayWednesdayFridayLotto": {
@@ -3975,19 +3975,6 @@ Historical frequency is descriptive, not a promise of predictability. The planne
     "SetForLife": {
       "draws": [
         {
-          "draw_date": "2026-03-07",
-          "draw_number": 3866,
-          "winning_numbers": [
-            4,
-            16,
-            22,
-            23,
-            8,
-            35,
-            21
-          ]
-        },
-        {
           "draw_date": "2026-03-08",
           "draw_number": 3867,
           "winning_numbers": [
@@ -6573,24 +6560,31 @@ Historical frequency is descriptive, not a promise of predictability. The planne
             24,
             40
           ]
+        },
+        {
+          "draw_date": "2026-09-23",
+          "draw_number": 4066,
+          "winning_numbers": [
+            24,
+            42,
+            30,
+            12,
+            22,
+            1,
+            28
+          ]
         }
       ],
       "frequency": {
         "descriptive_only": "Occurrences and shifts describe retained verified draws; they do not change the mathematical probability of an independent future draw.",
         "draw_count": 200,
         "expected_count_per_number": 31.818,
-        "history_end": "2026-09-22",
-        "history_start": "2026-03-07",
+        "history_end": "2026-09-23",
+        "history_start": "2026-03-08",
         "largest_positive_full_history_deviations": [
           {
             "count": 39,
             "deviation": 7.182,
-            "expected": 31.818,
-            "number": 35
-          },
-          {
-            "count": 38,
-            "deviation": 6.182,
             "expected": 31.818,
             "number": 1
           },
@@ -6599,6 +6593,12 @@ Historical frequency is descriptive, not a promise of predictability. The planne
             "deviation": 6.182,
             "expected": 31.818,
             "number": 27
+          },
+          {
+            "count": 38,
+            "deviation": 6.182,
+            "expected": 31.818,
+            "number": 35
           },
           {
             "count": 38,
@@ -6666,12 +6666,6 @@ Historical frequency is descriptive, not a promise of predictability. The planne
             "count": 5,
             "deviation": 1.818,
             "expected": 3.182,
-            "number": 7
-          },
-          {
-            "count": 5,
-            "deviation": 1.818,
-            "expected": 3.182,
             "number": 16
           },
           {
@@ -6679,6 +6673,12 @@ Historical frequency is descriptive, not a promise of predictability. The planne
             "deviation": 1.818,
             "expected": 3.182,
             "number": 40
+          },
+          {
+            "count": 5,
+            "deviation": 1.818,
+            "expected": 3.182,
+            "number": 42
           }
         ],
         "largest_recent_upward_shifts": [
@@ -6696,20 +6696,14 @@ Historical frequency is descriptive, not a promise of predictability. The planne
           },
           {
             "number": 24,
-            "occurrences_per_draw_change": 0.3,
-            "previous_count": 0,
-            "recent_count": 6
-          },
-          {
-            "number": 1,
-            "occurrences_per_draw_change": 0.2,
-            "previous_count": 2,
+            "occurrences_per_draw_change": 0.25,
+            "previous_count": 1,
             "recent_count": 6
           },
           {
             "number": 43,
-            "occurrences_per_draw_change": 0.2,
-            "previous_count": 4,
+            "occurrences_per_draw_change": 0.25,
+            "previous_count": 3,
             "recent_count": 8
           },
           {
@@ -6719,13 +6713,19 @@ Historical frequency is descriptive, not a promise of predictability. The planne
             "recent_count": 5
           },
           {
-            "number": 7,
+            "number": 1,
+            "occurrences_per_draw_change": 0.15,
+            "previous_count": 3,
+            "recent_count": 6
+          },
+          {
+            "number": 16,
             "occurrences_per_draw_change": 0.15,
             "previous_count": 2,
             "recent_count": 5
           },
           {
-            "number": 16,
+            "number": 40,
             "occurrences_per_draw_change": 0.15,
             "previous_count": 2,
             "recent_count": 5
@@ -6739,19 +6739,19 @@ Historical frequency is descriptive, not a promise of predictability. The planne
         "live_control": {
           "bootstrap_resamples": 4000,
           "confidence_95": {
-            "lower": -2.62112,
-            "upper": 0.41422
+            "lower": -2.52542,
+            "upper": 0.35636
           },
-          "control_matches": 4315,
-          "evaluated_draws": 58,
-          "evaluated_lines": 3850,
+          "control_matches": 4398,
+          "evaluated_draws": 59,
+          "evaluated_lines": 3920,
           "interval_method": "deterministic-paired-bootstrap-percentile",
-          "mean_match_delta": -1.06897,
+          "mean_match_delta": -1.0678,
           "model_weight": 0.15,
           "reason": "historical weighting trails controls but the result is not conclusive",
-          "sample_count": 58,
-          "selected_matches": 4253,
-          "standard_error": 0.77929,
+          "sample_count": 59,
+          "selected_matches": 4335,
+          "standard_error": 0.76597,
           "status": "weakened"
         },
         "recommended_model_weight_cap": 0.15,
@@ -7614,6 +7614,6 @@ Historical frequency is descriptive, not a promise of predictability. The planne
       "product_name": "Saturday Lotto"
     }
   },
-  "snapshot_hash": "30efea0ded5879b5095a74da0df741755f15efc7d5a22b10ca1fa0050a9e3bae"
+  "snapshot_hash": "2be2f227977fcf59fafdfaec31e43f02806dc686a6a738347c66f5ebdcef82a9"
 }
 LOTT_LAB_LEARNING_JSON -->
