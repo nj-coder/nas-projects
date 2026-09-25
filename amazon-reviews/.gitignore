@@ -1,0 +1,6 @@
+# Active Amazon review data is intentionally ephemeral.
+queue.json
+items/
+seen.json
+.dashboard-secret
+last-sync.json
