@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27T15:01:27+1000",
+  "last_updated": "2026-09-28T06:01:36+1000",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-09-27"
+          "last_available_date": "2026-09-28"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 7.65,
           "status": "available",
           "last_known_price": 7.65,
-          "last_available_date": "2026-09-27"
+          "last_available_date": "2026-09-28"
         }
       ],
       "price_history": [
@@ -515,6 +515,11 @@
           "date": "2026-09-27",
           "coles": 8.5,
           "woolworths": 7.65
+        },
+        {
+          "date": "2026-09-28",
+          "coles": 8.5,
+          "woolworths": 7.65
         }
       ]
     },
@@ -534,7 +539,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-09-27"
+          "last_available_date": "2026-09-28"
         },
         {
           "source_id": "thelittlebunny",
@@ -558,7 +563,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-09-27"
+          "last_available_date": "2026-09-28"
         }
       ],
       "price_history": [
@@ -1219,6 +1224,12 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-09-28",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -1238,7 +1249,7 @@
           "current_total_price": 850.0,
           "status": "available",
           "last_known_price": 850.0,
-          "last_available_date": "2026-09-27"
+          "last_available_date": "2026-09-28"
         }
       ],
       "price_history": [
@@ -1640,6 +1651,10 @@
         {
           "date": "2026-09-27",
           "fromourplace": 850.0
+        },
+        {
+          "date": "2026-09-28",
+          "fromourplace": 850.0
         }
       ]
     },
@@ -1658,19 +1673,19 @@
           "current_total_price": 3.45,
           "status": "available",
           "last_known_price": 3.45,
-          "last_available_date": "2026-09-27"
+          "last_available_date": "2026-09-28"
         },
         {
           "source_id": "woolworths",
           "source_name": "Woolworths",
           "product_url": "https://www.woolworths.com.au/shop/productdetails/249382/birds-eye-frozen-garden-vegetable-mix",
           "fulfillment_type": "pickup",
-          "current_base_price": 6.5,
+          "current_base_price": 6.9,
           "fulfillment_cost": 0,
-          "current_total_price": 6.5,
+          "current_total_price": 6.9,
           "status": "available",
-          "last_known_price": 6.5,
-          "last_available_date": "2026-09-27"
+          "last_known_price": 6.9,
+          "last_available_date": "2026-09-28"
         }
       ],
       "date_added": "2026-08-01",
@@ -1964,6 +1979,11 @@
           "date": "2026-09-27",
           "coles": 3.45,
           "woolworths": 6.5
+        },
+        {
+          "date": "2026-09-28",
+          "coles": 3.45,
+          "woolworths": 6.9
         }
       ]
     },
@@ -1982,7 +2002,7 @@
           "status": "available",
           "current_total_price": 119.95,
           "last_known_price": 119.95,
-          "last_available_date": "2026-09-27"
+          "last_available_date": "2026-09-28"
         }
       ],
       "date_added": "2026-09-02",
@@ -2089,6 +2109,10 @@
         },
         {
           "date": "2026-09-27",
+          "kitchenwarehouse": 119.95
+        },
+        {
+          "date": "2026-09-28",
           "kitchenwarehouse": 119.95
         }
       ]
@@ -2216,6 +2240,10 @@
         {
           "date": "2026-09-27",
           "seedsprout": 248.0
+        },
+        {
+          "date": "2026-09-28",
+          "seedsprout": 248.0
         }
       ]
     },
@@ -2341,6 +2369,10 @@
         },
         {
           "date": "2026-09-27",
+          "seedsprout": 321.0
+        },
+        {
+          "date": "2026-09-28",
           "seedsprout": 321.0
         }
       ]
