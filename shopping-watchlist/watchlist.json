@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04T15:01:34+1100",
+  "last_updated": "2026-10-05T06:01:45+1100",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 8.5,
           "status": "available",
           "last_known_price": 8.5,
-          "last_available_date": "2026-10-04"
+          "last_available_date": "2026-10-05"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 7.65,
           "status": "available",
           "last_known_price": 7.65,
-          "last_available_date": "2026-10-04"
+          "last_available_date": "2026-10-05"
         }
       ],
       "price_history": [
@@ -550,6 +550,11 @@
           "date": "2026-10-04",
           "coles": 8.5,
           "woolworths": 7.65
+        },
+        {
+          "date": "2026-10-05",
+          "coles": 8.5,
+          "woolworths": 7.65
         }
       ]
     },
@@ -569,7 +574,7 @@
           "current_total_price": 159.0,
           "status": "available",
           "last_known_price": 159.0,
-          "last_available_date": "2026-10-04"
+          "last_available_date": "2026-10-05"
         },
         {
           "source_id": "thelittlebunny",
@@ -593,7 +598,7 @@
           "current_total_price": 235.0,
           "status": "available",
           "last_known_price": 235.0,
-          "last_available_date": "2026-10-04"
+          "last_available_date": "2026-10-05"
         }
       ],
       "price_history": [
@@ -1296,6 +1301,12 @@
           "sowood": 159.0,
           "thelittlebunny": 204.0,
           "toypark": 235.0
+        },
+        {
+          "date": "2026-10-05",
+          "sowood": 159.0,
+          "thelittlebunny": 204.0,
+          "toypark": 235.0
         }
       ]
     },
@@ -1315,7 +1326,7 @@
           "current_total_price": 850.0,
           "status": "available",
           "last_known_price": 850.0,
-          "last_available_date": "2026-10-04"
+          "last_available_date": "2026-10-05"
         }
       ],
       "price_history": [
@@ -1745,6 +1756,10 @@
         {
           "date": "2026-10-04",
           "fromourplace": 850.0
+        },
+        {
+          "date": "2026-10-05",
+          "fromourplace": 850.0
         }
       ]
     },
@@ -1763,7 +1778,7 @@
           "current_total_price": 6.9,
           "status": "available",
           "last_known_price": 6.9,
-          "last_available_date": "2026-10-04"
+          "last_available_date": "2026-10-05"
         },
         {
           "source_id": "woolworths",
@@ -1775,7 +1790,7 @@
           "current_total_price": 6.9,
           "status": "available",
           "last_known_price": 6.9,
-          "last_available_date": "2026-10-04"
+          "last_available_date": "2026-10-05"
         }
       ],
       "date_added": "2026-08-01",
@@ -2104,6 +2119,11 @@
           "date": "2026-10-04",
           "coles": 6.9,
           "woolworths": 6.9
+        },
+        {
+          "date": "2026-10-05",
+          "coles": 6.9,
+          "woolworths": 6.9
         }
       ]
     },
@@ -2122,7 +2142,7 @@
           "status": "available",
           "current_total_price": 119.95,
           "last_known_price": 119.95,
-          "last_available_date": "2026-10-04"
+          "last_available_date": "2026-10-05"
         }
       ],
       "date_added": "2026-09-02",
@@ -2257,6 +2277,10 @@
         },
         {
           "date": "2026-10-04",
+          "kitchenwarehouse": 119.95
+        },
+        {
+          "date": "2026-10-05",
           "kitchenwarehouse": 119.95
         }
       ]
@@ -2412,6 +2436,10 @@
         {
           "date": "2026-10-04",
           "seedsprout": 248.0
+        },
+        {
+          "date": "2026-10-05",
+          "seedsprout": 248.0
         }
       ]
     },
@@ -2565,6 +2593,10 @@
         },
         {
           "date": "2026-10-04",
+          "seedsprout": 321.0
+        },
+        {
+          "date": "2026-10-05",
           "seedsprout": 321.0
         }
       ]
