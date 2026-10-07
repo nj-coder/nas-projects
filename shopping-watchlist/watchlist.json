@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T06:01:52+1100",
+  "last_updated": "2026-10-07T15:01:07+1100",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -12,12 +12,12 @@
           "source_name": "Coles",
           "product_url": "https://www.coles.com.au/product/the-laughing-cow-cheese-16-portions-256g-3275581",
           "fulfillment_type": "pickup",
-          "current_base_price": 8.5,
+          "current_base_price": 7.5,
           "fulfillment_cost": 0,
-          "current_total_price": 8.5,
-          "status": "unknown",
-          "last_known_price": 8.5,
-          "last_available_date": "2026-10-06"
+          "current_total_price": 7.5,
+          "status": "available",
+          "last_known_price": 7.5,
+          "last_available_date": "2026-10-07"
         },
         {
           "source_id": "woolworths",
@@ -563,7 +563,7 @@
         },
         {
           "date": "2026-10-07",
-          "coles": 8.5,
+          "coles": 7.5,
           "woolworths": 7.65
         }
       ]
@@ -1803,12 +1803,12 @@
           "source_name": "Coles",
           "product_url": "https://www.coles.com.au/product/birds-eye-frozen-mixed-garden-vegetables-1kg-5075084",
           "fulfillment_type": "pickup",
-          "current_base_price": 6.9,
+          "current_base_price": 5.5,
           "fulfillment_cost": 0,
-          "current_total_price": 6.9,
-          "status": "unknown",
-          "last_known_price": 6.9,
-          "last_available_date": "2026-10-06"
+          "current_total_price": 5.5,
+          "status": "available",
+          "last_known_price": 5.5,
+          "last_available_date": "2026-10-07"
         },
         {
           "source_id": "woolworths",
@@ -2162,7 +2162,7 @@
         },
         {
           "date": "2026-10-07",
-          "coles": 6.9,
+          "coles": 5.5,
           "woolworths": 6.9
         }
       ]
