@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T14:42:02+1100",
+  "last_updated": "2026-10-08T14:42:18+1100",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -2184,6 +2184,32 @@
           "date": "2026-10-08",
           "coles": 5.5,
           "woolworths": 6.9
+        }
+      ]
+    },
+    {
+      "id": "cove-solar-white-parcel-pillar-letterbox",
+      "product_name": "Cove Solar - White Parcel Pillar Letterbox",
+      "image_url": "https://cdn.shopify.com/s/files/1/0908/1775/7496/files/Cove_WH-WH-Studio_Cropped_GDA_2.jpg?v=1791252025",
+      "sources": [
+        {
+          "source_id": "milkcan",
+          "source_name": "Milkcan Outdoor",
+          "product_url": "https://www.milkcan.com.au/products/cove-solar-white-parcel-pillar-letterbox",
+          "fulfillment_type": "delivery",
+          "current_base_price": 749.0,
+          "fulfillment_cost": 0,
+          "status": "available",
+          "current_total_price": 749.0,
+          "last_known_price": 749.0,
+          "last_available_date": "2026-10-08"
+        }
+      ],
+      "date_added": "2026-10-08",
+      "price_history": [
+        {
+          "date": "2026-10-08",
+          "milkcan": 749.0
         }
       ]
     }
