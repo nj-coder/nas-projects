@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T08:37:01+1100",
+  "last_updated": "2026-10-11T15:01:01+1100",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -599,11 +599,11 @@
           "source_name": "So Wood AU",
           "product_url": "https://sowood.com/products/convertable-learning-tower",
           "fulfillment_type": "delivery",
-          "current_base_price": 159.0,
+          "current_base_price": 149.95,
           "fulfillment_cost": 0,
-          "current_total_price": 159.0,
+          "current_total_price": 149.95,
           "status": "available",
-          "last_known_price": 159.0,
+          "last_known_price": 149.95,
           "last_available_date": "2026-10-11"
         },
         {
@@ -1370,7 +1370,7 @@
         },
         {
           "date": "2026-10-11",
-          "sowood": 159.0,
+          "sowood": 149.95,
           "thelittlebunny": 204.0,
           "toypark": 235.0
         }
