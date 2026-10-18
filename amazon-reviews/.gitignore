@@ -4,3 +4,4 @@ items/
 seen.json
 .dashboard-secret
 last-sync.json
+.queue.lock
