@@ -866202,6 +866202,1779 @@
         }
       ],
       "unspent": 5.4
+    },
+    {
+      "algorithm_version": "odds-gated-coverage-v6",
+      "allocation": {
+        "estimated_any_prize_probability": 0.5689581197,
+        "estimated_division_one_probability": 8.19903e-07,
+        "independence_note": "Probability estimates assume independent line-draw exposures. Portfolio overlap limits reduce correlation but do not make this assumption exact.",
+        "line_draw_exposures": 40,
+        "max_product_budget_share": 0.5,
+        "max_product_spend": 25.0,
+        "objective": "Maximize estimated probability of any prize subject to the per-product research-spend cap; break ties by division-one probability, line-draw exposures, then spend.",
+        "odds_sources": {
+          "any_prize": "https://www.thelott.com/content/dam/projects/the-lott/responsibleplay/ALL_Responsible-Play-Brochure-English_May-2024.pdf",
+          "any_prize_source_date": "2024-05",
+          "division_one": "https://help.thelott.com/hc/en-us/articles/35525459564441-What-are-the-odds-of-each-game"
+        },
+        "package_counts": {
+          "Powerball": 3,
+          "SetForLife": 2
+        },
+        "products": {
+          "Powerball": {
+            "any_prize_odds_per_line_draw": 44,
+            "any_prize_probability_per_package_independence_estimate": 0.0878566077,
+            "cost_basis": "configured virtual package assumption",
+            "covered_draws_per_line": 1,
+            "division_one_odds_per_line_draw": 134490400,
+            "division_one_probability_per_package_independence_estimate": 2.9742e-08,
+            "line_draw_exposures": 4,
+            "line_draw_exposures_per_dollar": 0.512821,
+            "lines_per_package": 4,
+            "package_cost": 7.8,
+            "product_id": "Powerball"
+          },
+          "SetForLife": {
+            "any_prize_odds_per_line_draw": 50,
+            "any_prize_probability_per_package_independence_estimate": 0.2463580585,
+            "cost_basis": "configured virtual package assumption",
+            "covered_draws_per_line": 7,
+            "division_one_odds_per_line_draw": 38320568,
+            "division_one_probability_per_package_independence_estimate": 3.65339e-07,
+            "line_draw_exposures": 14,
+            "line_draw_exposures_per_dollar": 1.4,
+            "lines_per_package": 2,
+            "package_cost": 10.0,
+            "product_id": "SetForLife"
+          }
+        },
+        "risk_control_note": "The budget is a ceiling. Money remains unspent when eligible packages would breach the per-product research-spend cap.",
+        "spent": 43.4,
+        "unspent": 6.6
+      },
+      "budget": 50.0,
+      "candidate_products": [
+        "Powerball",
+        "SetForLife"
+      ],
+      "control_return_amount": 0.0,
+      "coverage_by_product": {
+        "Powerball": {
+          "control": {
+            "average_pairwise_main_overlap": 1.0606,
+            "covered_draws_per_line": 1,
+            "duplicate_line_count": 0,
+            "effective_line_draw_exposures": 12,
+            "line_count": 12,
+            "max_pairwise_main_overlap": 2,
+            "repeated_three_number_subsets": 0,
+            "total_three_number_subsets": 420,
+            "unique_line_count": 12,
+            "unique_three_number_subsets": 420
+          },
+          "selected": {
+            "average_pairwise_main_overlap": 1.1515,
+            "covered_draws_per_line": 1,
+            "duplicate_line_count": 0,
+            "effective_line_draw_exposures": 12,
+            "line_count": 12,
+            "max_pairwise_main_overlap": 2,
+            "repeated_three_number_subsets": 0,
+            "total_three_number_subsets": 420,
+            "unique_line_count": 12,
+            "unique_three_number_subsets": 420
+          }
+        },
+        "SetForLife": {
+          "control": {
+            "average_pairwise_main_overlap": 0.0,
+            "covered_draws_per_line": 7,
+            "duplicate_line_count": 0,
+            "effective_line_draw_exposures": 28,
+            "line_count": 4,
+            "max_pairwise_main_overlap": 0,
+            "repeated_three_number_subsets": 0,
+            "total_three_number_subsets": 140,
+            "unique_line_count": 4,
+            "unique_three_number_subsets": 140
+          },
+          "selected": {
+            "average_pairwise_main_overlap": 0.0,
+            "covered_draws_per_line": 7,
+            "duplicate_line_count": 0,
+            "effective_line_draw_exposures": 28,
+            "line_count": 4,
+            "max_pairwise_main_overlap": 0,
+            "repeated_three_number_subsets": 0,
+            "total_three_number_subsets": 140,
+            "unique_line_count": 4,
+            "unique_three_number_subsets": 140
+          }
+        }
+      },
+      "created_at": "2026-10-22T06:01:02.147307+00:00",
+      "date": "2026-10-22",
+      "history_draw_counts": {
+        "Powerball": 57,
+        "SetForLife": 200
+      },
+      "learning_snapshot_hash": "78ab134397a0592a31ba9d2707129bf312d92816646e8b1074b8ae9d5b36fe0c",
+      "learnings_path": "/opt/data/projects/lott-lab/learnings.md",
+      "loss_amount": 43.4,
+      "max_loss_amount": 43.4,
+      "plan_seed": "da579c357910a8d41759141fc51e1482",
+      "profit_loss": -43.4,
+      "results": [],
+      "return_amount": 0.0,
+      "round_id": "2026-10-22-0089",
+      "spent": 43.4,
+      "status": "planned",
+      "tickets": [
+        {
+          "control_return_amount": 0.0,
+          "draw_date": "2026-10-22",
+          "draw_dates": [
+            "2026-10-22"
+          ],
+          "draw_number": null,
+          "lines": [
+            {
+              "control_main": [
+                1,
+                11,
+                12,
+                16,
+                21,
+                25,
+                26
+              ],
+              "control_powerball": 20,
+              "main": [
+                5,
+                6,
+                15,
+                17,
+                22,
+                27,
+                35
+              ],
+              "powerball": 14
+            },
+            {
+              "control_main": [
+                3,
+                8,
+                17,
+                18,
+                31,
+                34,
+                35
+              ],
+              "control_powerball": 10,
+              "main": [
+                4,
+                8,
+                14,
+                20,
+                24,
+                25,
+                31
+              ],
+              "powerball": 9
+            },
+            {
+              "control_main": [
+                10,
+                13,
+                15,
+                23,
+                24,
+                29,
+                30
+              ],
+              "control_powerball": 15,
+              "main": [
+                3,
+                7,
+                9,
+                11,
+                28,
+                32,
+                34
+              ],
+              "powerball": 13
+            },
+            {
+              "control_main": [
+                2,
+                14,
+                19,
+                20,
+                22,
+                28,
+                33
+              ],
+              "control_powerball": 15,
+              "main": [
+                1,
+                10,
+                18,
+                19,
+                25,
+                26,
+                33
+              ],
+              "powerball": 19
+            }
+          ],
+          "product_id": "Powerball",
+          "product_name": "Powerball",
+          "purchase_date": "2026-10-22",
+          "return_amount": 0.0,
+          "selection_strategy": {
+            "algorithm_version": "odds-gated-coverage-v6",
+            "analysis_snapshot": {
+              "hot_numbers": [
+                15,
+                22,
+                11,
+                27,
+                17
+              ],
+              "overdue_numbers": [
+                33,
+                25,
+                4,
+                5,
+                31
+              ],
+              "sum_range": {
+                "average": 126.05,
+                "max": 201,
+                "min": 69
+              },
+              "top_pairs": [
+                "7-15",
+                "15-27",
+                "15-26",
+                "15-30",
+                "15-22"
+              ]
+            },
+            "control_coverage": {
+              "average_pairwise_main_overlap": 1.0606,
+              "candidate_attempts": 960,
+              "candidate_count": 960,
+              "covered_draws_per_line": 1,
+              "duplicate_line_count": 0,
+              "effective_line_draw_exposures": 12,
+              "enforced_max_main_overlap": 3,
+              "line_count": 12,
+              "max_pairwise_main_overlap": 2,
+              "preferred_max_main_overlap": 2,
+              "repeated_three_number_subsets": 0,
+              "selection_overlap_limit_used": 2,
+              "total_three_number_subsets": 420,
+              "unique_line_count": 12,
+              "unique_three_number_subsets": 420
+            },
+            "coverage": {
+              "average_pairwise_main_overlap": 1.1515,
+              "candidate_attempts": 960,
+              "candidate_count": 960,
+              "covered_draws_per_line": 1,
+              "duplicate_line_count": 0,
+              "effective_line_draw_exposures": 12,
+              "enforced_max_main_overlap": 3,
+              "line_count": 12,
+              "max_pairwise_main_overlap": 2,
+              "preferred_max_main_overlap": 2,
+              "repeated_three_number_subsets": 0,
+              "selection_overlap_limit_used": 2,
+              "total_three_number_subsets": 420,
+              "unique_line_count": 12,
+              "unique_three_number_subsets": 420
+            },
+            "features": [
+              "overall-frequency",
+              "recent-frequency",
+              "recency-gap",
+              "pair-co-occurrence",
+              "sum-range-shape",
+              "odd-even-balance",
+              "decade-coverage",
+              "hard-cross-line-overlap-limit",
+              "whole-product-portfolio-deduplication",
+              "historical-line-deduplication",
+              "equally-diversified-uniform-control-line",
+              "rolling-origin-out-of-sample-gate"
+            ],
+            "history_draw_count": 57,
+            "history_end": "2026-10-15",
+            "history_start": "2025-09-18",
+            "learning": {
+              "gate": "min(walk-forward recommendation, live-control recommendation, persisted learnings.md recommendation)",
+              "live_control": {
+                "bootstrap_resamples": 0,
+                "confidence_95": {
+                  "lower": null,
+                  "upper": null
+                },
+                "control_matches": 0,
+                "controlling_gate": "financial_return",
+                "evaluated_draws": 0,
+                "evaluated_lines": 0,
+                "financial_performance": {
+                  "bootstrap_resamples": 0,
+                  "confidence_95": {
+                    "lower": null,
+                    "upper": null
+                  },
+                  "control_return_amount": 0.0,
+                  "evaluated_draws": 0,
+                  "evaluated_lines": 0,
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_return_delta": 0.0,
+                  "model_weight": 0.1,
+                  "reason": "needs 20 paired observations",
+                  "return_delta": 0.0,
+                  "sample_count": 0,
+                  "selected_return_amount": 0.0,
+                  "standard_error": null,
+                  "status": "collecting"
+                },
+                "interval_method": "deterministic-paired-bootstrap-percentile",
+                "match_performance": {
+                  "bootstrap_resamples": 0,
+                  "confidence_95": {
+                    "lower": null,
+                    "upper": null
+                  },
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_match_delta": 0.0,
+                  "model_weight": 0.75,
+                  "reason": "needs 20 paired observations",
+                  "sample_count": 0,
+                  "standard_error": null,
+                  "status": "collecting"
+                },
+                "mean_match_delta": 0.0,
+                "model_weight": 0.1,
+                "reason": "financial_return is the stricter live-control gate; matches: needs 20 paired observations; returns: needs 20 paired observations",
+                "sample_count": 0,
+                "selected_matches": 0,
+                "standard_error": null,
+                "status": "collecting"
+              },
+              "model_weight": 0.1,
+              "persisted_learning": {
+                "applied": true,
+                "generated_at": "2026-10-22T06:01:01.740148+00:00",
+                "path": "/opt/data/projects/lott-lab/learnings.md",
+                "recommended_model_weight_cap": 0.1,
+                "retained_draw_count": 57,
+                "snapshot_hash": "78ab134397a0592a31ba9d2707129bf312d92816646e8b1074b8ae9d5b36fe0c"
+              },
+              "status": "historical-weighting-bounded",
+              "walk_forward": {
+                "control_replicates_per_fold": 16,
+                "control_wins": 3.5,
+                "evaluated_control_lines": 2368,
+                "evaluated_lines": 148,
+                "first_target_draw_date": "2026-02-05",
+                "fold_count": 37,
+                "last_target_draw_date": "2026-10-15",
+                "latest_fold_audit": [
+                  {
+                    "control_main_matches": 5.375,
+                    "control_main_matches_max": 7,
+                    "control_main_matches_min": 3,
+                    "control_wins": 0.0625,
+                    "selected_main_matches": 7,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-09-17",
+                    "training_draw_count": 52,
+                    "training_end_date": "2026-09-10"
+                  },
+                  {
+                    "control_main_matches": 5.4375,
+                    "control_main_matches_max": 7,
+                    "control_main_matches_min": 4,
+                    "control_wins": 0.0625,
+                    "selected_main_matches": 6,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-09-24",
+                    "training_draw_count": 53,
+                    "training_end_date": "2026-09-17"
+                  },
+                  {
+                    "control_main_matches": 6.125,
+                    "control_main_matches_max": 8,
+                    "control_main_matches_min": 5,
+                    "control_wins": 0.125,
+                    "selected_main_matches": 3,
+                    "selected_wins": 1,
+                    "target_draw_date": "2026-10-01",
+                    "training_draw_count": 54,
+                    "training_end_date": "2026-09-24"
+                  },
+                  {
+                    "control_main_matches": 5.5,
+                    "control_main_matches_max": 7,
+                    "control_main_matches_min": 4,
+                    "control_wins": 0.0625,
+                    "selected_main_matches": 5,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-08",
+                    "training_draw_count": 55,
+                    "training_end_date": "2026-10-01"
+                  },
+                  {
+                    "control_main_matches": 5.6875,
+                    "control_main_matches_max": 8,
+                    "control_main_matches_min": 3,
+                    "control_wins": 0.125,
+                    "selected_main_matches": 7,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-15",
+                    "training_draw_count": 56,
+                    "training_end_date": "2026-10-08"
+                  }
+                ],
+                "leakage_policy": "Each target draw is excluded from its training prefix.",
+                "maximum_folds": 60,
+                "method": "rolling-origin-next-draw-repeated-uniform-controls",
+                "minimum_training_draws": 20,
+                "performance": {
+                  "bootstrap_resamples": 4000,
+                  "confidence_95": {
+                    "lower": -0.30747,
+                    "upper": 0.42568
+                  },
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_match_delta": 0.05912,
+                  "model_weight": 0.25,
+                  "reason": "historical weighting has not established an out-of-sample advantage",
+                  "sample_count": 37,
+                  "standard_error": 0.18889,
+                  "status": "not_proven"
+                },
+                "selected_wins": 4
+              }
+            },
+            "method": "history-weighted-diversified-coverage",
+            "package_count": 3,
+            "package_index": 1,
+            "portfolio_line_offset": 0,
+            "seed_hash": "8312fb285b5b19dfc58cdaf10842aa342cfebb71bd68a2775ee694857aa46535",
+            "truth": "This is an auditable coverage experiment. Historical draws do not make an independent lottery draw predictable."
+          },
+          "settled_draws": [],
+          "status": "active",
+          "ticket_id": "2026-10-22-001-Powerball",
+          "valid_draw_count": 1,
+          "virtual_cost": 7.8
+        },
+        {
+          "control_return_amount": 0.0,
+          "draw_date": "2026-10-22",
+          "draw_dates": [
+            "2026-10-22"
+          ],
+          "draw_number": null,
+          "lines": [
+            {
+              "control_main": [
+                2,
+                6,
+                7,
+                9,
+                16,
+                27,
+                32
+              ],
+              "control_powerball": 18,
+              "main": [
+                12,
+                13,
+                16,
+                21,
+                22,
+                30,
+                32
+              ],
+              "powerball": 17
+            },
+            {
+              "control_main": [
+                4,
+                5,
+                7,
+                10,
+                21,
+                28,
+                31
+              ],
+              "control_powerball": 12,
+              "main": [
+                1,
+                2,
+                10,
+                23,
+                29,
+                31,
+                32
+              ],
+              "powerball": 1
+            },
+            {
+              "control_main": [
+                2,
+                8,
+                9,
+                15,
+                21,
+                26,
+                35
+              ],
+              "control_powerball": 9,
+              "main": [
+                7,
+                8,
+                15,
+                16,
+                23,
+                26,
+                31
+              ],
+              "powerball": 5
+            },
+            {
+              "control_main": [
+                4,
+                7,
+                13,
+                18,
+                23,
+                25,
+                26
+              ],
+              "control_powerball": 1,
+              "main": [
+                4,
+                9,
+                10,
+                15,
+                26,
+                28,
+                35
+              ],
+              "powerball": 5
+            }
+          ],
+          "product_id": "Powerball",
+          "product_name": "Powerball",
+          "purchase_date": "2026-10-22",
+          "return_amount": 0.0,
+          "selection_strategy": {
+            "algorithm_version": "odds-gated-coverage-v6",
+            "analysis_snapshot": {
+              "hot_numbers": [
+                15,
+                22,
+                11,
+                27,
+                17
+              ],
+              "overdue_numbers": [
+                33,
+                25,
+                4,
+                5,
+                31
+              ],
+              "sum_range": {
+                "average": 126.05,
+                "max": 201,
+                "min": 69
+              },
+              "top_pairs": [
+                "7-15",
+                "15-27",
+                "15-26",
+                "15-30",
+                "15-22"
+              ]
+            },
+            "control_coverage": {
+              "average_pairwise_main_overlap": 1.0606,
+              "candidate_attempts": 960,
+              "candidate_count": 960,
+              "covered_draws_per_line": 1,
+              "duplicate_line_count": 0,
+              "effective_line_draw_exposures": 12,
+              "enforced_max_main_overlap": 3,
+              "line_count": 12,
+              "max_pairwise_main_overlap": 2,
+              "preferred_max_main_overlap": 2,
+              "repeated_three_number_subsets": 0,
+              "selection_overlap_limit_used": 2,
+              "total_three_number_subsets": 420,
+              "unique_line_count": 12,
+              "unique_three_number_subsets": 420
+            },
+            "coverage": {
+              "average_pairwise_main_overlap": 1.1515,
+              "candidate_attempts": 960,
+              "candidate_count": 960,
+              "covered_draws_per_line": 1,
+              "duplicate_line_count": 0,
+              "effective_line_draw_exposures": 12,
+              "enforced_max_main_overlap": 3,
+              "line_count": 12,
+              "max_pairwise_main_overlap": 2,
+              "preferred_max_main_overlap": 2,
+              "repeated_three_number_subsets": 0,
+              "selection_overlap_limit_used": 2,
+              "total_three_number_subsets": 420,
+              "unique_line_count": 12,
+              "unique_three_number_subsets": 420
+            },
+            "features": [
+              "overall-frequency",
+              "recent-frequency",
+              "recency-gap",
+              "pair-co-occurrence",
+              "sum-range-shape",
+              "odd-even-balance",
+              "decade-coverage",
+              "hard-cross-line-overlap-limit",
+              "whole-product-portfolio-deduplication",
+              "historical-line-deduplication",
+              "equally-diversified-uniform-control-line",
+              "rolling-origin-out-of-sample-gate"
+            ],
+            "history_draw_count": 57,
+            "history_end": "2026-10-15",
+            "history_start": "2025-09-18",
+            "learning": {
+              "gate": "min(walk-forward recommendation, live-control recommendation, persisted learnings.md recommendation)",
+              "live_control": {
+                "bootstrap_resamples": 0,
+                "confidence_95": {
+                  "lower": null,
+                  "upper": null
+                },
+                "control_matches": 0,
+                "controlling_gate": "financial_return",
+                "evaluated_draws": 0,
+                "evaluated_lines": 0,
+                "financial_performance": {
+                  "bootstrap_resamples": 0,
+                  "confidence_95": {
+                    "lower": null,
+                    "upper": null
+                  },
+                  "control_return_amount": 0.0,
+                  "evaluated_draws": 0,
+                  "evaluated_lines": 0,
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_return_delta": 0.0,
+                  "model_weight": 0.1,
+                  "reason": "needs 20 paired observations",
+                  "return_delta": 0.0,
+                  "sample_count": 0,
+                  "selected_return_amount": 0.0,
+                  "standard_error": null,
+                  "status": "collecting"
+                },
+                "interval_method": "deterministic-paired-bootstrap-percentile",
+                "match_performance": {
+                  "bootstrap_resamples": 0,
+                  "confidence_95": {
+                    "lower": null,
+                    "upper": null
+                  },
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_match_delta": 0.0,
+                  "model_weight": 0.75,
+                  "reason": "needs 20 paired observations",
+                  "sample_count": 0,
+                  "standard_error": null,
+                  "status": "collecting"
+                },
+                "mean_match_delta": 0.0,
+                "model_weight": 0.1,
+                "reason": "financial_return is the stricter live-control gate; matches: needs 20 paired observations; returns: needs 20 paired observations",
+                "sample_count": 0,
+                "selected_matches": 0,
+                "standard_error": null,
+                "status": "collecting"
+              },
+              "model_weight": 0.1,
+              "persisted_learning": {
+                "applied": true,
+                "generated_at": "2026-10-22T06:01:01.740148+00:00",
+                "path": "/opt/data/projects/lott-lab/learnings.md",
+                "recommended_model_weight_cap": 0.1,
+                "retained_draw_count": 57,
+                "snapshot_hash": "78ab134397a0592a31ba9d2707129bf312d92816646e8b1074b8ae9d5b36fe0c"
+              },
+              "status": "historical-weighting-bounded",
+              "walk_forward": {
+                "control_replicates_per_fold": 16,
+                "control_wins": 3.5,
+                "evaluated_control_lines": 2368,
+                "evaluated_lines": 148,
+                "first_target_draw_date": "2026-02-05",
+                "fold_count": 37,
+                "last_target_draw_date": "2026-10-15",
+                "latest_fold_audit": [
+                  {
+                    "control_main_matches": 5.375,
+                    "control_main_matches_max": 7,
+                    "control_main_matches_min": 3,
+                    "control_wins": 0.0625,
+                    "selected_main_matches": 7,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-09-17",
+                    "training_draw_count": 52,
+                    "training_end_date": "2026-09-10"
+                  },
+                  {
+                    "control_main_matches": 5.4375,
+                    "control_main_matches_max": 7,
+                    "control_main_matches_min": 4,
+                    "control_wins": 0.0625,
+                    "selected_main_matches": 6,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-09-24",
+                    "training_draw_count": 53,
+                    "training_end_date": "2026-09-17"
+                  },
+                  {
+                    "control_main_matches": 6.125,
+                    "control_main_matches_max": 8,
+                    "control_main_matches_min": 5,
+                    "control_wins": 0.125,
+                    "selected_main_matches": 3,
+                    "selected_wins": 1,
+                    "target_draw_date": "2026-10-01",
+                    "training_draw_count": 54,
+                    "training_end_date": "2026-09-24"
+                  },
+                  {
+                    "control_main_matches": 5.5,
+                    "control_main_matches_max": 7,
+                    "control_main_matches_min": 4,
+                    "control_wins": 0.0625,
+                    "selected_main_matches": 5,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-08",
+                    "training_draw_count": 55,
+                    "training_end_date": "2026-10-01"
+                  },
+                  {
+                    "control_main_matches": 5.6875,
+                    "control_main_matches_max": 8,
+                    "control_main_matches_min": 3,
+                    "control_wins": 0.125,
+                    "selected_main_matches": 7,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-15",
+                    "training_draw_count": 56,
+                    "training_end_date": "2026-10-08"
+                  }
+                ],
+                "leakage_policy": "Each target draw is excluded from its training prefix.",
+                "maximum_folds": 60,
+                "method": "rolling-origin-next-draw-repeated-uniform-controls",
+                "minimum_training_draws": 20,
+                "performance": {
+                  "bootstrap_resamples": 4000,
+                  "confidence_95": {
+                    "lower": -0.30747,
+                    "upper": 0.42568
+                  },
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_match_delta": 0.05912,
+                  "model_weight": 0.25,
+                  "reason": "historical weighting has not established an out-of-sample advantage",
+                  "sample_count": 37,
+                  "standard_error": 0.18889,
+                  "status": "not_proven"
+                },
+                "selected_wins": 4
+              }
+            },
+            "method": "history-weighted-diversified-coverage",
+            "package_count": 3,
+            "package_index": 2,
+            "portfolio_line_offset": 4,
+            "seed_hash": "8312fb285b5b19dfc58cdaf10842aa342cfebb71bd68a2775ee694857aa46535",
+            "truth": "This is an auditable coverage experiment. Historical draws do not make an independent lottery draw predictable."
+          },
+          "settled_draws": [],
+          "status": "active",
+          "ticket_id": "2026-10-22-002-Powerball",
+          "valid_draw_count": 1,
+          "virtual_cost": 7.8
+        },
+        {
+          "control_return_amount": 0.0,
+          "draw_date": "2026-10-22",
+          "draw_dates": [
+            "2026-10-22"
+          ],
+          "draw_number": null,
+          "lines": [
+            {
+              "control_main": [
+                6,
+                20,
+                22,
+                26,
+                29,
+                30,
+                34
+              ],
+              "control_powerball": 18,
+              "main": [
+                2,
+                4,
+                15,
+                19,
+                22,
+                31,
+                34
+              ],
+              "powerball": 2
+            },
+            {
+              "control_main": [
+                1,
+                6,
+                14,
+                17,
+                20,
+                24,
+                27
+              ],
+              "control_powerball": 15,
+              "main": [
+                8,
+                10,
+                11,
+                17,
+                23,
+                24,
+                33
+              ],
+              "powerball": 1
+            },
+            {
+              "control_main": [
+                9,
+                19,
+                20,
+                23,
+                27,
+                30,
+                31
+              ],
+              "control_powerball": 15,
+              "main": [
+                2,
+                5,
+                13,
+                16,
+                25,
+                29,
+                34
+              ],
+              "powerball": 9
+            },
+            {
+              "control_main": [
+                5,
+                13,
+                16,
+                22,
+                29,
+                31,
+                33
+              ],
+              "control_powerball": 7,
+              "main": [
+                1,
+                4,
+                11,
+                17,
+                21,
+                32,
+                35
+              ],
+              "powerball": 17
+            }
+          ],
+          "product_id": "Powerball",
+          "product_name": "Powerball",
+          "purchase_date": "2026-10-22",
+          "return_amount": 0.0,
+          "selection_strategy": {
+            "algorithm_version": "odds-gated-coverage-v6",
+            "analysis_snapshot": {
+              "hot_numbers": [
+                15,
+                22,
+                11,
+                27,
+                17
+              ],
+              "overdue_numbers": [
+                33,
+                25,
+                4,
+                5,
+                31
+              ],
+              "sum_range": {
+                "average": 126.05,
+                "max": 201,
+                "min": 69
+              },
+              "top_pairs": [
+                "7-15",
+                "15-27",
+                "15-26",
+                "15-30",
+                "15-22"
+              ]
+            },
+            "control_coverage": {
+              "average_pairwise_main_overlap": 1.0606,
+              "candidate_attempts": 960,
+              "candidate_count": 960,
+              "covered_draws_per_line": 1,
+              "duplicate_line_count": 0,
+              "effective_line_draw_exposures": 12,
+              "enforced_max_main_overlap": 3,
+              "line_count": 12,
+              "max_pairwise_main_overlap": 2,
+              "preferred_max_main_overlap": 2,
+              "repeated_three_number_subsets": 0,
+              "selection_overlap_limit_used": 2,
+              "total_three_number_subsets": 420,
+              "unique_line_count": 12,
+              "unique_three_number_subsets": 420
+            },
+            "coverage": {
+              "average_pairwise_main_overlap": 1.1515,
+              "candidate_attempts": 960,
+              "candidate_count": 960,
+              "covered_draws_per_line": 1,
+              "duplicate_line_count": 0,
+              "effective_line_draw_exposures": 12,
+              "enforced_max_main_overlap": 3,
+              "line_count": 12,
+              "max_pairwise_main_overlap": 2,
+              "preferred_max_main_overlap": 2,
+              "repeated_three_number_subsets": 0,
+              "selection_overlap_limit_used": 2,
+              "total_three_number_subsets": 420,
+              "unique_line_count": 12,
+              "unique_three_number_subsets": 420
+            },
+            "features": [
+              "overall-frequency",
+              "recent-frequency",
+              "recency-gap",
+              "pair-co-occurrence",
+              "sum-range-shape",
+              "odd-even-balance",
+              "decade-coverage",
+              "hard-cross-line-overlap-limit",
+              "whole-product-portfolio-deduplication",
+              "historical-line-deduplication",
+              "equally-diversified-uniform-control-line",
+              "rolling-origin-out-of-sample-gate"
+            ],
+            "history_draw_count": 57,
+            "history_end": "2026-10-15",
+            "history_start": "2025-09-18",
+            "learning": {
+              "gate": "min(walk-forward recommendation, live-control recommendation, persisted learnings.md recommendation)",
+              "live_control": {
+                "bootstrap_resamples": 0,
+                "confidence_95": {
+                  "lower": null,
+                  "upper": null
+                },
+                "control_matches": 0,
+                "controlling_gate": "financial_return",
+                "evaluated_draws": 0,
+                "evaluated_lines": 0,
+                "financial_performance": {
+                  "bootstrap_resamples": 0,
+                  "confidence_95": {
+                    "lower": null,
+                    "upper": null
+                  },
+                  "control_return_amount": 0.0,
+                  "evaluated_draws": 0,
+                  "evaluated_lines": 0,
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_return_delta": 0.0,
+                  "model_weight": 0.1,
+                  "reason": "needs 20 paired observations",
+                  "return_delta": 0.0,
+                  "sample_count": 0,
+                  "selected_return_amount": 0.0,
+                  "standard_error": null,
+                  "status": "collecting"
+                },
+                "interval_method": "deterministic-paired-bootstrap-percentile",
+                "match_performance": {
+                  "bootstrap_resamples": 0,
+                  "confidence_95": {
+                    "lower": null,
+                    "upper": null
+                  },
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_match_delta": 0.0,
+                  "model_weight": 0.75,
+                  "reason": "needs 20 paired observations",
+                  "sample_count": 0,
+                  "standard_error": null,
+                  "status": "collecting"
+                },
+                "mean_match_delta": 0.0,
+                "model_weight": 0.1,
+                "reason": "financial_return is the stricter live-control gate; matches: needs 20 paired observations; returns: needs 20 paired observations",
+                "sample_count": 0,
+                "selected_matches": 0,
+                "standard_error": null,
+                "status": "collecting"
+              },
+              "model_weight": 0.1,
+              "persisted_learning": {
+                "applied": true,
+                "generated_at": "2026-10-22T06:01:01.740148+00:00",
+                "path": "/opt/data/projects/lott-lab/learnings.md",
+                "recommended_model_weight_cap": 0.1,
+                "retained_draw_count": 57,
+                "snapshot_hash": "78ab134397a0592a31ba9d2707129bf312d92816646e8b1074b8ae9d5b36fe0c"
+              },
+              "status": "historical-weighting-bounded",
+              "walk_forward": {
+                "control_replicates_per_fold": 16,
+                "control_wins": 3.5,
+                "evaluated_control_lines": 2368,
+                "evaluated_lines": 148,
+                "first_target_draw_date": "2026-02-05",
+                "fold_count": 37,
+                "last_target_draw_date": "2026-10-15",
+                "latest_fold_audit": [
+                  {
+                    "control_main_matches": 5.375,
+                    "control_main_matches_max": 7,
+                    "control_main_matches_min": 3,
+                    "control_wins": 0.0625,
+                    "selected_main_matches": 7,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-09-17",
+                    "training_draw_count": 52,
+                    "training_end_date": "2026-09-10"
+                  },
+                  {
+                    "control_main_matches": 5.4375,
+                    "control_main_matches_max": 7,
+                    "control_main_matches_min": 4,
+                    "control_wins": 0.0625,
+                    "selected_main_matches": 6,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-09-24",
+                    "training_draw_count": 53,
+                    "training_end_date": "2026-09-17"
+                  },
+                  {
+                    "control_main_matches": 6.125,
+                    "control_main_matches_max": 8,
+                    "control_main_matches_min": 5,
+                    "control_wins": 0.125,
+                    "selected_main_matches": 3,
+                    "selected_wins": 1,
+                    "target_draw_date": "2026-10-01",
+                    "training_draw_count": 54,
+                    "training_end_date": "2026-09-24"
+                  },
+                  {
+                    "control_main_matches": 5.5,
+                    "control_main_matches_max": 7,
+                    "control_main_matches_min": 4,
+                    "control_wins": 0.0625,
+                    "selected_main_matches": 5,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-08",
+                    "training_draw_count": 55,
+                    "training_end_date": "2026-10-01"
+                  },
+                  {
+                    "control_main_matches": 5.6875,
+                    "control_main_matches_max": 8,
+                    "control_main_matches_min": 3,
+                    "control_wins": 0.125,
+                    "selected_main_matches": 7,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-15",
+                    "training_draw_count": 56,
+                    "training_end_date": "2026-10-08"
+                  }
+                ],
+                "leakage_policy": "Each target draw is excluded from its training prefix.",
+                "maximum_folds": 60,
+                "method": "rolling-origin-next-draw-repeated-uniform-controls",
+                "minimum_training_draws": 20,
+                "performance": {
+                  "bootstrap_resamples": 4000,
+                  "confidence_95": {
+                    "lower": -0.30747,
+                    "upper": 0.42568
+                  },
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_match_delta": 0.05912,
+                  "model_weight": 0.25,
+                  "reason": "historical weighting has not established an out-of-sample advantage",
+                  "sample_count": 37,
+                  "standard_error": 0.18889,
+                  "status": "not_proven"
+                },
+                "selected_wins": 4
+              }
+            },
+            "method": "history-weighted-diversified-coverage",
+            "package_count": 3,
+            "package_index": 3,
+            "portfolio_line_offset": 8,
+            "seed_hash": "8312fb285b5b19dfc58cdaf10842aa342cfebb71bd68a2775ee694857aa46535",
+            "truth": "This is an auditable coverage experiment. Historical draws do not make an independent lottery draw predictable."
+          },
+          "settled_draws": [],
+          "status": "active",
+          "ticket_id": "2026-10-22-003-Powerball",
+          "valid_draw_count": 1,
+          "virtual_cost": 7.8
+        },
+        {
+          "control_return_amount": 0.0,
+          "draw_date": "2026-10-22",
+          "draw_dates": [
+            "2026-10-22",
+            "2026-10-23",
+            "2026-10-24",
+            "2026-10-25",
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28"
+          ],
+          "draw_number": null,
+          "lines": [
+            {
+              "control_main": [
+                1,
+                3,
+                5,
+                12,
+                17,
+                31,
+                41
+              ],
+              "main": [
+                1,
+                10,
+                11,
+                16,
+                36,
+                41,
+                43
+              ]
+            },
+            {
+              "control_main": [
+                2,
+                6,
+                8,
+                9,
+                33,
+                38,
+                43
+              ],
+              "main": [
+                4,
+                12,
+                14,
+                23,
+                24,
+                37,
+                39
+              ]
+            }
+          ],
+          "product_id": "SetForLife",
+          "product_name": "Set for Life",
+          "purchase_date": "2026-10-22",
+          "return_amount": 0.0,
+          "selection_strategy": {
+            "algorithm_version": "odds-gated-coverage-v6",
+            "analysis_snapshot": {
+              "hot_numbers": [
+                27,
+                14,
+                1,
+                32,
+                12
+              ],
+              "overdue_numbers": [
+                25,
+                9,
+                21,
+                13,
+                17
+              ],
+              "sum_range": {
+                "average": 157.16,
+                "max": 238,
+                "min": 72
+              },
+              "top_pairs": [
+                "13-25",
+                "3-32",
+                "12-24",
+                "12-33",
+                "27-33"
+              ]
+            },
+            "control_coverage": {
+              "average_pairwise_main_overlap": 0.0,
+              "candidate_attempts": 400,
+              "candidate_count": 400,
+              "covered_draws_per_line": 7,
+              "duplicate_line_count": 0,
+              "effective_line_draw_exposures": 28,
+              "enforced_max_main_overlap": 3,
+              "line_count": 4,
+              "max_pairwise_main_overlap": 0,
+              "preferred_max_main_overlap": 2,
+              "repeated_three_number_subsets": 0,
+              "selection_overlap_limit_used": 2,
+              "total_three_number_subsets": 140,
+              "unique_line_count": 4,
+              "unique_three_number_subsets": 140
+            },
+            "coverage": {
+              "average_pairwise_main_overlap": 0.0,
+              "candidate_attempts": 400,
+              "candidate_count": 400,
+              "covered_draws_per_line": 7,
+              "duplicate_line_count": 0,
+              "effective_line_draw_exposures": 28,
+              "enforced_max_main_overlap": 3,
+              "line_count": 4,
+              "max_pairwise_main_overlap": 0,
+              "preferred_max_main_overlap": 2,
+              "repeated_three_number_subsets": 0,
+              "selection_overlap_limit_used": 2,
+              "total_three_number_subsets": 140,
+              "unique_line_count": 4,
+              "unique_three_number_subsets": 140
+            },
+            "features": [
+              "overall-frequency",
+              "recent-frequency",
+              "recency-gap",
+              "pair-co-occurrence",
+              "sum-range-shape",
+              "odd-even-balance",
+              "decade-coverage",
+              "hard-cross-line-overlap-limit",
+              "whole-product-portfolio-deduplication",
+              "historical-line-deduplication",
+              "equally-diversified-uniform-control-line",
+              "rolling-origin-out-of-sample-gate"
+            ],
+            "history_draw_count": 200,
+            "history_end": "2026-10-21",
+            "history_start": "2026-04-05",
+            "learning": {
+              "gate": "min(walk-forward recommendation, live-control recommendation, persisted learnings.md recommendation)",
+              "live_control": {
+                "bootstrap_resamples": 4000,
+                "confidence_95": {
+                  "lower": -1.21839,
+                  "upper": 1.3908
+                },
+                "control_matches": 6445,
+                "controlling_gate": "financial_return",
+                "evaluated_draws": 87,
+                "evaluated_lines": 5790,
+                "financial_performance": {
+                  "bootstrap_resamples": 4000,
+                  "confidence_95": {
+                    "lower": -5.99662,
+                    "upper": 1.89052
+                  },
+                  "control_return_amount": 1364.8,
+                  "evaluated_draws": 87,
+                  "evaluated_lines": 5790,
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_return_delta": -2.07299,
+                  "model_weight": 0.05,
+                  "reason": "historical weighting trails controls but the result is not conclusive",
+                  "return_delta": -180.35,
+                  "sample_count": 87,
+                  "selected_return_amount": 1184.45,
+                  "standard_error": 1.9676,
+                  "status": "weakened"
+                },
+                "interval_method": "deterministic-paired-bootstrap-percentile",
+                "match_performance": {
+                  "bootstrap_resamples": 4000,
+                  "confidence_95": {
+                    "lower": -1.21839,
+                    "upper": 1.3908
+                  },
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_match_delta": 0.08046,
+                  "model_weight": 0.25,
+                  "reason": "historical weighting has not established an out-of-sample advantage",
+                  "sample_count": 87,
+                  "standard_error": 0.67692,
+                  "status": "not_proven"
+                },
+                "mean_match_delta": 0.08046,
+                "model_weight": 0.05,
+                "reason": "financial_return is the stricter live-control gate; matches: historical weighting has not established an out-of-sample advantage; returns: historical weighting trails controls but the result is not conclusive",
+                "sample_count": 87,
+                "selected_matches": 6452,
+                "standard_error": 0.67692,
+                "status": "weakened"
+              },
+              "model_weight": 0.05,
+              "persisted_learning": {
+                "applied": true,
+                "generated_at": "2026-10-22T06:01:01.740148+00:00",
+                "path": "/opt/data/projects/lott-lab/learnings.md",
+                "recommended_model_weight_cap": 0.05,
+                "retained_draw_count": 200,
+                "snapshot_hash": "78ab134397a0592a31ba9d2707129bf312d92816646e8b1074b8ae9d5b36fe0c"
+              },
+              "status": "historical-weighting-bounded",
+              "walk_forward": {
+                "control_replicates_per_fold": 16,
+                "control_wins": 2.0625,
+                "evaluated_control_lines": 1920,
+                "evaluated_lines": 120,
+                "first_target_draw_date": "2026-08-23",
+                "fold_count": 60,
+                "last_target_draw_date": "2026-10-21",
+                "latest_fold_audit": [
+                  {
+                    "control_main_matches": 2.125,
+                    "control_main_matches_max": 4,
+                    "control_main_matches_min": 1,
+                    "control_wins": 0.0,
+                    "selected_main_matches": 1,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-17",
+                    "training_draw_count": 195,
+                    "training_end_date": "2026-10-16"
+                  },
+                  {
+                    "control_main_matches": 2.1875,
+                    "control_main_matches_max": 4,
+                    "control_main_matches_min": 0,
+                    "control_wins": 0.0,
+                    "selected_main_matches": 0,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-18",
+                    "training_draw_count": 196,
+                    "training_end_date": "2026-10-17"
+                  },
+                  {
+                    "control_main_matches": 2.125,
+                    "control_main_matches_max": 4,
+                    "control_main_matches_min": 1,
+                    "control_wins": 0.0,
+                    "selected_main_matches": 1,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-19",
+                    "training_draw_count": 197,
+                    "training_end_date": "2026-10-18"
+                  },
+                  {
+                    "control_main_matches": 2.125,
+                    "control_main_matches_max": 3,
+                    "control_main_matches_min": 1,
+                    "control_wins": 0.0625,
+                    "selected_main_matches": 3,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-20",
+                    "training_draw_count": 198,
+                    "training_end_date": "2026-10-19"
+                  },
+                  {
+                    "control_main_matches": 2.1875,
+                    "control_main_matches_max": 5,
+                    "control_main_matches_min": 0,
+                    "control_wins": 0.0,
+                    "selected_main_matches": 3,
+                    "selected_wins": 1,
+                    "target_draw_date": "2026-10-21",
+                    "training_draw_count": 199,
+                    "training_end_date": "2026-10-20"
+                  }
+                ],
+                "leakage_policy": "Each target draw is excluded from its training prefix.",
+                "maximum_folds": 60,
+                "method": "rolling-origin-next-draw-repeated-uniform-controls",
+                "minimum_training_draws": 20,
+                "performance": {
+                  "bootstrap_resamples": 4000,
+                  "confidence_95": {
+                    "lower": -0.32812,
+                    "upper": 0.17917
+                  },
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_match_delta": -0.06979,
+                  "model_weight": 0.15,
+                  "reason": "historical weighting trails controls but the result is not conclusive",
+                  "sample_count": 60,
+                  "standard_error": 0.13319,
+                  "status": "weakened"
+                },
+                "selected_wins": 2
+              }
+            },
+            "method": "history-weighted-diversified-coverage",
+            "package_count": 2,
+            "package_index": 1,
+            "portfolio_line_offset": 0,
+            "seed_hash": "d8cc9cde918893628fa8cb2575c759d075c206da03fbb30f02391464251f9738",
+            "truth": "This is an auditable coverage experiment. Historical draws do not make an independent lottery draw predictable."
+          },
+          "settled_draws": [],
+          "status": "active",
+          "ticket_id": "2026-10-22-004-SetForLife",
+          "valid_draw_count": 7,
+          "virtual_cost": 10.0
+        },
+        {
+          "control_return_amount": 0.0,
+          "draw_date": "2026-10-22",
+          "draw_dates": [
+            "2026-10-22",
+            "2026-10-23",
+            "2026-10-24",
+            "2026-10-25",
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28"
+          ],
+          "draw_number": null,
+          "lines": [
+            {
+              "control_main": [
+                4,
+                7,
+                24,
+                27,
+                28,
+                36,
+                40
+              ],
+              "main": [
+                8,
+                9,
+                19,
+                21,
+                27,
+                31,
+                44
+              ]
+            },
+            {
+              "control_main": [
+                16,
+                21,
+                23,
+                29,
+                34,
+                37,
+                42
+              ],
+              "main": [
+                7,
+                17,
+                22,
+                25,
+                28,
+                29,
+                34
+              ]
+            }
+          ],
+          "product_id": "SetForLife",
+          "product_name": "Set for Life",
+          "purchase_date": "2026-10-22",
+          "return_amount": 0.0,
+          "selection_strategy": {
+            "algorithm_version": "odds-gated-coverage-v6",
+            "analysis_snapshot": {
+              "hot_numbers": [
+                27,
+                14,
+                1,
+                32,
+                12
+              ],
+              "overdue_numbers": [
+                25,
+                9,
+                21,
+                13,
+                17
+              ],
+              "sum_range": {
+                "average": 157.16,
+                "max": 238,
+                "min": 72
+              },
+              "top_pairs": [
+                "13-25",
+                "3-32",
+                "12-24",
+                "12-33",
+                "27-33"
+              ]
+            },
+            "control_coverage": {
+              "average_pairwise_main_overlap": 0.0,
+              "candidate_attempts": 400,
+              "candidate_count": 400,
+              "covered_draws_per_line": 7,
+              "duplicate_line_count": 0,
+              "effective_line_draw_exposures": 28,
+              "enforced_max_main_overlap": 3,
+              "line_count": 4,
+              "max_pairwise_main_overlap": 0,
+              "preferred_max_main_overlap": 2,
+              "repeated_three_number_subsets": 0,
+              "selection_overlap_limit_used": 2,
+              "total_three_number_subsets": 140,
+              "unique_line_count": 4,
+              "unique_three_number_subsets": 140
+            },
+            "coverage": {
+              "average_pairwise_main_overlap": 0.0,
+              "candidate_attempts": 400,
+              "candidate_count": 400,
+              "covered_draws_per_line": 7,
+              "duplicate_line_count": 0,
+              "effective_line_draw_exposures": 28,
+              "enforced_max_main_overlap": 3,
+              "line_count": 4,
+              "max_pairwise_main_overlap": 0,
+              "preferred_max_main_overlap": 2,
+              "repeated_three_number_subsets": 0,
+              "selection_overlap_limit_used": 2,
+              "total_three_number_subsets": 140,
+              "unique_line_count": 4,
+              "unique_three_number_subsets": 140
+            },
+            "features": [
+              "overall-frequency",
+              "recent-frequency",
+              "recency-gap",
+              "pair-co-occurrence",
+              "sum-range-shape",
+              "odd-even-balance",
+              "decade-coverage",
+              "hard-cross-line-overlap-limit",
+              "whole-product-portfolio-deduplication",
+              "historical-line-deduplication",
+              "equally-diversified-uniform-control-line",
+              "rolling-origin-out-of-sample-gate"
+            ],
+            "history_draw_count": 200,
+            "history_end": "2026-10-21",
+            "history_start": "2026-04-05",
+            "learning": {
+              "gate": "min(walk-forward recommendation, live-control recommendation, persisted learnings.md recommendation)",
+              "live_control": {
+                "bootstrap_resamples": 4000,
+                "confidence_95": {
+                  "lower": -1.21839,
+                  "upper": 1.3908
+                },
+                "control_matches": 6445,
+                "controlling_gate": "financial_return",
+                "evaluated_draws": 87,
+                "evaluated_lines": 5790,
+                "financial_performance": {
+                  "bootstrap_resamples": 4000,
+                  "confidence_95": {
+                    "lower": -5.99662,
+                    "upper": 1.89052
+                  },
+                  "control_return_amount": 1364.8,
+                  "evaluated_draws": 87,
+                  "evaluated_lines": 5790,
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_return_delta": -2.07299,
+                  "model_weight": 0.05,
+                  "reason": "historical weighting trails controls but the result is not conclusive",
+                  "return_delta": -180.35,
+                  "sample_count": 87,
+                  "selected_return_amount": 1184.45,
+                  "standard_error": 1.9676,
+                  "status": "weakened"
+                },
+                "interval_method": "deterministic-paired-bootstrap-percentile",
+                "match_performance": {
+                  "bootstrap_resamples": 4000,
+                  "confidence_95": {
+                    "lower": -1.21839,
+                    "upper": 1.3908
+                  },
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_match_delta": 0.08046,
+                  "model_weight": 0.25,
+                  "reason": "historical weighting has not established an out-of-sample advantage",
+                  "sample_count": 87,
+                  "standard_error": 0.67692,
+                  "status": "not_proven"
+                },
+                "mean_match_delta": 0.08046,
+                "model_weight": 0.05,
+                "reason": "financial_return is the stricter live-control gate; matches: historical weighting has not established an out-of-sample advantage; returns: historical weighting trails controls but the result is not conclusive",
+                "sample_count": 87,
+                "selected_matches": 6452,
+                "standard_error": 0.67692,
+                "status": "weakened"
+              },
+              "model_weight": 0.05,
+              "persisted_learning": {
+                "applied": true,
+                "generated_at": "2026-10-22T06:01:01.740148+00:00",
+                "path": "/opt/data/projects/lott-lab/learnings.md",
+                "recommended_model_weight_cap": 0.05,
+                "retained_draw_count": 200,
+                "snapshot_hash": "78ab134397a0592a31ba9d2707129bf312d92816646e8b1074b8ae9d5b36fe0c"
+              },
+              "status": "historical-weighting-bounded",
+              "walk_forward": {
+                "control_replicates_per_fold": 16,
+                "control_wins": 2.0625,
+                "evaluated_control_lines": 1920,
+                "evaluated_lines": 120,
+                "first_target_draw_date": "2026-08-23",
+                "fold_count": 60,
+                "last_target_draw_date": "2026-10-21",
+                "latest_fold_audit": [
+                  {
+                    "control_main_matches": 2.125,
+                    "control_main_matches_max": 4,
+                    "control_main_matches_min": 1,
+                    "control_wins": 0.0,
+                    "selected_main_matches": 1,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-17",
+                    "training_draw_count": 195,
+                    "training_end_date": "2026-10-16"
+                  },
+                  {
+                    "control_main_matches": 2.1875,
+                    "control_main_matches_max": 4,
+                    "control_main_matches_min": 0,
+                    "control_wins": 0.0,
+                    "selected_main_matches": 0,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-18",
+                    "training_draw_count": 196,
+                    "training_end_date": "2026-10-17"
+                  },
+                  {
+                    "control_main_matches": 2.125,
+                    "control_main_matches_max": 4,
+                    "control_main_matches_min": 1,
+                    "control_wins": 0.0,
+                    "selected_main_matches": 1,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-19",
+                    "training_draw_count": 197,
+                    "training_end_date": "2026-10-18"
+                  },
+                  {
+                    "control_main_matches": 2.125,
+                    "control_main_matches_max": 3,
+                    "control_main_matches_min": 1,
+                    "control_wins": 0.0625,
+                    "selected_main_matches": 3,
+                    "selected_wins": 0,
+                    "target_draw_date": "2026-10-20",
+                    "training_draw_count": 198,
+                    "training_end_date": "2026-10-19"
+                  },
+                  {
+                    "control_main_matches": 2.1875,
+                    "control_main_matches_max": 5,
+                    "control_main_matches_min": 0,
+                    "control_wins": 0.0,
+                    "selected_main_matches": 3,
+                    "selected_wins": 1,
+                    "target_draw_date": "2026-10-21",
+                    "training_draw_count": 199,
+                    "training_end_date": "2026-10-20"
+                  }
+                ],
+                "leakage_policy": "Each target draw is excluded from its training prefix.",
+                "maximum_folds": 60,
+                "method": "rolling-origin-next-draw-repeated-uniform-controls",
+                "minimum_training_draws": 20,
+                "performance": {
+                  "bootstrap_resamples": 4000,
+                  "confidence_95": {
+                    "lower": -0.32812,
+                    "upper": 0.17917
+                  },
+                  "interval_method": "deterministic-paired-bootstrap-percentile",
+                  "mean_match_delta": -0.06979,
+                  "model_weight": 0.15,
+                  "reason": "historical weighting trails controls but the result is not conclusive",
+                  "sample_count": 60,
+                  "standard_error": 0.13319,
+                  "status": "weakened"
+                },
+                "selected_wins": 2
+              }
+            },
+            "method": "history-weighted-diversified-coverage",
+            "package_count": 2,
+            "package_index": 2,
+            "portfolio_line_offset": 2,
+            "seed_hash": "d8cc9cde918893628fa8cb2575c759d075c206da03fbb30f02391464251f9738",
+            "truth": "This is an auditable coverage experiment. Historical draws do not make an independent lottery draw predictable."
+          },
+          "settled_draws": [],
+          "status": "active",
+          "ticket_id": "2026-10-22-005-SetForLife",
+          "valid_draw_count": 7,
+          "virtual_cost": 10.0
+        }
+      ],
+      "unspent": 6.6
     }
   ],
   "settings": {
