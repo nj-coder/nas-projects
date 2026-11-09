@@ -1,6 +1,6 @@
 # Lott Lab Learnings
 
-Generated: 2026-11-08T20:00:36.951066+00:00
+Generated: 2026-11-09T06:01:23.310316+00:00
 Algorithm: `odds-gated-coverage-v6`
 
 This file is generated deterministically from verified draw history and settled selected-vs-control results. Do not hand-edit the machine block.
@@ -15,7 +15,7 @@ Historical frequency is descriptive, not a promise of predictability. The planne
 - Largest recent upward occurrence shifts: 7 (4 in the previous window to 8 in the latest window), 24 (2 in the previous window to 5 in the latest window), 25 (0 in the previous window to 3 in the latest window), 44 (2 in the previous window to 5 in the latest window), 2 (3 in the previous window to 5 in the latest window), 9 (0 in the previous window to 2 in the latest window), 11 (2 in the previous window to 4 in the latest window), 13 (1 in the previous window to 3 in the latest window).
 - Live selected-vs-control evidence: weakened; 105 draws; mean match delta 0.29524; recommended weight 0.05.
 - Live monetary control: selected A$1357.35 versus uniform control A$1511.35; delta A$-154.00; weakened.
-- Walk-forward evidence: weakened; 60 folds; mean match delta -0.25729; recommended weight 0.15.
+- Walk-forward evidence: weakened; 60 folds; mean match delta -0.19062; recommended weight 0.15.
 - Next-plan action: cap historical weighting at 0.05; retain diversified uniform controls for comparison.
 
 ## Weekday Windfall (`MondayWednesdayFridayLotto`)
@@ -26,7 +26,7 @@ Historical frequency is descriptive, not a promise of predictability. The planne
 - Largest recent upward occurrence shifts: 14 (2 in the previous window to 6 in the latest window), 45 (3 in the previous window to 7 in the latest window), 1 (1 in the previous window to 4 in the latest window), 24 (2 in the previous window to 5 in the latest window), 39 (2 in the previous window to 5 in the latest window), 2 (2 in the previous window to 4 in the latest window), 3 (0 in the previous window to 2 in the latest window), 28 (2 in the previous window to 4 in the latest window).
 - Live selected-vs-control evidence: collecting; 9 draws; mean match delta 0.33333; recommended weight 0.1.
 - Live monetary control: selected A$71.60 versus uniform control A$49.40; delta A$22.20; collecting.
-- Walk-forward evidence: not_proven; 60 folds; mean match delta 0.03333; recommended weight 0.25.
+- Walk-forward evidence: not_proven; 60 folds; mean match delta 0.07187; recommended weight 0.25.
 - Next-plan action: cap historical weighting at 0.1; retain diversified uniform controls for comparison.
 
 ## Oz Lotto (`OzLotto`)
@@ -66,7 +66,7 @@ Historical frequency is descriptive, not a promise of predictability. The planne
 {
   "algorithm_version": "odds-gated-coverage-v6",
   "format_version": 1,
-  "generated_at": "2026-11-08T20:00:36.951066+00:00",
+  "generated_at": "2026-11-09T06:01:23.310316+00:00",
   "history_limit_per_product": 200,
   "products": {
     "MondayWednesdayFridayLotto": {
@@ -2460,11 +2460,11 @@ Historical frequency is descriptive, not a promise of predictability. The planne
         "recommended_model_weight_cap": 0.1,
         "walk_forward": {
           "confidence_95": {
-            "lower": -0.27086,
-            "upper": 0.34479
+            "lower": -0.23646,
+            "upper": 0.38336
           },
           "fold_count": 60,
-          "mean_match_delta": 0.03333,
+          "mean_match_delta": 0.07187,
           "method": "rolling-origin-next-draw-repeated-uniform-controls",
           "model_weight": 0.25,
           "reason": "historical weighting has not established an out-of-sample advantage",
@@ -7316,11 +7316,11 @@ Historical frequency is descriptive, not a promise of predictability. The planne
         "recommended_model_weight_cap": 0.05,
         "walk_forward": {
           "confidence_95": {
-            "lower": -0.55521,
-            "upper": 0.03961
+            "lower": -0.50107,
+            "upper": 0.11357
           },
           "fold_count": 60,
-          "mean_match_delta": -0.25729,
+          "mean_match_delta": -0.19062,
           "method": "rolling-origin-next-draw-repeated-uniform-controls",
           "model_weight": 0.15,
           "reason": "historical weighting trails controls but the result is not conclusive",
@@ -8294,6 +8294,6 @@ Historical frequency is descriptive, not a promise of predictability. The planne
       "product_name": "Saturday Lotto"
     }
   },
-  "snapshot_hash": "25653fde92bb0809010bd9e6d72a82672d344a382f00d589907bf60cbbdf6998"
+  "snapshot_hash": "03732b78d3c51cd3b218b03d8f919a4e8d8678a6a82cdabdd1d5b8a1e052d296"
 }
 LOTT_LAB_LEARNING_JSON -->
