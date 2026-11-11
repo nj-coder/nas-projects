@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T15:03:30+1100",
+  "last_updated": "2026-11-12T06:02:33+1100",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 7.5,
           "status": "available",
           "last_known_price": 7.5,
-          "last_available_date": "2026-11-11"
+          "last_available_date": "2026-11-12"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 7.65,
           "status": "available",
           "last_known_price": 7.65,
-          "last_available_date": "2026-11-11"
+          "last_available_date": "2026-11-12"
         }
       ],
       "price_history": [
@@ -740,6 +740,11 @@
           "date": "2026-11-11",
           "coles": 7.5,
           "woolworths": 7.65
+        },
+        {
+          "date": "2026-11-12",
+          "coles": 7.5,
+          "woolworths": 7.65
         }
       ]
     },
@@ -781,9 +786,9 @@
           "current_base_price": 199.75,
           "fulfillment_cost": 0,
           "current_total_price": 199.75,
-          "status": "unknown",
+          "status": "available",
           "last_known_price": 199.75,
-          "last_available_date": "2026-11-10"
+          "last_available_date": "2026-11-12"
         }
       ],
       "price_history": [
@@ -1714,6 +1719,12 @@
           "sowood": 149.95,
           "thelittlebunny": 204.0,
           "toypark": 199.75
+        },
+        {
+          "date": "2026-11-12",
+          "sowood": 149.95,
+          "thelittlebunny": 204.0,
+          "toypark": 199.75
         }
       ]
     },
@@ -2315,6 +2326,10 @@
         {
           "date": "2026-11-11",
           "fromourplace": 699.0
+        },
+        {
+          "date": "2026-11-12",
+          "fromourplace": 699.0
         }
       ]
     },
@@ -2333,7 +2348,7 @@
           "current_total_price": 6.9,
           "status": "available",
           "last_known_price": 6.9,
-          "last_available_date": "2026-11-11"
+          "last_available_date": "2026-11-12"
         },
         {
           "source_id": "woolworths",
@@ -2345,7 +2360,7 @@
           "current_total_price": 6.9,
           "status": "available",
           "last_known_price": 6.9,
-          "last_available_date": "2026-11-11"
+          "last_available_date": "2026-11-12"
         }
       ],
       "date_added": "2026-08-01",
@@ -2864,6 +2879,11 @@
           "date": "2026-11-11",
           "coles": 6.9,
           "woolworths": 6.9
+        },
+        {
+          "date": "2026-11-12",
+          "coles": 6.9,
+          "woolworths": 6.9
         }
       ]
     },
@@ -3025,6 +3045,10 @@
         },
         {
           "date": "2026-11-11",
+          "milkcan": 749.0
+        },
+        {
+          "date": "2026-11-12",
           "milkcan": 749.0
         }
       ]
