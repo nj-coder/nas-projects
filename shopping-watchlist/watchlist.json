@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-21T15:03:13+1100",
+  "last_updated": "2026-11-22T06:03:22+1100",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -17,7 +17,7 @@
           "current_total_price": 7.5,
           "status": "available",
           "last_known_price": 7.5,
-          "last_available_date": "2026-11-21"
+          "last_available_date": "2026-11-22"
         },
         {
           "source_id": "woolworths",
@@ -29,7 +29,7 @@
           "current_total_price": 7.65,
           "status": "available",
           "last_known_price": 7.65,
-          "last_available_date": "2026-11-21"
+          "last_available_date": "2026-11-22"
         }
       ],
       "price_history": [
@@ -788,6 +788,11 @@
         },
         {
           "date": "2026-11-21",
+          "coles": 7.5,
+          "woolworths": 7.65
+        },
+        {
+          "date": "2026-11-22",
           "coles": 7.5,
           "woolworths": 7.65
         }
@@ -1824,6 +1829,12 @@
           "sowood": 149.95,
           "thelittlebunny": 204.0,
           "toypark": 199.75
+        },
+        {
+          "date": "2026-11-22",
+          "sowood": 149.95,
+          "thelittlebunny": 204.0,
+          "toypark": 199.75
         }
       ]
     },
@@ -2465,6 +2476,10 @@
         {
           "date": "2026-11-21",
           "fromourplace": 699.0
+        },
+        {
+          "date": "2026-11-22",
+          "fromourplace": 699.0
         }
       ]
     },
@@ -2483,7 +2498,7 @@
           "current_total_price": 6.9,
           "status": "available",
           "last_known_price": 6.9,
-          "last_available_date": "2026-11-21"
+          "last_available_date": "2026-11-22"
         },
         {
           "source_id": "woolworths",
@@ -2495,7 +2510,7 @@
           "current_total_price": 5.2,
           "status": "available",
           "last_known_price": 5.2,
-          "last_available_date": "2026-11-21"
+          "last_available_date": "2026-11-22"
         }
       ],
       "date_added": "2026-08-01",
@@ -3064,6 +3079,11 @@
           "date": "2026-11-21",
           "coles": 6.9,
           "woolworths": 5.2
+        },
+        {
+          "date": "2026-11-22",
+          "coles": 6.9,
+          "woolworths": 5.2
         }
       ]
     },
@@ -3265,6 +3285,10 @@
         },
         {
           "date": "2026-11-21",
+          "milkcan": 749.0
+        },
+        {
+          "date": "2026-11-22",
           "milkcan": 749.0
         }
       ]
