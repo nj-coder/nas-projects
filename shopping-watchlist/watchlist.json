@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T06:02:57+1100",
+  "last_updated": "2026-11-25T15:03:04+1100",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -851,9 +851,9 @@
           "current_base_price": 199.75,
           "fulfillment_cost": 0,
           "current_total_price": 199.75,
-          "status": "unknown",
+          "status": "available",
           "last_known_price": 199.75,
-          "last_available_date": "2026-11-16"
+          "last_available_date": "2026-11-25"
         }
       ],
       "price_history": [
@@ -2550,12 +2550,12 @@
           "source_name": "Woolworths",
           "product_url": "https://www.woolworths.com.au/shop/productdetails/249382/birds-eye-frozen-garden-vegetable-mix",
           "fulfillment_type": "pickup",
-          "current_base_price": 5.2,
+          "current_base_price": 6.9,
           "fulfillment_cost": 0,
-          "current_total_price": 5.2,
-          "status": "unavailable",
-          "last_known_price": 5.2,
-          "last_available_date": "2026-11-24"
+          "current_total_price": 6.9,
+          "status": "available",
+          "last_known_price": 6.9,
+          "last_available_date": "2026-11-25"
         }
       ],
       "date_added": "2026-08-01",
@@ -3143,7 +3143,7 @@
         {
           "date": "2026-11-25",
           "coles": 6.9,
-          "woolworths": 5.2
+          "woolworths": 6.9
         }
       ]
     },
