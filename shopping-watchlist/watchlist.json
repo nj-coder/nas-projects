@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T06:03:08+1100",
+  "last_updated": "2026-11-26T15:03:16+1100",
   "wishlist": [
     {
       "id": "the-laughing-cow-cheese-16-portions-256g",
@@ -2556,7 +2556,7 @@
           "current_base_price": 6.9,
           "fulfillment_cost": 0,
           "current_total_price": 6.9,
-          "status": "available",
+          "status": "unavailable",
           "last_known_price": 6.9,
           "last_available_date": "2026-11-26"
         },
